@@ -114,7 +114,7 @@ export default function LandingPage() {
                   <ArrowRight className="h-4 w-4" />
                 </a>
                 <Link
-                  href="https://dashboard.ausbildungsgenie.de/register"
+                  href="https://dashboard.genieportal.de/register"
                   className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-stone-200 px-7 py-3.5 text-base font-semibold text-stone-700 hover:border-amber-300 hover:bg-amber-50 transition-all"
                 >
                   <Building2 className="h-4 w-4" />
@@ -324,7 +324,7 @@ export default function LandingPage() {
                 ))}
               </ul>
               <Link
-                href="https://dashboard.ausbildungsgenie.de/register"
+                href="https://dashboard.genieportal.de/register"
                 className="inline-flex items-center gap-2 mt-10 rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-8 py-3.5 text-base font-semibold text-white hover:from-amber-400 hover:to-orange-500 transition-all shadow-lg shadow-amber-500/20"
               >
                 Jetzt kostenlos starten
@@ -464,7 +464,7 @@ export default function LandingPage() {
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.ausbildungsgenie.de/register"
+              href="https://dashboard.genieportal.de/register"
               className="rounded-lg bg-white px-8 py-3.5 text-base font-semibold text-amber-700 hover:bg-stone-50 transition-colors flex items-center gap-2 shadow-lg"
             >
               <Building2 className="h-4 w-4" />

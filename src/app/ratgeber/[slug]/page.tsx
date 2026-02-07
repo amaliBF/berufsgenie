@@ -204,7 +204,7 @@ export default function RatgeberArtikelPage({ params }: Props) {
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Link
-                  href="https://dashboard.ausbildungsgenie.de/register"
+                  href="https://dashboard.genieportal.de/register"
                   className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 text-white font-semibold hover:from-amber-400 hover:to-orange-500 transition-all shadow-md hover:shadow-lg gap-2"
                 >
                   <Compass className="h-4 w-4" />

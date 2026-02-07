@@ -50,13 +50,13 @@ export default function Header() {
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-3">
               <Link
-                href="https://dashboard.ausbildungsgenie.de/login"
+                href="https://dashboard.genieportal.de/login"
                 className="text-sm font-medium text-stone-600 hover:text-stone-900 px-3 py-2"
               >
                 Login
               </Link>
               <Link
-                href="https://dashboard.ausbildungsgenie.de/register"
+                href="https://dashboard.genieportal.de/register"
                 className="rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-5 py-2 text-sm font-semibold text-white hover:from-amber-400 hover:to-orange-500 transition-all shadow-sm hover:shadow-md"
               >
                 Kostenlos starten
@@ -90,14 +90,14 @@ export default function Header() {
               ))}
               <hr className="my-2 border-amber-100" />
               <Link
-                href="https://dashboard.ausbildungsgenie.de/login"
+                href="https://dashboard.genieportal.de/login"
                 onClick={() => setMobileOpen(false)}
                 className="block text-sm text-stone-600 px-3 py-2.5 font-medium"
               >
                 Login
               </Link>
               <Link
-                href="https://dashboard.ausbildungsgenie.de/register"
+                href="https://dashboard.genieportal.de/register"
                 onClick={() => setMobileOpen(false)}
                 className="block text-center rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-5 py-2.5 text-sm font-semibold text-white mt-2"
               >

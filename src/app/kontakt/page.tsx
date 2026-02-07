@@ -57,7 +57,7 @@ const faqItems = [
   {
     question: 'Wie kann ich mein Unternehmen auf Berufsgenie registrieren?',
     answer:
-      'Ganz einfach: Besuche dashboard.ausbildungsgenie.de und klicke auf "Registrieren". In nur 2 Schritten legst du dein Firmenprofil und Benutzerkonto an. Danach kannst du sofort Stellenanzeigen erstellen und Videos hochladen. Der Start ist kostenlos!',
+      'Ganz einfach: Besuche dashboard.genieportal.de und klicke auf "Registrieren". In nur 2 Schritten legst du dein Firmenprofil und Benutzerkonto an. Danach kannst du sofort Stellenanzeigen erstellen und Videos hochladen. Der Start ist kostenlos!',
   },
   {
     question: 'Bietet ihr Schulungen oder Demos für Betriebe an?',
@@ -299,7 +299,7 @@ export default function KontaktPage() {
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="https://dashboard.ausbildungsgenie.de/login"
+                      href="https://dashboard.genieportal.de/login"
                       className="flex items-center gap-3 text-sm text-stone-700 hover:text-amber-600 transition-colors group"
                     >
                       <div className="w-8 h-8 rounded-lg bg-amber-50 flex items-center justify-center group-hover:bg-amber-100 transition-colors">
@@ -541,7 +541,7 @@ export default function KontaktPage() {
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.ausbildungsgenie.de/register"
+              href="https://dashboard.genieportal.de/register"
               className="rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-8 py-3.5 text-base font-semibold text-white hover:from-amber-400 hover:to-orange-500 transition-all flex items-center gap-2 shadow-lg shadow-amber-500/20"
             >
               <Building2 className="h-4 w-4" />

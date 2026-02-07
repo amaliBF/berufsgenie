@@ -200,7 +200,7 @@ export default function BrancheDetailPage({ params }: { params: { slug: string }
           </p>
           <div className="mt-10">
             <Link
-              href="https://dashboard.ausbildungsgenie.de/login"
+              href="https://dashboard.genieportal.de/login"
               className="rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-8 py-3.5 text-base font-semibold text-white hover:from-amber-400 hover:to-orange-500 transition-all shadow-md hover:shadow-lg inline-flex items-center gap-2"
             >
               <Compass className="h-4 w-4" />

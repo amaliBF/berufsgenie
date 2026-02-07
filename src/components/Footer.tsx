@@ -75,7 +75,7 @@ export default function Footer() {
               <li><Link href="/preise" className="hover:text-white transition-colors">Preise</Link></li>
               <li><Link href="/vorteile" className="hover:text-white transition-colors">Vorteile</Link></li>
               <li><Link href="/kontakt" className="hover:text-white transition-colors">Kontakt</Link></li>
-              <li><Link href="https://dashboard.ausbildungsgenie.de" className="hover:text-white transition-colors">Arbeitgeber-Login</Link></li>
+              <li><Link href="https://dashboard.genieportal.de" className="hover:text-white transition-colors">Arbeitgeber-Login</Link></li>
             </ul>
           </div>
         </div>

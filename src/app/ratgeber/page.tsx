@@ -170,7 +170,7 @@ export default function RatgeberPage() {
                   Alle Branchen ansehen
                 </Link>
                 <Link
-                  href="https://dashboard.ausbildungsgenie.de/register"
+                  href="https://dashboard.genieportal.de/register"
                   className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-amber-500/50 text-amber-400 font-semibold hover:bg-white/5 transition-colors"
                 >
                   Kostenlos registrieren

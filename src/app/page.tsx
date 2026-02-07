@@ -272,13 +272,9 @@ export default function LandingPage() {
               { step: '04', title: 'Direkt-Chat starten', description: 'Chatte direkt mit HR oder dem Team – ohne Anschreiben, ohne Warteschleife.', icon: MessageCircle },
             ].map((item) => (
               <div key={item.step} className="text-center group">
-                <div className="relative mx-auto mb-5">
-                  <span className="text-6xl font-black text-amber-100 group-hover:text-amber-200 transition-colors">{item.step}</span>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center shadow-lg shadow-amber-500/20">
-                      <item.icon className="h-6 w-6 text-white" />
-                    </div>
-                  </div>
+                <span className="block text-sm font-black text-amber-400 tracking-widest mb-2">{item.step}</span>
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center shadow-lg shadow-amber-500/20 mx-auto mb-5 group-hover:scale-105 transition-transform">
+                  <item.icon className="h-7 w-7 text-white" />
                 </div>
                 <h3 className="text-lg font-bold text-stone-900">{item.title}</h3>
                 <p className="mt-2 text-stone-600">{item.description}</p>

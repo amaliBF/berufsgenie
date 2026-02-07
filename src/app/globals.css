@@ -3,21 +3,116 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #FFFBF5;
+  --foreground: #1C1917;
+  --accent: #D97706;
+  --accent-light: #FEF3C7;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Magazine Accent Bar */
+.magazine-bar {
+  height: 4px;
+  background: linear-gradient(90deg, #D97706 0%, #F59E0B 40%, #EF4444 70%, #D97706 100%);
+}
+
+/* Marker Highlight Effect */
+.marker-highlight {
+  background: linear-gradient(180deg, transparent 55%, #FDE68A 55%, #FDE68A 90%, transparent 90%);
+  padding: 0 4px;
+}
+
+.marker-highlight-orange {
+  background: linear-gradient(180deg, transparent 55%, #FED7AA 55%, #FED7AA 90%, transparent 90%);
+  padding: 0 4px;
+}
+
+/* Gradient Text */
+.gradient-text-warm {
+  background: linear-gradient(135deg, #D97706, #EA580C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Editorial Quote Line */
+.editorial-quote {
+  border-left: 4px solid #D97706;
+  padding-left: 1.5rem;
+}
+
+/* Magazine Section Divider */
+.magazine-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.magazine-divider::before,
+.magazine-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #D4A574, transparent);
+}
+
+/* Warm Card Hover */
+.warm-card {
+  transition: all 0.3s ease;
+  border: 1px solid #F5E6D3;
+}
+
+.warm-card:hover {
+  border-color: #D97706;
+  box-shadow: 0 8px 30px -8px rgba(217, 119, 6, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Tag Pill */
+.tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.813rem;
+  font-weight: 500;
+  background: #FEF3C7;
+  color: #92400E;
+  border: 1px solid #FDE68A;
+}
+
+/* Editorial Feature Box */
+.feature-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, #D97706, #F59E0B);
+  border-radius: 0 2px 2px 0;
+}
+
+/* Warm Background Patterns */
+.warm-dots {
+  background-image: radial-gradient(circle, #E7D5C0 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
 }
 
 @layer utilities {

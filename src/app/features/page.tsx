@@ -15,7 +15,7 @@ import {
   Upload,
   Users,
   MapPin,
-  Sparkles,
+  Compass,
   Zap,
   Clock,
   ChevronRight,
@@ -46,9 +46,8 @@ const mainFeatures = [
   {
     icon: Video,
     title: 'TikTok-Style Video Feed',
-    color: 'bg-violet-100 text-violet-600',
-    gradientFrom: 'from-violet-500',
-    gradientTo: 'to-purple-600',
+    accent: 'border-amber-500',
+    iconBg: 'bg-amber-100 text-amber-600',
     description:
       'Vergiss langweilige Stellenanzeigen mit Stockfotos. Bei Berufsgenie zeigen echte Mitarbeiter ihren Arbeitsalltag in authentischen Kurzvideos von 30 bis 90 Sekunden. Du siehst, wie es wirklich ist, in einer Werkstatt zu stehen, Patienten zu versorgen oder Code zu schreiben.',
     description2:
@@ -67,9 +66,8 @@ const mainFeatures = [
   {
     icon: Heart,
     title: 'Tinder-Matching',
-    color: 'bg-pink-100 text-pink-600',
-    gradientFrom: 'from-pink-500',
-    gradientTo: 'to-rose-600',
+    accent: 'border-rose-500',
+    iconBg: 'bg-rose-100 text-rose-600',
     description:
       'Das Matching bei Berufsgenie funktioniert nach dem Tinder-Prinzip: Du schaust dir Videos und Profile von Betrieben an. Gefällt dir, was du siehst? Swipe nach rechts oder tippe auf das Herz. Nicht interessiert? Swipe nach links und weiter geht es.',
     description2:
@@ -88,9 +86,8 @@ const mainFeatures = [
   {
     icon: MessageCircle,
     title: 'Direkter Chat',
-    color: 'bg-blue-100 text-blue-600',
-    gradientFrom: 'from-blue-500',
-    gradientTo: 'to-cyan-600',
+    accent: 'border-orange-500',
+    iconBg: 'bg-orange-100 text-orange-600',
     description:
       'Nach einem Match öffnet sich der direkte Chat zwischen dir und dem Betrieb. Kein Anschreiben formulieren, kein Bewerbungsformular ausfüllen. Einfach locker schreiben, wie du es von WhatsApp oder Instagram kennst.',
     description2:
@@ -109,9 +106,8 @@ const mainFeatures = [
   {
     icon: Brain,
     title: 'KI-Berufsfinder',
-    color: 'bg-amber-100 text-amber-600',
-    gradientFrom: 'from-amber-500',
-    gradientTo: 'to-orange-600',
+    accent: 'border-amber-600',
+    iconBg: 'bg-amber-100 text-amber-700',
     description:
       'Du weißt noch nicht, welcher Beruf zu dir passt? Kein Problem. Unser KI-Berufsfinder stellt dir 5 bis 7 gezielte Fragen zu deinen Interessen, Stärken und Vorlieben. Basierend auf deinen Antworten schlägt die KI passende Karrieresberufe vor.',
     description2:
@@ -130,9 +126,8 @@ const mainFeatures = [
   {
     icon: Shield,
     title: 'Kein Lebenslauf nötig',
-    color: 'bg-green-100 text-green-600',
-    gradientFrom: 'from-green-500',
-    gradientTo: 'to-emerald-600',
+    accent: 'border-green-500',
+    iconBg: 'bg-green-100 text-green-600',
     description:
       'Schluss mit dem Stress, einen perfekten Lebenslauf zu schreiben. Bei Berufsgenie erstellst du dein Profil in nur 2 Minuten. Du gibst deine Interessen, Stärken und deinen Standort an. Noten und formelle Qualifikationen spielen keine Rolle.',
     description2:
@@ -151,9 +146,8 @@ const mainFeatures = [
   {
     icon: Star,
     title: 'Regional First',
-    color: 'bg-orange-100 text-orange-600',
-    gradientFrom: 'from-orange-500',
-    gradientTo: 'to-red-600',
+    accent: 'border-orange-600',
+    iconBg: 'bg-orange-100 text-orange-700',
     description:
       'Deine Karriere sollte in deiner Nähe sein. Deshalb zeigt dir Berufsgenie zuerst Betriebe aus deiner Region. Du stellst deinen Wunsch-Umkreis ein und siehst nur Videos und Profile von Betrieben, die du auch wirklich erreichen kannst.',
     description2:
@@ -267,7 +261,7 @@ export default function FeaturesPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#FFFBF5]">
       <Header />
 
       <script
@@ -280,27 +274,28 @@ export default function FeaturesPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-700 pt-28 pb-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-violet-200 mb-6" aria-label="Breadcrumb">
+      <section className="bg-gradient-to-br from-amber-50 via-orange-50 to-[#FFFBF5] pt-28 pb-20 relative overflow-hidden">
+        <div className="absolute inset-0 warm-dots opacity-30" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav className="text-sm text-stone-500 mb-6" aria-label="Breadcrumb">
             <ol className="flex items-center gap-1">
               <li>
-                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+                <Link href="/" className="hover:text-amber-600 transition-colors">Home</Link>
               </li>
               <li>/</li>
-              <li className="text-white font-medium">Features</li>
+              <li className="text-stone-900 font-medium">Features</li>
             </ol>
           </nav>
 
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur-sm px-4 py-1.5 text-sm text-violet-200 mb-6 border border-white/20">
-              <Sparkles className="h-4 w-4" />
+            <div className="tag-pill mb-6">
+              <Compass className="h-3.5 w-3.5" />
               <span>Alle Funktionen im Detail</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Alle Features auf einen Blick
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-stone-900 mb-6">
+              Alle <span className="marker-highlight">Features</span> auf einen Blick
             </h1>
-            <p className="text-lg sm:text-xl text-violet-100 mb-8 max-w-2xl">
+            <p className="text-lg sm:text-xl text-stone-600 mb-8 max-w-2xl">
               Berufsgenie verbindet das Beste aus TikTok, Tinder und KI zu einer
               Plattform, die Jobsuche endlich so macht, wie die Generation Z es will:
               schnell, visuell und direkt.
@@ -310,7 +305,7 @@ export default function FeaturesPage() {
                 (tag) => (
                   <span
                     key={tag}
-                    className="px-3 py-1.5 bg-white/10 backdrop-blur-sm rounded-full text-sm text-white border border-white/20"
+                    className="tag-pill"
                   >
                     {tag}
                   </span>
@@ -325,32 +320,31 @@ export default function FeaturesPage() {
       {mainFeatures.map((feature, index) => (
         <section
           key={feature.title}
-          className={`py-20 ${index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}
+          className={`py-20 ${index % 2 === 0 ? 'bg-[#FFFBF5]' : 'bg-white'}`}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div
-              className={`grid lg:grid-cols-2 gap-12 lg:gap-16 items-center ${
-                index % 2 === 1 ? 'lg:direction-rtl' : ''
-              }`}
-            >
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               {/* Text Side */}
               <div className={index % 2 === 1 ? 'lg:order-2' : ''}>
+                <div className="magazine-divider mb-4">
+                  <span className="text-xs font-bold uppercase tracking-widest text-amber-600">Feature {index + 1}</span>
+                </div>
                 <div
-                  className={`inline-flex items-center justify-center w-14 h-14 rounded-2xl ${feature.color} mb-6`}
+                  className={`inline-flex items-center justify-center w-14 h-14 rounded-2xl ${feature.iconBg} mb-6`}
                 >
                   <feature.icon className="h-7 w-7" />
                 </div>
-                <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+                <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 mb-6">
                   {feature.title}
                 </h2>
-                <p className="text-gray-600 text-lg leading-relaxed mb-4">{feature.description}</p>
-                <p className="text-gray-600 leading-relaxed mb-4">{feature.description2}</p>
-                <p className="text-gray-600 leading-relaxed mb-8">{feature.description3}</p>
+                <p className="text-stone-600 text-lg leading-relaxed mb-4">{feature.description}</p>
+                <p className="text-stone-600 leading-relaxed mb-4">{feature.description2}</p>
+                <p className="text-stone-600 leading-relaxed mb-8">{feature.description3}</p>
                 <ul className="space-y-3">
                   {feature.bullets.map((bullet) => (
                     <li key={bullet} className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-violet-600 flex-shrink-0 mt-0.5" />
-                      <span className="text-gray-700">{bullet}</span>
+                      <Check className="h-5 w-5 text-amber-600 flex-shrink-0 mt-0.5" />
+                      <span className="text-stone-700">{bullet}</span>
                     </li>
                   ))}
                 </ul>
@@ -359,17 +353,18 @@ export default function FeaturesPage() {
               {/* Visual Side */}
               <div className={index % 2 === 1 ? 'lg:order-1' : ''}>
                 <div
-                  className={`bg-gradient-to-br ${feature.gradientFrom} ${feature.gradientTo} rounded-3xl p-8 sm:p-12 aspect-square max-w-md mx-auto flex items-center justify-center relative overflow-hidden`}
+                  className={`feature-box bg-white rounded-2xl p-8 sm:p-12 aspect-square max-w-md mx-auto flex items-center justify-center relative overflow-hidden border-l-4 ${feature.accent} shadow-sm`}
                 >
-                  {/* Decorative circles */}
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16" />
-                  <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full -ml-12 -mb-12" />
+                  {/* Decorative dots */}
+                  <div className="absolute inset-0 warm-dots opacity-20" />
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-amber-100 rounded-full -mr-16 -mt-16 opacity-50" />
+                  <div className="absolute bottom-0 left-0 w-24 h-24 bg-orange-100 rounded-full -ml-12 -mb-12 opacity-50" />
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                    <feature.icon className="h-24 w-24 sm:h-32 sm:w-32 text-white/90" strokeWidth={1} />
+                    <feature.icon className="h-24 w-24 sm:h-32 sm:w-32 text-amber-200" strokeWidth={1} />
                   </div>
                   {/* Feature label */}
                   <div className="absolute bottom-6 left-6 right-6">
-                    <div className="bg-white/20 backdrop-blur-sm rounded-xl px-4 py-3 text-white text-center">
+                    <div className="bg-gradient-to-r from-amber-500 to-orange-600 rounded-xl px-4 py-3 text-white text-center shadow-lg">
                       <p className="font-semibold text-sm">{feature.title}</p>
                     </div>
                   </div>
@@ -381,20 +376,17 @@ export default function FeaturesPage() {
       ))}
 
       {/* Features für Betriebe */}
-      <section className="py-20 bg-gray-900 text-white">
+      <section className="py-20 bg-stone-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm text-violet-300 mb-6">
-              <Building2 className="h-4 w-4" />
-              Für Arbeitgeber
+            <div className="magazine-divider mb-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-amber-400">Für Arbeitgeber</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
               Leistungsstarke Features für{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-pink-400">
-                Betriebe
-              </span>
+              <span className="gradient-text-warm">Betriebe</span>
             </h2>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+            <p className="text-lg text-stone-300 max-w-2xl mx-auto">
               Unser Dashboard gibt Ihnen alle Werkzeuge an die Hand, um die besten Mitarbeiter zu finden
               und einzustellen. Effizient, modern und auf Gen Z zugeschnitten.
             </p>
@@ -404,21 +396,21 @@ export default function FeaturesPage() {
             {companyFeatures.map((feature) => (
               <div
                 key={feature.title}
-                className="bg-white/5 backdrop-blur rounded-2xl p-6 border border-white/10 hover:border-violet-500/50 transition-colors"
+                className="bg-white/5 backdrop-blur rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition-colors"
               >
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-violet-500/20 text-violet-400 mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-amber-500/20 text-amber-400 mb-4">
                   <feature.icon className="h-6 w-6" />
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-2">{feature.title}</h3>
-                <p className="text-gray-400 text-sm leading-relaxed">{feature.description}</p>
+                <p className="text-stone-400 text-sm leading-relaxed">{feature.description}</p>
               </div>
             ))}
           </div>
 
           <div className="text-center mt-12">
             <Link
-              href="https://dashboard.berufsgenie.de/login"
-              className="inline-flex items-center gap-2 rounded-full bg-violet-600 px-8 py-3.5 text-base font-medium text-white hover:bg-violet-500 transition-colors"
+              href="https://dashboard.ausbildungsgenie.de/register"
+              className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-8 py-3.5 text-base font-medium text-white hover:from-amber-400 hover:to-orange-500 transition-all shadow-lg"
             >
               Betriebe-Dashboard testen
               <ChevronRight className="h-4 w-4" />
@@ -428,32 +420,35 @@ export default function FeaturesPage() {
       </section>
 
       {/* Vergleichstabelle */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-[#FFFBF5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Berufsgenie vs. Klassische Stellenportale
+            <div className="magazine-divider mb-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-amber-600">Vergleich</span>
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 mb-4">
+              Berufsgenie vs. Klassische <span className="marker-highlight-orange">Stellenportale</span>
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-stone-600 max-w-2xl mx-auto">
               Warum Berufsgenie der bessere Weg zur Karriere ist? Hier der direkte Vergleich.
             </p>
           </div>
 
           {/* Desktop Table */}
-          <div className="hidden md:block overflow-hidden rounded-2xl border border-gray-200">
+          <div className="hidden md:block overflow-hidden rounded-2xl border border-stone-200">
             <table className="w-full">
               <thead>
-                <tr className="bg-gray-50">
-                  <th className="text-left px-6 py-4 text-sm font-semibold text-gray-900 w-1/3">
+                <tr className="bg-amber-50">
+                  <th className="text-left px-6 py-4 text-sm font-semibold text-stone-900 w-1/3">
                     Kriterium
                   </th>
                   <th className="text-left px-6 py-4 text-sm font-semibold w-1/3">
-                    <span className="inline-flex items-center gap-2 text-violet-600">
-                      <Sparkles className="h-4 w-4" />
+                    <span className="inline-flex items-center gap-2 text-amber-700">
+                      <Compass className="h-4 w-4" />
                       Berufsgenie
                     </span>
                   </th>
-                  <th className="text-left px-6 py-4 text-sm font-semibold text-gray-500 w-1/3">
+                  <th className="text-left px-6 py-4 text-sm font-semibold text-stone-500 w-1/3">
                     Klassische Portale
                   </th>
                 </tr>
@@ -462,20 +457,20 @@ export default function FeaturesPage() {
                 {comparisonRows.map((row, index) => (
                   <tr
                     key={row.feature}
-                    className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'}
+                    className={index % 2 === 0 ? 'bg-white' : 'bg-amber-50/30'}
                   >
-                    <td className="px-6 py-4 text-sm font-medium text-gray-900">
+                    <td className="px-6 py-4 text-sm font-medium text-stone-900">
                       {row.feature}
                     </td>
-                    <td className="px-6 py-4 text-sm text-gray-700">
+                    <td className="px-6 py-4 text-sm text-stone-700">
                       <span className="flex items-start gap-2">
-                        <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
+                        <Check className="h-4 w-4 text-amber-600 flex-shrink-0 mt-0.5" />
                         {row.berufsgenie}
                       </span>
                     </td>
-                    <td className="px-6 py-4 text-sm text-gray-500">
+                    <td className="px-6 py-4 text-sm text-stone-500">
                       <span className="flex items-start gap-2">
-                        <X className="h-4 w-4 text-red-400 flex-shrink-0 mt-0.5" />
+                        <X className="h-4 w-4 text-stone-400 flex-shrink-0 mt-0.5" />
                         {row.klassisch}
                       </span>
                     </td>
@@ -488,21 +483,21 @@ export default function FeaturesPage() {
           {/* Mobile Cards */}
           <div className="md:hidden space-y-4">
             {comparisonRows.map((row) => (
-              <div key={row.feature} className="rounded-xl border border-gray-200 p-4">
-                <h3 className="font-semibold text-gray-900 mb-3">{row.feature}</h3>
+              <div key={row.feature} className="warm-card bg-white rounded-xl p-4">
+                <h3 className="font-semibold text-stone-900 mb-3">{row.feature}</h3>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2 text-sm">
-                    <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    <Check className="h-4 w-4 text-amber-600 flex-shrink-0 mt-0.5" />
                     <div>
-                      <span className="font-medium text-violet-600">Berufsgenie: </span>
-                      <span className="text-gray-700">{row.berufsgenie}</span>
+                      <span className="font-medium text-amber-700">Berufsgenie: </span>
+                      <span className="text-stone-700">{row.berufsgenie}</span>
                     </div>
                   </div>
                   <div className="flex items-start gap-2 text-sm">
-                    <X className="h-4 w-4 text-red-400 flex-shrink-0 mt-0.5" />
+                    <X className="h-4 w-4 text-stone-400 flex-shrink-0 mt-0.5" />
                     <div>
-                      <span className="font-medium text-gray-500">Klassisch: </span>
-                      <span className="text-gray-500">{row.klassisch}</span>
+                      <span className="font-medium text-stone-500">Klassisch: </span>
+                      <span className="text-stone-500">{row.klassisch}</span>
                     </div>
                   </div>
                 </div>
@@ -513,13 +508,16 @@ export default function FeaturesPage() {
       </section>
 
       {/* Quick Feature Grid */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Und noch mehr Features
+            <div className="magazine-divider mb-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-amber-600">Und noch mehr</span>
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 mb-4">
+              Und noch mehr <span className="marker-highlight">Features</span>
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-stone-600 max-w-2xl mx-auto">
               Berufsgenie steckt voller durchdachter Details, die deine Jobsuche
               so einfach und angenehm wie möglich machen.
             </p>
@@ -538,11 +536,11 @@ export default function FeaturesPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="bg-white rounded-xl p-5 border border-gray-100 hover:border-violet-200 hover:shadow-sm transition-all"
+                className="warm-card bg-[#FFFBF5] rounded-xl p-5"
               >
-                <item.icon className="h-6 w-6 text-violet-600 mb-3" />
-                <h3 className="font-semibold text-gray-900 mb-1 text-sm">{item.title}</h3>
-                <p className="text-gray-500 text-sm">{item.text}</p>
+                <item.icon className="h-6 w-6 text-amber-600 mb-3" />
+                <h3 className="font-semibold text-stone-900 mb-1 text-sm">{item.title}</h3>
+                <p className="text-stone-500 text-sm">{item.text}</p>
               </div>
             ))}
           </div>
@@ -550,26 +548,26 @@ export default function FeaturesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-violet-600 to-pink-600">
+      <section className="py-20 bg-stone-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Bereit, die Zukunft der Jobsuche zu erleben?
+            Bereit, die Zukunft der <span className="gradient-text-warm">Jobsuche</span> zu erleben?
           </h2>
-          <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
+          <p className="text-xl text-stone-300 mb-10 max-w-2xl mx-auto">
             Egal ob du einen Karrieresplatz suchst oder als Betrieb Mitarbeiter finden willst:
             Berufsgenie macht es einfacher als je zuvor.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.berufsgenie.de/login"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-violet-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+              href="https://dashboard.ausbildungsgenie.de/register"
+              className="rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-8 py-3.5 text-base font-medium text-white hover:from-amber-400 hover:to-orange-500 transition-all shadow-lg flex items-center gap-2"
             >
               <Building2 className="h-4 w-4" />
               Als Arbeitgeber registrieren
             </Link>
             <Link
               href="/so-funktionierts"
-              className="rounded-full border-2 border-white px-8 py-3.5 text-base font-medium text-white hover:bg-white/10 transition-colors flex items-center gap-2"
+              className="rounded-lg border-2 border-stone-600 px-8 py-3.5 text-base font-medium text-stone-300 hover:border-amber-500 hover:text-white transition-colors flex items-center gap-2"
             >
               So funktioniert&apos;s
               <ArrowRight className="h-4 w-4" />
@@ -578,16 +576,16 @@ export default function FeaturesPage() {
 
           <div className="mt-12 grid grid-cols-3 gap-6 max-w-md mx-auto">
             <div>
-              <p className="text-3xl font-bold text-white">6+</p>
-              <p className="text-sm text-white/70 mt-1">Kern-Features</p>
+              <p className="text-3xl font-bold gradient-text-warm">6+</p>
+              <p className="text-sm text-stone-400 mt-1">Kern-Features</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-white">100%</p>
-              <p className="text-sm text-white/70 mt-1">Kostenlos</p>
+              <p className="text-3xl font-bold gradient-text-warm">100%</p>
+              <p className="text-sm text-stone-400 mt-1">Kostenlos</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-white">2 Min</p>
-              <p className="text-sm text-white/70 mt-1">Setup</p>
+              <p className="text-3xl font-bold gradient-text-warm">2 Min</p>
+              <p className="text-sm text-stone-400 mt-1">Setup</p>
             </div>
           </div>
         </div>

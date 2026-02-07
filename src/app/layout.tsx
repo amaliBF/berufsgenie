@@ -64,32 +64,36 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const jsonLdOrg = {
   '@context': 'https://schema.org',
-  '@type': 'WebApplication',
+  '@type': 'Organization',
   name: 'Berufsgenie',
   url: 'https://berufsgenie.de',
+  logo: 'https://berufsgenie.de/icon.png',
   description:
     'Die innovative Jobbörse, die Jobsuchende und Arbeitgeber zusammenbringt. Echte Videos, Swipe-Matching und Direkt-Chat für Festanstellungen.',
-  applicationCategory: 'BusinessApplication',
-  operatingSystem: 'Web, iOS, Android',
-  offers: {
-    '@type': 'Offer',
-    price: '0',
-    priceCurrency: 'EUR',
-    description: 'Kostenlos für Jobsuchende',
-  },
-  creator: {
+  founder: {
     '@type': 'Organization',
     name: 'Butterflies IT UG (haftungsbeschränkt)',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: 'Hagenower Str. 73',
-      addressLocality: 'Schwerin',
-      postalCode: '19061',
-      addressCountry: 'DE',
-    },
   },
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Hagenower Str. 73',
+    addressLocality: 'Schwerin',
+    postalCode: '19061',
+    addressCountry: 'DE',
+  },
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'kontakt@berufsgenie.de',
+    contactType: 'customer service',
+    availableLanguage: 'German',
+  },
+  sameAs: [
+    'https://instagram.com/berufsgenie',
+    'https://tiktok.com/@berufsgenie',
+    'https://youtube.com/@berufsgenie',
+  ],
 };
 
 export default function RootLayout({
@@ -102,7 +106,7 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdOrg) }}
         />
       </head>
       <body className={`${geistSans.variable} font-sans antialiased`}>

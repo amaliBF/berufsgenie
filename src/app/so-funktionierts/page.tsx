@@ -4,7 +4,6 @@ import {
   Video,
   Heart,
   MessageCircle,
-  Brain,
   User,
   Building2,
   Upload,
@@ -13,9 +12,8 @@ import {
   ArrowRight,
   ChevronRight,
   ChevronDown,
-  Sparkles,
+  Compass,
   Zap,
-  MapPin,
   Star,
   Shield,
   Clock,
@@ -47,9 +45,8 @@ const youthSteps = [
     number: '1',
     icon: User,
     title: 'Profil erstellen',
-    color: 'bg-violet-100 text-violet-600',
-    gradientFrom: 'from-violet-500',
-    gradientTo: 'to-purple-600',
+    accent: 'border-amber-500',
+    iconBg: 'bg-amber-100 text-amber-600',
     description:
       'Der Einstieg bei Berufsgenie dauert nur 2 Minuten. Du erstellst ein Profil, das sich komplett von einem klassischen Lebenslauf unterscheidet. Statt Noten und Zeugnisse gibst du deine Interessen, Stärken und deinen Standort an.',
     description2:
@@ -66,9 +63,8 @@ const youthSteps = [
     number: '2',
     icon: Video,
     title: 'Videos entdecken',
-    color: 'bg-pink-100 text-pink-600',
-    gradientFrom: 'from-pink-500',
-    gradientTo: 'to-rose-600',
+    accent: 'border-orange-500',
+    iconBg: 'bg-orange-100 text-orange-600',
     description:
       'Dein Feed ist wie TikTok, aber für Job. Du scrollst durch kurze Videos von 30 bis 90 Sekunden, in denen echte Mitarbeiter ihren Arbeitsalltag zeigen. Jedes Video gibt dir einen authentischen Einblick in einen Beruf und Betrieb.',
     description2:
@@ -85,9 +81,8 @@ const youthSteps = [
     number: '3',
     icon: Heart,
     title: 'Swipen und Liken',
-    color: 'bg-red-100 text-red-600',
-    gradientFrom: 'from-red-500',
-    gradientTo: 'to-pink-600',
+    accent: 'border-rose-500',
+    iconBg: 'bg-rose-100 text-rose-600',
     description:
       'Wenn dir ein Video oder Betriebsprofil gefällt, swipest du nach rechts oder tippst auf das Herz-Symbol. Das signalisiert dem Betrieb, dass du Interesse hast. Wenn dir etwas nicht zusagt, swipest du einfach nach links.',
     description2:
@@ -102,11 +97,10 @@ const youthSteps = [
   },
   {
     number: '4',
-    icon: Sparkles,
+    icon: Compass,
     title: 'Match!',
-    color: 'bg-amber-100 text-amber-600',
-    gradientFrom: 'from-amber-500',
-    gradientTo: 'to-yellow-600',
+    accent: 'border-amber-600',
+    iconBg: 'bg-amber-100 text-amber-700',
     description:
       'Wenn du einen Betrieb likest und der Betrieb dich ebenfalls liked, entsteht ein Match. Du bekommst sofort eine Benachrichtigung auf dein Handy. Das Match zeigt: Beide Seiten haben Interesse. Das ist der erste Schritt zu deiner Job.',
     description2:
@@ -123,9 +117,8 @@ const youthSteps = [
     number: '5',
     icon: MessageCircle,
     title: 'Chatten und Bewerben',
-    color: 'bg-blue-100 text-blue-600',
-    gradientFrom: 'from-blue-500',
-    gradientTo: 'to-cyan-600',
+    accent: 'border-orange-600',
+    iconBg: 'bg-orange-100 text-orange-700',
     description:
       'Nach dem Match startest du den Chat mit dem Betrieb. Schreibe locker und direkt, wie du es von WhatsApp kennst. Stelle Fragen zum Beruf, zu den Arbeitszeiten, zum Team oder zum Gehalt. Es gibt kein festgelegtes Format.',
     description2:
@@ -145,7 +138,6 @@ const companySteps = [
     number: '1',
     icon: Building2,
     title: 'Registrieren und Profil anlegen',
-    color: 'bg-violet-500/20 text-violet-400',
     description:
       'Erstellen Sie in wenigen Minuten ein ansprechendes Firmenprofil. Beschreiben Sie Ihren Betrieb, Ihre Jobsberufe und was Ihr Unternehmen besonders macht. Fügen Sie Ihr Logo hinzu und laden Sie Stellenanzeigen hoch.',
     description2:
@@ -161,7 +153,6 @@ const companySteps = [
     number: '2',
     icon: Upload,
     title: 'Kurzvideos hochladen',
-    color: 'bg-pink-500/20 text-pink-400',
     description:
       'Drehen Sie kurze Videos mit Ihren echten Mitarbeiter. Zeigen Sie den Arbeitsalltag, das Team, die Werkstatt oder das Büro. Authentizität schlägt Hochglanz: Jobsuchende wollen sehen, wie es wirklich bei Ihnen ist.',
     description2:
@@ -177,7 +168,6 @@ const companySteps = [
     number: '3',
     icon: Users,
     title: 'Kandidaten matchen',
-    color: 'bg-blue-500/20 text-blue-400',
     description:
       'Swipen Sie durch Profile interessierter Jobsuchender. Sehen Sie deren Interessen, Stärken und Standort. Wenn ein Profil zu Ihrer Stelle passt, liken Sie es. Wenn beide Seiten Interesse zeigen, entsteht ein Match.',
     description2:
@@ -193,7 +183,6 @@ const companySteps = [
     number: '4',
     icon: MessageCircle,
     title: 'Chatten und Einstellen',
-    color: 'bg-green-500/20 text-green-400',
     description:
       'Nach dem Match schreiben Sie direkt mit dem Kandidaten. Stellen Sie Fragen, laden Sie zum Probearbeiten ein oder vereinbaren Sie ein Vorstellungsgespräch. Der Chat ist informell und direkt, genau so, wie Gen Z es bevorzugt.',
     description2:
@@ -288,7 +277,7 @@ export default function SoFunktioniertsPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#FFFBF5]">
       <Header />
 
       <script
@@ -305,27 +294,28 @@ export default function SoFunktioniertsPage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-700 pt-28 pb-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-violet-200 mb-6" aria-label="Breadcrumb">
+      <section className="bg-gradient-to-br from-amber-50 via-orange-50 to-[#FFFBF5] pt-28 pb-20 relative overflow-hidden">
+        <div className="absolute inset-0 warm-dots opacity-30" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav className="text-sm text-stone-500 mb-6" aria-label="Breadcrumb">
             <ol className="flex items-center gap-1">
               <li>
-                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+                <Link href="/" className="hover:text-amber-600 transition-colors">Home</Link>
               </li>
               <li>/</li>
-              <li className="text-white font-medium">So funktioniert&apos;s</li>
+              <li className="text-stone-900 font-medium">So funktioniert&apos;s</li>
             </ol>
           </nav>
 
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur-sm px-4 py-1.5 text-sm text-violet-200 mb-6 border border-white/20">
-              <Zap className="h-4 w-4" />
+            <div className="tag-pill mb-6">
+              <Zap className="h-3.5 w-3.5" />
               <span>Schritt für Schritt erklärt</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              So funktioniert Berufsgenie
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-stone-900 mb-6">
+              So funktioniert <span className="marker-highlight">Berufsgenie</span>
             </h1>
-            <p className="text-lg sm:text-xl text-violet-100 mb-10 max-w-2xl">
+            <p className="text-lg sm:text-xl text-stone-600 mb-10 max-w-2xl">
               Von der Registrierung bis zum Match in wenigen Minuten. Wir zeigen dir
               Schritt für Schritt, wie du deine Traumausbildung findest oder als Betrieb
               die besten Mitarbeiter gewinnst.
@@ -335,7 +325,7 @@ export default function SoFunktioniertsPage() {
             <div className="flex flex-wrap gap-3">
               <a
                 href="#fuer-jugendliche"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white rounded-full text-violet-600 font-medium text-sm hover:bg-violet-50 transition-colors"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-amber-500 to-orange-600 rounded-lg text-white font-medium text-sm hover:from-amber-400 hover:to-orange-500 transition-all shadow-sm"
               >
                 <User className="h-4 w-4" />
                 Für Jobsuchende
@@ -343,7 +333,7 @@ export default function SoFunktioniertsPage() {
               </a>
               <a
                 href="#fuer-betriebe"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 border border-white/20 rounded-full text-white font-medium text-sm hover:bg-white/20 transition-colors"
+                className="inline-flex items-center gap-2 px-5 py-2.5 border border-stone-300 rounded-lg text-stone-700 font-medium text-sm hover:border-amber-400 hover:bg-amber-50 transition-colors"
               >
                 <Building2 className="h-4 w-4" />
                 Für Betriebe
@@ -355,7 +345,7 @@ export default function SoFunktioniertsPage() {
       </section>
 
       {/* Overview Stats */}
-      <section className="py-12 bg-white border-b border-gray-100">
+      <section className="py-12 bg-white border-b border-stone-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
             {[
@@ -365,9 +355,9 @@ export default function SoFunktioniertsPage() {
               { value: '5 Schritte', label: 'Bis zum ersten Match', icon: Star },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
-                <stat.icon className="h-6 w-6 text-violet-600 mx-auto mb-2" />
-                <p className="text-2xl sm:text-3xl font-bold text-gray-900">{stat.value}</p>
-                <p className="text-sm text-gray-500 mt-1">{stat.label}</p>
+                <stat.icon className="h-6 w-6 text-amber-600 mx-auto mb-2" />
+                <p className="text-2xl sm:text-3xl font-bold text-stone-900">{stat.value}</p>
+                <p className="text-sm text-stone-500 mt-1">{stat.label}</p>
               </div>
             ))}
           </div>
@@ -375,57 +365,49 @@ export default function SoFunktioniertsPage() {
       </section>
 
       {/* Für Jobsuchende */}
-      <section id="fuer-jugendliche" className="py-20 bg-white scroll-mt-20">
+      <section id="fuer-jugendliche" className="py-20 bg-[#FFFBF5] scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-violet-50 px-4 py-1.5 text-sm text-violet-700 mb-4">
-              <User className="h-4 w-4" />
-              Für Jobsuchende
+            <div className="magazine-divider mb-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-amber-600">Für Jobsuchende</span>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              In 5 Schritten zur Job
+            <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 mb-4">
+              In 5 Schritten zur <span className="marker-highlight">Traumkarriere</span>
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-stone-600 max-w-2xl mx-auto">
               So findest du mit Berufsgenie deinen Traumausbildungsplatz. Schneller und
               einfacher als du denkst.
             </p>
           </div>
 
           {/* Steps */}
-          <div className="space-y-16">
+          <div className="space-y-12">
             {youthSteps.map((step, index) => (
               <div key={step.number} className="relative">
-                {/* Connector line */}
-                {index < youthSteps.length - 1 && (
-                  <div className="hidden lg:block absolute left-1/2 top-full w-0.5 h-16 bg-gradient-to-b from-violet-200 to-transparent -ml-px" />
-                )}
-
                 <div
-                  className={`grid lg:grid-cols-2 gap-10 lg:gap-16 items-center ${
-                    index % 2 === 1 ? '' : ''
-                  }`}
+                  className={`grid lg:grid-cols-2 gap-10 lg:gap-16 items-center`}
                 >
                   {/* Text Content */}
                   <div className={index % 2 === 1 ? 'lg:order-2' : ''}>
                     <div className="flex items-center gap-4 mb-6">
-                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-violet-600 to-pink-600 text-white text-xl font-bold flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-amber-500 to-orange-600 text-white text-xl font-bold flex items-center justify-center flex-shrink-0 shadow-md">
                         {step.number}
                       </div>
                       <div>
-                        <h3 className="text-2xl sm:text-3xl font-bold text-gray-900">
+                        <h3 className="text-2xl sm:text-3xl font-bold text-stone-900">
                           {step.title}
                         </h3>
                       </div>
                     </div>
-                    <p className="text-gray-600 text-lg leading-relaxed mb-4">
+                    <p className="text-stone-600 text-lg leading-relaxed mb-4">
                       {step.description}
                     </p>
-                    <p className="text-gray-600 leading-relaxed mb-6">{step.description2}</p>
+                    <p className="text-stone-600 leading-relaxed mb-6">{step.description2}</p>
                     <ul className="space-y-2.5">
                       {step.bullets.map((bullet) => (
                         <li key={bullet} className="flex items-start gap-3">
-                          <Check className="h-5 w-5 text-violet-600 flex-shrink-0 mt-0.5" />
-                          <span className="text-gray-700">{bullet}</span>
+                          <Check className="h-5 w-5 text-amber-600 flex-shrink-0 mt-0.5" />
+                          <span className="text-stone-700">{bullet}</span>
                         </li>
                       ))}
                     </ul>
@@ -433,36 +415,38 @@ export default function SoFunktioniertsPage() {
 
                   {/* Visual */}
                   <div className={index % 2 === 1 ? 'lg:order-1' : ''}>
-                    <div
-                      className={`bg-gradient-to-br ${step.gradientFrom} ${step.gradientTo} rounded-3xl p-8 sm:p-10 relative overflow-hidden`}
-                    >
-                      <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20" />
-                      <div className="absolute bottom-0 left-0 w-32 h-32 bg-white/10 rounded-full -ml-16 -mb-16" />
-
-                      <div className="relative z-10">
-                        <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 sm:p-8 text-center">
-                          <div className="w-16 h-16 rounded-2xl bg-white/20 flex items-center justify-center mx-auto mb-4">
-                            <step.icon className="h-8 w-8 text-white" />
-                          </div>
-                          <p className="text-white font-bold text-xl mb-2">Schritt {step.number}</p>
-                          <p className="text-white/80 text-sm">{step.title}</p>
+                    <div className={`feature-box bg-white rounded-2xl p-8 sm:p-10 border-l-4 ${step.accent} shadow-sm`}>
+                      <div className="text-center">
+                        <div className={`w-16 h-16 rounded-2xl ${step.iconBg} flex items-center justify-center mx-auto mb-4`}>
+                          <step.icon className="h-8 w-8" />
                         </div>
+                        <p className="font-bold text-xl text-stone-900 mb-2">Schritt {step.number}</p>
+                        <p className="text-stone-500 text-sm">{step.title}</p>
+                      </div>
 
-                        {/* Progress indicator */}
-                        <div className="flex justify-center mt-6 gap-2">
-                          {youthSteps.map((_, i) => (
-                            <div
-                              key={i}
-                              className={`h-1.5 rounded-full ${
-                                i <= index ? 'bg-white w-8' : 'bg-white/30 w-4'
-                              } transition-all`}
-                            />
-                          ))}
-                        </div>
+                      {/* Progress indicator */}
+                      <div className="flex justify-center mt-6 gap-2">
+                        {youthSteps.map((_, i) => (
+                          <div
+                            key={i}
+                            className={`h-1.5 rounded-full transition-all ${
+                              i <= index
+                                ? 'bg-gradient-to-r from-amber-500 to-orange-500 w-8'
+                                : 'bg-stone-200 w-4'
+                            }`}
+                          />
+                        ))}
                       </div>
                     </div>
                   </div>
                 </div>
+
+                {/* Connector */}
+                {index < youthSteps.length - 1 && (
+                  <div className="hidden lg:flex justify-center py-4">
+                    <div className="w-0.5 h-8 bg-gradient-to-b from-amber-300 to-transparent" />
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -471,43 +455,42 @@ export default function SoFunktioniertsPage() {
 
       {/* Trennlinie */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="border-t border-gray-200" />
+        <div className="magazine-divider">
+          <span className="text-xs font-bold uppercase tracking-widest text-amber-600">Arbeitgeber</span>
+        </div>
       </div>
 
       {/* Für Betriebe */}
-      <section id="fuer-betriebe" className="py-20 bg-gray-900 text-white scroll-mt-20">
+      <section id="fuer-betriebe" className="py-20 bg-stone-900 text-white scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm text-violet-300 mb-4">
-              <Building2 className="h-4 w-4" />
-              Für Arbeitgeber
+            <div className="magazine-divider mb-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-amber-400">Für Arbeitgeber</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
               In 4 Schritten zum{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-pink-400">
-                perfekten Azubi
-              </span>
+              <span className="gradient-text-warm">perfekten Mitarbeiter</span>
             </h2>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+            <p className="text-lg text-stone-300 max-w-2xl mx-auto">
               So nutzen Betriebe Berufsgenie, um motivierte Auszubildende zu finden und
               einzustellen.
             </p>
           </div>
 
-          <div className="space-y-12">
+          <div className="space-y-8">
             {companySteps.map((step, index) => (
               <div
                 key={step.number}
-                className="bg-white/5 backdrop-blur rounded-2xl p-6 sm:p-8 border border-white/10"
+                className="bg-white/5 backdrop-blur rounded-2xl p-6 sm:p-8 border border-white/10 hover:border-amber-500/30 transition-colors"
               >
                 <div className="grid lg:grid-cols-5 gap-8 items-start">
                   {/* Step Number + Icon */}
                   <div className="lg:col-span-1">
                     <div className="flex items-center gap-4 lg:flex-col lg:items-start">
-                      <div className="w-14 h-14 rounded-full bg-gradient-to-br from-violet-500 to-pink-500 text-white text-2xl font-bold flex items-center justify-center flex-shrink-0">
+                      <div className="w-14 h-14 rounded-lg bg-gradient-to-br from-amber-500 to-orange-600 text-white text-2xl font-bold flex items-center justify-center flex-shrink-0">
                         {step.number}
                       </div>
-                      <div className={`inline-flex items-center justify-center w-10 h-10 rounded-xl ${step.color}`}>
+                      <div className="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400">
                         <step.icon className="h-5 w-5" />
                       </div>
                     </div>
@@ -518,15 +501,15 @@ export default function SoFunktioniertsPage() {
                     <h3 className="text-xl sm:text-2xl font-bold text-white mb-4">
                       {step.title}
                     </h3>
-                    <p className="text-gray-300 text-lg leading-relaxed mb-3">
+                    <p className="text-stone-300 text-lg leading-relaxed mb-3">
                       {step.description}
                     </p>
-                    <p className="text-gray-400 leading-relaxed mb-6">{step.description2}</p>
+                    <p className="text-stone-400 leading-relaxed mb-6">{step.description2}</p>
                     <ul className="grid sm:grid-cols-2 gap-2">
                       {step.bullets.map((bullet) => (
                         <li key={bullet} className="flex items-start gap-2">
-                          <Check className="h-4 w-4 text-violet-400 flex-shrink-0 mt-0.5" />
-                          <span className="text-gray-300 text-sm">{bullet}</span>
+                          <Check className="h-4 w-4 text-amber-400 flex-shrink-0 mt-0.5" />
+                          <span className="text-stone-300 text-sm">{bullet}</span>
                         </li>
                       ))}
                     </ul>
@@ -538,7 +521,7 @@ export default function SoFunktioniertsPage() {
                   <div className="mt-6 pt-4 border-t border-white/5">
                     <div className="w-full bg-white/10 rounded-full h-1">
                       <div
-                        className="bg-gradient-to-r from-violet-500 to-pink-500 h-1 rounded-full"
+                        className="bg-gradient-to-r from-amber-500 to-orange-500 h-1 rounded-full"
                         style={{ width: `${((index + 1) / companySteps.length) * 100}%` }}
                       />
                     </div>
@@ -550,8 +533,8 @@ export default function SoFunktioniertsPage() {
 
           <div className="text-center mt-12">
             <Link
-              href="https://dashboard.berufsgenie.de/login"
-              className="inline-flex items-center gap-2 rounded-full bg-violet-600 px-8 py-3.5 text-base font-medium text-white hover:bg-violet-500 transition-colors"
+              href="https://dashboard.ausbildungsgenie.de/register"
+              className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-8 py-3.5 text-base font-medium text-white hover:from-amber-400 hover:to-orange-500 transition-all shadow-lg"
             >
               Jetzt als Arbeitgeber registrieren
               <ChevronRight className="h-4 w-4" />
@@ -561,36 +544,39 @@ export default function SoFunktioniertsPage() {
       </section>
 
       {/* Visual Process Summary */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-amber-50/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Der Weg zum Match auf einen Blick
+            <div className="magazine-divider mb-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-amber-600">Auf einen Blick</span>
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 mb-4">
+              Der Weg zum <span className="marker-highlight-orange">Match</span> auf einen Blick
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-stone-600 max-w-2xl mx-auto">
               So treffen Jobsuchende und Betriebe bei Berufsgenie aufeinander.
             </p>
           </div>
 
           <div className="grid sm:grid-cols-3 lg:grid-cols-5 gap-4">
             {[
-              { icon: User, label: 'Profil', sublabel: 'erstellen', color: 'from-violet-500 to-purple-600' },
-              { icon: Video, label: 'Videos', sublabel: 'entdecken', color: 'from-pink-500 to-rose-600' },
-              { icon: Heart, label: 'Liken', sublabel: 'und Swipen', color: 'from-red-500 to-pink-600' },
-              { icon: Sparkles, label: 'Match!', sublabel: 'Beidseitig', color: 'from-amber-500 to-orange-600' },
-              { icon: MessageCircle, label: 'Chatten', sublabel: 'und Bewerben', color: 'from-blue-500 to-cyan-600' },
+              { icon: User, label: 'Profil', sublabel: 'erstellen' },
+              { icon: Video, label: 'Videos', sublabel: 'entdecken' },
+              { icon: Heart, label: 'Liken', sublabel: 'und Swipen' },
+              { icon: Compass, label: 'Match!', sublabel: 'Beidseitig' },
+              { icon: MessageCircle, label: 'Chatten', sublabel: 'und Bewerben' },
             ].map((item, index) => (
               <div key={item.label} className="relative">
-                <div
-                  className={`bg-gradient-to-br ${item.color} rounded-2xl p-6 text-center text-white`}
-                >
-                  <item.icon className="h-8 w-8 mx-auto mb-3" />
-                  <p className="font-bold text-lg">{item.label}</p>
-                  <p className="text-white/70 text-sm">{item.sublabel}</p>
+                <div className="warm-card bg-white rounded-2xl p-6 text-center">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center mx-auto mb-3">
+                    <item.icon className="h-6 w-6 text-white" />
+                  </div>
+                  <p className="font-bold text-lg text-stone-900">{item.label}</p>
+                  <p className="text-stone-500 text-sm">{item.sublabel}</p>
                 </div>
                 {index < 4 && (
                   <div className="hidden lg:flex absolute top-1/2 -right-2 transform -translate-y-1/2 z-10">
-                    <ArrowRight className="h-4 w-4 text-gray-400" />
+                    <ArrowRight className="h-4 w-4 text-amber-400" />
                   </div>
                 )}
               </div>
@@ -600,13 +586,16 @@ export default function SoFunktioniertsPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-[#FFFBF5]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+            <div className="magazine-divider mb-4">
+              <span className="text-xs font-bold uppercase tracking-widest text-amber-600">FAQ</span>
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 mb-4">
               Häufig gestellte Fragen
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-stone-600">
               Alles, was du über Berufsgenie wissen musst.
             </p>
           </div>
@@ -615,11 +604,11 @@ export default function SoFunktioniertsPage() {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="border border-gray-200 rounded-xl overflow-hidden"
+                className="warm-card bg-white rounded-xl overflow-hidden"
               >
                 <div className="px-6 py-5">
-                  <h3 className="font-semibold text-gray-900 text-lg">{faq.question}</h3>
-                  <p className="mt-3 text-gray-600 leading-relaxed">{faq.answer}</p>
+                  <h3 className="font-semibold text-stone-900 text-lg">{faq.question}</h3>
+                  <p className="mt-3 text-stone-600 leading-relaxed">{faq.answer}</p>
                 </div>
               </div>
             ))}
@@ -628,26 +617,26 @@ export default function SoFunktioniertsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-violet-600 to-pink-600">
+      <section className="py-20 bg-stone-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Jetzt loslegen und Job neu erleben
+            Jetzt loslegen und Job <span className="gradient-text-warm">neu erleben</span>
           </h2>
-          <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
+          <p className="text-xl text-stone-300 mb-10 max-w-2xl mx-auto">
             Ob Jobsuchender auf der Suche nach dem Traumjob oder Betrieb auf der Suche nach
             motivierten Mitarbeiter: Berufsgenie bringt euch zusammen.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.berufsgenie.de/login"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-medium text-violet-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+              href="https://dashboard.ausbildungsgenie.de/register"
+              className="rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-8 py-3.5 text-base font-medium text-white hover:from-amber-400 hover:to-orange-500 transition-all shadow-lg flex items-center gap-2"
             >
               <Building2 className="h-4 w-4" />
               Als Arbeitgeber registrieren
             </Link>
             <Link
               href="/features"
-              className="rounded-full border-2 border-white px-8 py-3.5 text-base font-medium text-white hover:bg-white/10 transition-colors flex items-center gap-2"
+              className="rounded-lg border-2 border-stone-600 px-8 py-3.5 text-base font-medium text-stone-300 hover:border-amber-500 hover:text-white transition-colors flex items-center gap-2"
             >
               Alle Features ansehen
               <ArrowRight className="h-4 w-4" />

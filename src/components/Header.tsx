@@ -1,50 +1,112 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
-import { Sparkles } from 'lucide-react';
+import { Compass, Menu, X } from 'lucide-react';
+
+const navLinks = [
+  { href: '/jobs', label: 'Stellenangebote' },
+  { href: '/branchen', label: 'Branchen' },
+  { href: '/fuer-jobsuchende', label: 'Für Jobsuchende' },
+  { href: '/fuer-arbeitgeber', label: 'Für Arbeitgeber' },
+  { href: '/ratgeber', label: 'Ratgeber' },
+];
 
 export default function Header() {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
   return (
-    <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 border-b border-gray-200 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-2">
-            <Sparkles className="h-7 w-7 text-violet-600" />
-            <span className="font-bold text-xl">Berufsgenie</span>
-          </Link>
-          <div className="hidden md:flex items-center gap-5">
-            <Link href="/jobs" className="text-sm text-gray-600 hover:text-gray-900">
-              Jobs
+    <>
+      {/* Magazine accent bar */}
+      <div className="magazine-bar fixed top-0 w-full z-[60]" />
+
+      <nav className="fixed top-1 w-full bg-[#FFFBF5]/95 backdrop-blur-md z-50 border-b border-amber-100 shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-14">
+            {/* Logo */}
+            <Link href="/" className="flex items-center gap-2.5 group">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow">
+                <Compass className="h-5 w-5 text-white" />
+              </div>
+              <span className="font-extrabold text-lg tracking-tight">
+                <span className="text-stone-900">Berufs</span>
+                <span className="gradient-text-warm">genie</span>
+              </span>
             </Link>
-            <Link href="/branchen" className="text-sm text-gray-600 hover:text-gray-900">
-              Branchen
-            </Link>
-            <Link href="/fuer-jobsuchende" className="text-sm text-gray-600 hover:text-gray-900">
-              Für Jobsuchende
-            </Link>
-            <Link href="/fuer-arbeitgeber" className="text-sm text-gray-600 hover:text-gray-900">
-              Für Arbeitgeber
-            </Link>
-            <Link href="/ratgeber" className="text-sm text-gray-600 hover:text-gray-900">
-              Ratgeber
-            </Link>
-          </div>
-          <div className="flex items-center gap-3">
-            <Link
-              href="https://dashboard.berufsgenie.de/login"
-              className="text-sm font-medium text-gray-700 hover:text-gray-900"
+
+            {/* Desktop nav */}
+            <div className="hidden lg:flex items-center gap-1">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-stone-600 hover:text-amber-700 hover:bg-amber-50 px-3 py-2 rounded-lg transition-colors font-medium"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+
+            {/* Desktop CTA */}
+            <div className="hidden lg:flex items-center gap-3">
+              <Link
+                href="https://dashboard.ausbildungsgenie.de/login"
+                className="text-sm font-medium text-stone-600 hover:text-stone-900 px-3 py-2"
+              >
+                Login
+              </Link>
+              <Link
+                href="https://dashboard.ausbildungsgenie.de/register"
+                className="rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-5 py-2 text-sm font-semibold text-white hover:from-amber-400 hover:to-orange-500 transition-all shadow-sm hover:shadow-md"
+              >
+                Kostenlos starten
+              </Link>
+            </div>
+
+            {/* Mobile menu button */}
+            <button
+              onClick={() => setMobileOpen(!mobileOpen)}
+              className="lg:hidden p-2 text-stone-600 hover:text-stone-900"
+              aria-label="Menü öffnen"
             >
-              Login
-            </Link>
-            <Link
-              href="https://dashboard.berufsgenie.de/login"
-              className="rounded-full bg-violet-600 px-5 py-2 text-sm font-medium text-white hover:bg-violet-700 transition-colors"
-            >
-              Für Arbeitgeber
-            </Link>
+              {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
           </div>
         </div>
-      </div>
-    </nav>
+
+        {/* Mobile menu */}
+        {mobileOpen && (
+          <div className="lg:hidden bg-[#FFFBF5] border-t border-amber-100 shadow-lg">
+            <div className="px-4 py-3 space-y-1">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMobileOpen(false)}
+                  className="block text-sm text-stone-700 hover:text-amber-700 hover:bg-amber-50 px-3 py-2.5 rounded-lg transition-colors font-medium"
+                >
+                  {link.label}
+                </Link>
+              ))}
+              <hr className="my-2 border-amber-100" />
+              <Link
+                href="https://dashboard.ausbildungsgenie.de/login"
+                onClick={() => setMobileOpen(false)}
+                className="block text-sm text-stone-600 px-3 py-2.5 font-medium"
+              >
+                Login
+              </Link>
+              <Link
+                href="https://dashboard.ausbildungsgenie.de/register"
+                onClick={() => setMobileOpen(false)}
+                className="block text-center rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-5 py-2.5 text-sm font-semibold text-white mt-2"
+              >
+                Kostenlos starten
+              </Link>
+            </div>
+          </div>
+        )}
+      </nav>
+    </>
   );
 }

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {
   Check,
   X,
-  Sparkles,
+  Compass,
   Building2,
   ChevronRight,
   Star,
@@ -85,7 +85,7 @@ const faqItems = [
   {
     question: 'Welche Zahlungsmethoden werden akzeptiert?',
     answer:
-      'Wir akzeptieren alle gängigen Zahlungsmethoden: Kreditkarte (Visa, Mastercard), SEPA-Lastschrift und Überweisung. Die Zahlung wird sicher über unseren Payment-Partner Stripe abgewickelt.',
+      'Wir akzeptieren alle gängigen Zahlungsmethoden über PayPal: PayPal-Guthaben, Kreditkarte (Visa, Mastercard), SEPA-Lastschrift und weitere lokale Zahlungsmethoden. Die Zahlung wird sicher über PayPal abgewickelt.',
   },
   {
     question: 'Was ist im API-Zugang enthalten?',
@@ -105,8 +105,8 @@ const plans = [
     price: '0',
     period: '',
     description: 'Zum Ausprobieren',
-    icon: Sparkles,
-    color: 'text-gray-600',
+    icon: Compass,
+    color: 'text-stone-600',
     features: [
       '1 Stellenanzeige',
       'Firmenprofil erstellen',
@@ -123,7 +123,7 @@ const plans = [
     period: '/Monat',
     description: 'Für kleine Betriebe',
     icon: Rocket,
-    color: 'text-blue-600',
+    color: 'text-amber-600',
     features: [
       '3 Stellenanzeigen',
       '3 Video-Uploads',
@@ -141,7 +141,7 @@ const plans = [
     period: '/Monat',
     description: 'Beliebteste Wahl',
     icon: Star,
-    color: 'text-violet-600',
+    color: 'text-orange-600',
     features: [
       '10 Stellenanzeigen',
       'Unbegrenzt Videos',
@@ -161,7 +161,7 @@ const plans = [
     period: '/Monat',
     description: 'Für große Betriebe',
     icon: Crown,
-    color: 'text-amber-600',
+    color: 'text-amber-700',
     features: [
       'Unbegrenzt Stellenanzeigen',
       'Unbegrenzt Videos',
@@ -284,17 +284,17 @@ const jsonLdWebPage = {
 function FeatureValue({ value }: { value: boolean | string }) {
   if (typeof value === 'boolean') {
     return value ? (
-      <Check className="h-5 w-5 text-violet-600 mx-auto" />
+      <Check className="h-5 w-5 text-amber-600 mx-auto" />
     ) : (
-      <X className="h-5 w-5 text-gray-300 mx-auto" />
+      <X className="h-5 w-5 text-stone-300 mx-auto" />
     );
   }
-  return <span className="text-sm font-medium text-gray-900">{value}</span>;
+  return <span className="text-sm font-medium text-stone-900">{value}</span>;
 }
 
 export default function PreisePage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#FFFBF5]">
       <Header />
 
       {/* JSON-LD */}
@@ -312,44 +312,43 @@ export default function PreisePage() {
       />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-violet-600 via-purple-600 to-pink-600 text-white">
+      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-stone-900 text-white">
         <div className="max-w-5xl mx-auto text-center">
           {/* Breadcrumb */}
-          <nav className="flex items-center justify-center gap-2 text-sm text-white/70 mb-8">
+          <nav className="flex items-center justify-center gap-2 text-sm text-stone-400 mb-8">
             <Link href="/" className="hover:text-white transition-colors">
               Startseite
             </Link>
             <ChevronRight className="h-4 w-4" />
-            <span className="text-white font-medium">Preise</span>
+            <span className="text-amber-400 font-medium">Preise</span>
           </nav>
 
-          <div className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-4 py-1.5 text-sm mb-8">
-            <Shield className="h-4 w-4" />
-            <span>Transparent & fair - keine versteckten Kosten</span>
+          <div className="inline-flex items-center gap-2 rounded-full bg-amber-500/15 backdrop-blur px-4 py-1.5 text-sm mb-8 border border-amber-500/20">
+            <Shield className="h-4 w-4 text-amber-400" />
+            <span className="text-amber-200">Transparent & fair - keine versteckten Kosten</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-            Transparente Preise
+            <span className="text-white">Transparente </span>
+            <span className="gradient-text-warm">Preise</span>
           </h1>
-          <p className="mt-6 text-xl text-white/80 max-w-2xl mx-auto">
+          <p className="mt-6 text-xl text-stone-400 max-w-2xl mx-auto">
             Finde das passende Paket für deinen Betrieb. Für Jobsuchende ist Berufsgenie immer komplett kostenlos.
           </p>
         </div>
       </section>
 
       {/* Big Callout for Jobsuchende */}
-      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-pink-50 to-violet-50">
+      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-amber-50 to-orange-50">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-pink-500 to-violet-500 text-white mb-6">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-amber-500 to-orange-600 text-white mb-6">
             <Heart className="h-8 w-8" />
           </div>
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+          <h2 className="text-3xl sm:text-4xl font-bold text-stone-900">
             Für Jobsuchende immer{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-pink-600">
-              100% kostenlos!
-            </span>
+            <span className="marker-highlight">100% kostenlos!</span>
           </h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="mt-4 text-lg text-stone-600 max-w-2xl mx-auto">
             Videos schauen, swipen, matchen, chatten, KI-Berufsfinder nutzen - alles kostenlos.
             Keine Werbung, kein Haken, kein Kleingedrucktes. Versprochen.
           </p>
@@ -358,10 +357,10 @@ export default function PreisePage() {
               (feature) => (
                 <div
                   key={feature}
-                  className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm border border-violet-100"
+                  className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm border border-amber-100"
                 >
-                  <Check className="h-4 w-4 text-violet-600 flex-shrink-0" />
-                  <span className="text-sm font-medium text-gray-700">{feature}</span>
+                  <Check className="h-4 w-4 text-amber-600 flex-shrink-0" />
+                  <span className="text-sm font-medium text-stone-700">{feature}</span>
                 </div>
               )
             )}
@@ -373,14 +372,14 @@ export default function PreisePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-violet-50 px-4 py-1.5 text-sm text-violet-700 mb-4">
+            <div className="tag-pill mb-4 mx-auto w-fit">
               <Building2 className="h-4 w-4" />
               <span>Pakete für Arbeitgeber</span>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+            <h2 className="text-3xl sm:text-4xl font-bold text-stone-900">
               Finde das richtige Paket für deinen Betrieb
             </h2>
-            <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="mt-4 text-lg text-stone-600 max-w-2xl mx-auto">
               Starte kostenlos und upgrade, wenn du bereit bist. Alle Pakete sind monatlich kündbar.
             </p>
           </div>
@@ -391,12 +390,12 @@ export default function PreisePage() {
                 key={plan.name}
                 className={`rounded-2xl p-8 relative flex flex-col ${
                   plan.highlighted
-                    ? 'bg-violet-600 text-white ring-2 ring-violet-600 ring-offset-2 scale-[1.03] shadow-xl shadow-violet-200'
-                    : 'bg-white border border-gray-200 hover:border-violet-200 hover:shadow-lg transition-all'
+                    ? 'bg-gradient-to-br from-amber-500 to-orange-600 text-white ring-2 ring-amber-500 ring-offset-2 ring-offset-[#FFFBF5] scale-[1.03] shadow-xl shadow-amber-200'
+                    : 'bg-white warm-card rounded-2xl'
                 }`}
               >
                 {plan.highlighted && (
-                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-pink-500 to-violet-500 text-white text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wide">
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-stone-900 text-amber-400 text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wide">
                     Beliebteste Wahl
                   </div>
                 )}
@@ -404,7 +403,7 @@ export default function PreisePage() {
                 <div className="mb-4">
                   <div
                     className={`inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4 ${
-                      plan.highlighted ? 'bg-white/20' : 'bg-violet-50'
+                      plan.highlighted ? 'bg-white/20' : 'bg-amber-50'
                     }`}
                   >
                     <plan.icon
@@ -412,12 +411,12 @@ export default function PreisePage() {
                     />
                   </div>
                   <h3
-                    className={`font-bold text-xl ${plan.highlighted ? 'text-white' : 'text-gray-900'}`}
+                    className={`font-bold text-xl ${plan.highlighted ? 'text-white' : 'text-stone-900'}`}
                   >
                     {plan.name}
                   </h3>
                   <p
-                    className={`text-sm mt-1 ${plan.highlighted ? 'text-violet-200' : 'text-gray-500'}`}
+                    className={`text-sm mt-1 ${plan.highlighted ? 'text-amber-100' : 'text-stone-500'}`}
                   >
                     {plan.description}
                   </p>
@@ -426,7 +425,7 @@ export default function PreisePage() {
                 <div className="mb-6">
                   <span className="text-5xl font-bold">{plan.price}</span>
                   <span
-                    className={`text-lg ${plan.highlighted ? 'text-violet-200' : 'text-gray-500'}`}
+                    className={`text-lg ${plan.highlighted ? 'text-amber-100' : 'text-stone-500'}`}
                   >
                     {plan.price === '0' ? ' EUR' : ` EUR${plan.period}`}
                   </span>
@@ -437,7 +436,7 @@ export default function PreisePage() {
                     <li key={feature} className="flex items-start gap-2.5 text-sm">
                       <Check
                         className={`h-5 w-5 flex-shrink-0 mt-0.5 ${
-                          plan.highlighted ? 'text-violet-200' : 'text-violet-600'
+                          plan.highlighted ? 'text-amber-200' : 'text-amber-600'
                         }`}
                       />
                       <span>{feature}</span>
@@ -449,12 +448,12 @@ export default function PreisePage() {
                   href={
                     plan.name === 'Enterprise'
                       ? '/kontakt'
-                      : 'https://dashboard.berufsgenie.de/login'
+                      : 'https://dashboard.ausbildungsgenie.de/login'
                   }
-                  className={`block text-center rounded-full px-6 py-3 text-sm font-semibold transition-colors ${
+                  className={`block text-center rounded-lg px-6 py-3 text-sm font-semibold transition-colors ${
                     plan.highlighted
-                      ? 'bg-white text-violet-600 hover:bg-gray-100'
-                      : 'bg-violet-600 text-white hover:bg-violet-700'
+                      ? 'bg-white text-amber-600 hover:bg-amber-50'
+                      : 'bg-gradient-to-r from-amber-500 to-orange-600 text-white hover:from-amber-400 hover:to-orange-500'
                   }`}
                 >
                   {plan.cta}
@@ -463,46 +462,46 @@ export default function PreisePage() {
             ))}
           </div>
 
-          <p className="text-center text-sm text-gray-500 mt-8">
-            Alle Preise verstehen sich zzgl. MwSt. Monatlich kündbar. Keine versteckten Kosten.
+          <p className="text-center text-sm text-stone-500 mt-8">
+            Alle Preise verstehen sich zzgl. MwSt. Monatlich kündbar. Keine versteckten Kosten. Zahlung via PayPal.
           </p>
         </div>
       </section>
 
       {/* Feature Comparison Table */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-amber-50/50 to-[#FFFBF5]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+            <h2 className="text-3xl sm:text-4xl font-bold text-stone-900">
               Alle Features im Vergleich
             </h2>
-            <p className="mt-4 text-lg text-gray-600">
+            <p className="mt-4 text-lg text-stone-600">
               Detaillierter Überblick über alle Funktionen in jedem Paket
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
+          <div className="bg-white rounded-2xl shadow-sm border border-stone-100 overflow-hidden">
             {/* Table Header */}
-            <div className="grid grid-cols-5 gap-0 border-b border-gray-200 bg-gray-50">
+            <div className="grid grid-cols-5 gap-0 border-b border-stone-200 bg-stone-50">
               <div className="p-4 lg:p-6">
-                <span className="text-sm font-semibold text-gray-700">Funktion</span>
+                <span className="text-sm font-semibold text-stone-700">Funktion</span>
               </div>
               {['Free', 'Starter', 'Professional', 'Enterprise'].map((name) => (
                 <div
                   key={name}
                   className={`p-4 lg:p-6 text-center ${
-                    name === 'Professional' ? 'bg-violet-50' : ''
+                    name === 'Professional' ? 'bg-amber-50' : ''
                   }`}
                 >
                   <span
                     className={`text-sm font-bold ${
-                      name === 'Professional' ? 'text-violet-700' : 'text-gray-900'
+                      name === 'Professional' ? 'text-amber-700' : 'text-stone-900'
                     }`}
                   >
                     {name}
                   </span>
                   {name === 'Professional' && (
-                    <span className="block text-xs text-violet-500 mt-0.5">Empfohlen</span>
+                    <span className="block text-xs text-amber-600 mt-0.5">Empfohlen</span>
                   )}
                 </div>
               ))}
@@ -512,9 +511,9 @@ export default function PreisePage() {
             {comparisonFeatures.map((category) => (
               <div key={category.category}>
                 {/* Category Header */}
-                <div className="grid grid-cols-5 gap-0 border-b border-gray-200 bg-gray-50/50">
+                <div className="grid grid-cols-5 gap-0 border-b border-stone-200 bg-stone-50/50">
                   <div className="col-span-5 p-4 lg:px-6">
-                    <span className="text-sm font-bold text-gray-900">{category.category}</span>
+                    <span className="text-sm font-bold text-stone-900">{category.category}</span>
                   </div>
                 </div>
 
@@ -522,12 +521,12 @@ export default function PreisePage() {
                 {category.features.map((feature, idx) => (
                   <div
                     key={feature.name}
-                    className={`grid grid-cols-5 gap-0 border-b border-gray-100 ${
-                      idx % 2 === 0 ? '' : 'bg-gray-50/30'
+                    className={`grid grid-cols-5 gap-0 border-b border-stone-100 ${
+                      idx % 2 === 0 ? '' : 'bg-stone-50/30'
                     }`}
                   >
                     <div className="p-4 lg:px-6 flex items-center">
-                      <span className="text-sm text-gray-700">{feature.name}</span>
+                      <span className="text-sm text-stone-700">{feature.name}</span>
                     </div>
                     <div className="p-4 lg:px-6 flex items-center justify-center">
                       <FeatureValue value={feature.free} />
@@ -535,7 +534,7 @@ export default function PreisePage() {
                     <div className="p-4 lg:px-6 flex items-center justify-center">
                       <FeatureValue value={feature.starter} />
                     </div>
-                    <div className="p-4 lg:px-6 flex items-center justify-center bg-violet-50/30">
+                    <div className="p-4 lg:px-6 flex items-center justify-center bg-amber-50/30">
                       <FeatureValue value={feature.professional} />
                     </div>
                     <div className="p-4 lg:px-6 flex items-center justify-center">
@@ -547,25 +546,25 @@ export default function PreisePage() {
             ))}
 
             {/* Table Footer with CTAs */}
-            <div className="grid grid-cols-5 gap-0 bg-gray-50">
+            <div className="grid grid-cols-5 gap-0 bg-stone-50">
               <div className="p-4 lg:p-6" />
               {plans.map((plan) => (
                 <div
                   key={plan.name}
                   className={`p-4 lg:p-6 text-center ${
-                    plan.highlighted ? 'bg-violet-50/50' : ''
+                    plan.highlighted ? 'bg-amber-50/50' : ''
                   }`}
                 >
                   <Link
                     href={
                       plan.name === 'Enterprise'
                         ? '/kontakt'
-                        : 'https://dashboard.berufsgenie.de/login'
+                        : 'https://dashboard.ausbildungsgenie.de/login'
                     }
-                    className={`inline-block rounded-full px-4 py-2 text-xs font-semibold transition-colors ${
+                    className={`inline-block rounded-lg px-4 py-2 text-xs font-semibold transition-colors ${
                       plan.highlighted
-                        ? 'bg-violet-600 text-white hover:bg-violet-700'
-                        : 'bg-gray-900 text-white hover:bg-gray-800'
+                        ? 'bg-gradient-to-r from-amber-500 to-orange-600 text-white hover:from-amber-400 hover:to-orange-500'
+                        : 'bg-stone-900 text-white hover:bg-stone-800'
                     }`}
                   >
                     {plan.cta}
@@ -581,10 +580,10 @@ export default function PreisePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Warum Berufsgenie?
+            <h2 className="text-3xl sm:text-4xl font-bold text-stone-900">
+              Warum <span className="marker-highlight">Berufsgenie</span>?
             </h2>
-            <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="mt-4 text-lg text-stone-600 max-w-2xl mx-auto">
               Die neue Generation der Jobsuchende-Suche - genau dort, wo junge Menschen ihre Zeit verbringen
             </p>
           </div>
@@ -596,55 +595,55 @@ export default function PreisePage() {
                 title: 'Authentische Kurzvideos',
                 description:
                   'Zeigt euren Betrieb mit echten Videos statt langweiliger Texte. Mitarbeiter lieben Kurzvideos - genau wie auf TikTok.',
-                color: 'bg-violet-100 text-violet-600',
+                color: 'bg-amber-100 text-amber-600',
               },
               {
                 icon: Users,
                 title: 'Generation Z erreichen',
                 description:
                   'Millionen Menschen nutzen täglich Social Media. Wir bringen eure Stellenangebote genau dorthin.',
-                color: 'bg-pink-100 text-pink-600',
+                color: 'bg-orange-100 text-orange-600',
               },
               {
                 icon: Zap,
                 title: 'Schnelles Matching',
                 description:
                   'Kein wochenlanges Warten auf Bewerbungen. Durch Swipe-Matching findet ihr in Minuten passende Kandidaten.',
-                color: 'bg-amber-100 text-amber-600',
+                color: 'bg-amber-100 text-amber-700',
               },
               {
                 icon: MessageCircle,
                 title: 'Direkter Draht',
                 description:
                   'Nach dem Match chattet ihr direkt mit Kandidaten. Kein formelles Anschreiben, sondern echtes Kennenlernen.',
-                color: 'bg-blue-100 text-blue-600',
+                color: 'bg-orange-100 text-orange-700',
               },
               {
                 icon: BarChart3,
                 title: 'Datenbasierte Insights',
                 description:
                   'Versteht, welche Videos und Stellenanzeigen am besten ankommen. Optimiert eure Jobsuchende-Suche mit echten Daten.',
-                color: 'bg-green-100 text-green-600',
+                color: 'bg-amber-50 text-amber-600',
               },
               {
                 icon: Shield,
                 title: 'Sicher & DSGVO-konform',
                 description:
                   'Alle Daten werden in Deutschland gespeichert und verarbeitet. Vollständig DSGVO-konform und sicher.',
-                color: 'bg-slate-100 text-slate-600',
+                color: 'bg-stone-100 text-stone-600',
               },
             ].map((item) => (
               <div
                 key={item.title}
-                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+                className="bg-white rounded-2xl p-8 warm-card"
               >
                 <div
                   className={`inline-flex items-center justify-center w-12 h-12 rounded-xl ${item.color} mb-5`}
                 >
                   <item.icon className="h-6 w-6" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">{item.title}</h3>
-                <p className="mt-2 text-gray-600">{item.description}</p>
+                <h3 className="text-lg font-semibold text-stone-900">{item.title}</h3>
+                <p className="mt-2 text-stone-600">{item.description}</p>
               </div>
             ))}
           </div>
@@ -652,17 +651,17 @@ export default function PreisePage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-amber-50/50 to-[#FFFBF5]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-violet-50 px-4 py-1.5 text-sm text-violet-700 mb-4">
+            <div className="tag-pill mb-4 mx-auto w-fit">
               <HelpCircle className="h-4 w-4" />
               <span>Häufig gestellte Fragen</span>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+            <h2 className="text-3xl sm:text-4xl font-bold text-stone-900">
               Fragen zu unseren Preisen
             </h2>
-            <p className="mt-4 text-lg text-gray-600">
+            <p className="mt-4 text-lg text-stone-600">
               Alles was du über unsere Pakete und Preise wissen musst
             </p>
           </div>
@@ -671,16 +670,16 @@ export default function PreisePage() {
             {faqItems.map((item, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl border border-gray-200 overflow-hidden"
+                className="bg-white rounded-xl warm-card overflow-hidden"
               >
                 <div className="p-6">
-                  <h3 className="text-lg font-semibold text-gray-900 flex items-start gap-3">
-                    <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-violet-100 text-violet-700 text-sm font-bold flex-shrink-0 mt-0.5">
+                  <h3 className="text-lg font-semibold text-stone-900 flex items-start gap-3">
+                    <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-amber-100 text-amber-700 text-sm font-bold flex-shrink-0 mt-0.5">
                       {index + 1}
                     </span>
                     {item.question}
                   </h3>
-                  <p className="mt-3 text-gray-600 leading-relaxed pl-10">{item.answer}</p>
+                  <p className="mt-3 text-stone-600 leading-relaxed pl-10">{item.answer}</p>
                 </div>
               </div>
             ))}
@@ -689,32 +688,32 @@ export default function PreisePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-violet-600 to-pink-600">
+      <section className="py-20 bg-stone-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white">
             Bereit, die besten Mitarbeiter zu finden?
           </h2>
-          <p className="mt-4 text-xl text-white/80 max-w-2xl mx-auto">
+          <p className="mt-4 text-xl text-stone-400 max-w-2xl mx-auto">
             Starte jetzt kostenlos und erreiche motivierte Jobsuchende in deiner Region. Upgrade jederzeit.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.berufsgenie.de/login"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-semibold text-violet-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+              href="https://dashboard.ausbildungsgenie.de/login"
+              className="rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-8 py-3.5 text-base font-semibold text-white hover:from-amber-400 hover:to-orange-500 transition-all flex items-center gap-2 shadow-lg shadow-amber-500/20"
             >
               Jetzt kostenlos starten
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
               href="/kontakt"
-              className="rounded-full border-2 border-white/30 px-8 py-3.5 text-base font-medium text-white hover:bg-white/10 transition-colors flex items-center gap-2"
+              className="rounded-lg border-2 border-stone-700 px-8 py-3.5 text-base font-medium text-stone-300 hover:bg-stone-800 hover:text-white transition-colors flex items-center gap-2"
             >
               <MessageCircle className="h-4 w-4" />
               Beratung anfragen
             </Link>
           </div>
-          <p className="mt-6 text-sm text-white/60">
-            Keine Kreditkarte nötig. Monatlich kündbar.
+          <p className="mt-6 text-sm text-stone-500">
+            Keine Kreditkarte nötig. Zahlung bequem über PayPal. Monatlich kündbar.
           </p>
         </div>
       </section>

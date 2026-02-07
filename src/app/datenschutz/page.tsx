@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
+import { ChevronRight } from 'lucide-react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
@@ -9,223 +11,305 @@ export const metadata: Metadata = {
 
 export default function DatenschutzPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#FFFBF5]">
       <Header />
 
-      <div className="max-w-3xl mx-auto px-4 pt-28 pb-16">
-        <h1 className="text-2xl font-bold mb-6">Datenschutzerklärung</h1>
+      {/* Hero */}
+      <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-stone-900 text-white">
+        <div className="max-w-3xl mx-auto">
+          <nav className="flex items-center gap-2 text-sm text-stone-400 mb-6">
+            <Link href="/" className="hover:text-white transition-colors">
+              Startseite
+            </Link>
+            <ChevronRight className="h-4 w-4" />
+            <span className="text-amber-400 font-medium">Datenschutzerklärung</span>
+          </nav>
+          <h1 className="text-3xl sm:text-4xl font-bold">Datenschutzerklärung</h1>
+        </div>
+      </section>
 
-        <p className="mb-4 text-lg">
-          <strong>berufsgenie.de</strong> ist eine Marke der Butterflies IT UG (haftungsbeschränkt).
-        </p>
+      <div className="max-w-3xl mx-auto px-4 py-12">
+        <div className="bg-white rounded-2xl border border-stone-100 p-8 sm:p-12 warm-card">
+          <p className="mb-6 text-lg text-stone-700">
+            <strong className="text-stone-900">berufsgenie.de</strong> ist eine Marke der Butterflies IT UG (haftungsbeschränkt).
+          </p>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">1. Verantwortlicher</h2>
-        <p>
-          Butterflies IT UG (haftungsbeschränkt)<br />
-          Vertreten durch: Andreas Mali<br />
-          Hagenower Str. 73, 19061 Schwerin<br />
-          E-Mail: <a href="mailto:kontakt@berufsgenie.de" className="text-violet-600 hover:underline">kontakt@berufsgenie.de</a>
-        </p>
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            1. Verantwortlicher
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">2. Übersicht der Verarbeitungen</h2>
-        <p>
-          Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung
-          zusammen und verweist auf die betroffenen Personen.
-        </p>
-        <p className="mt-2">
-          <strong>Arten der verarbeiteten Daten:</strong>
-        </p>
-        <ul className="list-disc list-inside mb-4 mt-1">
-          <li>Bestandsdaten (z.B. Namen, Adressen, Geburtsdatum)</li>
-          <li>Inhaltsdaten (z.B. Profilinformationen, Videos, Chat-Nachrichten)</li>
-          <li>Kontaktdaten (z.B. E-Mail-Adressen)</li>
-          <li>Standortdaten (z.B. PLZ, Stadt für regionale Suche)</li>
-          <li>Meta-/Kommunikationsdaten (z.B. IP-Adressen)</li>
-          <li>Nutzungsdaten (z.B. besuchte Seiten, Swipe-Verhalten, Zugriffszeit)</li>
-          <li>Zahlungsdaten (z.B. bei Stripe-Transaktionen, nur für Betriebe)</li>
-        </ul>
-        <p>
-          <strong>Kategorien betroffener Personen:</strong> Jobsuchende Nutzer, Arbeitgeber, Interessenten.
-        </p>
-        <p className="mt-2">
-          <strong>Zwecke der Verarbeitung:</strong>
-        </p>
-        <ul className="list-disc list-inside mb-4 mt-1">
-          <li>Erbringung der Matching-Plattform und Kundenservice</li>
-          <li>Bereitstellung des Video-Feeds und Matching-Systems</li>
-          <li>Chat-Kommunikation zwischen gematchten Nutzern und Betrieben</li>
-          <li>KI-gestützte Berufsempfehlungen</li>
-          <li>Kontaktanfragen und Kommunikation</li>
-          <li>Sicherheitsmaßnahmen und Jugendschutz</li>
-        </ul>
+          <div className="text-stone-700">
+            <p>
+              Butterflies IT UG (haftungsbeschränkt)<br />
+              Vertreten durch: Andreas Mali<br />
+              Hagenower Str. 73, 19061 Schwerin<br />
+              E-Mail: <a href="mailto:kontakt@berufsgenie.de" className="text-amber-600 hover:underline">kontakt@berufsgenie.de</a>
+            </p>
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">3. Rechtsgrundlagen</h2>
-        <p>
-          Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir
-          personenbezogene Daten verarbeiten:
-        </p>
-        <ul className="list-disc list-inside mb-4 mt-2">
-          <li><strong>Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO)</strong> – Die betroffene Person hat ihre Einwilligung gegeben.</li>
-          <li><strong>Vertragserfüllung (Art. 6 Abs. 1 S. 1 lit. b DSGVO)</strong> – Verarbeitung ist für die Erfüllung eines Vertrags erforderlich.</li>
-          <li><strong>Rechtliche Verpflichtung (Art. 6 Abs. 1 S. 1 lit. c DSGVO)</strong> – Verarbeitung ist zur Erfüllung einer rechtlichen Verpflichtung erforderlich.</li>
-          <li><strong>Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)</strong> – Verarbeitung ist zur Wahrung berechtigter Interessen erforderlich.</li>
-        </ul>
-        <p>
-          <strong>Besonderer Hinweis zu minderjährigen Nutzern:</strong> Bei Nutzern unter 16 Jahren ist die
-          Einwilligung der Erziehungsberechtigten gemäß Art. 8 DSGVO erforderlich. Wir fordern diese
-          Einwilligung bei der Registrierung ein.
-        </p>
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            2. Übersicht der Verarbeitungen
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">4. Sicherheitsmaßnahmen</h2>
-        <p>
-          Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik,
-          der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung
-          sowie der unterschiedlichen Eintrittswahrscheinlichkeit und Schwere des Risikos für die Rechte und
-          Freiheiten natürlicher Personen geeignete technische und organisatorische Maßnahmen, um ein dem
-          Risiko angemessenes Schutzniveau zu gewährleisten.
-        </p>
-        <p className="mt-2">
-          Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit
-          von Daten durch Kontrolle des physischen Zugangs zu den Daten, als auch des sie betreffenden Zugriffs,
-          der Eingabe, Weitergabe, der Sicherung der Verfügbarkeit und ihrer Trennung. Die personenbezogenen
-          Daten werden über eine SSL-verschlüsselte Verbindung übertragen. Passwörter werden ausschließlich
-          verschlüsselt (gehasht) gespeichert.
-        </p>
+          <div className="space-y-4 text-stone-700">
+            <p>
+              Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung
+              zusammen und verweist auf die betroffenen Personen.
+            </p>
+            <p>
+              <strong className="text-stone-900">Arten der verarbeiteten Daten:</strong>
+            </p>
+            <ul className="list-disc list-inside mb-4 mt-1 space-y-1">
+              <li>Bestandsdaten (z.B. Namen, Adressen, Geburtsdatum)</li>
+              <li>Inhaltsdaten (z.B. Profilinformationen, Videos, Chat-Nachrichten)</li>
+              <li>Kontaktdaten (z.B. E-Mail-Adressen)</li>
+              <li>Standortdaten (z.B. PLZ, Stadt für regionale Suche)</li>
+              <li>Meta-/Kommunikationsdaten (z.B. IP-Adressen)</li>
+              <li>Nutzungsdaten (z.B. besuchte Seiten, Swipe-Verhalten, Zugriffszeit)</li>
+              <li>Zahlungsdaten (z.B. bei PayPal-Transaktionen, nur für Betriebe)</li>
+            </ul>
+            <p>
+              <strong className="text-stone-900">Kategorien betroffener Personen:</strong> Jobsuchende Nutzer, Arbeitgeber, Interessenten.
+            </p>
+            <p>
+              <strong className="text-stone-900">Zwecke der Verarbeitung:</strong>
+            </p>
+            <ul className="list-disc list-inside mb-4 mt-1 space-y-1">
+              <li>Erbringung der Matching-Plattform und Kundenservice</li>
+              <li>Bereitstellung des Video-Feeds und Matching-Systems</li>
+              <li>Chat-Kommunikation zwischen gematchten Nutzern und Betrieben</li>
+              <li>KI-gestützte Berufsempfehlungen</li>
+              <li>Kontaktanfragen und Kommunikation</li>
+              <li>Sicherheitsmaßnahmen und Jugendschutz</li>
+            </ul>
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">5. Datenverarbeitung bei Registrierung und Nutzung</h2>
-        <p>
-          <strong>Für Jugendliche (Azubi-Suchende):</strong><br />
-          Bei der Registrierung werden folgende Daten erhoben: E-Mail-Adresse, Passwort (verschlüsselt gespeichert),
-          Geburtsdatum, Standort (PLZ/Stadt). Optional: Name, Interessen, Stärken, bevorzugte Berufsfelder,
-          Profilbild/Video.
-        </p>
-        <p className="mt-2">
-          <strong>Für Betriebe:</strong><br />
-          Firmenname, Ansprechpartner, E-Mail-Adresse, Passwort (verschlüsselt), Firmenadresse,
-          Branche, Logo. Optional: Beschreibungstexte, Videos von Azubis, Stellenanzeigen.
-        </p>
-        <p className="mt-2">
-          <strong>Zweck:</strong> Bereitstellung des Benutzerkontos, Matching zwischen Jugendlichen und Betrieben,
-          Anzeige im Video-Feed, Chat-Kommunikation nach erfolgtem Match.
-        </p>
-        <p className="mt-2">
-          <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).
-        </p>
-        <p className="mt-2">
-          <strong>Speicherdauer:</strong> Bis zur Löschung des Kontos durch den Nutzer oder auf Anfrage.
-        </p>
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            3. Rechtsgrundlagen
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">6. Video-Inhalte</h2>
-        <p>
-          Betriebe können Kurzvideos (30-90 Sekunden) hochladen, die echte Azubis bei der Arbeit zeigen.
-          Diese Videos werden auf unseren Servern gespeichert und im Feed der jugendlichen Nutzer angezeigt.
-          Videos werden vor der Veröffentlichung auf Qualitäts- und Jugendschutzkriterien geprüft.
-        </p>
-        <p className="mt-2">
-          <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung) und Art. 6 Abs. 1 lit. a DSGVO
-          (Einwilligung der im Video gezeigten Personen).
-        </p>
+          <div className="space-y-4 text-stone-700">
+            <p>
+              Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir
+              personenbezogene Daten verarbeiten:
+            </p>
+            <ul className="list-disc list-inside mb-4 mt-2 space-y-1">
+              <li><strong className="text-stone-900">Einwilligung (Art. 6 Abs. 1 S. 1 lit. a DSGVO)</strong> - Die betroffene Person hat ihre Einwilligung gegeben.</li>
+              <li><strong className="text-stone-900">Vertragserfüllung (Art. 6 Abs. 1 S. 1 lit. b DSGVO)</strong> - Verarbeitung ist für die Erfüllung eines Vertrags erforderlich.</li>
+              <li><strong className="text-stone-900">Rechtliche Verpflichtung (Art. 6 Abs. 1 S. 1 lit. c DSGVO)</strong> - Verarbeitung ist zur Erfüllung einer rechtlichen Verpflichtung erforderlich.</li>
+              <li><strong className="text-stone-900">Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f DSGVO)</strong> - Verarbeitung ist zur Wahrung berechtigter Interessen erforderlich.</li>
+            </ul>
+            <p>
+              <strong className="text-stone-900">Besonderer Hinweis zu minderjährigen Nutzern:</strong> Bei Nutzern unter 16 Jahren ist die
+              Einwilligung der Erziehungsberechtigten gemäß Art. 8 DSGVO erforderlich. Wir fordern diese
+              Einwilligung bei der Registrierung ein.
+            </p>
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">7. Matching und Swipe-Daten</h2>
-        <p>
-          Wir speichern Swipe-Entscheidungen (Like/Pass) und daraus resultierende Matches, um die
-          Kernfunktionalität der Plattform bereitzustellen. Diese Daten werden zur Verbesserung
-          der Empfehlungen verwendet.
-        </p>
-        <p className="mt-2">
-          <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).
-        </p>
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            4. Sicherheitsmaßnahmen
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">8. KI-Berufsfinder</h2>
-        <p>
-          Unser KI-gestützter Berufsfinder stellt Nutzern Fragen zu Interessen und Stärken und
-          schlägt passende Berufe vor. Die Eingaben werden zur Erstellung der Empfehlung
-          verarbeitet und im Nutzerkonto gespeichert.
-        </p>
-        <p className="mt-2">
-          <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO (Einwilligung) und Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).
-        </p>
-        <p className="mt-2">
-          Es findet keine automatisierte Entscheidungsfindung im Sinne des Art. 22 DSGVO statt.
-          Die KI gibt lediglich unverbindliche Empfehlungen.
-        </p>
+          <div className="space-y-4 text-stone-700">
+            <p>
+              Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik,
+              der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung
+              sowie der unterschiedlichen Eintrittswahrscheinlichkeit und Schwere des Risikos für die Rechte und
+              Freiheiten natürlicher Personen geeignete technische und organisatorische Maßnahmen, um ein dem
+              Risiko angemessenes Schutzniveau zu gewährleisten.
+            </p>
+            <p>
+              Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit
+              von Daten durch Kontrolle des physischen Zugangs zu den Daten, als auch des sie betreffenden Zugriffs,
+              der Eingabe, Weitergabe, der Sicherung der Verfügbarkeit und ihrer Trennung. Die personenbezogenen
+              Daten werden über eine SSL-verschlüsselte Verbindung übertragen. Passwörter werden ausschließlich
+              verschlüsselt (gehasht) gespeichert.
+            </p>
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">9. Zahlungsabwicklung</h2>
-        <p>
-          Die Zahlungsabwicklung für Betriebe-Abonnements erfolgt über Stripe. Bei Nutzung von Stripe werden
-          Zahlungsdaten direkt an Stripe übermittelt. Es gelten die{' '}
-          <a href="https://stripe.com/de/privacy" target="_blank" rel="noopener noreferrer" className="text-violet-600 hover:underline">
-            Datenschutzbestimmungen von Stripe
-          </a>.
-          Für jugendliche Nutzer ist die Plattform kostenlos; es werden keine Zahlungsdaten erhoben.
-        </p>
-        <p className="mt-2">
-          <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).
-        </p>
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            5. Datenverarbeitung bei Registrierung und Nutzung
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">10. Kontaktformular und E-Mail-Kontakt</h2>
-        <p>
-          Bei Nutzung des Kontaktformulars werden Ihre Daten (Name, E-Mail, Nachricht) ausschließlich zur
-          Bearbeitung Ihrer Anfrage verarbeitet.
-        </p>
-        <p className="mt-2">
-          <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bearbeitung von Anfragen).
-        </p>
-        <p className="mt-2">
-          <strong>Speicherdauer:</strong> Anfragen werden nach Abschluss der Bearbeitung gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.
-        </p>
+          <div className="space-y-4 text-stone-700">
+            <p>
+              <strong className="text-stone-900">Für Jugendliche (Azubi-Suchende):</strong><br />
+              Bei der Registrierung werden folgende Daten erhoben: E-Mail-Adresse, Passwort (verschlüsselt gespeichert),
+              Geburtsdatum, Standort (PLZ/Stadt). Optional: Name, Interessen, Stärken, bevorzugte Berufsfelder,
+              Profilbild/Video.
+            </p>
+            <p>
+              <strong className="text-stone-900">Für Betriebe:</strong><br />
+              Firmenname, Ansprechpartner, E-Mail-Adresse, Passwort (verschlüsselt), Firmenadresse,
+              Branche, Logo. Optional: Beschreibungstexte, Videos von Azubis, Stellenanzeigen.
+            </p>
+            <p>
+              <strong className="text-stone-900">Zweck:</strong> Bereitstellung des Benutzerkontos, Matching zwischen Jugendlichen und Betrieben,
+              Anzeige im Video-Feed, Chat-Kommunikation nach erfolgtem Match.
+            </p>
+            <p>
+              <strong className="text-stone-900">Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).
+            </p>
+            <p>
+              <strong className="text-stone-900">Speicherdauer:</strong> Bis zur Löschung des Kontos durch den Nutzer oder auf Anfrage.
+            </p>
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">11. Hosting und Serverlogfiles</h2>
-        <p>
-          Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten,
-          die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann
-          es sich v.a. um IP-Adressen, Meta- und Kommunikationsdaten, Websitezugriffe und sonstige Daten handeln.
-        </p>
-        <p className="mt-2">
-          Der Einsatz des Hosters erfolgt zum Zweck der Vertragserfüllung gegenüber unseren potenziellen und
-          bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und
-          effizienten Bereitstellung unseres Online-Angebots (Art. 6 Abs. 1 lit. f DSGVO).
-        </p>
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            6. Video-Inhalte
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">12. Cookies</h2>
-        <p>
-          Wir setzen technisch notwendige Cookies ein, um die Funktionalität der Website zu gewährleisten
-          (z.B. Session-Cookies für den Login-Bereich, JWT-Tokens für die Authentifizierung).
-        </p>
-        <p className="mt-2">
-          <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse).
-        </p>
-        <p className="mt-2">
-          Tracking-Cookies oder Marketing-Cookies werden nur mit ausdrücklicher Einwilligung gesetzt.
-        </p>
+          <div className="space-y-4 text-stone-700">
+            <p>
+              Betriebe können Kurzvideos (30-90 Sekunden) hochladen, die echte Azubis bei der Arbeit zeigen.
+              Diese Videos werden auf unseren Servern gespeichert und im Feed der jugendlichen Nutzer angezeigt.
+              Videos werden vor der Veröffentlichung auf Qualitäts- und Jugendschutzkriterien geprüft.
+            </p>
+            <p>
+              <strong className="text-stone-900">Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung) und Art. 6 Abs. 1 lit. a DSGVO
+              (Einwilligung der im Video gezeigten Personen).
+            </p>
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">13. Ihre Rechte als betroffene Person</h2>
-        <p>Ihnen stehen folgende Rechte zu:</p>
-        <ul className="list-disc list-inside mb-4 mt-2">
-          <li><strong>Auskunftsrecht (Art. 15 DSGVO):</strong> Sie haben das Recht, Auskunft über Ihre gespeicherten Daten zu erhalten.</li>
-          <li><strong>Berichtigungsrecht (Art. 16 DSGVO):</strong> Sie haben das Recht auf Berichtigung unrichtiger Daten.</li>
-          <li><strong>Löschungsrecht (Art. 17 DSGVO):</strong> Sie haben das Recht auf Löschung Ihrer Daten (&bdquo;Recht auf Vergessenwerden&ldquo;).</li>
-          <li><strong>Einschränkung der Verarbeitung (Art. 18 DSGVO):</strong> Sie haben das Recht, die Einschränkung der Verarbeitung zu verlangen.</li>
-          <li><strong>Datenübertragbarkeit (Art. 20 DSGVO):</strong> Sie haben das Recht, Ihre Daten in einem gängigen Format zu erhalten.</li>
-          <li><strong>Widerspruchsrecht (Art. 21 DSGVO):</strong> Sie haben das Recht, der Verarbeitung zu widersprechen.</li>
-          <li><strong>Widerruf der Einwilligung (Art. 7 Abs. 3 DSGVO):</strong> Sie haben das Recht, erteilte Einwilligungen jederzeit zu widerrufen.</li>
-          <li><strong>Beschwerderecht (Art. 77 DSGVO):</strong> Sie haben das Recht, sich bei einer Aufsichtsbehörde zu beschweren.</li>
-        </ul>
-        <p>
-          Zuständige Aufsichtsbehörde für Mecklenburg-Vorpommern:<br />
-          Der Landesbeauftragte für Datenschutz und Informationsfreiheit Mecklenburg-Vorpommern<br />
-          Werderstraße 74a, 19055 Schwerin<br />
-          <a href="https://www.datenschutz-mv.de" target="_blank" rel="noopener noreferrer" className="text-violet-600 hover:underline">www.datenschutz-mv.de</a>
-        </p>
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            7. Matching und Swipe-Daten
+          </div>
 
-        <h2 className="text-xl font-semibold mt-8 mb-2">14. Änderung dieser Datenschutzerklärung</h2>
-        <p>
-          Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen
-          Anforderungen entspricht oder um Änderungen unserer Leistungen umzusetzen. Für Ihren erneuten Besuch
-          gilt dann die neue Datenschutzerklärung.
-        </p>
+          <div className="space-y-4 text-stone-700">
+            <p>
+              Wir speichern Swipe-Entscheidungen (Like/Pass) und daraus resultierende Matches, um die
+              Kernfunktionalität der Plattform bereitzustellen. Diese Daten werden zur Verbesserung
+              der Empfehlungen verwendet.
+            </p>
+            <p>
+              <strong className="text-stone-900">Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).
+            </p>
+          </div>
 
-        <p className="mt-8 text-sm text-gray-500">Stand: Februar 2026</p>
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            8. KI-Berufsfinder
+          </div>
+
+          <div className="space-y-4 text-stone-700">
+            <p>
+              Unser KI-gestützter Berufsfinder stellt Nutzern Fragen zu Interessen und Stärken und
+              schlägt passende Berufe vor. Die Eingaben werden zur Erstellung der Empfehlung
+              verarbeitet und im Nutzerkonto gespeichert.
+            </p>
+            <p>
+              <strong className="text-stone-900">Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO (Einwilligung) und Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).
+            </p>
+            <p>
+              Es findet keine automatisierte Entscheidungsfindung im Sinne des Art. 22 DSGVO statt.
+              Die KI gibt lediglich unverbindliche Empfehlungen.
+            </p>
+          </div>
+
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            9. Zahlungsabwicklung
+          </div>
+
+          <div className="space-y-4 text-stone-700">
+            <p>
+              Die Zahlungsabwicklung für Betriebe-Abonnements erfolgt über PayPal. Bei Nutzung von PayPal werden
+              Zahlungsdaten direkt an PayPal übermittelt. Es gelten die{' '}
+              <a href="https://www.paypal.com/de/legalhub/privacy-full" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline">
+                Datenschutzbestimmungen von PayPal
+              </a>.
+              Für jugendliche Nutzer ist die Plattform kostenlos; es werden keine Zahlungsdaten erhoben.
+            </p>
+            <p>
+              <strong className="text-stone-900">Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).
+            </p>
+          </div>
+
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            10. Kontaktformular und E-Mail-Kontakt
+          </div>
+
+          <div className="space-y-4 text-stone-700">
+            <p>
+              Bei Nutzung des Kontaktformulars werden Ihre Daten (Name, E-Mail, Nachricht) ausschließlich zur
+              Bearbeitung Ihrer Anfrage verarbeitet.
+            </p>
+            <p>
+              <strong className="text-stone-900">Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bearbeitung von Anfragen).
+            </p>
+            <p>
+              <strong className="text-stone-900">Speicherdauer:</strong> Anfragen werden nach Abschluss der Bearbeitung gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.
+            </p>
+          </div>
+
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            11. Hosting und Serverlogfiles
+          </div>
+
+          <div className="space-y-4 text-stone-700">
+            <p>
+              Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten,
+              die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann
+              es sich v.a. um IP-Adressen, Meta- und Kommunikationsdaten, Websitezugriffe und sonstige Daten handeln.
+            </p>
+            <p>
+              Der Einsatz des Hosters erfolgt zum Zweck der Vertragserfüllung gegenüber unseren potenziellen und
+              bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und
+              effizienten Bereitstellung unseres Online-Angebots (Art. 6 Abs. 1 lit. f DSGVO).
+            </p>
+          </div>
+
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            12. Cookies
+          </div>
+
+          <div className="space-y-4 text-stone-700">
+            <p>
+              Wir setzen technisch notwendige Cookies ein, um die Funktionalität der Website zu gewährleisten
+              (z.B. Session-Cookies für den Login-Bereich, JWT-Tokens für die Authentifizierung).
+            </p>
+            <p>
+              <strong className="text-stone-900">Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse).
+            </p>
+            <p>
+              Tracking-Cookies oder Marketing-Cookies werden nur mit ausdrücklicher Einwilligung gesetzt.
+            </p>
+          </div>
+
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            13. Ihre Rechte als betroffene Person
+          </div>
+
+          <div className="space-y-4 text-stone-700">
+            <p>Ihnen stehen folgende Rechte zu:</p>
+            <ul className="list-disc list-inside mb-4 mt-2 space-y-1">
+              <li><strong className="text-stone-900">Auskunftsrecht (Art. 15 DSGVO):</strong> Sie haben das Recht, Auskunft über Ihre gespeicherten Daten zu erhalten.</li>
+              <li><strong className="text-stone-900">Berichtigungsrecht (Art. 16 DSGVO):</strong> Sie haben das Recht auf Berichtigung unrichtiger Daten.</li>
+              <li><strong className="text-stone-900">Löschungsrecht (Art. 17 DSGVO):</strong> Sie haben das Recht auf Löschung Ihrer Daten (&bdquo;Recht auf Vergessenwerden&ldquo;).</li>
+              <li><strong className="text-stone-900">Einschränkung der Verarbeitung (Art. 18 DSGVO):</strong> Sie haben das Recht, die Einschränkung der Verarbeitung zu verlangen.</li>
+              <li><strong className="text-stone-900">Datenübertragbarkeit (Art. 20 DSGVO):</strong> Sie haben das Recht, Ihre Daten in einem gängigen Format zu erhalten.</li>
+              <li><strong className="text-stone-900">Widerspruchsrecht (Art. 21 DSGVO):</strong> Sie haben das Recht, der Verarbeitung zu widersprechen.</li>
+              <li><strong className="text-stone-900">Widerruf der Einwilligung (Art. 7 Abs. 3 DSGVO):</strong> Sie haben das Recht, erteilte Einwilligungen jederzeit zu widerrufen.</li>
+              <li><strong className="text-stone-900">Beschwerderecht (Art. 77 DSGVO):</strong> Sie haben das Recht, sich bei einer Aufsichtsbehörde zu beschweren.</li>
+            </ul>
+            <p>
+              Zuständige Aufsichtsbehörde für Mecklenburg-Vorpommern:<br />
+              Der Landesbeauftragte für Datenschutz und Informationsfreiheit Mecklenburg-Vorpommern<br />
+              Werderstraße 74a, 19055 Schwerin<br />
+              <a href="https://www.datenschutz-mv.de" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline">www.datenschutz-mv.de</a>
+            </p>
+          </div>
+
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            14. Änderung dieser Datenschutzerklärung
+          </div>
+
+          <p className="text-stone-700">
+            Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen
+            Anforderungen entspricht oder um Änderungen unserer Leistungen umzusetzen. Für Ihren erneuten Besuch
+            gilt dann die neue Datenschutzerklärung.
+          </p>
+
+          <p className="mt-10 text-sm text-stone-500 border-t border-stone-100 pt-6">Stand: Februar 2026</p>
+        </div>
       </div>
 
       <Footer />

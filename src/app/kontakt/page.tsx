@@ -9,7 +9,7 @@ import {
   ArrowRight,
   HelpCircle,
   ExternalLink,
-  Sparkles,
+  Compass,
   Shield,
   Globe,
   Users,
@@ -57,7 +57,7 @@ const faqItems = [
   {
     question: 'Wie kann ich mein Unternehmen auf Berufsgenie registrieren?',
     answer:
-      'Ganz einfach: Besuche dashboard.berufsgenie.de und klicke auf "Registrieren". In nur 2 Schritten legst du dein Firmenprofil und Benutzerkonto an. Danach kannst du sofort Stellenanzeigen erstellen und Videos hochladen. Der Start ist kostenlos!',
+      'Ganz einfach: Besuche dashboard.ausbildungsgenie.de und klicke auf "Registrieren". In nur 2 Schritten legst du dein Firmenprofil und Benutzerkonto an. Danach kannst du sofort Stellenanzeigen erstellen und Videos hochladen. Der Start ist kostenlos!',
   },
   {
     question: 'Bietet ihr Schulungen oder Demos für Betriebe an?',
@@ -141,7 +141,7 @@ const jsonLdWebPage = {
 
 export default function KontaktPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#FFFBF5]">
       <Header />
 
       {/* JSON-LD */}
@@ -159,26 +159,27 @@ export default function KontaktPage() {
       />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-violet-600 via-purple-600 to-pink-600 text-white">
+      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-stone-900 text-white">
         <div className="max-w-5xl mx-auto text-center">
           {/* Breadcrumb */}
-          <nav className="flex items-center justify-center gap-2 text-sm text-white/70 mb-8">
+          <nav className="flex items-center justify-center gap-2 text-sm text-stone-400 mb-8">
             <Link href="/" className="hover:text-white transition-colors">
               Startseite
             </Link>
             <ChevronRight className="h-4 w-4" />
-            <span className="text-white font-medium">Kontakt</span>
+            <span className="text-amber-400 font-medium">Kontakt</span>
           </nav>
 
-          <div className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-4 py-1.5 text-sm mb-8">
-            <Mail className="h-4 w-4" />
-            <span>Wir sind für dich da</span>
+          <div className="inline-flex items-center gap-2 rounded-full bg-amber-500/15 backdrop-blur px-4 py-1.5 text-sm mb-8 border border-amber-500/20">
+            <Mail className="h-4 w-4 text-amber-400" />
+            <span className="text-amber-200">Wir sind für dich da</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-            Kontaktiere uns
+            <span className="text-white">Kontaktiere </span>
+            <span className="gradient-text-warm">uns</span>
           </h1>
-          <p className="mt-6 text-xl text-white/80 max-w-2xl mx-auto">
+          <p className="mt-6 text-xl text-stone-400 max-w-2xl mx-auto">
             Hast du Fragen, Feedback oder brauchst Hilfe? Unser Team antwortet in der Regel innerhalb von 24 Stunden.
           </p>
         </div>
@@ -191,49 +192,49 @@ export default function KontaktPage() {
             {/* Zum Formular */}
             <a
               href="#kontaktformular"
-              className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-shadow block"
+              className="bg-white rounded-2xl p-8 shadow-lg border border-stone-100 text-center hover:shadow-xl transition-shadow block warm-card"
             >
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-violet-100 text-violet-600 mb-5">
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-amber-100 text-amber-600 mb-5">
                 <ScrollText className="h-7 w-7" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-2">Kontaktformular</h3>
-              <p className="text-gray-600">
+              <h3 className="text-lg font-bold text-stone-900 mb-2">Kontaktformular</h3>
+              <p className="text-stone-600">
                 Schreibe uns direkt über unser Formular. Wir melden uns schnellstmöglich zurück.
               </p>
-              <span className="inline-flex items-center gap-1 text-violet-600 font-medium mt-3 text-sm">
+              <span className="inline-flex items-center gap-1 text-amber-600 font-medium mt-3 text-sm">
                 Zum Formular
                 <ChevronRight className="h-4 w-4" />
               </span>
             </a>
 
             {/* Email */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-shadow">
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-pink-100 text-pink-600 mb-5">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-stone-100 text-center hover:shadow-xl transition-shadow warm-card">
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-orange-100 text-orange-600 mb-5">
                 <Mail className="h-7 w-7" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-2">E-Mail</h3>
+              <h3 className="text-lg font-bold text-stone-900 mb-2">E-Mail</h3>
               <a
                 href="mailto:kontakt@berufsgenie.de"
-                className="text-violet-600 hover:text-violet-700 font-medium transition-colors block"
+                className="text-amber-600 hover:text-amber-700 font-medium transition-colors block"
               >
                 kontakt@berufsgenie.de
               </a>
-              <p className="text-sm text-gray-500 mt-2">Für alle Anfragen</p>
+              <p className="text-sm text-stone-500 mt-2">Für alle Anfragen</p>
             </div>
 
             {/* Antwortzeit */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-stone-100 text-center hover:shadow-xl transition-shadow warm-card">
               <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-amber-100 text-amber-600 mb-5">
                 <Clock className="h-7 w-7" />
               </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-2">Antwortzeiten</h3>
-              <p className="text-gray-600">
-                <span className="font-medium text-gray-900">E-Mail:</span>
+              <h3 className="text-lg font-bold text-stone-900 mb-2">Antwortzeiten</h3>
+              <p className="text-stone-600">
+                <span className="font-medium text-stone-900">E-Mail:</span>
                 <br />
                 Innerhalb von 24 Stunden
               </p>
-              <p className="text-gray-600 mt-3">
-                <span className="font-medium text-gray-900">Premium Support:</span>
+              <p className="text-stone-600 mt-3">
+                <span className="font-medium text-stone-900">Premium Support:</span>
                 <br />
                 Innerhalb von 4 Stunden
               </p>
@@ -254,8 +255,8 @@ export default function KontaktPage() {
             {/* Side Info */}
             <div className="lg:col-span-2 space-y-8">
               {/* Für wen */}
-              <div className="bg-gradient-to-br from-violet-50 to-pink-50 rounded-2xl p-8 border border-violet-100">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">Wie können wir helfen?</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-100">
+                <h3 className="text-lg font-bold text-stone-900 mb-4">Wie können wir helfen?</h3>
                 <ul className="space-y-4">
                   {[
                     {
@@ -280,12 +281,12 @@ export default function KontaktPage() {
                     },
                   ].map((item) => (
                     <li key={item.title} className="flex items-start gap-3">
-                      <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-white text-violet-600 flex-shrink-0 mt-0.5 shadow-sm">
+                      <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-white text-amber-600 flex-shrink-0 mt-0.5 shadow-sm">
                         <item.icon className="h-5 w-5" />
                       </div>
                       <div>
-                        <p className="font-semibold text-gray-900 text-sm">{item.title}</p>
-                        <p className="text-sm text-gray-600">{item.description}</p>
+                        <p className="font-semibold text-stone-900 text-sm">{item.title}</p>
+                        <p className="text-sm text-stone-600">{item.description}</p>
                       </div>
                     </li>
                   ))}
@@ -293,55 +294,55 @@ export default function KontaktPage() {
               </div>
 
               {/* Quick Links */}
-              <div className="bg-white rounded-2xl p-8 border border-gray-200">
-                <h3 className="text-lg font-bold text-gray-900 mb-4">Schnell-Links</h3>
+              <div className="bg-white rounded-2xl p-8 border border-stone-100 warm-card">
+                <h3 className="text-lg font-bold text-stone-900 mb-4">Schnell-Links</h3>
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="https://dashboard.berufsgenie.de/login"
-                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-violet-600 transition-colors group"
+                      href="https://dashboard.ausbildungsgenie.de/login"
+                      className="flex items-center gap-3 text-sm text-stone-700 hover:text-amber-600 transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-violet-50 flex items-center justify-center group-hover:bg-violet-100 transition-colors">
-                        <Building2 className="h-4 w-4 text-violet-600" />
+                      <div className="w-8 h-8 rounded-lg bg-amber-50 flex items-center justify-center group-hover:bg-amber-100 transition-colors">
+                        <Building2 className="h-4 w-4 text-amber-600" />
                       </div>
                       <span>Betriebe-Dashboard</span>
-                      <ExternalLink className="h-3.5 w-3.5 ml-auto text-gray-400" />
+                      <ExternalLink className="h-3.5 w-3.5 ml-auto text-stone-400" />
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="/preise"
-                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-violet-600 transition-colors group"
+                      className="flex items-center gap-3 text-sm text-stone-700 hover:text-amber-600 transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-violet-50 flex items-center justify-center group-hover:bg-violet-100 transition-colors">
-                        <Sparkles className="h-4 w-4 text-violet-600" />
+                      <div className="w-8 h-8 rounded-lg bg-amber-50 flex items-center justify-center group-hover:bg-amber-100 transition-colors">
+                        <Compass className="h-4 w-4 text-amber-600" />
                       </div>
                       <span>Preise & Pakete</span>
-                      <ChevronRight className="h-3.5 w-3.5 ml-auto text-gray-400" />
+                      <ChevronRight className="h-3.5 w-3.5 ml-auto text-stone-400" />
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="/impressum"
-                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-violet-600 transition-colors group"
+                      className="flex items-center gap-3 text-sm text-stone-700 hover:text-amber-600 transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-violet-50 flex items-center justify-center group-hover:bg-violet-100 transition-colors">
-                        <Shield className="h-4 w-4 text-violet-600" />
+                      <div className="w-8 h-8 rounded-lg bg-amber-50 flex items-center justify-center group-hover:bg-amber-100 transition-colors">
+                        <Shield className="h-4 w-4 text-amber-600" />
                       </div>
                       <span>Impressum</span>
-                      <ChevronRight className="h-3.5 w-3.5 ml-auto text-gray-400" />
+                      <ChevronRight className="h-3.5 w-3.5 ml-auto text-stone-400" />
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="/datenschutz"
-                      className="flex items-center gap-3 text-sm text-gray-700 hover:text-violet-600 transition-colors group"
+                      className="flex items-center gap-3 text-sm text-stone-700 hover:text-amber-600 transition-colors group"
                     >
-                      <div className="w-8 h-8 rounded-lg bg-violet-50 flex items-center justify-center group-hover:bg-violet-100 transition-colors">
-                        <Shield className="h-4 w-4 text-violet-600" />
+                      <div className="w-8 h-8 rounded-lg bg-amber-50 flex items-center justify-center group-hover:bg-amber-100 transition-colors">
+                        <Shield className="h-4 w-4 text-amber-600" />
                       </div>
                       <span>Datenschutzerklärung</span>
-                      <ChevronRight className="h-3.5 w-3.5 ml-auto text-gray-400" />
+                      <ChevronRight className="h-3.5 w-3.5 ml-auto text-stone-400" />
                     </Link>
                   </li>
                 </ul>
@@ -352,17 +353,17 @@ export default function KontaktPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-amber-50/50 to-[#FFFBF5]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 rounded-full bg-violet-50 px-4 py-1.5 text-sm text-violet-700 mb-4">
+            <div className="tag-pill mb-4 mx-auto w-fit">
               <HelpCircle className="h-4 w-4" />
               <span>Häufig gestellte Fragen</span>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+            <h2 className="text-3xl sm:text-4xl font-bold text-stone-900">
               Häufige Fragen
             </h2>
-            <p className="mt-4 text-lg text-gray-600">
+            <p className="mt-4 text-lg text-stone-600">
               Vielleicht findest du hier schon die Antwort auf deine Frage
             </p>
           </div>
@@ -371,15 +372,15 @@ export default function KontaktPage() {
             {faqItems.map((item, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow"
+                className="bg-white rounded-xl warm-card p-6"
               >
-                <h3 className="text-base font-semibold text-gray-900 mb-3 flex items-start gap-3">
-                  <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-violet-100 text-violet-700 text-xs font-bold flex-shrink-0 mt-0.5">
+                <h3 className="text-base font-semibold text-stone-900 mb-3 flex items-start gap-3">
+                  <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-amber-100 text-amber-700 text-xs font-bold flex-shrink-0 mt-0.5">
                     {index + 1}
                   </span>
                   <span>{item.question}</span>
                 </h3>
-                <p className="text-sm text-gray-600 leading-relaxed pl-9">{item.answer}</p>
+                <p className="text-sm text-stone-600 leading-relaxed pl-9">{item.answer}</p>
               </div>
             ))}
           </div>
@@ -391,45 +392,43 @@ export default function KontaktPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 mb-6">
                 Über{' '}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-pink-600">
-                  Berufsgenie
-                </span>
+                <span className="marker-highlight">Berufsgenie</span>
               </h2>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-lg text-stone-600 mb-6">
                 Berufsgenie ist eine Marke der Butterflies IT UG (haftungsbeschränkt) mit Sitz in Schwerin.
                 Unsere Mission: Die Jobsuche für junge Menschen so einfach und spaßig wie möglich machen - und gleichzeitig Betrieben helfen, die besten Jobsuchende zu finden.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <Building2 className="h-5 w-5 text-violet-600 mt-1 flex-shrink-0" />
+                  <Building2 className="h-5 w-5 text-amber-600 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-gray-900">Butterflies IT UG (haftungsbeschränkt)</p>
-                    <p className="text-gray-600 text-sm">Handelsregister: Amtsgericht Schwerin, HRB 12765</p>
+                    <p className="font-semibold text-stone-900">Butterflies IT UG (haftungsbeschränkt)</p>
+                    <p className="text-stone-600 text-sm">Handelsregister: Amtsgericht Schwerin, HRB 12765</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <MapPin className="h-5 w-5 text-violet-600 mt-1 flex-shrink-0" />
+                  <MapPin className="h-5 w-5 text-amber-600 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="text-gray-700">Hagenower Str. 73, 19061 Schwerin, Deutschland</p>
+                    <p className="text-stone-700">Hagenower Str. 73, 19061 Schwerin, Deutschland</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <Mail className="h-5 w-5 text-violet-600 mt-1 flex-shrink-0" />
+                  <Mail className="h-5 w-5 text-amber-600 mt-1 flex-shrink-0" />
                   <div>
                     <a
                       href="mailto:kontakt@berufsgenie.de"
-                      className="text-violet-600 hover:text-violet-700 font-medium transition-colors"
+                      className="text-amber-600 hover:text-amber-700 font-medium transition-colors"
                     >
                       kontakt@berufsgenie.de
                     </a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <Globe className="h-5 w-5 text-violet-600 mt-1 flex-shrink-0" />
+                  <Globe className="h-5 w-5 text-amber-600 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="text-gray-700">USt-IdNr.: DE301178757</p>
+                    <p className="text-stone-700">USt-IdNr.: DE301178757</p>
                   </div>
                 </div>
               </div>
@@ -437,23 +436,23 @@ export default function KontaktPage() {
               <div className="mt-8 flex gap-3">
                 <Link
                   href="/impressum"
-                  className="text-sm font-medium text-violet-600 hover:text-violet-700 transition-colors flex items-center gap-1"
+                  className="text-sm font-medium text-amber-600 hover:text-amber-700 transition-colors flex items-center gap-1"
                 >
                   Impressum
                   <ChevronRight className="h-4 w-4" />
                 </Link>
-                <span className="text-gray-300">|</span>
+                <span className="text-stone-300">|</span>
                 <Link
                   href="/datenschutz"
-                  className="text-sm font-medium text-violet-600 hover:text-violet-700 transition-colors flex items-center gap-1"
+                  className="text-sm font-medium text-amber-600 hover:text-amber-700 transition-colors flex items-center gap-1"
                 >
                   Datenschutz
                   <ChevronRight className="h-4 w-4" />
                 </Link>
-                <span className="text-gray-300">|</span>
+                <span className="text-stone-300">|</span>
                 <Link
                   href="/agb"
-                  className="text-sm font-medium text-violet-600 hover:text-violet-700 transition-colors flex items-center gap-1"
+                  className="text-sm font-medium text-amber-600 hover:text-amber-700 transition-colors flex items-center gap-1"
                 >
                   AGB
                   <ChevronRight className="h-4 w-4" />
@@ -462,9 +461,9 @@ export default function KontaktPage() {
             </div>
 
             {/* Social Media */}
-            <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-8 sm:p-12 text-white">
+            <div className="bg-stone-900 rounded-2xl p-8 sm:p-12 text-white">
               <h3 className="text-2xl font-bold mb-3">Folge uns</h3>
-              <p className="text-gray-400 mb-8">
+              <p className="text-stone-400 mb-8">
                 Bleib auf dem Laufenden und entdecke spannende Inhalte rund um Karriere, Karriere und Berufsorientierung.
               </p>
 
@@ -482,10 +481,10 @@ export default function KontaktPage() {
                     </svg>
                   </div>
                   <div className="flex-grow">
-                    <p className="font-semibold group-hover:text-violet-300 transition-colors">Instagram</p>
-                    <p className="text-sm text-gray-400">@berufsgenie</p>
+                    <p className="font-semibold group-hover:text-amber-400 transition-colors">Instagram</p>
+                    <p className="text-sm text-stone-400">@berufsgenie</p>
                   </div>
-                  <ExternalLink className="h-4 w-4 text-gray-500 group-hover:text-white transition-colors" />
+                  <ExternalLink className="h-4 w-4 text-stone-500 group-hover:text-white transition-colors" />
                 </a>
 
                 {/* TikTok */}
@@ -501,10 +500,10 @@ export default function KontaktPage() {
                     </svg>
                   </div>
                   <div className="flex-grow">
-                    <p className="font-semibold group-hover:text-violet-300 transition-colors">TikTok</p>
-                    <p className="text-sm text-gray-400">@berufsgenie</p>
+                    <p className="font-semibold group-hover:text-amber-400 transition-colors">TikTok</p>
+                    <p className="text-sm text-stone-400">@berufsgenie</p>
                   </div>
-                  <ExternalLink className="h-4 w-4 text-gray-500 group-hover:text-white transition-colors" />
+                  <ExternalLink className="h-4 w-4 text-stone-500 group-hover:text-white transition-colors" />
                 </a>
 
                 {/* YouTube */}
@@ -520,10 +519,10 @@ export default function KontaktPage() {
                     </svg>
                   </div>
                   <div className="flex-grow">
-                    <p className="font-semibold group-hover:text-violet-300 transition-colors">YouTube</p>
-                    <p className="text-sm text-gray-400">@berufsgenie</p>
+                    <p className="font-semibold group-hover:text-amber-400 transition-colors">YouTube</p>
+                    <p className="text-sm text-stone-400">@berufsgenie</p>
                   </div>
-                  <ExternalLink className="h-4 w-4 text-gray-500 group-hover:text-white transition-colors" />
+                  <ExternalLink className="h-4 w-4 text-stone-500 group-hover:text-white transition-colors" />
                 </a>
               </div>
             </div>
@@ -532,25 +531,25 @@ export default function KontaktPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-violet-600 to-pink-600">
+      <section className="py-20 bg-stone-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white">
             Bereit loszulegen?
           </h2>
-          <p className="mt-4 text-xl text-white/80 max-w-2xl mx-auto">
+          <p className="mt-4 text-xl text-stone-400 max-w-2xl mx-auto">
             Registriere deinen Betrieb jetzt kostenlos und erreiche motivierte Jobsuchende in deiner Region.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://dashboard.berufsgenie.de/login"
-              className="rounded-full bg-white px-8 py-3.5 text-base font-semibold text-violet-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+              href="https://dashboard.ausbildungsgenie.de/register"
+              className="rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-8 py-3.5 text-base font-semibold text-white hover:from-amber-400 hover:to-orange-500 transition-all flex items-center gap-2 shadow-lg shadow-amber-500/20"
             >
               <Building2 className="h-4 w-4" />
               Als Arbeitgeber registrieren
             </Link>
             <Link
               href="/preise"
-              className="rounded-full border-2 border-white/30 px-8 py-3.5 text-base font-medium text-white hover:bg-white/10 transition-colors flex items-center gap-2"
+              className="rounded-lg border-2 border-stone-700 px-8 py-3.5 text-base font-medium text-stone-300 hover:bg-stone-800 hover:text-white transition-colors flex items-center gap-2"
             >
               Preise ansehen
               <ArrowRight className="h-4 w-4" />

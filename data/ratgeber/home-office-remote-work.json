@@ -1,0 +1,36 @@
+{
+  "slug": "home-office-remote-work",
+  "title": "Home Office und Remote Work: Tipps für produktives Arbeiten von zu Hause",
+  "category": "Karriere",
+  "categorySlug": "karriere",
+  "description": "Remote Work ist gekommen, um zu bleiben. Erfahre, wie du im Home Office produktiv bleibst, die Work-Life-Balance hältst und typische Fehler vermeidest.",
+  "content": "<h2>Remote Work als neue Normalität</h2><p>Seit der Pandemie hat sich Remote Work in vielen Branchen als Standard etabliert. Laut aktuellen Studien arbeiten rund 25% der deutschen Arbeitnehmer regelmäßig im Home Office. Die Vorteile liegen auf der Hand: flexible Zeiteinteilung, kein Pendeln und eine bessere Work-Life-Balance. Doch Remote Work bringt auch Herausforderungen mit sich.</p><h2>Den Arbeitsplatz richtig einrichten</h2><p>Ein ergonomischer Arbeitsplatz ist essentiell für produktives Arbeiten. Investiere in einen guten Schreibtischstuhl, einen höhenverstellbaren Tisch und einen externen Monitor. Achte auf ausreichend Licht und eine ruhige Umgebung. Der Arbeitgeber muss sich an den Kosten beteiligen, wenn Home Office vertraglich vereinbart ist.</p><h2>Produktivität steigern</h2><p><strong>Feste Arbeitszeiten:</strong> Auch im Home Office solltest du klare Arbeitszeiten definieren. Starte und beende deinen Arbeitstag zu festen Zeiten. Das schafft Struktur und verhindert, dass Arbeit und Privatleben verschwimmen.</p><p><strong>Pausen einplanen:</strong> Regelmäßige Pausen sind wichtig für die Konzentration. Die Pomodoro-Technik (25 Minuten arbeiten, 5 Minuten Pause) kann helfen. Verlasse in der Mittagspause den Schreibtisch und geh an die frische Luft.</p><p><strong>Ablenkungen minimieren:</strong> Schalte Benachrichtigungen aus, nutze Noise-Cancelling-Kopfhörer und kommuniziere deiner Familie oder Mitbewohnern deine Arbeitszeiten.</p><h2>Kommunikation und Sichtbarkeit</h2><p>Im Remote Work ist proaktive Kommunikation entscheidend. Halte regelmäßig Kontakt zu deinem Team, nutze Video-Calls statt nur Chat, und informiere deinen Vorgesetzten über deine Fortschritte. Wer nicht gesehen wird, wird leicht vergessen – sorge für Sichtbarkeit.</p><h2>Rechtliche Rahmenbedingungen</h2><p>Es gibt in Deutschland kein generelles Recht auf Home Office. Die Arbeit von zu Hause muss im Arbeitsvertrag oder einer Betriebsvereinbarung geregelt sein. Auch im Home Office gelten das Arbeitszeitgesetz, der Unfallversicherungsschutz und die Datenschutzbestimmungen.</p><h2>Hybrides Arbeiten als Kompromiss</h2><p>Viele Unternehmen setzen auf hybride Modelle: 2-3 Tage Office, 2-3 Tage Home Office. Dieses Modell kombiniert die Vorteile beider Welten: persönlicher Austausch im Büro und konzentriertes Arbeiten zu Hause.</p>",
+  "keyPoints": [
+    "Richte einen ergonomischen Arbeitsplatz ein",
+    "Definiere feste Arbeitszeiten und halte sie ein",
+    "Plane regelmäßige Pausen ein (Pomodoro-Technik)",
+    "Kommuniziere proaktiv mit Team und Vorgesetzten",
+    "Trenne bewusst Arbeit und Privatleben",
+    "Hybrides Arbeiten als optimaler Kompromiss"
+  ],
+  "faqs": [
+    {
+      "question": "Habe ich ein Recht auf Home Office?",
+      "answer": "In Deutschland gibt es kein generelles Recht auf Home Office. Der Arbeitgeber kann es aber im Arbeitsvertrag, einer Betriebsvereinbarung oder auf freiwilliger Basis ermöglichen."
+    },
+    {
+      "question": "Wer zahlt die Ausstattung fürs Home Office?",
+      "answer": "Wenn Home Office vertraglich vereinbart ist, muss der Arbeitgeber die nötige Ausstattung bereitstellen oder sich an den Kosten beteiligen. Viele Unternehmen bieten eine Home-Office-Pauschale an."
+    },
+    {
+      "question": "Bin ich im Home Office unfallversichert?",
+      "answer": "Ja, seit 2021 gilt der gesetzliche Unfallversicherungsschutz auch im Home Office. Er umfasst Unfälle, die im Zusammenhang mit der versicherten Tätigkeit stehen."
+    },
+    {
+      "question": "Kann ich die Home-Office-Kosten von der Steuer absetzen?",
+      "answer": "Ja, seit 2023 gibt es die Home-Office-Pauschale von 6 Euro pro Tag (max. 1.260 Euro im Jahr). Alternativ können bei einem separaten Arbeitszimmer die tatsächlichen Kosten abgesetzt werden."
+    }
+  ],
+  "relatedSlugs": ["karriereplanung-guide", "arbeitsvertrag-pruefen"],
+  "publishDate": "2026-02-01"
+}

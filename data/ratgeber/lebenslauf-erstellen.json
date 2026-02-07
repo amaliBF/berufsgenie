@@ -1,0 +1,36 @@
+{
+  "slug": "lebenslauf-erstellen",
+  "title": "Lebenslauf erstellen: Aufbau, Inhalt und Tipps für 2026",
+  "category": "Bewerbung",
+  "categorySlug": "bewerbung",
+  "description": "Der perfekte Lebenslauf ist der Schlüssel zum Vorstellungsgespräch. Erfahre, wie du einen modernen, überzeugenden Lebenslauf erstellst, der Personaler begeistert.",
+  "content": "<h2>Der Lebenslauf – dein wichtigstes Bewerbungsdokument</h2><p>Der Lebenslauf ist das Herzstück jeder Bewerbung. Während das Anschreiben optional wird, ist der Lebenslauf unverzichtbar. Personaler scannen ihn in durchschnittlich 6-8 Sekunden – dein Lebenslauf muss also auf den ersten Blick überzeugen.</p><h2>Der tabellarische Lebenslauf: Standard in Deutschland</h2><p>In Deutschland hat sich der tabellarische Lebenslauf als Standard durchgesetzt. Er ist übersichtlich gegliedert und ermöglicht dem Leser, schnell die wichtigsten Informationen zu erfassen. Die Darstellung erfolgt antichronologisch – die aktuellste Station steht oben.</p><h2>Die wichtigsten Bestandteile</h2><p><strong>Persönliche Daten:</strong> Name, Adresse, Telefonnummer, E-Mail und optional ein professionelles Foto. Geburtsdatum, Familienstand und Nationalität sind seit dem AGG freiwillige Angaben.</p><p><strong>Berufserfahrung:</strong> Liste deine Stationen antichronologisch auf. Nenne Zeitraum, Unternehmen, Position und die wichtigsten Aufgaben und Erfolge in Stichpunkten.</p><p><strong>Ausbildung:</strong> Schulabschluss, Berufsausbildung, Studium – jeweils mit Zeitraum und Abschluss. Bei Berufseinsteigern steht die Ausbildung vor der Berufserfahrung.</p><p><strong>Kenntnisse und Fähigkeiten:</strong> Sprachkenntnisse mit Niveau (z.B. B2, C1), IT-Kenntnisse, Führerschein und relevante Zertifikate.</p><h2>Moderne Gestaltung</h2><p>Ein moderner Lebenslauf darf durchaus Design-Elemente enthalten, solange die Lesbarkeit gewährleistet ist. Nutze eine klare Schriftart wie Arial oder Calibri in Größe 10-12pt. Farbakzente sind erlaubt, aber dezent. Wichtig: Der Lebenslauf sollte maximal zwei Seiten umfassen.</p><h2>ATS-optimiert bewerben</h2><p>Viele Unternehmen nutzen Applicant Tracking Systems (ATS), die Lebensläufe automatisch scannen. Verwende daher Schlüsselwörter aus der Stellenanzeige, verzichte auf Tabellen und Spalten und speichere den Lebenslauf als PDF.</p><h2>Häufige Fehler vermeiden</h2><p>Die größten Fehler: Lücken im Lebenslauf nicht erklären, irrelevante Hobbys auflisten, unprofessionelle E-Mail-Adressen verwenden und den Lebenslauf nicht an die jeweilige Stelle anpassen. Jede Bewerbung verdient einen individuell angepassten Lebenslauf.</p>",
+  "keyPoints": [
+    "Tabellarisch und antichronologisch aufbauen",
+    "Maximal zwei Seiten, idealerweise eine",
+    "Persönliche Daten, Berufserfahrung, Ausbildung, Kenntnisse",
+    "Professionelles Bewerbungsfoto (optional aber empfohlen)",
+    "Für ATS-Systeme optimieren mit Schlüsselwörtern",
+    "Immer als PDF speichern und versenden"
+  ],
+  "faqs": [
+    {
+      "question": "Brauche ich ein Foto im Lebenslauf?",
+      "answer": "In Deutschland ist ein Foto seit dem AGG nicht mehr verpflichtend. Viele Arbeitgeber erwarten es aber noch. Ein professionelles Foto kann deine Chancen erhöhen."
+    },
+    {
+      "question": "Wie gehe ich mit Lücken im Lebenslauf um?",
+      "answer": "Ehrlichkeit ist wichtig. Erkläre Lücken positiv: Weiterbildung, Neuorientierung, Familienzeit oder ehrenamtliches Engagement. Lücken von wenigen Monaten sind unproblematisch."
+    },
+    {
+      "question": "Soll ich Hobbys im Lebenslauf nennen?",
+      "answer": "Nur wenn sie relevant für die Stelle sind oder besondere Soft Skills zeigen. Ehrenamt, Teamsport oder relevante Hobbys können einen positiven Eindruck machen."
+    },
+    {
+      "question": "Welches Format sollte der Lebenslauf haben?",
+      "answer": "Speichere deinen Lebenslauf immer als PDF. So bleibt die Formatierung erhalten und er kann von ATS-Systemen gescannt werden."
+    }
+  ],
+  "relatedSlugs": ["bewerbungsschreiben-tipps", "online-bewerbung-portal"],
+  "publishDate": "2026-02-01"
+}

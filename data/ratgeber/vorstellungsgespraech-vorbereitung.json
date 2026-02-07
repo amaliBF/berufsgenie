@@ -1,0 +1,33 @@
+{
+  "slug": "vorstellungsgespraech-vorbereitung",
+  "title": "Vorstellungsgespräch: Vorbereitung, Ablauf und typische Fragen",
+  "category": "Bewerbung",
+  "categorySlug": "bewerbung",
+  "description": "Mit der richtigen Vorbereitung meisterst du jedes Vorstellungsgespräch. Erfahre, welche Fragen kommen, wie du dich optimal vorbereitest und was du beachten solltest.",
+  "content": "<h2>Vorbereitung ist alles</h2><p>Ein Vorstellungsgespräch ist deine Chance, persönlich zu überzeugen. Mit der richtigen Vorbereitung gehst du selbstsicher in jedes Gespräch und kannst authentisch zeigen, warum du die perfekte Besetzung bist.</p><h2>Vor dem Gespräch</h2><p><strong>Unternehmen recherchieren:</strong> Kenne die Produkte, die Unternehmenskultur, aktuelle News und die Wettbewerber. Je mehr du weißt, desto besser kannst du im Gespräch glänzen.</p><p><strong>Stelle verstehen:</strong> Analysiere die Stellenanzeige genau. Welche Anforderungen werden gestellt? Bereite für jede Anforderung ein konkretes Beispiel aus deiner Erfahrung vor.</p><p><strong>Antworten vorbereiten:</strong> Übe Antworten auf Standardfragen, aber lerne sie nicht auswendig. Nutze die STAR-Methode (Situation, Task, Action, Result) für verhaltensbasierte Fragen.</p><h2>Typische Fragen und gute Antworten</h2><p><strong>„Erzählen Sie etwas über sich":</strong> Halte eine 2-Minuten-Zusammenfassung bereit, die deinen beruflichen Werdegang und deine Motivation für die Stelle skizziert.</p><p><strong>„Warum möchten Sie bei uns arbeiten?":</strong> Beziehe dich auf konkrete Aspekte des Unternehmens, die dich ansprechen – Produkte, Kultur, Wachstum.</p><p><strong>„Was sind Ihre Stärken?":</strong> Nenne 2-3 Stärken, die für die Stelle relevant sind, und belege jede mit einem konkreten Beispiel.</p><p><strong>„Wo sehen Sie sich in 5 Jahren?":</strong> Zeige Ambition, aber bleibe realistisch. Die Antwort sollte zur angebotenen Stelle passen.</p><h2>Eigene Fragen stellen</h2><p>Am Ende des Gesprächs wirst du nach eigenen Fragen gefragt. Bereite mindestens 3-4 kluge Fragen vor: zum Team, zu den Herausforderungen der Rolle, zu Weiterbildungsmöglichkeiten oder zur Unternehmenskultur. Frage nie als Erstes nach Gehalt oder Urlaub.</p><h2>Nach dem Gespräch</h2><p>Sende innerhalb von 24 Stunden eine kurze Dankes-E-Mail. Bedanke dich für das Gespräch, greife ein positives Thema auf und bestätige dein Interesse. Das hebt dich von anderen Bewerbern ab.</p>",
+  "keyPoints": [
+    "Unternehmen und Stelle gründlich recherchieren",
+    "Antworten auf Standardfragen mit der STAR-Methode vorbereiten",
+    "Konkrete Beispiele für Stärken und Erfahrungen parat haben",
+    "Mindestens 3-4 eigene Fragen vorbereiten",
+    "Pünktlich und angemessen gekleidet erscheinen",
+    "Nach dem Gespräch eine Dankes-E-Mail senden",
+    "Authentisch bleiben und sich nicht verstellen"
+  ],
+  "faqs": [
+    {
+      "question": "Was ziehe ich zum Vorstellungsgespräch an?",
+      "answer": "Das hängt von der Branche ab. In konservativen Branchen (Bank, Recht) ist ein Anzug/Kostüm angemessen. In kreativen oder Tech-Unternehmen reicht Business Casual. Im Zweifel: lieber etwas overdressed als underdressed."
+    },
+    {
+      "question": "Wie gehe ich mit Nervosität um?",
+      "answer": "Nervosität ist normal und zeigt, dass dir die Stelle wichtig ist. Atme bewusst, bereite dich gut vor und erinnere dich: Das Unternehmen hat dich eingeladen, weil es Interesse an dir hat."
+    },
+    {
+      "question": "Darf ich nach dem Gehalt fragen?",
+      "answer": "Ja, aber idealerweise erst, wenn der Interviewer das Thema anspricht oder in einer späteren Gesprächsrunde. Informiere dich vorher über branchenübliche Gehälter."
+    }
+  ],
+  "relatedSlugs": ["bewerbungsschreiben-tipps", "gehaltsverhandlung-tipps"],
+  "publishDate": "2026-02-01"
+}

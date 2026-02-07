@@ -1,0 +1,32 @@
+{
+  "slug": "arbeitsvertrag-pruefen",
+  "title": "Arbeitsvertrag prüfen: Worauf du achten musst",
+  "category": "Arbeitsrecht",
+  "categorySlug": "arbeitsrecht",
+  "description": "Bevor du einen Arbeitsvertrag unterschreibst, solltest du ihn sorgfältig prüfen. Erfahre, welche Klauseln wichtig sind und wo typische Fallstricke lauern.",
+  "content": "<h2>Warum du deinen Arbeitsvertrag genau lesen solltest</h2><p>Der Arbeitsvertrag regelt deine Rechte und Pflichten als Arbeitnehmer. Viele unterschreiben ihn aus Freude über den neuen Job, ohne ihn genau zu lesen – und ärgern sich später über ungünstige Klauseln. Nimm dir die Zeit und prüfe jeden Punkt sorgfältig.</p><h2>Die wichtigsten Vertragsbestandteile</h2><p><strong>Tätigkeitsbeschreibung:</strong> Was genau sind deine Aufgaben? Eine zu vage Formulierung wie „und andere übertragene Aufgaben" kann dazu führen, dass du Tätigkeiten übernehmen musst, die nicht deiner Qualifikation entsprechen.</p><p><strong>Vergütung:</strong> Prüfe Bruttogehalt, Zahlungstermin, Sonderzahlungen (Weihnachtsgeld, Urlaubsgeld), variable Vergütung und eventuell die Eingruppierung nach Tarifvertrag. Sind Überstunden mit dem Gehalt abgegolten? Solche Pauschalklauseln sind oft unwirksam.</p><p><strong>Arbeitszeit:</strong> Wöchentliche Arbeitszeit, Gleitzeitregelung, Überstundenregelung und Arbeitszeitkonto. Die gesetzliche Höchstarbeitszeit liegt bei 48 Stunden pro Woche.</p><p><strong>Probezeit:</strong> Die Probezeit darf maximal 6 Monate betragen. Während dieser Zeit gilt eine verkürzte Kündigungsfrist von 2 Wochen.</p><p><strong>Urlaub:</strong> Der gesetzliche Mindesturlaub beträgt 20 Tage bei einer 5-Tage-Woche. Viele Arbeitgeber gewähren 25-30 Tage.</p><h2>Typische Fallstricke</h2><p><strong>Wettbewerbsverbot:</strong> Ein nachvertragliches Wettbewerbsverbot schränkt dich nach dem Ausscheiden ein. Es ist nur wirksam mit Karenzentschädigung (mindestens 50% des letzten Gehalts).</p><p><strong>Vertragsstrafe:</strong> Klauseln, die eine Vertragsstrafe bei vorzeitigem Ausscheiden vorsehen, sind oft unwirksam. Sie dürfen maximal ein Monatsgehalt betragen.</p><p><strong>Versetzungsklausel:</strong> „Der Arbeitnehmer kann auch an anderen Standorten eingesetzt werden" – prüfe, ob du mit Versetzungen einverstanden bist.</p><h2>Wann du einen Anwalt einschalten solltest</h2><p>Bei komplexen Verträgen, insbesondere auf Geschäftsführer- oder C-Level-Ebene, lohnt sich eine anwaltliche Prüfung. Auch bei Wettbewerbsverboten, Aktienoptionen oder komplexer variabler Vergütung ist eine rechtliche Beratung empfehlenswert.</p>",
+  "keyPoints": [
+    "Lies den Arbeitsvertrag komplett durch, bevor du unterschreibst",
+    "Prüfe Tätigkeitsbeschreibung, Gehalt, Arbeitszeit und Urlaub",
+    "Achte auf die Überstundenregelung und Probezeit",
+    "Vorsicht bei Wettbewerbsverboten und Versetzungsklauseln",
+    "Pauschalabgeltung von Überstunden ist oft unwirksam",
+    "Bei Unsicherheiten einen Arbeitsrechtler konsultieren"
+  ],
+  "faqs": [
+    {
+      "question": "Kann ich einen Arbeitsvertrag nachverhandeln?",
+      "answer": "Ja, Vertragsklauseln sind verhandelbar. Besonders Gehalt, Urlaub und Home-Office-Regelungen werden häufig nachverhandelt. Formuliere deine Wünsche sachlich und begründet."
+    },
+    {
+      "question": "Was bedeutet 'Überstunden sind mit dem Gehalt abgegolten'?",
+      "answer": "Solche Pauschalklauseln sind häufig unwirksam, da sie nicht konkret genug sind. Wirksam sind nur Klauseln, die eine bestimmte Stundenzahl nennen, z.B. 'bis zu 10 Überstunden monatlich'."
+    },
+    {
+      "question": "Muss ich den Arbeitsvertrag sofort unterschreiben?",
+      "answer": "Nein, du hast das Recht, den Vertrag in Ruhe zu prüfen. Eine Bedenkzeit von 1-2 Wochen ist üblich und angemessen. Ein seriöser Arbeitgeber drängt dich nicht zur sofortigen Unterschrift."
+    }
+  ],
+  "relatedSlugs": ["kuendigungsfristen-rechte", "gehaltsverhandlung-tipps"],
+  "publishDate": "2026-02-01"
+}

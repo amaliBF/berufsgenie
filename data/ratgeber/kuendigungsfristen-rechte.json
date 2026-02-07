@@ -1,0 +1,33 @@
+{
+  "slug": "kuendigungsfristen-rechte",
+  "title": "Kündigungsfristen und Arbeitnehmerrechte: Was du wissen musst",
+  "category": "Arbeitsrecht",
+  "categorySlug": "arbeitsrecht",
+  "description": "Von Kündigungsfristen über Abfindungen bis zum Kündigungsschutz – erfahre alles über deine Rechte als Arbeitnehmer bei einer Kündigung.",
+  "content": "<h2>Kündigungsfristen in Deutschland</h2><p>Die gesetzliche Kündigungsfrist beträgt 4 Wochen zum 15. oder zum Ende eines Kalendermonats (§ 622 BGB). Für Arbeitgeber verlängert sich die Frist mit der Betriebszugehörigkeit auf bis zu 7 Monate nach 20 Jahren. In der Probezeit gilt eine verkürzte Frist von 2 Wochen.</p><h2>Kündigungsschutzgesetz</h2><p>Das Kündigungsschutzgesetz (KSchG) gilt in Betrieben mit mehr als 10 Mitarbeitern für Arbeitnehmer, die länger als 6 Monate beschäftigt sind. Eine Kündigung muss dann sozial gerechtfertigt sein. Es gibt drei Kündigungsgründe: personenbedingt (z.B. Krankheit), verhaltensbedingt (z.B. Fehlverhalten) und betriebsbedingt (z.B. Stellenabbau).</p><h2>Besonderer Kündigungsschutz</h2><p>Bestimmte Personengruppen genießen besonderen Schutz: Schwangere und Mütter bis 4 Monate nach der Entbindung, Arbeitnehmer in Elternzeit, Schwerbehinderte (Zustimmung des Integrationsamts nötig), Betriebsratsmitglieder und Auszubildende nach der Probezeit.</p><h2>Was tun bei einer Kündigung?</h2><p><strong>Ruhe bewahren:</strong> Unterschreibe nichts sofort, auch keinen Aufhebungsvertrag. Lass dich nicht unter Druck setzen.</p><p><strong>Fristen beachten:</strong> Du hast nur 3 Wochen Zeit, eine Kündigungsschutzklage beim Arbeitsgericht einzureichen (§ 4 KSchG).</p><p><strong>Arbeitsagentur informieren:</strong> Melde dich spätestens 3 Monate vor Ende des Arbeitsverhältnisses arbeitssuchend, bei kurzfristiger Kündigung innerhalb von 3 Tagen.</p><h2>Abfindung</h2><p>Es gibt keinen generellen Anspruch auf eine Abfindung. In der Praxis werden Abfindungen aber häufig gezahlt – entweder im Rahmen eines Aufhebungsvertrags, eines Sozialplans oder eines Kündigungsschutzprozesses. Die Faustregel: 0,5 bis 1,0 Monatsgehälter pro Beschäftigungsjahr.</p><h2>Die fristlose Kündigung</h2><p>Eine fristlose (außerordentliche) Kündigung ist nur bei einem „wichtigen Grund" möglich: Diebstahl, Arbeitsverweigerung, grobe Beleidigung oder Vertrauensbruch. Vor einer verhaltensbedingten fristlosen Kündigung ist in der Regel eine Abmahnung erforderlich.</p>",
+  "keyPoints": [
+    "Gesetzliche Kündigungsfrist: 4 Wochen zum 15. oder Monatsende",
+    "In der Probezeit: 2 Wochen Kündigungsfrist",
+    "Kündigungsschutzgesetz gilt ab 10 Mitarbeitern und 6 Monaten Betriebszugehörigkeit",
+    "Kündigungsschutzklage innerhalb von 3 Wochen einreichen",
+    "Kein genereller Anspruch auf Abfindung",
+    "Schwangere, Elternzeit und Schwerbehinderte haben besonderen Schutz",
+    "Bei Kündigung sofort arbeitssuchend melden"
+  ],
+  "faqs": [
+    {
+      "question": "Kann mein Arbeitgeber mich wegen Krankheit kündigen?",
+      "answer": "Eine krankheitsbedingte Kündigung ist unter bestimmten Voraussetzungen möglich: negative Gesundheitsprognose, erhebliche betriebliche Beeinträchtigung und keine mildere Alternative. Bei Kurzerkrankungen ist eine Kündigung selten gerechtfertigt."
+    },
+    {
+      "question": "Muss eine Kündigung schriftlich erfolgen?",
+      "answer": "Ja, eine Kündigung muss zwingend schriftlich mit Originalunterschrift erfolgen (§ 623 BGB). Mündliche Kündigungen, Kündigungen per E-Mail, WhatsApp oder Fax sind unwirksam."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Kündigung und Aufhebungsvertrag?",
+      "answer": "Bei einer Kündigung beendet eine Seite das Arbeitsverhältnis einseitig. Ein Aufhebungsvertrag ist eine einvernehmliche Beendigung. Vorsicht: Ein Aufhebungsvertrag kann zu einer Sperrfrist beim Arbeitslosengeld führen."
+    }
+  ],
+  "relatedSlugs": ["arbeitsvertrag-pruefen", "berufswechsel-quereinsteiger"],
+  "publishDate": "2026-02-01"
+}

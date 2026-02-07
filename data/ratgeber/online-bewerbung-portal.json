@@ -1,0 +1,32 @@
+{
+  "slug": "online-bewerbung-portal",
+  "title": "Online-Bewerbung: So überzeugst du auf Bewerbungsportalen",
+  "category": "Bewerbung",
+  "categorySlug": "bewerbung",
+  "description": "Die Online-Bewerbung ist heute Standard. Erfahre, wie du Bewerbungsportale optimal nutzt, dein Profil überzeugend gestaltest und typische Fehler vermeidest.",
+  "content": "<h2>Online-Bewerbung als Standard</h2><p>Über 90% aller Bewerbungen werden heute online eingereicht – per E-Mail, über Bewerbungsportale oder direkt auf der Karriereseite des Unternehmens. Die digitale Bewerbung bietet Vorteile: Sie ist schnell, kostengünstig und kann von überall eingereicht werden.</p><h2>Bewerbung per E-Mail</h2><p>Bei einer E-Mail-Bewerbung fasst du alle Unterlagen in einer einzigen PDF-Datei zusammen: Anschreiben, Lebenslauf und relevante Zeugnisse. Die Dateigröße sollte 5 MB nicht überschreiten. Im Betreff nennst du die Stellenbezeichnung und die Referenznummer.</p><h2>Bewerbungsportale richtig nutzen</h2><p><strong>Profil vollständig ausfüllen:</strong> Portale wie StepStone, Indeed oder LinkedIn bieten eigene Profile. Fülle alle Felder aus, denn je vollständiger dein Profil, desto besser wirst du gefunden. Ein professionelles Foto erhöht die Kontaktrate erheblich.</p><p><strong>Schlüsselwörter verwenden:</strong> Bewerbungsportale nutzen Algorithmen, die Profile nach Schlüsselwörtern durchsuchen. Verwende Begriffe aus Stellenanzeigen deiner Wunschbranche in deinem Profil.</p><p><strong>Job-Alerts einrichten:</strong> Spare Zeit, indem du Job-Alerts für deine Wunschposition einrichtest. So wirst du automatisch über neue Stellen informiert und kannst dich als Erster bewerben.</p><h2>LinkedIn und Xing als Karriere-Tools</h2><p>Business-Netzwerke wie LinkedIn sind inzwischen unverzichtbar. Über 50% der Recruiter nutzen LinkedIn aktiv für die Personalsuche. Optimiere dein Profil mit einer aussagekräftigen Headline, einer detaillierten „Über mich"-Sektion und Empfehlungen von Kollegen.</p><h2>Innovative Plattformen wie Berufsgenie</h2><p>Moderne Plattformen wie Berufsgenie gehen noch einen Schritt weiter: Mit Video-Profilen, Swipe-Matching und Direkt-Chat wird der Bewerbungsprozess schneller und persönlicher. Arbeitgeber präsentieren sich mit authentischen Videos und du kannst per Swipe dein Interesse zeigen.</p><h2>Typische Fehler bei der Online-Bewerbung</h2><p>Die häufigsten Fehler: unprofessionelle E-Mail-Adresse, Dateien in falschen Formaten, zu große Anhänge, Standardanschreiben ohne Personalisierung und vergessene Anhänge. Prüfe jede Bewerbung sorgfältig vor dem Absenden.</p>",
+  "keyPoints": [
+    "Alle Unterlagen in einer PDF-Datei zusammenfassen (max. 5 MB)",
+    "Bewerbungsportale vollständig und mit Schlüsselwörtern ausfüllen",
+    "LinkedIn-Profil professionell gestalten und aktuell halten",
+    "Job-Alerts für automatische Benachrichtigungen einrichten",
+    "Innovative Plattformen wie Berufsgenie für schnelleres Matching nutzen",
+    "Jede Bewerbung individuell auf die Stelle zuschneiden"
+  ],
+  "faqs": [
+    {
+      "question": "Welches Format sollte meine Online-Bewerbung haben?",
+      "answer": "PDF ist der Standard. Fasse Anschreiben, Lebenslauf und Zeugnisse in einer PDF zusammen. Die maximale Dateigröße liegt je nach Portal bei 5-10 MB."
+    },
+    {
+      "question": "Soll ich mich über das Portal oder direkt beim Unternehmen bewerben?",
+      "answer": "Wenn möglich, bewirb dich direkt über die Karriereseite des Unternehmens. Das wirkt engagierter und die Bewerbung landet ohne Umwege beim Personaler."
+    },
+    {
+      "question": "Wie wichtig ist LinkedIn für die Jobsuche?",
+      "answer": "Sehr wichtig. Über 50% der Recruiter nutzen LinkedIn aktiv. Ein professionelles Profil erhöht deine Chancen deutlich, auch passiv angesprochen zu werden."
+    }
+  ],
+  "relatedSlugs": ["lebenslauf-erstellen", "bewerbungsschreiben-tipps"],
+  "publishDate": "2026-02-01"
+}

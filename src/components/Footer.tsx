@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Compass } from 'lucide-react';
+import { Compass, ExternalLink } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -75,26 +75,26 @@ export default function Footer() {
               <li><Link href="/preise" className="hover:text-white transition-colors">Preise</Link></li>
               <li><Link href="/vorteile" className="hover:text-white transition-colors">Vorteile</Link></li>
               <li><Link href="/kontakt" className="hover:text-white transition-colors">Kontakt</Link></li>
-              <li><Link href="https://dashboard.genieportal.de" className="hover:text-white transition-colors">Arbeitgeber-Login</Link></li>
+              <li><a href="https://dashboard.genieportal.de/login" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors inline-flex items-center gap-1">Arbeitgeber-Login <ExternalLink className="h-3 w-3" /></a></li>
             </ul>
           </div>
         </div>
 
         {/* Schwester-Portale */}
         <div className="mt-10 pt-8 border-t border-stone-800">
-          <h4 className="font-semibold text-white mb-4 text-sm">Schwester-Portale – Das Genie-Universum</h4>
+          <h4 className="font-semibold text-white mb-4 text-sm">Schwester-Portale – Die Recruiting-Revolution</h4>
           <div className="flex flex-wrap gap-3">
             <a href="https://ausbildungsgenie.de" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-stone-800 text-stone-300 hover:text-white hover:bg-stone-700 text-sm transition-colors">
-              🎓 Ausbildungsgenie
+              Ausbildungsgenie <ExternalLink className="h-3 w-3" />
             </a>
             <a href="https://werkstudentengenie.de" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-stone-800 text-stone-300 hover:text-white hover:bg-stone-700 text-sm transition-colors">
-              📚 Werkstudentengenie
+              Werkstudentengenie <ExternalLink className="h-3 w-3" />
             </a>
             <a href="https://praktikumsgenie.de" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-stone-800 text-stone-300 hover:text-white hover:bg-stone-700 text-sm transition-colors">
-              🔬 Praktikumsgenie
+              Praktikumsgenie <ExternalLink className="h-3 w-3" />
             </a>
             <a href="https://minijobgenie.de" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-stone-800 text-stone-300 hover:text-white hover:bg-stone-700 text-sm transition-colors">
-              💼 Minijobgenie
+              Minijobgenie <ExternalLink className="h-3 w-3" />
             </a>
           </div>
         </div>

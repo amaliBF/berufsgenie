@@ -246,14 +246,21 @@ export default function DatenschutzPage() {
 
           <div className="space-y-4 text-stone-700">
             <p>
-              Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten,
-              die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann
-              es sich v.a. um IP-Adressen, Meta- und Kommunikationsdaten, Websitezugriffe und sonstige Daten handeln.
+              Diese Website wird bei <strong className="text-stone-900">IONOS SE</strong> gehostet.
             </p>
             <p>
-              Der Einsatz des Hosters erfolgt zum Zweck der Vertragserfüllung gegenüber unseren potenziellen und
-              bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und
-              effizienten Bereitstellung unseres Online-Angebots (Art. 6 Abs. 1 lit. f DSGVO).
+              Anbieter: IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Deutschland<br />
+              Serverstandort: Deutschland (EU)<br />
+              Verarbeitete Daten: IP-Adresse, Browsertyp, Zugriffszeit, angeforderte Seiten (Server-Logfiles)<br />
+              Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse)<br />
+              Datenschutzerklärung:{' '}
+              <a href="https://www.ionos.de/terms-gtc/datenschutzerklaerung/" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline">
+                https://www.ionos.de/terms-gtc/datenschutzerklaerung/
+              </a>
+            </p>
+            <p>
+              Wir haben einen Vertrag über Auftragsverarbeitung (AVV) mit IONOS geschlossen, der gewährleistet,
+              dass personenbezogene Daten nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet werden.
             </p>
           </div>
 
@@ -271,6 +278,86 @@ export default function DatenschutzPage() {
             </p>
             <p>
               Tracking-Cookies oder Marketing-Cookies werden nur mit ausdrücklicher Einwilligung gesetzt.
+            </p>
+          </div>
+
+          <div className="magazine-divider text-sm font-semibold text-amber-700 uppercase tracking-wider my-8">
+            Externe Dienste und Datenverarbeitung
+          </div>
+
+          <div className="space-y-4 text-stone-700">
+            <p>
+              <strong className="text-stone-900">Datenverarbeitung ausschließlich in der EU</strong>
+            </p>
+            <p>
+              Wir legen großen Wert auf den Schutz Ihrer Daten. Alle von uns eingesetzten Dienste und Server
+              befinden sich <strong className="text-stone-900">ausschließlich innerhalb der Europäischen Union</strong>. Es findet keine
+              Übermittlung personenbezogener Daten in Drittländer (außerhalb der EU/EWR) statt.
+            </p>
+            <ul className="list-disc list-inside mb-4 mt-2 space-y-1">
+              <li><strong className="text-stone-900">Webserver:</strong> Deutschland (IONOS)</li>
+              <li><strong className="text-stone-900">E-Mail-Versand:</strong> Deutschland/Frankreich (Brevo)</li>
+              <li><strong className="text-stone-900">Video-CDN:</strong> EU-Server (BunnyCDN)</li>
+              <li><strong className="text-stone-900">Datenbank:</strong> Deutschland (IONOS)</li>
+            </ul>
+
+            <p>
+              <strong className="text-stone-900">E-Mail-Versand (Brevo)</strong>
+            </p>
+            <p>
+              Für den Versand von E-Mails (z.B. Registrierungsbestätigungen, Benachrichtigungen,
+              Passwort-Zurücksetzen) nutzen wir den Dienst <strong className="text-stone-900">Brevo</strong> (ehemals Sendinblue).
+            </p>
+            <p>
+              Anbieter: Sendinblue GmbH, Köpenicker Straße 126, 10179 Berlin, Deutschland<br />
+              Serverstandort: EU (Deutschland/Frankreich)<br />
+              Verarbeitete Daten: E-Mail-Adresse, Name, E-Mail-Inhalt<br />
+              Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung)<br />
+              Datenschutzerklärung:{' '}
+              <a href="https://www.brevo.com/de/legal/privacypolicy/" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline">
+                https://www.brevo.com/de/legal/privacypolicy/
+              </a>
+            </p>
+            <p>
+              Der E-Mail-Versand erfolgt zentral über die Domain genieportal.de
+              (Absender: noreply@genieportal.de, Antworten: support@genieportal.de).
+            </p>
+
+            <p>
+              <strong className="text-stone-900">Video-Hosting und Content Delivery (BunnyCDN)</strong>
+            </p>
+            <p>
+              Für das Hosting und die Auslieferung von Videos nutzen wir den Dienst <strong className="text-stone-900">BunnyCDN</strong>.
+            </p>
+            <p>
+              Anbieter: BunnyWay d.o.o., Cesta komandanta Staneta 4A, 1215 Medvode, Slowenien<br />
+              Serverstandort: EU<br />
+              Verarbeitete Daten: IP-Adresse, Browsertyp, abgerufene Inhalte<br />
+              Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse)<br />
+              Datenschutzerklärung:{' '}
+              <a href="https://bunny.net/privacy" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline">
+                https://bunny.net/privacy
+              </a>
+            </p>
+            <p>
+              Videos werden über die Domain <strong className="text-stone-900">cdn.genieportal.de</strong> ausgeliefert.
+            </p>
+
+            <p>
+              <strong className="text-stone-900">Zentrale Dienste über genieportal.de</strong>
+            </p>
+            <p>
+              Diese Website ist Teil des Genie-Netzwerks. Folgende Dienste werden zentral über
+              genieportal.de bereitgestellt:
+            </p>
+            <ul className="list-disc list-inside mb-4 mt-2 space-y-1">
+              <li>E-Mail-Versand (noreply@genieportal.de)</li>
+              <li>Video-Hosting (cdn.genieportal.de)</li>
+              <li>API-Dienste (api.genieportal.de)</li>
+            </ul>
+            <p>
+              Verantwortlich: Butterflies IT UG (haftungsbeschränkt), Hagenower Str. 73, 19061 Schwerin,
+              E-Mail: info@genieportal.de
             </p>
           </div>
 

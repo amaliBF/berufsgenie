@@ -22,7 +22,7 @@ import KontaktForm from './KontaktForm';
 export const metadata: Metadata = {
   title: 'Kontakt - Wir helfen dir weiter',
   description:
-    'Kontaktiere das Berufsgenie-Team. Fragen, Support oder Feedback - wir sind für dich da. E-Mail: kontakt@berufsgenie.de',
+    'Kontaktiere das Berufsgenie-Team. Fragen, Support oder Feedback - wir sind für dich da. E-Mail: beruf@genieportal.de',
   alternates: {
     canonical: '/kontakt',
   },
@@ -52,7 +52,7 @@ const faqItems = [
   {
     question: 'Ich bin Jobsuchender und habe ein technisches Problem. An wen wende ich mich?',
     answer:
-      'Schreibe uns einfach eine E-Mail an kontakt@berufsgenie.de oder nutze das Kontaktformular mit dem Betreff "Support". Beschreibe dein Problem möglichst genau und wir helfen dir schnellstmöglich weiter. Berufsgenie ist für dich komplett kostenlos - auch der Support!',
+      'Schreibe uns einfach eine E-Mail an beruf@genieportal.de oder nutze das Kontaktformular mit dem Betreff "Support". Beschreibe dein Problem möglichst genau und wir helfen dir schnellstmöglich weiter. Berufsgenie ist für dich komplett kostenlos - auch der Support!',
   },
   {
     question: 'Wie kann ich mein Unternehmen auf Berufsgenie registrieren?',
@@ -67,7 +67,7 @@ const faqItems = [
   {
     question: 'Kann ich Berufsgenie für eine Presseanfrage kontaktieren?',
     answer:
-      'Natürlich! Für Presseanfragen nutze bitte das Kontaktformular mit dem Betreff "Presse" oder schreibe direkt an kontakt@berufsgenie.de. Wir stellen gerne Pressematerial, Interviews und Hintergrundinformationen zur Verfügung.',
+      'Natürlich! Für Presseanfragen nutze bitte das Kontaktformular mit dem Betreff "Presse" oder schreibe direkt an beruf@genieportal.de. Wir stellen gerne Pressematerial, Interviews und Hintergrundinformationen zur Verfügung.',
   },
   {
     question: 'Wo finde ich die rechtlichen Informationen (Impressum, Datenschutz)?',
@@ -123,7 +123,7 @@ const jsonLdWebPage = {
     '@type': 'Organization',
     name: 'Butterflies IT UG (haftungsbeschränkt)',
     url: 'https://berufsgenie.de',
-    email: 'kontakt@berufsgenie.de',
+    email: 'beruf@genieportal.de',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Hagenower Str. 73',
@@ -214,10 +214,10 @@ export default function KontaktPage() {
               </div>
               <h3 className="text-lg font-bold text-stone-900 mb-2">E-Mail</h3>
               <a
-                href="mailto:kontakt@berufsgenie.de"
+                href="mailto:beruf@genieportal.de"
                 className="text-amber-600 hover:text-amber-700 font-medium transition-colors block"
               >
-                kontakt@berufsgenie.de
+                beruf@genieportal.de
               </a>
               <p className="text-sm text-stone-500 mt-2">Für alle Anfragen</p>
             </div>
@@ -418,10 +418,10 @@ export default function KontaktPage() {
                   <Mail className="h-5 w-5 text-amber-600 mt-1 flex-shrink-0" />
                   <div>
                     <a
-                      href="mailto:kontakt@berufsgenie.de"
+                      href="mailto:beruf@genieportal.de"
                       className="text-amber-600 hover:text-amber-700 font-medium transition-colors"
                     >
-                      kontakt@berufsgenie.de
+                      beruf@genieportal.de
                     </a>
                   </div>
                 </div>

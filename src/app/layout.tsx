@@ -85,7 +85,7 @@ const jsonLdOrg = {
   },
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'kontakt@berufsgenie.de',
+    email: 'beruf@genieportal.de',
     contactType: 'customer service',
     availableLanguage: 'German',
   },

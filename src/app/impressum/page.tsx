@@ -51,7 +51,7 @@ export default function ImpressumPage() {
             </p>
             <p>
               <strong className="text-stone-900">Kontakt:</strong><br />
-              E-Mail: <a href="mailto:kontakt@berufsgenie.de" className="text-amber-600 hover:underline">kontakt@berufsgenie.de</a>
+              E-Mail: <a href="mailto:beruf@genieportal.de" className="text-amber-600 hover:underline">beruf@genieportal.de</a>
             </p>
             <p>
               <strong className="text-stone-900">Registereintrag:</strong><br />

@@ -20,8 +20,8 @@ export default function Footer() {
               Echte Videos, Swipe-Matching und Direkt-Chat für Festanstellungen.
             </p>
             <p className="text-sm mb-4">
-              <a href="mailto:kontakt@berufsgenie.de" className="hover:text-white transition-colors">
-                kontakt@berufsgenie.de
+              <a href="mailto:beruf@genieportal.de" className="hover:text-white transition-colors">
+                beruf@genieportal.de
               </a>
             </p>
             <div className="flex gap-3">

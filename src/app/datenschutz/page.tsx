@@ -43,7 +43,7 @@ export default function DatenschutzPage() {
               Butterflies IT UG (haftungsbeschränkt)<br />
               Vertreten durch: Andreas Mali<br />
               Hagenower Str. 73, 19061 Schwerin<br />
-              E-Mail: <a href="mailto:kontakt@berufsgenie.de" className="text-amber-600 hover:underline">kontakt@berufsgenie.de</a>
+              E-Mail: <a href="mailto:beruf@genieportal.de" className="text-amber-600 hover:underline">beruf@genieportal.de</a>
             </p>
           </div>
 

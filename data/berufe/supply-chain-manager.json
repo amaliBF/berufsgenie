@@ -1,0 +1,39 @@
+{
+  "slug": "supply-chain-manager",
+  "name": "Supply Chain Manager/in",
+  "category": "Logistik & Handel",
+  "categorySlug": "logistik-handel",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4000, 7000],
+  "einstiegsgehalt": [3500, 4500],
+  "beschreibung": "Supply Chain Manager/innen verantworten die gesamte Lieferkette eines Unternehmens – von der Beschaffung über die Produktion bis zur Auslieferung an den Endkunden. Sie optimieren Logistikprozesse, steuern Lieferantenbeziehungen und stellen eine termingerechte Versorgung sicher. In Zeiten globaler Lieferketten-Herausforderungen gewinnt dieser Beruf enorm an Bedeutung. Die Rolle erfordert strategisches Denken, Verhandlungsgeschick und ein tiefes Verständnis für globale Handelsströme. Supply Chain Manager/innen arbeiten in Industrie, Handel und bei Logistikdienstleistern.",
+  "aufgaben": [
+    "Planung und Steuerung der gesamten Lieferkette",
+    "Optimierung von Lagerbeständen und Beschaffungsprozessen",
+    "Verhandlung mit Lieferanten und Logistikpartnern",
+    "Risikomanagement und Notfallplanung für Lieferengpässe",
+    "Implementierung von Supply-Chain-Management-Software",
+    "Analyse von Logistikkennzahlen und Kostenoptimierung",
+    "Koordination zwischen Einkauf, Produktion und Vertrieb"
+  ],
+  "kompetenzen": [
+    "Kenntnisse in Supply Chain Management und Logistik",
+    "Erfahrung mit ERP-Systemen (SAP, Oracle)",
+    "Verhandlungsgeschick und Lieferantenmanagement",
+    "Analytisches Denken und Problemlösungsfähigkeit",
+    "Projektmanagement-Fähigkeiten",
+    "Interkulturelle Kompetenz und Fremdsprachenkenntnisse",
+    "Kenntnisse in Lean Management und Six Sigma",
+    "Belastbarkeit und Entscheidungsfreude"
+  ],
+  "karrierePfade": [
+    "Senior Supply Chain Manager/in",
+    "Head of Supply Chain",
+    "Director Operations / COO",
+    "Unternehmensberater/in für Logistik",
+    "Geschäftsführer/in Logistikunternehmen"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach Supply Chain Manager/innen ist seit den globalen Lieferketten-Disruptionen deutlich gestiegen. Unternehmen investieren verstärkt in resiliente Lieferketten und suchen Fachkräfte mit Erfahrung in Risikomanagement und Digitalisierung. Besonders gefragt sind Kenntnisse in Nachhaltigkeit und ESG-Kriterien entlang der Lieferkette. Die Gehaltsentwicklung ist überdurchschnittlich, insbesondere in der Automobilindustrie und im E-Commerce.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Überprüfung aktueller Lieferstatus und möglicher Engpässe im System. Vormittags finden Abstimmungen mit Lieferanten und internen Abteilungen statt. Am Nachmittag werden Logistikkennzahlen analysiert, Verträge verhandelt oder an Optimierungsprojekten gearbeitet. Bei internationalen Lieferketten kommen regelmäßig Calls mit Partnern in verschiedenen Zeitzonen hinzu. Gelegentliche Dienstreisen zu Lieferanten oder Logistikzentren gehören ebenfalls zum Berufsalltag.",
+  "relatedSlugs": ["automobilkaufmann", "pilot", "hotelfachmann"]
+}

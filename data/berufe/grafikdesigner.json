@@ -1,0 +1,38 @@
+{
+  "slug": "grafikdesigner",
+  "name": "Grafikdesigner/in",
+  "category": "Marketing & Medien",
+  "categorySlug": "marketing-medien",
+  "ausbildung": "Studium / Ausbildung",
+  "gehaltsspanne": [2500, 4500],
+  "einstiegsgehalt": [2200, 3000],
+  "beschreibung": "Grafikdesigner/innen gestalten visuelle Kommunikation in all ihren Facetten, von Logos und Plakaten über Verpackungen bis hin zu digitalen Medien. Sie übersetzen Botschaften und Ideen in ansprechende visuelle Konzepte, die Marken zum Leben erwecken. Der Beruf erfordert sowohl kreatives Talent als auch technische Kompetenz im Umgang mit Designsoftware. In einer visuell geprägten Gesellschaft sind Grafikdesigner/innen gefragter denn je, ob in Agenturen, Unternehmen oder als Freiberufler/innen.",
+  "aufgaben": [
+    "Entwicklung visueller Konzepte und Designs",
+    "Gestaltung von Print- und Digitalmedien (Flyer, Broschüren, Websites)",
+    "Logo- und Corporate-Design-Entwicklung",
+    "Layout-Erstellung für Magazine, Kataloge und Werbemittel",
+    "Bildbearbeitung und Illustration",
+    "Abstimmung mit Kunden und Projektverantwortlichen",
+    "Druckvorbereitung und Reinzeichnung"
+  ],
+  "kompetenzen": [
+    "Beherrschung der Adobe Creative Suite (Photoshop, Illustrator, InDesign)",
+    "Kreativität und ästhetisches Gespür",
+    "Typografie- und Farbkenntnisse",
+    "Verständnis für Markenführung und Zielgruppen",
+    "Kenntnisse in UI/UX-Design",
+    "Präsentationsfähigkeit",
+    "Kritikfähigkeit und Flexibilität"
+  ],
+  "karrierePfade": [
+    "Senior Grafikdesigner/in",
+    "Art Director/in",
+    "Creative Director/in",
+    "UI/UX Designer/in",
+    "Selbstständige/r Grafikdesigner/in"
+  ],
+  "arbeitsmarkt": "Der Bedarf an visuellem Content wächst durch die Digitalisierung stetig, was Grafikdesigner/innen gute Perspektiven bietet. Allerdings ist der Wettbewerb in kreativen Berufen traditionell hoch, weshalb ein starkes Portfolio entscheidend ist. Besonders gefragt sind Designer/innen mit Zusatzkompetenzen in Motion Design, UI/UX oder 3D-Visualisierung. Neben Werbeagenturen und Verlagen bieten auch Technologieunternehmen und E-Commerce-Firmen attraktive Stellen.",
+  "typischerArbeitstag": "Der Morgen beginnt oft mit Briefing-Gesprächen oder der Durchsicht neuer Projektanfragen. Den Großteil des Tages verbringen Grafikdesigner/innen am Bildschirm, wo sie Entwürfe erstellen, Layouts gestalten und Bilder bearbeiten. Zwischendurch finden Feedback-Runden mit Kunden oder dem Kreativteam statt, in denen Entwürfe besprochen und Änderungswünsche aufgenommen werden. Gegen Abend werden finale Dateien für den Druck oder die digitale Veröffentlichung aufbereitet.",
+  "relatedSlugs": ["mediengestalter", "fotograf", "content-manager"]
+}

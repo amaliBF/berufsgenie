@@ -1,0 +1,38 @@
+{
+  "slug": "elektriker",
+  "name": "Elektriker/in",
+  "category": "Handwerk & Bau",
+  "categorySlug": "handwerk-bau",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2500, 3800],
+  "einstiegsgehalt": [2200, 2800],
+  "beschreibung": "Elektriker/innen installieren, warten und reparieren elektrische Anlagen und Systeme in Gebäuden, Industrieanlagen und im öffentlichen Raum. Sie sorgen dafür, dass Strom sicher und zuverlässig fließt – von der Hauselektrik über Beleuchtungsanlagen bis hin zu komplexen Steuerungssystemen. Der Beruf verbindet handwerkliches Geschick mit technischem Verständnis und erfordert ein hohes Maß an Sorgfalt und Sicherheitsbewusstsein. Mit der Energiewende und dem Ausbau erneuerbarer Energien eröffnen sich Elektriker/innen zahlreiche neue Tätigkeitsfelder wie Photovoltaik, Wärmepumpen und Smart-Home-Technologien.",
+  "aufgaben": [
+    "Installation und Inbetriebnahme elektrischer Anlagen",
+    "Verlegen von Leitungen und Kabeln in Neubauten und bei Sanierungen",
+    "Wartung und Prüfung von elektrischen Betriebsmitteln",
+    "Fehlerdiagnose und Reparatur bei Störungen",
+    "Installation von Photovoltaikanlagen und Ladeinfrastruktur",
+    "Programmierung von Gebäudeautomation und Smart-Home-Systemen",
+    "Erstellung von Schaltplänen und technischen Dokumentationen"
+  ],
+  "kompetenzen": [
+    "Fundiertes Wissen über Elektrotechnik und Schaltungstechnik",
+    "Handwerkliches Geschick und räumliches Vorstellungsvermögen",
+    "Kenntnisse der VDE-Normen und Sicherheitsvorschriften",
+    "Sorgfalt und Verantwortungsbewusstsein",
+    "Problemlösungsfähigkeit bei komplexen Störungen",
+    "Teamfähigkeit und Kommunikationsstärke",
+    "Bereitschaft zur Weiterbildung im Bereich erneuerbare Energien"
+  ],
+  "karrierePfade": [
+    "Elektrotechnikermeister/in",
+    "Techniker/in für Elektrotechnik",
+    "Bauleiter/in Elektrotechnik",
+    "Selbstständigkeit mit eigenem Elektrobetrieb",
+    "Spezialisierung auf erneuerbare Energien oder Smart Home"
+  ],
+  "arbeitsmarkt": "Elektriker/innen gehören zu den am stärksten nachgefragten Handwerksberufen in Deutschland. Die Energiewende, der Ausbau der Ladeinfrastruktur für E-Mobilität und die zunehmende Gebäudeautomation sorgen für eine konstant hohe Nachfrage. Viele Betriebe suchen händeringend nach Fachkräften, wodurch die Berufsaussichten hervorragend sind. Auch die Verdienstmöglichkeiten steigen aufgrund des Fachkräftemangels kontinuierlich.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt oft mit der Vorbereitung von Material und Werkzeug für den Einsatz auf der Baustelle oder beim Kunden. Vor Ort werden Leitungen verlegt, Verteilerkästen installiert oder bestehende Anlagen geprüft und gewartet. Zwischendurch erfolgen Abstimmungen mit anderen Gewerken wie Sanitär- oder Heizungsinstallateuren. Am Nachmittag stehen häufig Dokumentationsarbeiten, Prüfprotokolle oder die Planung des nächsten Einsatzes an. Notfalleinsätze bei Stromausfällen können den Tagesablauf spontan verändern.",
+  "relatedSlugs": ["sanitaer-heizung-klima", "dachdecker", "bauleiter"]
+}

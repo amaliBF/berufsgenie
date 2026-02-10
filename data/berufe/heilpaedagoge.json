@@ -1,0 +1,38 @@
+{
+  "slug": "heilpaedagoge",
+  "name": "Heilpädagoge/Heilpädagogin",
+  "category": "Bildung & Soziales",
+  "categorySlug": "bildung-soziales",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [2800, 4000],
+  "einstiegsgehalt": [2600, 3200],
+  "beschreibung": "Heilpädagog/innen fördern und begleiten Menschen mit Behinderungen, Entwicklungsverzögerungen und Verhaltensauffälligkeiten in ihrer individuellen Entwicklung und gesellschaftlichen Teilhabe. Sie arbeiten mit Kindern, Jugendlichen und Erwachsenen in Frühförderstellen, integrativen Kindertageseinrichtungen, Wohnheimen, Werkstätten und Beratungsstellen. Das Studium der Heilpädagogik verbindet pädagogische, psychologische, medizinische und sozialwissenschaftliche Inhalte. Heilpädagog/innen erstellen individuelle Förderpläne, führen diagnostische Verfahren durch und arbeiten eng mit Familien und anderen Fachkräften zusammen. Der Beruf erfordert ein hohes Maß an Empathie, Geduld und die Überzeugung, dass jeder Mensch Entwicklungspotenzial hat.",
+  "aufgaben": [
+    "Diagnostik und Erstellen individueller Förderpläne",
+    "Durchführung heilpädagogischer Fördermaßnahmen",
+    "Beratung und Begleitung von Familien und Angehörigen",
+    "Spieltherapie, Kunsttherapie und Bewegungsförderung",
+    "Inklusion und Teilhabeplanung",
+    "Interdisziplinäre Zusammenarbeit mit Ärzt/innen, Therapeut/innen und Pädagog/innen",
+    "Dokumentation und Evaluation der Fördermaßnahmen"
+  ],
+  "kompetenzen": [
+    "Heilpädagogisches Fachwissen und diagnostische Kompetenz",
+    "Empathie und wertschätzende Grundhaltung",
+    "Geduld und Kreativität in der Förderarbeit",
+    "Kommunikationsfähigkeit und Beratungskompetenz",
+    "Kenntnisse in Entwicklungspsychologie und Sonderpädagogik",
+    "Teamfähigkeit und Kooperationsbereitschaft",
+    "Reflexionsfähigkeit und professionelle Distanz"
+  ],
+  "karrierePfade": [
+    "Leitung einer heilpädagogischen Einrichtung",
+    "Fachberatung für Inklusion",
+    "Masterstudium und Promotion in Heilpädagogik",
+    "Therapeutische Zusatzqualifikation (z. B. Spieltherapie)",
+    "Lehr- und Forschungstätigkeit an Hochschulen"
+  ],
+  "arbeitsmarkt": "Die Inklusion von Menschen mit Behinderungen ist ein gesellschaftliches und politisches Ziel, das die Nachfrage nach Heilpädagog/innen nachhaltig steigert. In Frühförderstellen, integrativen Kitas und Schulen sowie in der Behindertenhilfe werden dringend Fachkräfte gesucht. Die Vergütung nach TVöD SuE ist angemessen und bietet regelmäßige Stufenaufstiege. Zusatzqualifikationen in Therapieverfahren oder Diagnostik verbessern die Karrierechancen und Verdienstmöglichkeiten zusätzlich.",
+  "typischerArbeitstag": "Der Tag beginnt in der Frühförderung häufig mit Hausbesuchen oder Sitzungen in der Praxis, bei denen Kinder mit Entwicklungsverzögerungen spielerisch gefördert werden. In heilpädagogischen Einrichtungen gestalten Heilpädagog/innen den Tagesablauf mit strukturierten Fördereinheiten und kreativen Angeboten. Elterngespräche und Beratungen zu Fördermöglichkeiten und Hilfsangeboten sind ein wichtiger Bestandteil der Arbeit. Nachmittags finden Teambesprechungen, Fallbesprechungen und die Dokumentation der Förderfortschritte statt. Der Austausch mit Ärzt/innen, Therapeut/innen und Pädagog/innen sorgt für eine ganzheitliche Betreuung.",
+  "relatedSlugs": ["erzieher", "sozialarbeiter", "logopaedin"]
+}

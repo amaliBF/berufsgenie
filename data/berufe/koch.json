@@ -1,0 +1,38 @@
+{
+  "slug": "koch",
+  "name": "Koch/Köchin",
+  "category": "Handwerk & Bau",
+  "categorySlug": "handwerk-bau",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2200, 3500],
+  "einstiegsgehalt": [2000, 2500],
+  "beschreibung": "Köche und Köchinnen bereiten Speisen aller Art zu – von der einfachen Kantinenküche bis zur Sterngastronomie. Sie planen Speisekarten, kalkulieren Wareneinsatz, bereiten Lebensmittel vor und richten Gerichte kunstvoll an. Der Beruf erfordert Kreativität, Stressresistenz und die Fähigkeit, im Team unter Zeitdruck Höchstleistungen zu erbringen. Die dreijährige duale Ausbildung findet in Restaurants, Hotels, Kantinen oder auf Kreuzfahrtschiffen statt. Der Beruf bietet international vielfältige Einsatzmöglichkeiten und die Chance, kulinarische Karriere zu machen.",
+  "aufgaben": [
+    "Planung und Erstellung von Speisekarten und Menüs",
+    "Zubereitung von Speisen nach Rezepturen und eigenen Kreationen",
+    "Einkauf und Kalkulation des Wareneinsatzes",
+    "Fachgerechte Lagerung und Verarbeitung von Lebensmitteln",
+    "Anrichten und Präsentation der Gerichte",
+    "Einhaltung von Hygiene- und Qualitätsstandards",
+    "Anleitung und Ausbildung von Küchenhilfen und Auszubildenden"
+  ],
+  "kompetenzen": [
+    "Ausgeprägtes Geschmacks- und Geruchsempfinden",
+    "Kreativität und Freude am Kochen",
+    "Stressresistenz und Belastbarkeit",
+    "Teamfähigkeit und Kommunikation unter Druck",
+    "Kenntnisse in Lebensmittelhygiene (HACCP)",
+    "Organisationstalent und Zeitmanagement",
+    "Warenkunde und Ernährungslehre"
+  ],
+  "karrierePfade": [
+    "Souschef / Küchenchef/in",
+    "Küchenmeister/in (Meisterprüfung)",
+    "Eigenes Restaurant (Selbstständigkeit)",
+    "Sterneküche und internationale Gastronomie",
+    "Food-Consultant oder Kochbuchautor/in"
+  ],
+  "arbeitsmarkt": "Der Fachkräftemangel in der Gastronomie ist gravierend – die Branche sucht händeringend qualifizierte Köche und Köchinnen. Obwohl die Arbeitsbedingungen traditionell anspruchsvoll sind, verbessern sich Gehälter und Work-Life-Balance zunehmend. Internationale Erfahrung wird hoch geschätzt und eröffnet weltweite Karrieremöglichkeiten. Besonders gefragt sind Köche mit Spezialisierung auf pflanzenbasierte Küche, Allergenkenntnisse oder Catering-Management.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Mise en Place – dem Vorbereiten aller Zutaten und Komponenten für den Service. Nach einer Teambesprechung und dem Durchgehen der Tagesgerichte wird die Vorproduktion gestartet. Der Mittagsservice verlangt volle Konzentration und koordiniertes Arbeiten auf dem Posten. In der Nachmittagspause werden neue Rezepturen ausprobiert und der Abendservice vorbereitet. Der Abendservice ist oft der intensivste Teil des Tages, an dem Küche und Service perfekt zusammenspielen müssen.",
+  "relatedSlugs": ["konditor", "hotelfachmann", "friseur"]
+}

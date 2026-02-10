@@ -1,0 +1,37 @@
+{
+  "slug": "physiotherapeut",
+  "name": "Physiotherapeut/in",
+  "category": "Gesundheit & Medizin",
+  "categorySlug": "gesundheit-medizin",
+  "ausbildung": "Ausbildung / Studium",
+  "gehaltsspanne": [2500, 3800],
+  "einstiegsgehalt": [2200, 2800],
+  "beschreibung": "Physiotherapeut/innen behandeln Menschen mit körperlichen Beschwerden, Bewegungseinschränkungen und Schmerzen durch gezielte Bewegungstherapien und manuelle Techniken. Sie erstellen individuelle Therapiepläne auf Basis ärztlicher Verordnungen und führen Behandlungen wie Krankengymnastik, Manualtherapie oder Lymphdrainage durch. Der Beruf verbindet medizinisches Wissen mit praktischer Arbeit am Menschen und erfordert ein gutes anatomisches Verständnis. Physiotherapeut/innen arbeiten in Praxen, Kliniken, Rehazentren oder im Sportbereich. Die zunehmende Akademisierung des Berufs eröffnet zusätzliche Karrieremöglichkeiten in Forschung und Lehre.",
+  "aufgaben": [
+    "Befunderhebung und Erstellen individueller Therapiepläne",
+    "Durchführung von Krankengymnastik und Bewegungstherapie",
+    "Anwendung manueller Therapietechniken",
+    "Lymphdrainage und Massagetherapie",
+    "Anleitung zu Eigenübungen und Präventionsprogrammen",
+    "Dokumentation des Therapieverlaufs und Fortschritts"
+  ],
+  "kompetenzen": [
+    "Fundierte Kenntnisse in Anatomie und Physiologie",
+    "Manuelle Geschicklichkeit und Feingefühl",
+    "Empathie und Geduld im Umgang mit Patient/innen",
+    "Körperliche Fitness und Belastbarkeit",
+    "Kommunikationsfähigkeit und Motivationsstärke",
+    "Selbstständiges und verantwortungsvolles Arbeiten",
+    "Bereitschaft zur fachlichen Weiterbildung"
+  ],
+  "karrierePfade": [
+    "Spezialisierung (z. B. Sportphysiotherapie, Neurologie)",
+    "Eigene Physiotherapiepraxis eröffnen",
+    "Studium Physiotherapie (Bachelor/Master)",
+    "Lehramt an Berufsfachschulen",
+    "Führungskraft in Rehakliniken"
+  ],
+  "arbeitsmarkt": "Physiotherapeut/innen sind auf dem Arbeitsmarkt stark nachgefragt, insbesondere durch die alternde Bevölkerung und das steigende Gesundheitsbewusstsein. In vielen Regionen Deutschlands herrscht ein Mangel an qualifizierten Fachkräften, was die Jobaussichten sehr positiv gestaltet. Die Vergütung hat sich in den letzten Jahren spürbar verbessert, insbesondere durch Tarifsteigerungen im öffentlichen Dienst. Selbstständigkeit mit eigener Praxis ist eine beliebte und wirtschaftlich attraktive Option.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Vorbereitung auf die ersten Patient/innen und einem Blick auf die Tagesplanung. Anschließend folgen 20- bis 60-minütige Behandlungseinheiten, bei denen individuell auf die Beschwerden eingegangen wird. Zwischen den Terminen werden Befunde dokumentiert und Therapiepläne angepasst. Nachmittags finden häufig Gruppentherapien oder Präventionskurse statt. Der Austausch mit Ärzt/innen und Kolleg/innen rundet den Arbeitstag ab.",
+  "relatedSlugs": ["ergotherapeut", "krankenpfleger", "logopaedin"]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "rechtsanwalt",
+  "name": "Rechtsanwalt/Rechtsanwältin",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "ausbildung": "Studium + Examen",
+  "gehaltsspanne": [4500, 10000],
+  "einstiegsgehalt": [3800, 5500],
+  "beschreibung": "Rechtsanwält/innen beraten und vertreten Mandant/innen in rechtlichen Angelegenheiten – von Vertragsstreitigkeiten über Familienrecht bis hin zu Strafverfahren. Der Weg in diesen Beruf führt über ein Jurastudium mit zwei Staatsexamina und ein zweijähriges Rechtsreferendariat. Rechtsanwält/innen arbeiten in Kanzleien jeder Größe, von der Einzelpraxis bis zur internationalen Großkanzlei, sowie in Rechtsabteilungen von Unternehmen. Der Beruf erfordert analytisches Denken, rhetorisches Geschick und die Fähigkeit, komplexe Sachverhalte verständlich aufzubereiten. Die Spezialisierung auf bestimmte Rechtsgebiete ermöglicht eine gezielte Karriereentwicklung und kann die Verdienstmöglichkeiten erheblich steigern.",
+  "aufgaben": [
+    "Beratung von Mandant/innen in Rechtsfragen aller Art",
+    "Vertretung vor Gerichten und Behörden",
+    "Erstellung von Verträgen, Schriftsätzen und Gutachten",
+    "Verhandlungsführung und außergerichtliche Einigungen",
+    "Analyse von Rechtsproblemen und Entwicklung von Strategien",
+    "Mandantenakquise und Kanzleimanagement",
+    "Kontinuierliche Fortbildung in relevanten Rechtsgebieten"
+  ],
+  "kompetenzen": [
+    "Umfassende juristische Fachkenntnisse",
+    "Analytisches Denkvermögen und logische Argumentation",
+    "Rhetorische Stärke und Verhandlungsgeschick",
+    "Kommunikationsfähigkeit und Empathie",
+    "Sorgfalt und Genauigkeit bei der Aktenarbeit",
+    "Belastbarkeit und Zeitmanagement",
+    "Unternehmerisches Denken (besonders in eigener Kanzlei)",
+    "Diskretion und Verschwiegenheit"
+  ],
+  "karrierePfade": [
+    "Spezialisierung als Fachanwalt/Fachanwältin",
+    "Partner/in in einer Anwaltskanzlei",
+    "Gründung einer eigenen Kanzlei",
+    "Syndikusanwalt/anwältin in einem Unternehmen",
+    "Richteramt oder Staatsanwaltschaft"
+  ],
+  "arbeitsmarkt": "Der Arbeitsmarkt für Rechtsanwält/innen ist differenziert: Während Großkanzleien und spezialisierte Boutique-Kanzleien händeringend nach Top-Jurist/innen suchen, ist der Einstieg für Absolvent/innen mit schwächeren Examina herausfordernder. Besonders gefragt sind Spezialisierungen in IT-Recht, Datenschutzrecht, Arbeitsrecht und Wirtschaftsrecht. Die Digitalisierung der Rechtsbranche schafft neue Tätigkeitsfelder wie Legal Tech. In Unternehmen wächst die Nachfrage nach Syndikusanwält/innen mit wirtschaftlichem Verständnis.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Sichtung eingehender Post, E-Mails und Fristen. Vormittags finden Mandantengespräche statt, in denen Sachverhalte erörtert und rechtliche Strategien besprochen werden. Ein großer Teil der Arbeitszeit fließt in Recherche, die Erstellung von Schriftsätzen und die Prüfung von Verträgen. Gerichtstermine erfordern gründliche Vorbereitung und souveränes Auftreten vor Gericht. In Großkanzleien sind lange Arbeitszeiten üblich, während kleinere Kanzleien oft flexiblere Strukturen bieten.",
+  "relatedSlugs": ["rechtsanwaltsfachangestellter", "notar", "richter"]
+}

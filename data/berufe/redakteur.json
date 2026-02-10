@@ -1,0 +1,38 @@
+{
+  "slug": "redakteur",
+  "name": "Redakteur/in",
+  "category": "Marketing & Medien",
+  "categorySlug": "marketing-medien",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3000, 5000],
+  "einstiegsgehalt": [2500, 3300],
+  "beschreibung": "Redakteur/innen recherchieren, verfassen und redigieren Texte für verschiedene Medienformate wie Zeitungen, Magazine, Online-Portale oder Rundfunkbeiträge. Sie sind verantwortlich für die inhaltliche Qualität und journalistische Sorgfalt der veröffentlichten Beiträge. Der Beruf verlangt exzellente Sprachkompetenz, Recherchefähigkeiten und die Fähigkeit, komplexe Sachverhalte verständlich aufzubereiten. In Zeiten von Fake News und Informationsflut ist qualitativ hochwertiger Journalismus wichtiger denn je.",
+  "aufgaben": [
+    "Themenrecherche und Quellenprüfung",
+    "Verfassen von Artikeln, Berichten und Reportagen",
+    "Redigieren und Lektorieren von Texten",
+    "Planung und Koordination von Themenschwerpunkten",
+    "Führen von Interviews mit Experten und Betroffenen",
+    "Pflege von Online-Inhalten und CMS-Systemen",
+    "Zusammenarbeit mit Fotografen und Grafikern"
+  ],
+  "kompetenzen": [
+    "Exzellente schriftliche und mündliche Ausdrucksfähigkeit",
+    "Gründliche Recherchekompetenz",
+    "Journalistisches Gespür für relevante Themen",
+    "Kenntnisse in Content-Management-Systemen",
+    "Grundlagen der Bild- und Videobearbeitung",
+    "Arbeiten unter Zeitdruck und Termintreue",
+    "Kritisches Denken und Objektivität"
+  ],
+  "karrierePfade": [
+    "Leitende/r Redakteur/in",
+    "Chefredakteur/in",
+    "Ressortleiter/in",
+    "Pressesprecher/in oder Kommunikationsleiter/in",
+    "Freie/r Journalist/in oder Buchautor/in"
+  ],
+  "arbeitsmarkt": "Der klassische Printjournalismus steht unter Druck, doch der Bedarf an qualifiziertem Content wächst im digitalen Bereich erheblich. Corporate Publishing, Content Marketing und Online-Journalismus eröffnen neue Tätigkeitsfelder für Redakteur/innen. Spezialisierungen auf Fachthemen wie Wirtschaft, Technologie oder Wissenschaft verbessern die Arbeitsmarktchancen deutlich. Der Einstieg erfolgt häufig über Volontariate bei Verlagen, Sendern oder in Unternehmenskommunikationsabteilungen.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Sichtung aktueller Nachrichten und der Teilnahme an der Redaktionskonferenz, wo Themen besprochen und verteilt werden. Anschließend wird intensiv recherchiert, telefoniert und geschrieben, oft unter hohem Zeitdruck. Nachmittags werden Texte redigiert, mit dem Layout abgestimmt und für die Veröffentlichung vorbereitet. In Online-Redaktionen gehört die Pflege der Website und die Beobachtung der Klickzahlen zum täglichen Ablauf.",
+  "relatedSlugs": ["pr-berater", "content-manager", "marketing-manager"]
+}

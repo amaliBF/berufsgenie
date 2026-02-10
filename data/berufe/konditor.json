@@ -1,0 +1,38 @@
+{
+  "slug": "konditor",
+  "name": "Konditor/in",
+  "category": "Handwerk & Bau",
+  "categorySlug": "handwerk-bau",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2000, 3000],
+  "einstiegsgehalt": [1900, 2300],
+  "beschreibung": "Konditor/innen stellen Torten, Kuchen, Gebäck, Pralinen und andere Feinbackwaren her. Sie verbinden handwerkliches Können mit künstlerischer Kreativität und verwandeln hochwertige Zutaten in süße Meisterwerke. Der Beruf erfordert ein gutes Geschmacksempfinden, Kreativität beim Dekorieren und die Fähigkeit, auch unter Zeitdruck präzise zu arbeiten. Die dreijährige duale Ausbildung findet vorwiegend in Konditoreien, Confiserien und Bäckereien mit Konditorei-Abteilung statt. Konditor/innen können sich auch in der Gastronomie, Hotellerie oder in der industriellen Produktion einbringen.",
+  "aufgaben": [
+    "Herstellung von Torten, Kuchen und Feingebäck",
+    "Kreation und Dekoration von Hochzeits- und Motivtorten",
+    "Produktion von Pralinen, Schokoladen und Konfekt",
+    "Zubereitung von Desserts und Eissorten",
+    "Entwicklung neuer Rezepturen und saisonaler Produkte",
+    "Qualitätskontrolle und Einhaltung von Hygienestandards",
+    "Kundenberatung und Bestellannahme"
+  ],
+  "kompetenzen": [
+    "Kreativität und Sinn für Ästhetik",
+    "Handwerkliches Geschick und Feinmotorik",
+    "Gutes Geschmacks- und Geruchsempfinden",
+    "Kenntnisse in Lebensmittelhygiene und HACCP",
+    "Präzision und Sorgfalt",
+    "Teamfähigkeit und Belastbarkeit",
+    "Zeitmanagement unter Produktionsdruck"
+  ],
+  "karrierePfade": [
+    "Konditormeister/in",
+    "Eigene Konditorei oder Confiserie",
+    "Chef-Pâtissier/Pâtissière in der Spitzengastronomie",
+    "Produktentwickler/in in der Lebensmittelindustrie",
+    "Dozent/in an Fachschulen"
+  ],
+  "arbeitsmarkt": "Der Markt für qualifizierte Konditor/innen ist stabil, wobei handwerklich geschickte Fachkräfte zunehmend gesucht werden. Die Nachfrage nach individuellen Torten und hochwertigen Backwaren steigt durch Social-Media-Trends kontinuierlich. Spitzenhotels und Gourmetrestaurants suchen regelmäßig talentierte Pâtissier/innen mit Bereitschaft zur Kreativität. Die Selbstständigkeit bietet gute Chancen, erfordert aber neben dem Handwerk auch unternehmerisches Geschick.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt sehr früh, oft zwischen 4 und 6 Uhr morgens, mit der Vorbereitung der Teige und dem Backen der Grundmassen. Anschließend werden Torten gefüllt, Cremes hergestellt und Gebäckstücke glasiert. Der kreativste Teil des Tages ist das Dekorieren – hier werden Torten mit Fondant, Marzipan, Schokolade oder Zuckerguss kunstvoll verziert. Am späten Vormittag werden die fertigen Produkte in die Auslage gebracht. Nachmittags werden Bestellungen für den nächsten Tag vorbereitet und Sonderaufträge bearbeitet.",
+  "relatedSlugs": ["koch", "friseur", "hotelfachmann"]
+}

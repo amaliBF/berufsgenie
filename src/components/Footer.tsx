@@ -41,6 +41,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-white mb-3 text-sm">Stellenangebote</h4>
             <ul className="space-y-1.5 text-sm">
+              <li><Link href="/stellen" className="text-amber-400 hover:text-amber-300 font-medium transition-colors">Aktuelle Stellen →</Link></li>
               <li><Link href="/jobs/berlin" className="hover:text-white transition-colors">Jobs Berlin</Link></li>
               <li><Link href="/jobs/hamburg" className="hover:text-white transition-colors">Jobs Hamburg</Link></li>
               <li><Link href="/jobs/muenchen" className="hover:text-white transition-colors">Jobs München</Link></li>

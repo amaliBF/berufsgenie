@@ -1,0 +1,37 @@
+{
+  "slug": "maler",
+  "name": "Maler/in und Lackierer/in",
+  "category": "Handwerk & Bau",
+  "categorySlug": "handwerk-bau",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2200, 3300],
+  "einstiegsgehalt": [1900, 2500],
+  "beschreibung": "Maler/innen und Lackierer/innen gestalten und schützen Oberflächen an Gebäuden, in Innenräumen und auf verschiedensten Untergründen. Sie streichen Wände, tapezieren, verlegen Bodenbeläge, beschichten Fassaden und tragen Korrosionsschutz auf. Der Beruf bietet eine abwechslungsreiche Tätigkeit, die kreatives Gespür mit handwerklichem Können verbindet. Mit Spezialisierungen auf Bereiche wie Fahrzeuglackierung, Denkmalpflege oder dekorative Gestaltungstechniken ergeben sich vielfältige Karrieremöglichkeiten.",
+  "aufgaben": [
+    "Vorbereitung von Untergründen durch Schleifen, Spachteln und Grundieren",
+    "Streichen und Lackieren von Innen- und Außenflächen",
+    "Tapezieren und dekorative Wandgestaltung",
+    "Fassadenanstriche und Wärmedämmverbundsysteme",
+    "Verlegen von Bodenbelägen und Aufbringen von Beschichtungen",
+    "Aufbringen von Korrosions- und Brandschutz"
+  ],
+  "kompetenzen": [
+    "Handwerkliches Geschick und Farbgefühl",
+    "Kenntnisse über Farben, Lacke und Beschichtungsstoffe",
+    "Sorgfältiges und sauberes Arbeiten",
+    "Schwindelfreiheit für Arbeiten auf Gerüsten und Leitern",
+    "Physische Belastbarkeit und Ausdauer",
+    "Kenntnis der Arbeitssicherheitsvorschriften",
+    "Kundenberatung bei Farbgestaltung und Materialauswahl"
+  ],
+  "karrierePfade": [
+    "Malermeister/in",
+    "Techniker/in für Farb- und Lacktechnik",
+    "Restaurator/in im Malerhandwerk",
+    "Selbstständigkeit mit eigenem Malerbetrieb",
+    "Bauleiter/in im Ausbaugewerbe"
+  ],
+  "arbeitsmarkt": "Der Arbeitsmarkt für Maler/innen und Lackierer/innen ist stabil, da sowohl Neubauten als auch Sanierungen und Renovierungen regelmäßig anfallen. Besonders im Bereich energetische Sanierung und Fassadendämmung steigt die Nachfrage. Der Fachkräftemangel im Handwerk bietet gute Einstiegschancen und Verhandlungsspielraum beim Gehalt. Erfahrene Meister/innen mit eigenem Betrieb können überdurchschnittlich gut verdienen.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt mit dem Beladen des Firmenwagens und der Fahrt zur Baustelle oder zum Kunden. Vor Ort werden zunächst Möbel und Böden abgedeckt und die Oberflächen vorbereitet – spachteln, schleifen, grundieren. Dann wird gestrichen, tapeziert oder lackiert, wobei Präzision und saubere Kanten gefragt sind. Am Ende des Tages wird aufgeräumt und Werkzeug gereinigt. Bei größeren Projekten finden regelmäßig Abstimmungen mit anderen Gewerken und dem Bauleiter statt.",
+  "relatedSlugs": ["tischler", "dachdecker", "elektriker"]
+}

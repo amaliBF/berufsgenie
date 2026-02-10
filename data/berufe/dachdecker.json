@@ -1,0 +1,38 @@
+{
+  "slug": "dachdecker",
+  "name": "Dachdecker/in",
+  "category": "Handwerk & Bau",
+  "categorySlug": "handwerk-bau",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2500, 3800],
+  "einstiegsgehalt": [2200, 2800],
+  "beschreibung": "Dachdecker/innen decken und reparieren Dächer aller Art, bringen Wärmedämmungen an und sorgen für die Abdichtung von Gebäuden gegen Witterungseinflüsse. Sie arbeiten mit verschiedensten Materialien wie Dachziegeln, Schiefer, Metall und Bitumenbahnen. Der Beruf erfordert absolute Schwindelfreiheit, körperliche Fitness und handwerkliches Können. Mit der steigenden Bedeutung energetischer Sanierung und dem Einbau von Solaranlagen auf Dächern hat das Berufsbild in den letzten Jahren stark an Attraktivität gewonnen.",
+  "aufgaben": [
+    "Eindecken von Dächern mit Ziegeln, Schiefer oder Metalldachpfannen",
+    "Abdichtung von Flachdächern und Dachterrassen",
+    "Anbringen von Wärmedämmung und Fassadenbekleidungen",
+    "Montage von Dachrinnen, Fallrohren und Schneefangsystemen",
+    "Installation von Dachfenstern und Photovoltaikanlagen",
+    "Reparatur- und Sanierungsarbeiten an bestehenden Dächern",
+    "Aufstellen und Sichern von Arbeitsgerüsten"
+  ],
+  "kompetenzen": [
+    "Absolute Schwindelfreiheit und Trittsicherheit",
+    "Körperliche Fitness und Belastbarkeit",
+    "Handwerkliches Geschick und Genauigkeit",
+    "Kenntnisse über verschiedene Dachkonstruktionen",
+    "Wetterfestigkeit und Einsatzbereitschaft",
+    "Teamfähigkeit bei der Arbeit in Kolonnen",
+    "Sicherheitsbewusstsein im Umgang mit Absturzsicherungen"
+  ],
+  "karrierePfade": [
+    "Dachdeckermeister/in",
+    "Techniker/in für Dach-, Wand- und Abdichtungstechnik",
+    "Energieberater/in im Bauwesen",
+    "Selbstständigkeit mit eigenem Dachdeckerbetrieb",
+    "Bauleiter/in im Dachbereich"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach Dachdecker/innen ist seit Jahren sehr hoch und übersteigt das Angebot an Fachkräften deutlich. Energetische Dachsanierungen, der Ausbau von Solarenergie und die laufende Instandhaltung des Gebäudebestands sorgen für volle Auftragsbücher. Viele Dachdeckerbetriebe haben Wartezeiten von mehreren Monaten. Wer diesen Beruf ergreift, hat daher ausgezeichnete Zukunftsperspektiven und überdurchschnittliche Verdienstmöglichkeiten im Handwerk.",
+  "typischerArbeitstag": "Dachdecker/innen starten früh am Morgen, um die kühleren Stunden zu nutzen. Auf der Baustelle wird zunächst das Gerüst gesichert und das Material auf das Dach transportiert. Dann wird gedeckt, gedämmt oder abgedichtet – je nach Projektphase. Die Arbeit im Team erfordert ständige Kommunikation und gegenseitige Absicherung. Bei schlechtem Wetter können Arbeiten auf Werkstattarbeiten wie Blechbearbeitung oder Materialvorbereitung umgestellt werden.",
+  "relatedSlugs": ["elektriker", "sanitaer-heizung-klima", "maler"]
+}

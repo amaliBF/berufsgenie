@@ -1,0 +1,39 @@
+{
+  "slug": "lehrer",
+  "name": "Lehrer/in",
+  "category": "Bildung & Soziales",
+  "categorySlug": "bildung-soziales",
+  "ausbildung": "Studium + Referendariat",
+  "gehaltsspanne": [4000, 5800],
+  "einstiegsgehalt": [3600, 4200],
+  "beschreibung": "Lehrer/innen unterrichten Schüler/innen an Grund-, Haupt-, Realschulen, Gymnasien oder Berufsschulen und begleiten sie auf ihrem Bildungsweg. Sie vermitteln Fachwissen, fördern soziale Kompetenzen und bereiten junge Menschen auf ihr weiteres Leben und ihre berufliche Zukunft vor. Die Ausbildung umfasst ein Lehramtsstudium mit zwei Fächern und ein 18- bis 24-monatiges Referendariat mit anschließendem Staatsexamen. Lehrer/innen gestalten Unterricht, korrigieren Klassenarbeiten, führen Elterngespräche und engagieren sich in der Schulentwicklung. Als verbeamtete Lehrkräfte genießen sie Jobsicherheit und eine attraktive Besoldung, die je nach Schulform und Bundesland variiert.",
+  "aufgaben": [
+    "Planung, Vorbereitung und Durchführung von Unterricht",
+    "Korrektur von Klassenarbeiten, Klausuren und Hausaufgaben",
+    "Leistungsbeurteilung und Zeugniserstellung",
+    "Elternberatung und Elternabende",
+    "Aufsichtspflicht und Pausenaufsicht",
+    "Klassenleitung und Betreuung von Schüler/innen",
+    "Teilnahme an Konferenzen und Fortbildungen"
+  ],
+  "kompetenzen": [
+    "Fachwissen in den Unterrichtsfächern",
+    "Didaktische und methodische Kompetenz",
+    "Pädagogisches Geschick und Einfühlungsvermögen",
+    "Geduld und Durchsetzungsvermögen",
+    "Kommunikationsfähigkeit mit Schüler/innen, Eltern und Kolleg/innen",
+    "Organisationstalent und Zeitmanagement",
+    "Digitale Medienkompetenz",
+    "Reflexionsfähigkeit und Bereitschaft zur Weiterbildung"
+  ],
+  "karrierePfade": [
+    "Fachleitung oder Fachberatung",
+    "Schulleitung (Rektor/in, Direktor/in)",
+    "Tätigkeit in der Schulverwaltung oder im Ministerium",
+    "Lehrerfortbildung und Seminarleitung",
+    "Promotion und Hochschullehre"
+  ],
+  "arbeitsmarkt": "Der Lehrermangel in Deutschland ist je nach Fach und Schulform sehr unterschiedlich ausgeprägt. Besonders gesucht sind Lehrkräfte in MINT-Fächern (Mathematik, Informatik, Naturwissenschaften, Technik), Sonderpädagogik und an Grundschulen. In einigen Fächern wie Deutsch und Geschichte ist der Arbeitsmarkt ausgeglichener. Die Verbeamtung bietet maximale Jobsicherheit, und die A13-Besoldung wird zunehmend auch für Grundschullehrkräfte eingeführt. Quereinsteiger/innen werden in Mangelfächern zunehmend eingestellt.",
+  "typischerArbeitstag": "Der Schultag beginnt oft vor 8 Uhr mit den ersten Unterrichtsstunden. In 45- oder 90-minütigen Einheiten werden Fachinhalte vermittelt, Diskussionen geführt und praktische Übungen angeleitet. In Freistunden werden Unterricht vorbereitet, Korrekturen erledigt oder Beratungsgespräche geführt. Nachmittags finden Konferenzen, AG-Angebote oder Elternsprechtage statt. Ein erheblicher Teil der Arbeit – Unterrichtsvorbereitung, Korrekturen und Administration – findet zu Hause statt.",
+  "relatedSlugs": ["erzieher", "sozialarbeiter", "psychologe"]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "bauingenieur",
+  "name": "Bauingenieur/in",
+  "category": "Ingenieurwesen & Technik",
+  "categorySlug": "ingenieurwesen",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3800, 6000],
+  "einstiegsgehalt": [3500, 4500],
+  "beschreibung": "Bauingenieur/innen planen, berechnen und überwachen den Bau von Gebäuden, Brücken, Straßen, Tunneln und anderen Bauwerken. Sie sorgen dafür, dass Tragwerke sicher dimensioniert, Bauabläufe effizient organisiert und gesetzliche Vorschriften eingehalten werden. Das Berufsfeld umfasst verschiedene Schwerpunkte wie Konstruktiven Ingenieurbau, Geotechnik, Wasserbau und Verkehrswegebau. Bauingenieur/innen arbeiten in Planungsbüros, Baufirmen, bei Behörden oder als Sachverständige. Sie gestalten die gebaute Umwelt und leisten mit nachhaltigen Bauweisen einen wichtigen Beitrag zum Klimaschutz.",
+  "aufgaben": [
+    "Statische Berechnung und Tragwerksplanung",
+    "Erstellung von Bauzeichnungen und Leistungsverzeichnissen",
+    "Bauüberwachung und Qualitätskontrolle auf der Baustelle",
+    "Kalkulation und Kostenkontrolle von Bauprojekten",
+    "Koordination von Gewerken und Nachunternehmern",
+    "Einhaltung von Bauvorschriften und Normen",
+    "Nachhaltige Planung und energieeffizientes Bauen"
+  ],
+  "kompetenzen": [
+    "Statik und Tragwerkslehre",
+    "CAD-Software und BIM (Building Information Modeling)",
+    "Baurecht und technische Normen (DIN, Eurocode)",
+    "Baubetriebswirtschaft und Kalkulation",
+    "Geotechnik und Bodenmechanik",
+    "Organisationstalent und Durchsetzungsvermögen",
+    "Teamfähigkeit und Führungskompetenz"
+  ],
+  "karrierePfade": [
+    "Senior Bauingenieur/in / Projektleiter/in",
+    "Büroleiter/in in einem Ingenieurbüro",
+    "Bauleiter/in bei Großprojekten",
+    "Prüfingenieur/in für Standsicherheit",
+    "Selbstständige/r Beratende/r Ingenieur/in"
+  ],
+  "arbeitsmarkt": "Die Baubranche boomt in Deutschland seit Jahren, und der Bedarf an Bauingenieur/innen ist entsprechend hoch. Infrastrukturprojekte, der Wohnungsbau und die energetische Sanierung bestehender Gebäude sorgen für volle Auftragsbücher. Der demografische Wandel verschärft den Fachkräftemangel zusätzlich, da viele erfahrene Ingenieur/innen in den Ruhestand gehen. Bauingenieur/innen mit BIM-Kenntnissen und Erfahrung im nachhaltigen Bauen sind besonders gefragt.",
+  "typischerArbeitstag": "Der Morgen beginnt häufig mit einer Baustellenbesichtigung, bei der der Baufortschritt überprüft und Abstimmungen mit der Bauleitung getroffen werden. Im Büro folgen Berechnungen, die Erstellung von Plänen oder die Bearbeitung von Ausschreibungsunterlagen. Koordinationsgespräche mit Architekten, Fachplanern und Behörden gehören zum Tagesgeschäft. Am Nachmittag werden Besprechungsprotokolle erstellt und die Planung der kommenden Tage organisiert.",
+  "relatedSlugs": ["maschinenbauingenieur", "verfahrensingenieur", "wirtschaftsingenieur"]
+}

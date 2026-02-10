@@ -1,0 +1,39 @@
+{
+  "slug": "business-analyst",
+  "name": "Business Analyst",
+  "category": "Wirtschaft & Finanzen",
+  "categorySlug": "wirtschaft-finanzen",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3800, 6500],
+  "einstiegsgehalt": [3300, 4200],
+  "beschreibung": "Business Analysts sind die Brücke zwischen Geschäftsanforderungen und technischen Lösungen. Sie analysieren Unternehmensprozesse, identifizieren Optimierungspotenziale und übersetzen fachliche Anforderungen in verständliche Spezifikationen für Entwicklungsteams. Dabei nutzen sie Methoden wie Datenanalyse, Prozessmodellierung und Stakeholder-Management. Der Beruf erfordert sowohl betriebswirtschaftliches Know-how als auch technisches Grundverständnis und starke kommunikative Fähigkeiten. Business Analysts sind in Branchen wie Finanzdienstleistungen, IT, Beratung und Industrie sehr gefragt.",
+  "aufgaben": [
+    "Erhebung und Dokumentation von Geschäftsanforderungen",
+    "Analyse und Modellierung von Geschäftsprozessen (BPMN)",
+    "Erstellung von User Stories und Akzeptanzkriterien",
+    "Durchführung von Kosten-Nutzen-Analysen",
+    "Moderation von Workshops mit Stakeholdern",
+    "Datenanalyse und Erstellung von Reports",
+    "Qualitätssicherung und Abnahmetests"
+  ],
+  "kompetenzen": [
+    "Analytisches und strukturiertes Denken",
+    "Kenntnisse in Prozessmodellierung (BPMN, UML)",
+    "Erfahrung mit Datenanalyse-Tools (Excel, SQL, Power BI)",
+    "Anforderungsmanagement und Requirements Engineering",
+    "Kommunikations- und Moderationsfähigkeit",
+    "Grundkenntnisse in Projektmanagement",
+    "Betriebswirtschaftliches Verständnis",
+    "Verhandlungsgeschick"
+  ],
+  "karrierePfade": [
+    "Senior Business Analyst",
+    "Lead Business Analyst",
+    "Product Manager/in",
+    "Unternehmensberater/in",
+    "IT-Projektleiter/in"
+  ],
+  "arbeitsmarkt": "Business Analysts sind auf dem deutschen Arbeitsmarkt sehr gefragt, insbesondere in der digitalen Transformation und bei der Einführung neuer IT-Systeme. Die Nachfrage ist branchenübergreifend hoch, wobei der Finanz- und IT-Sektor besonders viele Stellen bieten. Kenntnisse in Datenanalyse und agilen Methoden erhöhen die Karrierechancen erheblich. Der Trend zu datengetriebenen Entscheidungen stärkt die Bedeutung dieser Rolle zusätzlich.",
+  "typischerArbeitstag": "Der Morgen beginnt oft mit der Durchsicht von E-Mails und offenen Anforderungen. Vormittags finden Workshops oder Interviews mit Fachabteilungen statt, um Prozesse zu verstehen und Anforderungen zu erheben. Am Nachmittag werden diese in User Stories oder Fachkonzepte überführt und mit dem Entwicklungsteam besprochen. Regelmäßig stehen auch Datenanalysen und die Vorbereitung von Entscheidungsvorlagen für das Management an.",
+  "relatedSlugs": ["product-manager", "unternehmensberater", "data-scientist"]
+}

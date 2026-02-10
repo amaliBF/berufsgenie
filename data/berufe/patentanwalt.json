@@ -1,0 +1,39 @@
+{
+  "slug": "patentanwalt",
+  "name": "Patentanwalt/Patentanwältin",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "ausbildung": "Studium + Examen",
+  "gehaltsspanne": [5000, 10000],
+  "einstiegsgehalt": [4500, 6000],
+  "beschreibung": "Patentanwälte und Patentanwältinnen schützen geistiges Eigentum – sie beraten Unternehmen und Erfinder/innen bei der Anmeldung von Patenten, Gebrauchsmustern, Marken und Designs. Sie verfassen Patentschriften, vertreten Mandanten vor dem Deutschen Patent- und Markenamt, dem Europäischen Patentamt und in Verletzungsstreitigkeiten. Der Beruf erfordert eine einzigartige Kombination aus technischem und juristischem Fachwissen. Die Ausbildung umfasst zunächst ein natur- oder ingenieurwissenschaftliches Studium, gefolgt von einer dreijährigen patentanwaltlichen Ausbildung und dem Examen. Patentanwälte arbeiten in spezialisierten Kanzleien, in Patentabteilungen großer Unternehmen oder in Behörden.",
+  "aufgaben": [
+    "Beratung zu Patentierbarkeit und Schutzrechtsstrategien",
+    "Erstellung und Einreichung von Patentanmeldungen",
+    "Vertretung vor dem Deutschen und Europäischen Patentamt",
+    "Durchführung von Recherchen zum Stand der Technik",
+    "Patentportfolio-Management für Unternehmen",
+    "Verteidigung und Angriff in Patentverletzungsverfahren",
+    "Beratung bei Lizenzverhandlungen und Technologietransfer"
+  ],
+  "kompetenzen": [
+    "Abgeschlossenes technisches oder naturwissenschaftliches Studium",
+    "Patentanwaltliches Examen",
+    "Verständnis komplexer technischer Sachverhalte",
+    "Juristisches Denkvermögen und präzise Formulierungsfähigkeit",
+    "Verhandlungsgeschick und Überzeugungskraft",
+    "Analytische Fähigkeiten und Detailgenauigkeit",
+    "Fließende Englischkenntnisse",
+    "Vertraulichkeit und ethisches Handeln"
+  ],
+  "karrierePfade": [
+    "Partner/in in einer Patentanwaltskanzlei",
+    "Leiter/in einer Patentabteilung (IP Director)",
+    "Eigene Patentanwaltskanzlei",
+    "European Patent Attorney beim EPA",
+    "Richter/in am Bundespatentgericht"
+  ],
+  "arbeitsmarkt": "Patentanwälte gehören zu den am besten verdienenden Juristen in Deutschland. Die Nachfrage ist besonders hoch in innovationsstarken Branchen wie Pharma, Maschinenbau, IT und Automobilindustrie. Der Fachkräftemangel ist aufgrund der anspruchsvollen Doppelqualifikation besonders ausgeprägt. Internationale Unternehmen suchen verstärkt Patentanwälte mit Erfahrung im europäischen und internationalen Patentrecht.",
+  "typischerArbeitstag": "Der Morgen beginnt mit der Durchsicht eingehender Schriftsätze von Patentämtern und Amtsbescheiden. Anschließend werden Patentanmeldungen für Mandanten ausgearbeitet oder bestehende Anmeldungen im Prüfungsverfahren verteidigt. Am Nachmittag stehen Mandantengespräche zur Schutzrechtsstrategie, Freedom-to-Operate-Analysen oder die Vorbereitung mündlicher Verhandlungen vor dem Patentamt an. Recherchen zum Stand der Technik und die Bewertung von Erfindungsmeldungen runden den Tag ab. Die Arbeit ist intellektuell anspruchsvoll und erfordert höchste Präzision.",
+  "relatedSlugs": ["fluglotse", "wissenschaftlicher-mitarbeiter", "dolmetscher"]
+}

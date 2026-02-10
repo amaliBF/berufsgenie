@@ -1,0 +1,37 @@
+{
+  "slug": "ergotherapeut",
+  "name": "Ergotherapeut/in",
+  "category": "Gesundheit & Medizin",
+  "categorySlug": "gesundheit-medizin",
+  "ausbildung": "Ausbildung / Studium",
+  "gehaltsspanne": [2400, 3500],
+  "einstiegsgehalt": [2200, 2700],
+  "beschreibung": "Ergotherapeut/innen helfen Menschen dabei, ihre Handlungsfähigkeit im Alltag, im Beruf und in der Freizeit wiederzuerlangen oder zu verbessern. Sie behandeln Patient/innen mit körperlichen, geistigen oder psychischen Einschränkungen – vom Kind mit Entwicklungsverzögerung bis zum Schlaganfallpatienten. Die Ausbildung dauert drei Jahre und kann an Berufsfachschulen oder als duales Studium absolviert werden. Ergotherapeut/innen arbeiten in Praxen, Kliniken, Rehazentren, Schulen und Pflegeeinrichtungen. Der ganzheitliche Ansatz der Ergotherapie, der den Menschen in seinem gesamten Lebensumfeld betrachtet, macht diesen Beruf besonders sinnstiftend.",
+  "aufgaben": [
+    "Befunderhebung und Erstellen individueller Therapieziele",
+    "Durchführung handlungsorientierter Therapien und Übungen",
+    "Training von Alltagskompetenzen und Feinmotorik",
+    "Hirnleistungstraining und kognitive Förderung",
+    "Beratung zur Hilfsmittelversorgung und Wohnraumanpassung",
+    "Zusammenarbeit mit Angehörigen, Ärzt/innen und Pädagog/innen"
+  ],
+  "kompetenzen": [
+    "Kenntnisse in Anatomie, Psychologie und Pädagogik",
+    "Kreativität und handwerkliches Geschick",
+    "Empathie und Geduld",
+    "Beobachtungsfähigkeit und analytisches Denken",
+    "Kommunikationsstärke und Motivationsfähigkeit",
+    "Flexibilität im Umgang mit verschiedenen Patientengruppen",
+    "Selbstständiges und lösungsorientiertes Arbeiten"
+  ],
+  "karrierePfade": [
+    "Spezialisierung (z. B. Pädiatrie, Neurologie, Geriatrie)",
+    "Eigene Ergotherapiepraxis eröffnen",
+    "Studium Ergotherapie oder Gesundheitswissenschaften",
+    "Lehramt an Berufsfachschulen",
+    "Führungskraft in Rehabilitationseinrichtungen"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach Ergotherapeut/innen ist hoch und steigt weiter, da die Behandlung von neurologischen Erkrankungen, Demenz und kindlichen Entwicklungsstörungen zunimmt. In vielen Regionen übersteigt die Nachfrage das Angebot an Fachkräften deutlich. Die Vergütung hat sich durch Tariferhöhungen und den gestiegenen Stellenwert der Ergotherapie verbessert. Die Selbstständigkeit mit eigener Praxis bietet zusätzliche wirtschaftliche Perspektiven.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt mit der Sichtung der Tagesplanung und der Vorbereitung der Therapiematerialien. In 30- bis 60-minütigen Einzelsitzungen arbeiten Ergotherapeut/innen mit Patient/innen an deren individuellen Therapiezielen – sei es Feinmotorik, Alltagstraining oder kognitive Übungen. Zwischendurch finden Elterngespräche, Teambesprechungen und Dokumentationsarbeiten statt. In Kliniken kommen Gruppentherapien und interdisziplinäre Fallbesprechungen hinzu.",
+  "relatedSlugs": ["physiotherapeut", "logopaedin", "heilpaedagoge"]
+}

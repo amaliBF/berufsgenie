@@ -1,0 +1,38 @@
+{
+  "slug": "notar",
+  "name": "Notar/in",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "ausbildung": "Studium + Examen",
+  "gehaltsspanne": [6000, 15000],
+  "einstiegsgehalt": [5000, 7000],
+  "beschreibung": "Notar/innen sind vom Staat bestellte unabhängige Träger eines öffentlichen Amtes, die Rechtsgeschäfte beurkunden und damit Rechtssicherheit schaffen. Sie beurkunden Grundstückskaufverträge, Testamente, Eheverträge, Gesellschaftsgründungen und viele weitere rechtsverbindliche Dokumente. Der Weg zum Notariat führt über ein Jurastudium mit überdurchschnittlichen Staatsexamina, mehrjährige Berufserfahrung und ein anspruchsvolles Bewerbungsverfahren. Notar/innen tragen eine besondere Verantwortung für die Unparteilichkeit und Richtigkeit ihrer Beurkundungen. Der Beruf gehört zu den angesehensten und bestbezahlten juristischen Berufen in Deutschland und bietet eine außergewöhnliche berufliche Selbstständigkeit.",
+  "aufgaben": [
+    "Beurkundung von Verträgen und Rechtsgeschäften",
+    "Beratung der Beteiligten über rechtliche Tragweite von Geschäften",
+    "Erstellung und Verwahrung von Testamenten und Erbverträgen",
+    "Beglaubigung von Unterschriften und Dokumenten",
+    "Gründung und Änderung von Gesellschaften und Vereinen",
+    "Abwicklung von Grundstückskaufverträgen und Grundbucheinträgen"
+  ],
+  "kompetenzen": [
+    "Herausragende juristische Fachkenntnisse",
+    "Absolute Sorgfalt und Genauigkeit",
+    "Unparteilichkeit und Neutralität",
+    "Kommunikationsstärke und verständliche Erklärungsfähigkeit",
+    "Verantwortungsbewusstsein und Integrität",
+    "Unternehmerische Fähigkeiten für die Kanzleiführung",
+    "Diskretion und Verschwiegenheit",
+    "Stressresistenz bei hohem Arbeitsaufkommen"
+  ],
+  "karrierePfade": [
+    "Spezialisierung auf Immobilienrecht oder Gesellschaftsrecht",
+    "Aufbau einer größeren Notariatskanzlei",
+    "Tätigkeit als Mediator/in",
+    "Mitarbeit in Notarkammern und Berufsverbänden",
+    "Lehrtätigkeit an Universitäten oder Fachhochschulen"
+  ],
+  "arbeitsmarkt": "Die Zahl der Notarstellen in Deutschland ist staatlich reguliert, was den Zugang begrenzt, aber gleichzeitig für eine stabile wirtschaftliche Grundlage sorgt. Die Vergütung erfolgt nach der Gebührenordnung für Notare und ist bei entsprechendem Arbeitsaufkommen sehr lukrativ. In einigen Bundesländern, insbesondere in ländlichen Gebieten, werden Nachfolger/innen für altersbedingt freiwerdende Notarstellen gesucht. Voraussetzung für die Bestellung ist in der Regel ein überdurchschnittliches zweites Staatsexamen.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Vorbereitung anstehender Beurkundungstermine – Vertragsentwürfe werden geprüft und finalisiert. Bei den Terminen selbst verliest der Notar oder die Notarin den Vertrag, erläutert alle Klauseln und beantwortet Fragen der Beteiligten. Zwischen den Terminen werden neue Entwürfe erstellt, Grundbuchanträge vorbereitet und Mandantengespräche geführt. Administrative Aufgaben wie die Kanzleiführung, Personalangelegenheiten und die Kommunikation mit Grundbuchämtern und Registergerichten runden den Tag ab.",
+  "relatedSlugs": ["rechtsanwalt", "richter", "rechtsanwaltsfachangestellter"]
+}

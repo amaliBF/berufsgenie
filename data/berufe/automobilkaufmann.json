@@ -1,0 +1,38 @@
+{
+  "slug": "automobilkaufmann",
+  "name": "Automobilkaufmann/-frau",
+  "category": "Logistik & Handel",
+  "categorySlug": "logistik-handel",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2500, 3800],
+  "einstiegsgehalt": [2200, 2700],
+  "beschreibung": "Automobilkaufleute sind die kaufmännischen Allrounder in der Automobilbranche. Sie beraten Kunden beim Fahrzeugkauf, kalkulieren Finanzierungs- und Leasingangebote, organisieren den Werkstattservice und kümmern sich um Versicherungs- und Zulassungsfragen. Der Beruf verbindet kaufmännisches Know-how mit einer Leidenschaft für Automobile und bietet vielseitige Einsatzmöglichkeiten. Die dreijährige duale Ausbildung findet in Autohäusern, bei Fahrzeugimporteuren oder Automobilherstellern statt. Automobilkaufleute sind die zentrale Anlaufstelle für Kunden rund um alle Fragen zum Fahrzeug.",
+  "aufgaben": [
+    "Beratung und Verkauf von Neu- und Gebrauchtwagen",
+    "Kalkulation von Finanzierungs- und Leasingangeboten",
+    "Organisation und Disposition im Werkstattbereich",
+    "Bearbeitung von Versicherungs- und Garantiefällen",
+    "Fahrzeugbeschaffung und Bestandsmanagement",
+    "Kundendatenpflege und CRM-Systeme",
+    "Marketing und Veranstaltungsorganisation (z.B. Hausmessen)"
+  ],
+  "kompetenzen": [
+    "Kaufmännisches Verständnis und Verkaufstalent",
+    "Kfz-technisches Grundwissen",
+    "Kommunikations- und Beratungsstärke",
+    "Kenntnisse in Finanzierung und Leasing",
+    "Organisationstalent",
+    "Kundenorientierung und Servicebereitschaft",
+    "Sicherer Umgang mit IT-Systemen und Dealer Management Systemen"
+  ],
+  "karrierePfade": [
+    "Verkaufsberater/in im Autohaus",
+    "Gebietsleiter/in eines Automobilherstellers",
+    "Serviceleiter/in",
+    "Automobilverkaufsleiter/in",
+    "Selbstständigkeit mit eigenem Autohaus"
+  ],
+  "arbeitsmarkt": "Der Automobilhandel befindet sich im Wandel – Elektromobilität und Digitalisierung verändern die Branche grundlegend. Automobilkaufleute mit Kenntnissen in E-Mobilität, digitalen Vertriebskanälen und Online-Vermarktung haben besonders gute Chancen. Die Nachfrage nach qualifizierten Fachkräften bleibt stabil, obwohl sich das klassische Autohaus-Modell weiterentwickelt. Auch Hersteller und Importeure suchen regelmäßig Automobilkaufleute für verschiedene Positionen.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Durchsicht neuer Kundenanfragen und der Vorbereitung von Fahrzeugen für geplante Probefahrten. Im Tagesverlauf führen Automobilkaufleute Verkaufsgespräche, erstellen individuelle Angebote und begleiten Kunden bei der Fahrzeugübergabe. Zwischendurch werden Werkstattaufträge koordiniert und Garantiefälle bearbeitet. Am Nachmittag stehen oft Verwaltungsaufgaben wie Bestandspflege und Abrechnung an. Samstagsarbeit ist im Automobilhandel üblich.",
+  "relatedSlugs": ["supply-chain-manager", "hotelfachmann", "pilot"]
+}

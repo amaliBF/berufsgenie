@@ -1,0 +1,39 @@
+{
+  "slug": "sap-berater",
+  "name": "SAP-Berater/in",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4500, 8000],
+  "einstiegsgehalt": [4000, 5000],
+  "beschreibung": "SAP-Berater/innen sind Spezialist/innen für die Einführung, Anpassung und Optimierung von SAP-Systemen in Unternehmen. Sie analysieren bestehende Geschäftsprozesse, entwickeln maßgeschneiderte Lösungen und begleiten die Implementierung des ERP-Systems. Dabei verbinden sie tiefes IT-Wissen mit betriebswirtschaftlichem Verständnis und fungieren als Bindeglied zwischen Fachabteilungen und IT. Die Spezialisierung erfolgt typischerweise in bestimmten SAP-Modulen wie FI/CO, MM, SD oder HR. SAP-Berater/innen arbeiten häufig projektbasiert und sind in Beratungshäusern, Systemhäusern oder internen IT-Abteilungen großer Unternehmen tätig.",
+  "aufgaben": [
+    "Analyse und Optimierung von Geschäftsprozessen",
+    "Konzeption und Customizing von SAP-Modulen",
+    "Durchführung von Workshops und Schulungen für Anwender",
+    "Erstellung von Fachkonzepten und technischen Spezifikationen",
+    "Begleitung von SAP-Einführungs- und Migrationsprojekten",
+    "Schnittstellenmanagement zwischen Fachabteilungen und Entwicklung",
+    "Second- und Third-Level-Support für SAP-Systeme"
+  ],
+  "kompetenzen": [
+    "Fundierte Kenntnisse in SAP-Modulen (z.B. FI/CO, MM, SD, HR)",
+    "Betriebswirtschaftliches Prozessverständnis",
+    "Erfahrung mit SAP S/4HANA",
+    "Projektmanagement-Fähigkeiten",
+    "Analytisches Denkvermögen",
+    "Kommunikationsstärke und Beratungskompetenz",
+    "ABAP-Grundkenntnisse von Vorteil",
+    "Reisebereitschaft"
+  ],
+  "karrierePfade": [
+    "Senior SAP-Berater/in",
+    "SAP-Projektleiter/in",
+    "SAP Solution Architect",
+    "SAP-Teamleiter/in",
+    "Freiberufliche/r SAP-Berater/in"
+  ],
+  "arbeitsmarkt": "SAP-Berater/innen gehören zu den am besten bezahlten IT-Fachkräften in Deutschland. Die laufende Migration vieler Unternehmen auf SAP S/4HANA sorgt für eine enorme Nachfrage. Der Markt ist besonders für erfahrene Berater/innen mit Spezialisierung auf bestimmte Module sehr lukrativ. Freiberufliche SAP-Berater/innen können Tagessätze von 800 bis über 1.500 Euro erzielen.",
+  "typischerArbeitstag": "Der Tag beginnt oft mit einem Projekt-Standup, gefolgt von Workshops mit den Fachabteilungen des Kunden. Anschließend wird am Customizing der SAP-Module gearbeitet und Testfälle durchgeführt. Am Nachmittag stehen Abstimmungen mit dem Entwicklungsteam und die Dokumentation von Prozessanpassungen an. Je nach Projektphase kann erhebliche Reisetätigkeit zum Kunden anfallen, wobei Remote-Arbeit zunehmend möglich ist.",
+  "relatedSlugs": ["softwareentwickler", "business-analyst", "unternehmensberater"]
+}

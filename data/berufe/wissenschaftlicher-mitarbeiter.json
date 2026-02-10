@@ -1,0 +1,39 @@
+{
+  "slug": "wissenschaftlicher-mitarbeiter",
+  "name": "Wissenschaftliche/r Mitarbeiter/in",
+  "category": "Naturwissenschaften",
+  "categorySlug": "naturwissenschaften",
+  "ausbildung": "Studium + Promotion",
+  "gehaltsspanne": [3500, 5500],
+  "einstiegsgehalt": [3300, 4200],
+  "beschreibung": "Wissenschaftliche Mitarbeiter/innen forschen und lehren an Universitäten, Fachhochschulen und Forschungseinrichtungen. Sie führen eigenständige Forschungsprojekte durch, publizieren wissenschaftliche Ergebnisse, betreuen Studierende und wirken an der akademischen Lehre mit. Der Beruf bietet die Möglichkeit, an der vordersten Front des Wissens zu arbeiten und neue Erkenntnisse zu gewinnen. Die Qualifikation erfordert in der Regel ein abgeschlossenes Studium und häufig eine laufende oder abgeschlossene Promotion. Wissenschaftliche Mitarbeiter/innen sind in allen Fachrichtungen tätig, von Naturwissenschaften über Ingenieurwesen bis zu Geistes- und Sozialwissenschaften.",
+  "aufgaben": [
+    "Planung und Durchführung von Forschungsprojekten",
+    "Verfassen und Veröffentlichen wissenschaftlicher Publikationen",
+    "Betreuung von Bachelor- und Masterarbeiten",
+    "Durchführung von Lehrveranstaltungen und Seminaren",
+    "Einwerbung von Drittmitteln und Forschungsförderung",
+    "Teilnahme an wissenschaftlichen Konferenzen",
+    "Zusammenarbeit in interdisziplinären Forschungsgruppen"
+  ],
+  "kompetenzen": [
+    "Tiefgehende fachliche Expertise im Forschungsgebiet",
+    "Wissenschaftliches Arbeiten und Methodenkompetenz",
+    "Analytisches und kritisches Denkvermögen",
+    "Fähigkeit zum wissenschaftlichen Schreiben (Deutsch und Englisch)",
+    "Präsentations- und Lehrkompetenz",
+    "Kenntnisse in Statistik und Forschungsmethoden",
+    "Selbstständigkeit und Eigeninitiative",
+    "Netzwerkfähigkeit in der wissenschaftlichen Community"
+  ],
+  "karrierePfade": [
+    "Postdoktorand/in und Habilitation",
+    "Professor/in (Juniorprofessur oder W2/W3)",
+    "Forschungsgruppenleiter/in an außeruniversitären Instituten",
+    "Wechsel in die Industrie (F&E-Abteilung)",
+    "Wissenschaftsmanagement und -politik"
+  ],
+  "arbeitsmarkt": "Der akademische Arbeitsmarkt ist anspruchsvoll und von befristeten Verträgen geprägt. Das Wissenschaftszeitvertragsgesetz begrenzt die Beschäftigungsdauer, was für Unsicherheit sorgt. Dennoch bieten sich exzellente Chancen für hochqualifizierte Forschende, insbesondere in Bereichen wie Künstliche Intelligenz, Biomedizin und Nachhaltigkeit. Der Transfer in die Industrie wird zunehmend als attraktive Alternative zur akademischen Karriere wahrgenommen, mit deutlich besserer Vergütung.",
+  "typischerArbeitstag": "Der Tag beginnt oft mit der Durchsicht aktueller Fachliteratur und E-Mails. Vormittags stehen Labortätigkeiten, Datenanalysen oder die Arbeit an Publikationen im Fokus. Mittags finden häufig Forschungsseminare oder Kolloquien statt. Am Nachmittag werden Studierende betreut, Lehrveranstaltungen vorbereitet oder Drittmittelanträge geschrieben. Die Arbeitszeiten sind flexibel, aber die Arbeitslast – insbesondere in der Promotionsphase – kann erheblich sein.",
+  "relatedSlugs": ["data-scientist", "dolmetscher", "patentanwalt"]
+}

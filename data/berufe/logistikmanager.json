@@ -1,0 +1,39 @@
+{
+  "slug": "logistikmanager",
+  "name": "Logistikmanager/in",
+  "category": "Logistik & Handel",
+  "categorySlug": "logistik-handel",
+  "ausbildung": "Studium / Ausbildung",
+  "gehaltsspanne": [3500, 6000],
+  "einstiegsgehalt": [3000, 4000],
+  "beschreibung": "Logistikmanager/innen planen, steuern und optimieren den gesamten Waren- und Informationsfluss eines Unternehmens – vom Einkauf der Rohstoffe über die Lagerhaltung bis zur Auslieferung an den Endkunden. Sie sorgen dafür, dass die richtige Ware zur richtigen Zeit am richtigen Ort ist, und das möglichst kosteneffizient. Der Beruf erfordert analytisches Denken, Organisationstalent und ein gutes Verständnis für globale Lieferketten. Mit der zunehmenden Digitalisierung der Logistik und dem Boom des E-Commerce gewinnt die Rolle des Logistikmanagements stetig an Bedeutung.",
+  "aufgaben": [
+    "Planung und Optimierung von Lieferketten und Transportwegen",
+    "Steuerung der Lagerlogistik und Bestandsmanagement",
+    "Auswahl und Verhandlung mit Speditionen und Logistikdienstleistern",
+    "Implementierung von Logistik-Software und Automatisierungslösungen",
+    "Überwachung von Lieferterminen und Qualitätskennzahlen",
+    "Kostenanalyse und Budgetverantwortung im Logistikbereich",
+    "Koordination zwischen Einkauf, Produktion und Vertrieb"
+  ],
+  "kompetenzen": [
+    "Kenntnisse in Supply Chain Management und Logistik",
+    "Analytisches Denkvermögen und Zahlenaffinität",
+    "Sicherer Umgang mit ERP-Systemen (SAP, Oracle)",
+    "Verhandlungsgeschick und Durchsetzungsvermögen",
+    "Organisationstalent und Multitasking-Fähigkeit",
+    "Fremdsprachenkenntnisse, insbesondere Englisch",
+    "Kenntnisse im Zoll- und Außenhandelsrecht",
+    "Problemlösungskompetenz unter Zeitdruck"
+  ],
+  "karrierePfade": [
+    "Supply Chain Director",
+    "Leiter/in Logistik oder Warehouse Management",
+    "Berater/in für Logistik und Supply Chain",
+    "Geschäftsführer/in eines Logistikunternehmens",
+    "Spezialisierung auf Green Logistics oder E-Commerce-Logistik"
+  ],
+  "arbeitsmarkt": "Der Logistikmarkt in Deutschland ist einer der größten weltweit, entsprechend hoch ist die Nachfrage nach qualifizierten Logistikmanager/innen. Die Disruption durch E-Commerce, Automatisierung und Nachhaltigkeit schafft ständig neue Herausforderungen und Jobmöglichkeiten. Unternehmen aller Branchen suchen Fachkräfte, die komplexe Lieferketten effizient gestalten können. Besonders gefragt sind Kenntnisse in Digitalisierung und nachhaltiger Logistik.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Prüfung der aktuellen Lieferstatus und eventuellen Abweichungen im Warenfluss. In Meetings werden Engpässe besprochen und kurzfristige Lösungen koordiniert. Vormittags stehen oft Verhandlungen mit Speditionen oder die Analyse von Logistikkennzahlen an. Nachmittags werden Prozessoptimierungen geplant, neue Softwarelösungen evaluiert oder strategische Projekte zur Lieferkettenoptimierung vorangetrieben. Die enge Zusammenarbeit mit Einkauf, Produktion und Vertrieb prägt den gesamten Arbeitstag.",
+  "relatedSlugs": ["speditionskaufmann", "projektmanager", "vertriebsmanager"]
+}

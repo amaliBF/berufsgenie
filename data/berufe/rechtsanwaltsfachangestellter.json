@@ -1,0 +1,38 @@
+{
+  "slug": "rechtsanwaltsfachangestellter",
+  "name": "Rechtsanwaltsfachangestellte/r",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2300, 3500],
+  "einstiegsgehalt": [2100, 2600],
+  "beschreibung": "Rechtsanwaltsfachangestellte (ReFa) sind die organisatorische Schaltzentrale einer Anwaltskanzlei. Sie übernehmen die Korrespondenz mit Mandant/innen und Gerichten, bereiten Schriftsätze vor, verwalten Akten und überwachen Fristen und Termine. Die dreijährige duale Ausbildung vermittelt juristisches Grundwissen, Büroorganisation und Abrechnungskenntnisse. ReFa arbeiten in Anwaltskanzleien, Notariaten, Inkassounternehmen und Rechtsabteilungen von Unternehmen. Der Beruf bietet eine solide Basis für verschiedene Karrierewege in der Rechtsbranche und ist besonders für Menschen geeignet, die Interesse an Recht mit organisatorischem Talent verbinden.",
+  "aufgaben": [
+    "Fristenüberwachung und Terminmanagement",
+    "Erstellung und Versand von Schriftsätzen und Korrespondenz",
+    "Aktenverwaltung und Dokumentenmanagement",
+    "Abrechnung nach RVG und Kostenfestsetzung",
+    "Kommunikation mit Mandant/innen, Gerichten und Behörden",
+    "Vorbereitung von Gerichtsterminen und Unterlagen",
+    "Zwangsvollstreckungsmaßnahmen vorbereiten und begleiten"
+  ],
+  "kompetenzen": [
+    "Juristisches Grundverständnis",
+    "Sorgfalt und Genauigkeit bei der Aktenarbeit",
+    "Organisationstalent und Fristenbewusstsein",
+    "Gute Deutsch- und Rechtschreibkenntnisse",
+    "Kommunikationsfähigkeit und freundliches Auftreten",
+    "Verschwiegenheit und Diskretion",
+    "Sicherer Umgang mit Kanzleisoftware und MS Office"
+  ],
+  "karrierePfade": [
+    "Rechtsanwaltsfachwirt/in",
+    "Geprüfte/r Rechtsfachwirt/in",
+    "Büroleitung in einer Kanzlei",
+    "Spezialisierung auf Zwangsvollstreckung oder Insolvenz",
+    "Studium Rechtswissenschaften (berufsbegleitend)"
+  ],
+  "arbeitsmarkt": "Rechtsanwaltsfachangestellte sind auf dem Arbeitsmarkt stark gefragt, da viele Kanzleien Schwierigkeiten haben, qualifiziertes Personal zu finden. Die Nachfrage übersteigt in vielen Regionen das Angebot, was zu steigenden Gehältern und attraktiven Zusatzleistungen führt. Besonders Fachkräfte mit Erfahrung in der digitalen Aktenführung und modernen Kanzleisoftware sind begehrt. Die Jobsicherheit ist hoch, da der Bedarf an rechtlicher Beratung konjunkturunabhängig bleibt.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt mit der Postbearbeitung und der Überprüfung anstehender Fristen. Anschließend werden Schriftsätze nach Diktat oder Vorlage erstellt, Akten angelegt oder bearbeitet und Termine mit Gerichten koordiniert. Am Telefon werden Anfragen von Mandant/innen entgegengenommen und an die zuständigen Anwält/innen weitergeleitet. Nachmittags folgen Abrechnungsarbeiten nach dem Rechtsanwaltsvergütungsgesetz und die Vorbereitung von Unterlagen für anstehende Gerichtstermine.",
+  "relatedSlugs": ["rechtsanwalt", "verwaltungsfachangestellter", "notar"]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "steuerfachangestellter",
+  "name": "Steuerfachangestellte/r",
+  "category": "Wirtschaft & Finanzen",
+  "categorySlug": "wirtschaft-finanzen",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2500, 4000],
+  "einstiegsgehalt": [2200, 2800],
+  "beschreibung": "Steuerfachangestellte sind unverzichtbare Fachkräfte in Steuerberatungskanzleien, Wirtschaftsprüfungsgesellschaften und Unternehmenssteuerabteilungen. Sie erstellen Steuererklärungen, prüfen Steuerbescheide und unterstützen bei der Finanzbuchhaltung. Der Beruf erfordert Genauigkeit, Zahlenverständnis und die Bereitschaft, sich ständig über aktuelle Steuergesetze fortzubilden. Mit der dreijährigen Ausbildung eröffnen sich zahlreiche Weiterbildungsmöglichkeiten bis hin zum Steuerberater-Examen.",
+  "aufgaben": [
+    "Erstellung von Steuererklärungen für Privatpersonen und Unternehmen",
+    "Finanzbuchhaltung und Lohnbuchhaltung",
+    "Prüfung von Steuerbescheiden",
+    "Vorbereitung von Jahresabschlüssen",
+    "Korrespondenz mit Finanzämtern und Behörden",
+    "Beratung von Mandanten zu steuerlichen Fragen"
+  ],
+  "kompetenzen": [
+    "Sehr gute Kenntnisse im Steuerrecht",
+    "Sorgfalt und Genauigkeit",
+    "Umgang mit DATEV und Buchhaltungssoftware",
+    "Analytisches Denkvermögen",
+    "Diskretion und Zuverlässigkeit",
+    "Gute Kommunikationsfähigkeit"
+  ],
+  "karrierePfade": [
+    "Steuerfachwirt/in",
+    "Bilanzbuchhalter/in",
+    "Steuerberater/in (nach Weiterbildung/Examen)",
+    "Kanzleileiter/in",
+    "Spezialist/in für internationales Steuerrecht"
+  ],
+  "arbeitsmarkt": "Steuerfachangestellte gehören zu den am stärksten nachgefragten Berufsgruppen in Deutschland. Der Fachkräftemangel in der Steuerberatung ist erheblich, was zu überdurchschnittlichen Gehaltssteigerungen und exzellenten Einstellungschancen führt. Die zunehmende Komplexität des Steuerrechts und die Digitalisierung der Kanzleiprozesse sorgen für einen anhaltend hohen Bedarf. Absolventen können sich ihre Arbeitgeber praktisch aussuchen.",
+  "typischerArbeitstag": "Der Morgen beginnt mit der Bearbeitung eingehender Post und der Sichtung neuer Steuerbescheide. Über den Tag verteilt werden Steuererklärungen erstellt, Buchungssätze erfasst und Mandantenanfragen beantwortet. Regelmäßig stehen Abstimmungstermine mit dem/der Steuerberater/in an, um komplexe Fälle zu besprechen. Zum Jahresende und zu den Abgabefristen steigt die Arbeitslast deutlich, was eine gute Selbstorganisation erfordert.",
+  "relatedSlugs": ["wirtschaftspruefer", "bankkaufmann", "finanzberater"]
+}

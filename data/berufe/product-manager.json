@@ -1,0 +1,39 @@
+{
+  "slug": "product-manager",
+  "name": "Product Manager/in",
+  "category": "Wirtschaft & Finanzen",
+  "categorySlug": "wirtschaft-finanzen",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4000, 7500],
+  "einstiegsgehalt": [3500, 4500],
+  "beschreibung": "Product Manager/innen sind für die strategische Planung, Entwicklung und Vermarktung eines Produkts oder einer Produktlinie verantwortlich. Sie bilden die Schnittstelle zwischen Entwicklung, Marketing, Vertrieb und Geschäftsführung und steuern den gesamten Produktlebenszyklus. Dabei analysieren sie Markttrends, definieren Produkt-Roadmaps und priorisieren Features auf Basis von Kundenfeedback und Geschäftszielen. Der Beruf erfordert sowohl analytisches Denken als auch Kreativität und Führungsstärke. Product Manager/innen arbeiten häufig in Tech-Unternehmen, sind aber zunehmend auch in klassischen Industrien gefragt.",
+  "aufgaben": [
+    "Entwicklung und Pflege der Produkt-Roadmap",
+    "Priorisierung von Features und User Stories",
+    "Durchführung von Markt- und Wettbewerbsanalysen",
+    "Enge Zusammenarbeit mit Entwicklungsteams, Design und Marketing",
+    "Definition von KPIs und Messung des Produkterfolgs",
+    "Einholung und Auswertung von Kundenfeedback",
+    "Präsentation von Produktstrategien vor der Geschäftsführung"
+  ],
+  "kompetenzen": [
+    "Strategisches und analytisches Denkvermögen",
+    "Erfahrung mit agilen Methoden (Scrum, Kanban)",
+    "Kommunikations- und Präsentationsstärke",
+    "Kenntnisse in Datenanalyse und A/B-Testing",
+    "Kundenorientierung und Empathie",
+    "Führungskompetenz ohne disziplinarische Verantwortung",
+    "Technisches Grundverständnis",
+    "Priorisierungs- und Entscheidungsfähigkeit"
+  ],
+  "karrierePfade": [
+    "Senior Product Manager/in",
+    "Head of Product",
+    "Chief Product Officer (CPO)",
+    "Gründer/in eines eigenen Startups",
+    "Unternehmensberater/in für Produktstrategie"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach Product Manager/innen ist in den letzten Jahren stark gestiegen, insbesondere im Tech-Bereich und bei digitalen Geschäftsmodellen. Unternehmen aller Größen erkennen den Wert einer professionellen Produktsteuerung. Der Fachkräftemangel sorgt für attraktive Gehälter und gute Verhandlungspositionen. Besonders gefragt sind Kandidat/innen mit Erfahrung in datengetriebener Produktentwicklung und AI-Produkten.",
+  "typischerArbeitstag": "Der Tag beginnt oft mit der Durchsicht von Produkt-Metriken und Nutzungsdaten. Danach folgen Sprint-Plannings oder Backlog-Refinements mit dem Entwicklungsteam. Am Nachmittag stehen häufig Stakeholder-Meetings und Strategiegespräche mit dem Management an. Zwischendurch werden Nutzerinterviews ausgewertet und die Produkt-Roadmap aktualisiert. Remote-Arbeit ist in dieser Rolle weit verbreitet.",
+  "relatedSlugs": ["business-analyst", "scrum-master", "unternehmensberater"]
+}

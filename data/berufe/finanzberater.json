@@ -1,0 +1,38 @@
+{
+  "slug": "finanzberater",
+  "name": "Finanzberater/in",
+  "category": "Wirtschaft & Finanzen",
+  "categorySlug": "wirtschaft-finanzen",
+  "ausbildung": "Studium / Ausbildung",
+  "gehaltsspanne": [3000, 6000],
+  "einstiegsgehalt": [2600, 3500],
+  "beschreibung": "Finanzberater/innen unterstützen Privat- und Geschäftskunden bei der Planung und Optimierung ihrer finanziellen Situation. Sie entwickeln individuelle Anlagestrategien, beraten zu Altersvorsorge, Vermögensaufbau und Finanzierungen. Der Beruf erfordert umfassendes Wissen über Finanzmärkte, Steuerrecht und verschiedene Anlageprodukte. Erfolgreiche Finanzberater/innen zeichnen sich durch Vertrauenswürdigkeit, analytisches Denken und die Fähigkeit aus, komplexe Sachverhalte verständlich zu erklären.",
+  "aufgaben": [
+    "Umfassende Finanzanalyse der Kundensituation",
+    "Entwicklung individueller Anlage- und Vorsorgestrategien",
+    "Beratung zu Altersvorsorge und Vermögensaufbau",
+    "Vermittlung von Finanzprodukten (Fonds, ETFs, Versicherungen)",
+    "Regelmäßige Portfolio-Überprüfung und Anpassung",
+    "Kundenakquise und Aufbau eines Kundenstamms",
+    "Marktbeobachtung und Produktrecherche"
+  ],
+  "kompetenzen": [
+    "Umfassendes Wissen über Finanzmärkte und -produkte",
+    "Analytisches Denkvermögen",
+    "Hervorragende Kommunikations- und Beratungskompetenz",
+    "Vertrauenswürdigkeit und ethisches Handeln",
+    "Kenntnisse in Steuer- und Sozialversicherungsrecht",
+    "Selbstständige Arbeitsweise und Eigenmotivation",
+    "Netzwerkfähigkeiten"
+  ],
+  "karrierePfade": [
+    "Senior Financial Advisor / Vermögensberater/in",
+    "Private Banking Berater/in",
+    "Leiter/in einer Finanzberatungsniederlassung",
+    "Certified Financial Planner (CFP)",
+    "Selbstständige/r Finanzberater/in"
+  ],
+  "arbeitsmarkt": "Der Bedarf an qualifizierter Finanzberatung wächst stetig, getrieben durch die Notwendigkeit privater Altersvorsorge und die zunehmende Komplexität der Finanzmärkte. Regulatorische Anforderungen wie die EU-Finanzmarktrichtlinie erhöhen die Qualitätsstandards und stärken seriöse Berater/innen. Neben klassischen Finanzdienstleistern bieten auch Fintechs und digitale Vermögensverwalter neue Beschäftigungsmöglichkeiten. Die Verdienstmöglichkeiten sind oft provisionsabhängig und können bei erfolgreicher Tätigkeit sehr attraktiv sein.",
+  "typischerArbeitstag": "Vormittags werden bestehende Kundenportfolios analysiert und an aktuelle Marktentwicklungen angepasst. Im Laufe des Tages finden ausführliche Beratungsgespräche statt, in denen die finanzielle Situation des Kunden erfasst und passende Strategien entwickelt werden. Zwischen den Terminen werden Angebote kalkuliert, Vertragsunterlagen vorbereitet und neue Finanzprodukte recherchiert. Abendtermine kommen vor, da viele Kunden erst nach Feierabend Zeit für Finanzberatung haben.",
+  "relatedSlugs": ["bankkaufmann", "versicherungskaufmann", "immobilienkaufmann"]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "unternehmensberater",
+  "name": "Unternehmensberater/in",
+  "category": "Wirtschaft & Finanzen",
+  "categorySlug": "wirtschaft-finanzen",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4500, 9000],
+  "einstiegsgehalt": [3800, 5000],
+  "beschreibung": "Unternehmensberater/innen unterstützen Firmen dabei, ihre Geschäftsprozesse zu optimieren, strategische Entscheidungen zu treffen und Veränderungsprozesse erfolgreich umzusetzen. Sie analysieren bestehende Strukturen, identifizieren Schwachstellen und entwickeln maßgeschneiderte Lösungskonzepte. Der Beruf erfordert ein hohes Maß an analytischer Kompetenz, Kommunikationsstärke und Reisebereitschaft. Unternehmensberatung zählt zu den anspruchsvollsten, aber auch bestbezahlten Karrierewegen in der Wirtschaft.",
+  "aufgaben": [
+    "Analyse von Geschäftsprozessen und Unternehmensstrukturen",
+    "Entwicklung von Strategien und Handlungsempfehlungen",
+    "Durchführung von Markt- und Wettbewerbsanalysen",
+    "Begleitung von Change-Management-Prozessen",
+    "Erstellung von Präsentationen und Entscheidungsvorlagen",
+    "Workshop-Moderation und Stakeholder-Management",
+    "Projektmanagement und Implementierungsbegleitung"
+  ],
+  "kompetenzen": [
+    "Analytisches und strategisches Denken",
+    "Hervorragende Präsentationsfähigkeiten",
+    "Projektmanagement-Kompetenz",
+    "Branchenübergreifendes Fachwissen",
+    "Belastbarkeit und Flexibilität",
+    "Verhandlungsgeschick",
+    "Sehr gute Englischkenntnisse",
+    "Teamfähigkeit und Führungskompetenz"
+  ],
+  "karrierePfade": [
+    "Senior Consultant",
+    "Manager / Principal",
+    "Partner/in in einer Beratungsgesellschaft",
+    "Geschäftsführer/in oder Vorstand im Kundenunternehmen",
+    "Gründung einer eigenen Beratungsfirma"
+  ],
+  "arbeitsmarkt": "Der Beratungsmarkt in Deutschland wächst seit Jahren kontinuierlich und bietet exzellente Karrierechancen. Besonders gefragt sind Spezialisierungen in den Bereichen Digitalisierung, Nachhaltigkeit und Künstliche Intelligenz. Die großen Beratungshäuser rekrutieren aktiv an Universitäten, wobei ein überdurchschnittlicher Studienabschluss oft Voraussetzung ist. Auch mittelständische Beratungen und Boutique-Consultancies bieten attraktive Einstiegsmöglichkeiten.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt oft früh mit der Anreise zum Kunden, da Unternehmensberater/innen häufig vor Ort arbeiten. Vormittags stehen Interviews mit Stakeholdern und die Analyse von Daten und Prozessen auf dem Programm. Nachmittags werden Ergebnisse aufbereitet, Hypothesen diskutiert und Präsentationen für das Management vorbereitet. Die Arbeitstage sind lang und intensiv, bieten dafür aber steile Lernkurven und abwechslungsreiche Projekte in verschiedenen Branchen.",
+  "relatedSlugs": ["controller", "wirtschaftspruefer", "personalreferent"]
+}

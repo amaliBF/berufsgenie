@@ -1,0 +1,39 @@
+{
+  "slug": "elektroingenieur",
+  "name": "Elektroingenieur/in",
+  "category": "Ingenieurwesen & Technik",
+  "categorySlug": "ingenieurwesen",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4000, 6500],
+  "einstiegsgehalt": [3800, 4800],
+  "beschreibung": "Elektroingenieur/innen entwickeln, planen und optimieren elektrische und elektronische Systeme, Geräte und Anlagen. Ihr Einsatzgebiet reicht von der Energietechnik über die Automatisierung bis zur Mikroelektronik und Kommunikationstechnik. Sie entwerfen Schaltungen, programmieren Steuerungen und sorgen dafür, dass elektrische Systeme sicher und effizient funktionieren. Mit der Energiewende und der zunehmenden Elektrifizierung von Industrie und Mobilität gewinnt der Beruf weiter an Bedeutung. Elektroingenieur/innen arbeiten in der Industrie, bei Energieversorgern, in der Automobilbranche oder in Ingenieurbüros.",
+  "aufgaben": [
+    "Entwicklung und Konstruktion elektrischer Schaltungen und Systeme",
+    "Programmierung von Steuerungen (SPS) und eingebetteten Systemen",
+    "Planung elektrischer Anlagen und Energieversorgungssysteme",
+    "Durchführung von Messungen, Tests und Inbetriebnahmen",
+    "Erstellung von Schaltplänen und technischen Dokumentationen",
+    "Simulation und Berechnung elektrotechnischer Systeme",
+    "Einhaltung von Normen und Sicherheitsvorschriften"
+  ],
+  "kompetenzen": [
+    "Schaltungstechnik und Elektronik",
+    "SPS-Programmierung (Siemens, Beckhoff)",
+    "CAD/EDA-Tools (EPLAN, Altium Designer)",
+    "Regelungstechnik und Automatisierung",
+    "Messtechnik und Signalverarbeitung",
+    "Mathematisches und physikalisches Verständnis",
+    "Sorgfalt bei sicherheitsrelevanten Arbeiten",
+    "Interdisziplinäre Zusammenarbeit"
+  ],
+  "karrierePfade": [
+    "Senior Entwicklungsingenieur/in",
+    "Projektleiter/in Elektrotechnik",
+    "Technische/r Leiter/in",
+    "Spezialisierung (z.B. Leistungselektronik, EMV)",
+    "Sachverständige/r für Elektrotechnik"
+  ],
+  "arbeitsmarkt": "Elektroingenieur/innen sind auf dem Arbeitsmarkt äußerst gefragt, insbesondere im Kontext der Energiewende, Elektromobilität und Industrie 4.0. Der Fachkräftemangel ist in der Elektrotechnik besonders spürbar, was zu attraktiven Einstiegsgehältern und guten Verhandlungspositionen führt. Branchen wie Automotive, erneuerbare Energien, Halbleiterindustrie und Medizintechnik bieten vielfältige Einsatzmöglichkeiten. Auch im öffentlichen Dienst und bei Stadtwerken werden Elektroingenieur/innen benötigt.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Planung anstehender Entwicklungsschritte oder der Auswertung von Testergebnissen. Am Vormittag wird am Schaltungsentwurf gearbeitet, Simulationen durchgeführt oder Software für Steuerungen programmiert. Im Labor werden Prototypen aufgebaut, gemessen und getestet. Nachmittags finden Projektbesprechungen statt, bei denen der Entwicklungsstand mit Kolleg/innen aus Mechanik, Software und Projektmanagement abgestimmt wird.",
+  "relatedSlugs": ["maschinenbauingenieur", "mechatroniker", "wirtschaftsingenieur"]
+}

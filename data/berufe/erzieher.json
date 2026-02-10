@@ -1,0 +1,38 @@
+{
+  "slug": "erzieher",
+  "name": "Erzieher/in",
+  "category": "Bildung & Soziales",
+  "categorySlug": "bildung-soziales",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2600, 3800],
+  "einstiegsgehalt": [2400, 3000],
+  "beschreibung": "Erzieher/innen begleiten, fördern und betreuen Kinder und Jugendliche in Kindertageseinrichtungen, Horten, Jugendzentren und Heimen. Sie gestalten pädagogische Angebote, beobachten die Entwicklung der Kinder und arbeiten eng mit Eltern zusammen. Die Ausbildung dauert je nach Bundesland drei bis fünf Jahre und umfasst Theoriephasen an der Fachschule sowie Praxisphasen in sozialpädagogischen Einrichtungen. Erzieher/innen tragen eine hohe Verantwortung für die frühkindliche Bildung und legen damit das Fundament für den weiteren Lebensweg der Kinder. Der Beruf erfordert Kreativität, Geduld und ein echtes Interesse an der Arbeit mit jungen Menschen.",
+  "aufgaben": [
+    "Planung und Durchführung pädagogischer Angebote und Projekte",
+    "Beobachtung und Dokumentation der kindlichen Entwicklung",
+    "Förderung sozialer, emotionaler und kognitiver Kompetenzen",
+    "Elternarbeit und Entwicklungsgespräche",
+    "Gestaltung des Tagesablaufs in der Einrichtung",
+    "Zusammenarbeit im pädagogischen Team",
+    "Umsetzung des Bildungsplans und der Einrichtungskonzeption"
+  ],
+  "kompetenzen": [
+    "Pädagogisches Fachwissen und Methodenkompetenz",
+    "Empathie und Einfühlungsvermögen",
+    "Kreativität und Spontaneität",
+    "Geduld und Belastbarkeit",
+    "Kommunikationsstärke mit Kindern, Eltern und Team",
+    "Beobachtungsfähigkeit und Reflexionsvermögen",
+    "Verantwortungsbewusstsein und Zuverlässigkeit"
+  ],
+  "karrierePfade": [
+    "Leitung einer Kindertageseinrichtung",
+    "Fachberatung für Kindertagesstätten",
+    "Studium Soziale Arbeit oder Kindheitspädagogik",
+    "Heilpädagogische Zusatzqualifikation",
+    "Facherzieher/in für Integration oder Sprachförderung"
+  ],
+  "arbeitsmarkt": "Der Fachkräftemangel in der Kinderbetreuung ist eines der drängendsten Probleme im Sozialbereich. Bundesweit fehlen laut Studien hunderttausende Erzieher/innen, und die Nachfrage wächst durch den Ausbau der Ganztagsbetreuung weiter. Die Vergütung im öffentlichen Dienst (TVöD SuE) hat sich in den letzten Jahren deutlich verbessert und liegt über dem Durchschnitt sozialer Berufe. Die Jobsicherheit ist außergewöhnlich hoch, und Teilzeitmodelle sind weit verbreitet.",
+  "typischerArbeitstag": "Der Tag in einer Kita beginnt mit dem Empfang der Kinder und einem gemeinsamen Morgenkreis. Vormittags werden pädagogische Angebote durchgeführt – Basteln, Musizieren, Bewegungsspiele oder Naturerkundungen. Nach dem Mittagessen folgt die Ruhezeit, in der Erzieher/innen Dokumentationen erstellen oder Teambesprechungen führen. Nachmittags gibt es Freispielzeit und gezielte Förderangebote, bevor die Kinder abgeholt werden. Elterngespräche und Vor- und Nachbereitungszeiten runden den Arbeitstag ab.",
+  "relatedSlugs": ["sozialarbeiter", "heilpaedagoge", "lehrer"]
+}

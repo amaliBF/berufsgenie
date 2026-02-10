@@ -1,0 +1,37 @@
+{
+  "slug": "scrum-master",
+  "name": "Scrum Master",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Studium + Zertifizierung",
+  "gehaltsspanne": [4500, 7000],
+  "einstiegsgehalt": [3800, 4800],
+  "beschreibung": "Scrum Master sind verantwortlich für die Einführung, Umsetzung und kontinuierliche Verbesserung agiler Arbeitsmethoden innerhalb von Entwicklungsteams. Sie agieren als Coach und Moderator, beseitigen Hindernisse und sorgen dafür, dass das Team effizient und selbstorganisiert arbeiten kann. Dabei fördern sie die Einhaltung des Scrum-Frameworks und schützen das Team vor äußeren Störungen. Der Beruf verlangt ein tiefes Verständnis agiler Prinzipien sowie ausgeprägte Kommunikations- und Konfliktlösungsfähigkeiten. Scrum Master sind in der IT-Branche besonders gefragt, finden aber auch in anderen Bereichen wie dem Finanzwesen oder der Produktion Einsatz.",
+  "aufgaben": [
+    "Moderation von Scrum-Events (Daily, Sprint Planning, Review, Retrospektive)",
+    "Identifikation und Beseitigung von Impediments",
+    "Coaching des Teams in agilen Methoden und Prinzipien",
+    "Förderung der Selbstorganisation und Eigenverantwortung im Team",
+    "Zusammenarbeit mit Product Ownern zur Backlog-Pflege",
+    "Messung und Verbesserung der Team-Performance"
+  ],
+  "kompetenzen": [
+    "Zertifizierung als Scrum Master (PSM, CSM o.ä.)",
+    "Tiefes Verständnis agiler Frameworks (Scrum, Kanban, SAFe)",
+    "Moderations- und Facilitationskompetenz",
+    "Empathie und Konfliktlösungsfähigkeit",
+    "Coaching- und Mentoring-Skills",
+    "Grundlegendes technisches Verständnis",
+    "Change-Management-Erfahrung"
+  ],
+  "karrierePfade": [
+    "Senior Scrum Master",
+    "Agile Coach",
+    "Release Train Engineer (SAFe)",
+    "Head of Agile / Agile Lead",
+    "Organisationsentwickler/in"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach Scrum Mastern bleibt hoch, da immer mehr Unternehmen auf agile Arbeitsweisen umstellen. Besonders große Konzerne im Rahmen ihrer digitalen Transformation suchen erfahrene Scrum Master. Zertifizierungen wie PSM II oder CSP steigern die Karrierechancen deutlich. Der Trend geht zunehmend in Richtung unternehmensweiter Agilität, was die Nachfrage nach erfahrenen Agile Coaches weiter antreibt.",
+  "typischerArbeitstag": "Der Tag startet mit dem Daily Scrum, in dem das Team den aktuellen Sprint-Fortschritt bespricht. Anschließend kümmert sich der Scrum Master um offene Hindernisse und führt Einzelgespräche mit Teammitgliedern. Am Nachmittag moderiert er möglicherweise eine Sprint-Retrospektive oder arbeitet mit dem Product Owner an der Backlog-Priorisierung. Zwischendurch werden Metriken wie Velocity oder Cycle Time analysiert, um Verbesserungspotenziale zu identifizieren.",
+  "relatedSlugs": ["product-manager", "softwareentwickler", "it-projektleiter"]
+}

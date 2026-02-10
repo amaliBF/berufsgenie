@@ -1,0 +1,39 @@
+{
+  "slug": "polizist",
+  "name": "Polizist/in",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "ausbildung": "Ausbildung / Studium",
+  "gehaltsspanne": [2800, 4500],
+  "einstiegsgehalt": [2600, 3200],
+  "beschreibung": "Polizist/innen sorgen für öffentliche Sicherheit und Ordnung, schützen Bürger/innen vor Gefahren und verfolgen Straftaten. Der Einstieg erfolgt über eine Ausbildung im mittleren Dienst oder ein duales Studium für den gehobenen Polizeivollzugsdienst bei der Landes- oder Bundespolizei. Im Streifendienst, bei der Kriminalpolizei, im Verkehrsdienst oder bei Spezialeinheiten – die Einsatzbereiche sind vielfältig und abwechslungsreich. Polizist/innen müssen körperlich fit sein, ein einwandfreies Führungszeugnis vorweisen und strenge Auswahlverfahren bestehen. Der Beruf als Beamt/in bietet Jobsicherheit, regelmäßige Beförderungsmöglichkeiten und eine attraktive Besoldung mit Zulagen.",
+  "aufgaben": [
+    "Streifendienst und Aufrechterhaltung der öffentlichen Sicherheit",
+    "Aufnahme von Strafanzeigen und Unfallberichten",
+    "Durchführung von Ermittlungen und Vernehmungen",
+    "Verkehrsüberwachung und Verkehrsunfallaufnahme",
+    "Einsatz bei Demonstrationen und Großveranstaltungen",
+    "Personenkontrollen und Fahndungsmaßnahmen",
+    "Zusammenarbeit mit Staatsanwaltschaft und Gerichten"
+  ],
+  "kompetenzen": [
+    "Körperliche Fitness und Belastbarkeit",
+    "Durchsetzungsvermögen und Autorität",
+    "Kommunikationsstärke und Deeskalationsfähigkeit",
+    "Schnelle Entscheidungsfähigkeit in Stresssituationen",
+    "Rechtsverständnis und Gesetzkenntnisse",
+    "Teamfähigkeit und Kollegialität",
+    "Psychische Stabilität und Stressresistenz",
+    "Interkulturelle Kompetenz"
+  ],
+  "karrierePfade": [
+    "Aufstieg in den gehobenen oder höheren Dienst",
+    "Kriminalpolizei oder Kriminaltechnik",
+    "Spezialeinheiten (SEK, MEK, GSG 9)",
+    "Polizeiliche Führungsakademie",
+    "Ausbilder/in an Polizeihochschulen"
+  ],
+  "arbeitsmarkt": "Die Polizei stellt bundesweit jährlich tausende Nachwuchskräfte ein, um den Personalbedarf zu decken und altersbedingte Abgänge zu kompensieren. Die Einstellungszahlen sind in den letzten Jahren deutlich gestiegen, da die Innere Sicherheit hohe politische Priorität genießt. Die Auswahlverfahren sind anspruchsvoll, aber wer bestanden hat, profitiert von einer sicheren Beamtenlaufbahn mit guter Besoldung. Zulagen für Schichtdienst, Nachtdienst und besondere Einsätze erhöhen die Gesamtvergütung spürbar.",
+  "typischerArbeitstag": "Im Streifendienst beginnt der Tag mit der Dienstübergabe und einer Lagebesprechung. Anschließend fahren Polizist/innen Streife, reagieren auf Notrufe und führen Personenkontrollen durch. Zwischen den Einsätzen werden Berichte geschrieben und Anzeigen aufgenommen. Bei der Kriminalpolizei besteht der Tag aus Ermittlungsarbeit, Zeugenbefragungen, Beweissicherung und Abstimmung mit der Staatsanwaltschaft. Schichtdienst mit Früh-, Spät- und Nachtschichten gehört zum Berufsalltag.",
+  "relatedSlugs": ["richter", "verwaltungsfachangestellter", "rettungssanitaeter"]
+}

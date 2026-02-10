@@ -1,0 +1,38 @@
+{
+  "slug": "produktionsleiter",
+  "name": "Produktionsleiter/in",
+  "category": "Ingenieurwesen & Technik",
+  "categorySlug": "ingenieurwesen",
+  "ausbildung": "Studium / Ausbildung + Weiterbildung",
+  "gehaltsspanne": [4000, 6500],
+  "einstiegsgehalt": [3500, 4500],
+  "beschreibung": "Produktionsleiter/innen sind verantwortlich für die Planung, Steuerung und Überwachung der gesamten Fertigung in einem Unternehmen. Sie sorgen dafür, dass Produktionsziele termingerecht, in der geforderten Qualität und innerhalb des Budgets erreicht werden. Dabei führen sie Teams von Facharbeiter/innen und Schichtleiter/innen, optimieren Produktionsabläufe und setzen Lean-Management-Methoden ein. Der Beruf erfordert sowohl technisches Know-how als auch ausgeprägte Führungsqualitäten und betriebswirtschaftliches Verständnis. Produktionsleiter/innen arbeiten in Industrieunternehmen aller Branchen und nehmen eine Schlüsselposition zwischen Geschäftsführung und Fertigung ein.",
+  "aufgaben": [
+    "Planung und Steuerung der Produktionsprozesse",
+    "Personalführung und Einsatzplanung der Fertigungsmitarbeiter",
+    "Überwachung von Qualität, Kosten und Terminen",
+    "Einführung und Umsetzung von Lean-Management-Methoden",
+    "Analyse und Beseitigung von Produktionsstörungen",
+    "Sicherstellung der Arbeitssicherheit und Umweltvorschriften",
+    "Berichterstattung an die Geschäftsführung"
+  ],
+  "kompetenzen": [
+    "Produktionsplanung und -steuerung (PPS/ERP-Systeme)",
+    "Lean Management und kontinuierliche Verbesserung",
+    "Führungskompetenz und Mitarbeitermotivation",
+    "Fertigungstechnik und Prozesskenntnisse",
+    "Betriebswirtschaftliches Verständnis",
+    "Belastbarkeit und Entscheidungsfreude",
+    "Kommunikationsfähigkeit auf allen Ebenen"
+  ],
+  "karrierePfade": [
+    "Werksleiter/in",
+    "Betriebsleiter/in",
+    "Operations Director",
+    "Geschäftsführer/in Produktion",
+    "Beratung für Produktionsoptimierung"
+  ],
+  "arbeitsmarkt": "Produktionsleiter/innen werden in der gesamten produzierenden Industrie gesucht. Erfahrene Führungskräfte mit Kenntnissen in Lean Management und Industrie 4.0 sind besonders begehrt. Der Weg in die Position führt oft über eine technische Ausbildung mit Weiterbildung zum Meister oder Techniker oder über ein Ingenieurstudium mit anschließender Berufserfahrung in der Fertigung. Die Gehälter sind attraktiv und steigen mit der Größe des Verantwortungsbereichs und der Mitarbeiterzahl erheblich.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt früh mit dem Produktionsstart und einer Lagebesprechung mit den Schichtleiter/innen. Es folgt ein Rundgang durch die Fertigung, bei dem der Produktionsfortschritt und die Qualität überprüft werden. Am Vormittag stehen Planungsmeetings an, in denen Kapazitäten, Materialbedarf und Personalplanung besprochen werden. Der Nachmittag wird für die Analyse von Produktionskennzahlen, Mitarbeitergespräche und die strategische Weiterentwicklung der Fertigungsprozesse genutzt.",
+  "relatedSlugs": ["maschinenbauingenieur", "qualitaetsmanager", "wirtschaftsingenieur"]
+}

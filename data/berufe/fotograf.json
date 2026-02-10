@@ -1,0 +1,38 @@
+{
+  "slug": "fotograf",
+  "name": "Fotograf/in",
+  "category": "Marketing & Medien",
+  "categorySlug": "marketing-medien",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2000, 4000],
+  "einstiegsgehalt": [1800, 2500],
+  "beschreibung": "Fotograf/innen halten Momente, Produkte und Geschichten in aussagekräftigen Bildern fest. Sie arbeiten in unterschiedlichsten Bereichen wie Werbefotografie, Porträtfotografie, Eventfotografie oder Fotojournalismus. Der Beruf erfordert ein geschultes Auge für Komposition, Licht und Bildwirkung sowie technische Expertise im Umgang mit Kameraequipment und Bildbearbeitungssoftware. Kreativität, Flexibilität und unternehmerisches Denken sind besonders für selbstständige Fotograf/innen unverzichtbar.",
+  "aufgaben": [
+    "Planung und Durchführung von Fotoshootings",
+    "Professionelle Bildbearbeitung und Retusche",
+    "Abstimmung von Bildkonzepten mit Kunden oder Redaktionen",
+    "Aufbau und Gestaltung von Lichtsituationen",
+    "Auswahl und Pflege der Fotoausrüstung",
+    "Bildarchivierung und Metadaten-Verwaltung",
+    "Selbstvermarktung und Kundenpflege"
+  ],
+  "kompetenzen": [
+    "Beherrschung professioneller Kameratechnik",
+    "Kompetenz in Bildbearbeitung (Lightroom, Photoshop)",
+    "Gespür für Komposition, Licht und Farbe",
+    "Kreativität und Stilsicherheit",
+    "Kommunikationsfähigkeit mit Models und Kunden",
+    "Technisches Verständnis für Druck- und Digitalformate",
+    "Unternehmerisches Denken (bei Selbstständigkeit)"
+  ],
+  "karrierePfade": [
+    "Spezialisierung (Werbung, Mode, Architektur, Food)",
+    "Studioleiter/in",
+    "Bildredakteur/in",
+    "Fotografie-Dozent/in",
+    "Selbstständige/r Fotograf/in mit eigenem Studio"
+  ],
+  "arbeitsmarkt": "Die Fotografie befindet sich im Wandel: Smartphones haben die Eintrittshürde gesenkt, gleichzeitig steigt der Bedarf an professionellen Bildern für Social Media, E-Commerce und Content Marketing. Spezialisierung und ein unverwechselbarer Stil sind entscheidend, um sich am Markt zu behaupten. Viele Fotograf/innen arbeiten selbstständig oder freiberuflich, was unternehmerisches Geschick erfordert. Festanstellungen finden sich bei Medienunternehmen, Agenturen und größeren E-Commerce-Händlern.",
+  "typischerArbeitstag": "Ein typischer Tag kann sehr unterschiedlich aussehen: An Shooting-Tagen wird morgens das Equipment vorbereitet und das Set aufgebaut, bevor mehrstündige Fotosessions stattfinden. An anderen Tagen dominiert die Nachbearbeitung am Computer, wo Bilder ausgewählt, bearbeitet und exportiert werden. Dazwischen werden Kundengespräche geführt, Angebote erstellt und die eigene Webpräsenz gepflegt. Abend- und Wochenendeinsätze sind bei Events und Hochzeiten keine Seltenheit.",
+  "relatedSlugs": ["videograf", "mediengestalter", "grafikdesigner"]
+}

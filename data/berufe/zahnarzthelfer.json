@@ -1,0 +1,38 @@
+{
+  "slug": "zahnarzthelfer",
+  "name": "Zahnmedizinische/r Fachangestellte/r",
+  "category": "Gesundheit & Medizin",
+  "categorySlug": "gesundheit-medizin",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2200, 3200],
+  "einstiegsgehalt": [2000, 2500],
+  "beschreibung": "Zahnmedizinische Fachangestellte (ZFA) unterstützen Zahnärzt/innen bei der Behandlung von Patient/innen und übernehmen organisatorische sowie verwaltungstechnische Aufgaben in der Zahnarztpraxis. Sie bereiten Behandlungen vor, assistieren bei zahnmedizinischen Eingriffen und führen eigenständig Prophylaxemaßnahmen durch. Die dreijährige duale Ausbildung vermittelt sowohl medizinisches Fachwissen als auch Kenntnisse in Praxisorganisation und Abrechnung. ZFA sind die erste Anlaufstelle für Patient/innen und tragen maßgeblich zu einer angenehmen Praxisatmosphäre bei. Der Beruf bietet vielfältige Weiterbildungsmöglichkeiten und eine sichere berufliche Perspektive.",
+  "aufgaben": [
+    "Assistenz bei zahnärztlichen Behandlungen und Eingriffen",
+    "Vorbereitung von Behandlungsräumen und Instrumenten",
+    "Durchführung von Prophylaxemaßnahmen und Zahnreinigungen",
+    "Erstellung von Röntgenaufnahmen",
+    "Terminplanung und Patientenempfang",
+    "Abrechnung mit Krankenkassen und Privatliquidation",
+    "Hygienemaßnahmen und Sterilisation von Instrumenten"
+  ],
+  "kompetenzen": [
+    "Freundlichkeit und Einfühlungsvermögen im Patientenkontakt",
+    "Sorgfalt und Hygienebewusstsein",
+    "Manuelle Geschicklichkeit",
+    "Organisationstalent und Multitasking-Fähigkeit",
+    "Kenntnisse in Abrechnung und Praxisverwaltung",
+    "Teamfähigkeit und Zuverlässigkeit",
+    "Belastbarkeit und Stressresistenz"
+  ],
+  "karrierePfade": [
+    "Zahnmedizinische Prophylaxeassistentin (ZMP)",
+    "Zahnmedizinische Verwaltungsassistentin (ZMV)",
+    "Dentalhygienikerin (DH)",
+    "Praxismanagerin",
+    "Studium Dentalhygiene oder Gesundheitsmanagement"
+  ],
+  "arbeitsmarkt": "ZFA sind auf dem Arbeitsmarkt sehr gefragt, da nahezu jede Zahnarztpraxis Unterstützung benötigt und viele Stellen unbesetzt bleiben. Der demografische Wandel und das steigende Bewusstsein für Zahngesundheit sorgen für eine anhaltend hohe Nachfrage. Die Gehälter haben sich in den letzten Jahren positiv entwickelt, insbesondere für Fachkräfte mit Zusatzqualifikationen. Teilzeitmodelle und flexible Arbeitszeiten machen den Beruf besonders attraktiv.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt mit der Vorbereitung der Behandlungsräume und dem Empfang der ersten Patient/innen. Während der Behandlungen assistieren ZFA dem Zahnarzt oder der Zahnärztin, reichen Instrumente an und sorgen für Absaugung und Beleuchtung. Zwischen den Behandlungen werden Räume gereinigt, Instrumente sterilisiert und die nächsten Termine vorbereitet. Am Empfang werden Termine koordiniert, Abrechnungen erstellt und Patient/innen beraten.",
+  "relatedSlugs": ["medizinischer-fachangestellter", "krankenpfleger", "pharmazeut"]
+}

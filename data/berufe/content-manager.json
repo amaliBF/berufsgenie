@@ -1,0 +1,38 @@
+{
+  "slug": "content-manager",
+  "name": "Content Manager/in",
+  "category": "Marketing & Medien",
+  "categorySlug": "marketing-medien",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3000, 5000],
+  "einstiegsgehalt": [2600, 3400],
+  "beschreibung": "Content Manager/innen sind für die strategische Planung, Erstellung und Verwaltung von Inhalten auf digitalen Kanälen verantwortlich. Sie sorgen dafür, dass Websites, Blogs und Social-Media-Auftritte mit relevanten, hochwertigen Inhalten bespielt werden, die sowohl die Zielgruppe ansprechen als auch Suchmaschinen überzeugen. Der Beruf verbindet redaktionelle Kompetenz mit technischem Verständnis und datengetriebenem Arbeiten. In der Content-Marketing-Ära ist diese Rolle zum unverzichtbaren Bestandteil jeder Marketingabteilung geworden.",
+  "aufgaben": [
+    "Entwicklung und Umsetzung von Content-Strategien",
+    "Erstellung und Redaktion von Texten, Bildern und Videos",
+    "SEO-Optimierung von Webinhalten",
+    "Pflege von Content-Management-Systemen (WordPress, Typo3 etc.)",
+    "Erstellung und Verwaltung von Redaktionsplänen",
+    "Performance-Analyse mit Google Analytics und ähnlichen Tools",
+    "Koordination externer Autoren und Content-Dienstleister"
+  ],
+  "kompetenzen": [
+    "Hervorragende Schreibkompetenz",
+    "SEO-Kenntnisse und Keyword-Recherche",
+    "Erfahrung mit CMS-Systemen",
+    "Grundkenntnisse in HTML und Webdesign",
+    "Analytisches Denken und datengetriebenes Arbeiten",
+    "Projektmanagement und Zeitmanagement",
+    "Verständnis für User Experience und Conversion-Optimierung"
+  ],
+  "karrierePfade": [
+    "Senior Content Manager/in",
+    "Head of Content / Content Director",
+    "Content-Stratege/Strategin",
+    "Digital Marketing Manager/in",
+    "Freiberufliche/r Content-Berater/in"
+  ],
+  "arbeitsmarkt": "Content Management gehört zu den gefragtesten Berufsfeldern im digitalen Marketing. Unternehmen aller Branchen setzen verstärkt auf Content Marketing, um Kunden zu gewinnen und Expertise zu demonstrieren. Kenntnisse in SEO, KI-gestützter Contenterstellung und Video-Content sind besonders wertvoll. Die Position wird sowohl in Agenturen als auch in Inhouse-Marketingteams angeboten, wobei die Vergütung mit steigender Erfahrung deutlich zunimmt.",
+  "typischerArbeitstag": "Der Morgen startet mit der Überprüfung der Content-Performance: Welche Artikel werden gelesen, welche Beiträge performen auf Social Media? Anschließend werden neue Inhalte verfasst oder bestehende Texte SEO-optimiert. Mittags folgen Redaktionsmeetings, in denen der Content-Plan für die kommenden Wochen besprochen wird. Nachmittags werden Briefings für externe Autoren erstellt, CMS-Inhalte eingepflegt und die Zusammenarbeit mit Design- und Social-Media-Teams koordiniert.",
+  "relatedSlugs": ["social-media-manager", "redakteur", "marketing-manager"]
+}

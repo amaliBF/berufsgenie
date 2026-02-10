@@ -1,0 +1,39 @@
+{
+  "slug": "bauleiter",
+  "name": "Bauleiter/in",
+  "category": "Handwerk & Bau",
+  "categorySlug": "handwerk-bau",
+  "ausbildung": "Studium + Erfahrung",
+  "gehaltsspanne": [4000, 6500],
+  "einstiegsgehalt": [3500, 4500],
+  "beschreibung": "Bauleiter/innen organisieren, koordinieren und überwachen Bauprojekte von der Grundsteinlegung bis zur Fertigstellung. Sie tragen die Verantwortung für Terminpläne, Budgets, Qualitätsstandards und die Einhaltung von Sicherheitsvorschriften auf der Baustelle. Der Beruf erfordert eine Kombination aus technischem Fachwissen, Führungskompetenz und Organisationstalent. Bauleiter/innen sind das Bindeglied zwischen Bauherren, Architekten, Ingenieuren und den ausführenden Gewerken und tragen maßgeblich zum Erfolg eines Bauprojekts bei.",
+  "aufgaben": [
+    "Planung und Koordination des Bauablaufs",
+    "Überwachung der Bauausführung vor Ort",
+    "Termin- und Kostenkontrolle",
+    "Führung und Anleitung der Bauarbeiter und Subunternehmer",
+    "Sicherstellung der Einhaltung von Sicherheitsvorschriften",
+    "Kommunikation mit Bauherren, Behörden und Fachplanern",
+    "Dokumentation des Baufortschritts und Abnahme von Leistungen"
+  ],
+  "kompetenzen": [
+    "Umfassendes bautechnisches Fachwissen",
+    "Führungskompetenz und Durchsetzungsvermögen",
+    "Projektmanagement und Organisationstalent",
+    "Kenntnisse des Baurechts und der VOB",
+    "Belastbarkeit und Stressresistenz",
+    "Verhandlungsgeschick und Kommunikationsstärke",
+    "Sicherer Umgang mit Bauplanungs- und Projektmanagement-Software",
+    "Entscheidungsfreude unter Zeitdruck"
+  ],
+  "karrierePfade": [
+    "Oberbauleiter/in oder Projektleiter/in",
+    "Niederlassungsleiter/in bei Bauunternehmen",
+    "Geschäftsführer/in eines Bauunternehmens",
+    "Selbstständige Projektsteuerung und Bauherrenberatung",
+    "Technische/r Geschäftsführer/in"
+  ],
+  "arbeitsmarkt": "Erfahrene Bauleiter/innen sind auf dem Arbeitsmarkt äußerst gefragt. Die Baubranche kämpft seit Jahren mit einem erheblichen Mangel an qualifizierten Führungskräften für die Baustellenleitung. Großprojekte im Wohnungsbau, in der Infrastruktur und bei der energetischen Sanierung sorgen für kontinuierlich hohe Nachfrage. Die Gehälter liegen deutlich über dem Durchschnitt, und Zusatzleistungen wie Firmenwagen sind in dieser Position üblich.",
+  "typischerArbeitstag": "Der Tag beginnt früh mit einer Baustellenbegehung, bei der der aktuelle Stand der Arbeiten geprüft wird. In der Baubesprechung werden mit den Polieren und Subunternehmern die Tagesaufgaben und Wochenziele koordiniert. Vormittags fallen Abstimmungen mit dem Architekten, Nachträge von Subunternehmern und behördliche Angelegenheiten an. Nachmittags werden Aufmaße kontrolliert, Rechnungen geprüft und der Baufortschritt dokumentiert. Abends wird der nächste Tag geplant und der Bauherr über den Projektstand informiert.",
+  "relatedSlugs": ["architektur", "sanitaer-heizung-klima", "projektmanager"]
+}

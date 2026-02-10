@@ -1,0 +1,38 @@
+{
+  "slug": "qualitaetsmanager",
+  "name": "Qualitätsmanager/in",
+  "category": "Ingenieurwesen & Technik",
+  "categorySlug": "ingenieurwesen",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3800, 6000],
+  "einstiegsgehalt": [3500, 4500],
+  "beschreibung": "Qualitätsmanager/innen entwickeln und überwachen Qualitätsmanagementsysteme, um sicherzustellen, dass Produkte und Dienstleistungen höchsten Standards entsprechen. Sie analysieren Prozesse, identifizieren Verbesserungspotenziale und implementieren Maßnahmen zur kontinuierlichen Qualitätsverbesserung. Der Beruf erfordert ein systematisches Denken und die Fähigkeit, sowohl technische als auch organisatorische Zusammenhänge zu durchdringen. Qualitätsmanager/innen arbeiten branchenübergreifend – in der Industrie, im Gesundheitswesen, in der Lebensmittelbranche oder in Dienstleistungsunternehmen. Sie sind maßgeblich daran beteiligt, dass Unternehmen Zertifizierungen wie ISO 9001 erlangen und aufrechterhalten.",
+  "aufgaben": [
+    "Aufbau und Pflege von Qualitätsmanagementsystemen (QMS)",
+    "Durchführung interner Audits und Lieferantenaudits",
+    "Analyse von Fehlern und Reklamationen (8D-Report, FMEA)",
+    "Erstellung und Aktualisierung von Prozessdokumentationen",
+    "Schulung von Mitarbeitenden in Qualitätsstandards",
+    "Vorbereitung und Begleitung externer Zertifizierungsaudits",
+    "Statistische Prozessüberwachung und Kennzahlenanalyse"
+  ],
+  "kompetenzen": [
+    "ISO-Normen (9001, 14001, IATF 16949)",
+    "Qualitätswerkzeuge (FMEA, SPC, 8D, Ishikawa)",
+    "Auditmethodik und Interviewtechnik",
+    "Statistische Methoden und Datenanalyse",
+    "Prozessmanagement und kontinuierliche Verbesserung (KVP)",
+    "Kommunikations- und Überzeugungsfähigkeit",
+    "Sorgfalt und Durchsetzungsvermögen"
+  ],
+  "karrierePfade": [
+    "Senior Qualitätsmanager/in",
+    "Leiter/in Qualitätsmanagement",
+    "Qualitätsauditor/in (TÜV, DEKRA)",
+    "Lean/Six-Sigma-Expert/in (Black Belt)",
+    "Beratung im Qualitätsmanagement"
+  ],
+  "arbeitsmarkt": "Qualitätsmanager/innen sind in allen Branchen gefragt, da Qualitätssicherung ein zentraler Wettbewerbsfaktor ist. Besonders die Automobilindustrie, Medizintechnik, Pharmazie und Lebensmittelbranche stellen hohe Anforderungen an das Qualitätsmanagement. Zertifizierungen als Qualitätsauditor oder Six-Sigma-Spezialist verbessern die Karrierechancen erheblich. Der Bedarf wächst zusätzlich durch steigende regulatorische Anforderungen und den zunehmenden Fokus auf Nachhaltigkeit.",
+  "typischerArbeitstag": "Der Tag beginnt häufig mit der Durchsicht aktueller Qualitätskennzahlen und offener Reklamationen. Vormittags stehen interne Audits oder Prozessbegehungen auf dem Programm, bei denen die Einhaltung von Standards überprüft wird. Anschließend werden Maßnahmenpläne erstellt oder aktualisiert. Nachmittags finden Schulungen für Mitarbeitende statt oder es werden Dokumentationen überarbeitet. Regelmäßige Managementreviews runden die Arbeit ab.",
+  "relatedSlugs": ["wirtschaftsingenieur", "produktionsleiter", "verfahrensingenieur"]
+}

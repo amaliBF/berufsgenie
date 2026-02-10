@@ -1,0 +1,39 @@
+{
+  "slug": "marketing-manager",
+  "name": "Marketing Manager/in",
+  "category": "Marketing & Medien",
+  "categorySlug": "marketing-medien",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3500, 6500],
+  "einstiegsgehalt": [3000, 4000],
+  "beschreibung": "Marketing Manager/innen entwickeln und steuern die Marketingstrategie eines Unternehmens oder einer Marke. Sie verantworten die Positionierung am Markt, planen Kampagnen über verschiedene Kanäle und analysieren deren Erfolg anhand von KPIs. Der Beruf vereint kreatives Denken mit datengetriebener Analyse und erfordert ein tiefes Verständnis für Zielgruppen und Markttrends. In der zunehmend digitalen Marketingwelt sind sowohl klassische als auch Online-Marketing-Kompetenzen gefragt.",
+  "aufgaben": [
+    "Entwicklung und Umsetzung von Marketingstrategien",
+    "Planung und Steuerung von Werbekampagnen (online und offline)",
+    "Markt- und Wettbewerbsanalysen durchführen",
+    "Budgetplanung und -kontrolle für Marketingmaßnahmen",
+    "Koordination von Agenturen und Dienstleistern",
+    "Performance-Analyse und Reporting",
+    "Markenführung und Produktpositionierung"
+  ],
+  "kompetenzen": [
+    "Strategisches und kreatives Denken",
+    "Kenntnisse in Digital Marketing (SEO, SEA, Social Media)",
+    "Analytische Fähigkeiten und Datenverständnis",
+    "Projektmanagement-Kompetenz",
+    "Kommunikationsstärke",
+    "Erfahrung mit Marketing-Tools (Google Analytics, HubSpot etc.)",
+    "Budgetverantwortung und Kostenbewusstsein",
+    "Trendgespür und Marktverständnis"
+  ],
+  "karrierePfade": [
+    "Senior Marketing Manager/in",
+    "Head of Marketing / Marketingleiter/in",
+    "Chief Marketing Officer (CMO)",
+    "Brand Director",
+    "Selbstständige/r Marketing-Berater/in"
+  ],
+  "arbeitsmarkt": "Marketing-Fachkräfte werden branchenübergreifend gesucht, wobei die Nachfrage nach Digital-Marketing-Experten besonders stark wächst. Unternehmen aller Größen investieren zunehmend in professionelles Marketing, um sich im Wettbewerb zu differenzieren. Spezialisierungen in Performance Marketing, Content Marketing oder Marketing Automation sind besonders gefragt. Die Gehälter variieren stark nach Branche und Unternehmensgröße, mit den höchsten Vergütungen in der Konsumgüter- und Technologiebranche.",
+  "typischerArbeitstag": "Der Morgen beginnt mit der Auswertung aktueller Kampagnen-Performance und der Priorisierung anstehender Aufgaben. Vormittags stehen Abstimmungen mit dem Kreativteam, Agentur-Briefings oder Redaktionsplanungen an. Nachmittags werden Marketingkonzepte erarbeitet, Budgets kalkuliert oder Analysen für das Management aufbereitet. Regelmäßig finden strategische Meetings mit der Geschäftsleitung statt, um Marketingziele und Markenstrategie abzustimmen.",
+  "relatedSlugs": ["social-media-manager", "pr-berater", "content-manager"]
+}

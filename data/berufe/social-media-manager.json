@@ -1,0 +1,38 @@
+{
+  "slug": "social-media-manager",
+  "name": "Social Media Manager/in",
+  "category": "Marketing & Medien",
+  "categorySlug": "marketing-medien",
+  "ausbildung": "Studium / Ausbildung",
+  "gehaltsspanne": [2800, 4500],
+  "einstiegsgehalt": [2400, 3200],
+  "beschreibung": "Social Media Manager/innen verantworten die Präsenz von Unternehmen und Marken auf sozialen Netzwerken wie Instagram, TikTok, LinkedIn und Facebook. Sie entwickeln Content-Strategien, erstellen ansprechende Inhalte und pflegen den Dialog mit der Community. Der Beruf erfordert Kreativität, ein Gespür für Trends und die Fähigkeit, Markenbotschaften zielgruppengerecht zu kommunizieren. In einer Welt, in der Social Media ein zentraler Marketingkanal ist, wächst die Bedeutung dieses Berufs kontinuierlich.",
+  "aufgaben": [
+    "Entwicklung von Social-Media-Strategien und Redaktionsplänen",
+    "Erstellung und Veröffentlichung von Content (Texte, Bilder, Videos)",
+    "Community Management und Interaktion mit Followern",
+    "Monitoring und Analyse von Social-Media-KPIs",
+    "Planung und Betreuung von bezahlten Kampagnen (Social Ads)",
+    "Influencer-Kooperationen koordinieren",
+    "Trendrecherche und Wettbewerbsbeobachtung"
+  ],
+  "kompetenzen": [
+    "Kreativität und Gespür für visuelle Inhalte",
+    "Exzellente Textkompetenz und Storytelling",
+    "Kenntnisse aller relevanten Social-Media-Plattformen",
+    "Erfahrung mit Tools wie Hootsuite, Buffer oder Canva",
+    "Datenanalyse und KPI-Verständnis",
+    "Schnelle Reaktionsfähigkeit und Krisenmanagement",
+    "Fotografie- und Videobearbeitungs-Grundkenntnisse"
+  ],
+  "karrierePfade": [
+    "Senior Social Media Manager/in",
+    "Head of Social Media",
+    "Digital Marketing Manager/in",
+    "Content Director",
+    "Selbstständige/r Social-Media-Berater/in"
+  ],
+  "arbeitsmarkt": "Social Media Management ist eines der am schnellsten wachsenden Berufsfelder im Marketing. Nahezu jedes Unternehmen benötigt professionelle Social-Media-Betreuung, von Start-ups über den Mittelstand bis zu Konzernen. Besonders gefragt sind Spezialist/innen für TikTok, Reels und Kurzvideoformate sowie für Social Commerce. Der Einstieg gelingt oft über Praktika oder Werkstudentenstellen, wobei ein starkes eigenes Social-Media-Profil als Referenz dient.",
+  "typischerArbeitstag": "Der Tag startet mit dem Monitoring der Social-Media-Kanäle: Kommentare beantworten, Nachrichten bearbeiten und auf aktuelle Trends reagieren. Vormittags wird Content für die kommenden Tage erstellt oder geplant, inklusive Grafikdesign und Texterstellung. Nachmittags werden Kampagnen-Ergebnisse ausgewertet, Reportings erstellt und die Strategie angepasst. Spontane Reaktionen auf virale Themen oder Community-Anfragen können den geplanten Ablauf jederzeit durchbrechen, was Flexibilität erfordert.",
+  "relatedSlugs": ["marketing-manager", "content-manager", "videograf"]
+}

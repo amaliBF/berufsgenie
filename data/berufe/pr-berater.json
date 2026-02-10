@@ -1,0 +1,38 @@
+{
+  "slug": "pr-berater",
+  "name": "PR-Berater/in",
+  "category": "Marketing & Medien",
+  "categorySlug": "marketing-medien",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3200, 5500],
+  "einstiegsgehalt": [2800, 3500],
+  "beschreibung": "PR-Berater/innen gestalten und pflegen das öffentliche Bild von Unternehmen, Organisationen oder Persönlichkeiten. Sie entwickeln Kommunikationsstrategien, verfassen Pressemitteilungen und bauen Beziehungen zu Journalisten und Medienvertretern auf. Der Beruf erfordert hervorragende Kommunikationsfähigkeiten, strategisches Denken und ein gutes Gespür für öffentliche Wahrnehmung. In der Krisenkommunikation zeigt sich die besondere Verantwortung dieses Berufs, da Fehlkommunikation gravierende Folgen haben kann.",
+  "aufgaben": [
+    "Entwicklung von PR-Strategien und Kommunikationskonzepten",
+    "Verfassen von Pressemitteilungen und Medienmaterialien",
+    "Aufbau und Pflege von Medienkontakten",
+    "Organisation von Pressekonferenzen und Medienevents",
+    "Krisenkommunikation und Issues Management",
+    "Social-Media-Kommunikation und Online-PR",
+    "Medienbeobachtung und Clipping-Analyse"
+  ],
+  "kompetenzen": [
+    "Exzellente Schreib- und Sprachkompetenz",
+    "Strategisches Kommunikationsverständnis",
+    "Netzwerkfähigkeiten und Beziehungsmanagement",
+    "Gespür für öffentliche Meinung und Trends",
+    "Krisenmanagement-Kompetenz",
+    "Kenntnisse in Medienrecht und Ethik",
+    "Organisationstalent und Multitasking"
+  ],
+  "karrierePfade": [
+    "Senior PR-Berater/in",
+    "PR-Manager/in oder Kommunikationsleiter/in",
+    "Head of Corporate Communications",
+    "Inhaber/in einer PR-Agentur",
+    "Pressesprecher/in"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach PR-Fachkräften ist stabil, da Unternehmen und Organisationen zunehmend in ihre Reputation und Öffentlichkeitsarbeit investieren. Die Grenzen zwischen PR, Content Marketing und Social Media verschwimmen, was Allrounder mit breitem Kompetenzprofil besonders gefragt macht. Spezialisierungen in Krisenkommunikation, politischer Kommunikation oder Gesundheits-PR bieten Nischenvorteile. Der Einstieg erfolgt typischerweise über Volontariate oder Traineeprogramme in PR-Agenturen.",
+  "typischerArbeitstag": "Der Tag beginnt mit dem Pressespiegel: Welche Medienberichte betreffen den Kunden oder das Unternehmen? Anschließend werden Pressemitteilungen verfasst, Interviewanfragen koordiniert und Medienkontakte gepflegt. Mittags folgen oft Hintergrundgespräche mit Journalisten oder interne Abstimmungen zur Kommunikationsstrategie. Nachmittags werden PR-Kampagnen geplant, Veranstaltungen vorbereitet oder Krisenkommunikationspläne aktualisiert. Die Arbeit erfordert ständige Erreichbarkeit, da Medienanfragen jederzeit eingehen können.",
+  "relatedSlugs": ["redakteur", "marketing-manager", "eventmanager"]
+}

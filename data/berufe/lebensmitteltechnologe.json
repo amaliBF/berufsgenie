@@ -1,0 +1,39 @@
+{
+  "slug": "lebensmitteltechnologe",
+  "name": "Lebensmitteltechnologe/in",
+  "category": "Naturwissenschaften",
+  "categorySlug": "naturwissenschaften",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3200, 5000],
+  "einstiegsgehalt": [2800, 3800],
+  "beschreibung": "Lebensmitteltechnologen und -technologinnen entwickeln, optimieren und überwachen Verfahren zur Herstellung von Lebensmitteln. Sie sorgen dafür, dass Nahrungsmittel sicher, schmackhaft, nahrhaft und haltbar sind – von der Rezepturentwicklung über die Produktion bis zur Qualitätskontrolle. Der Beruf vereint naturwissenschaftliches Know-how mit technischem Verständnis und Kreativität bei der Produktentwicklung. Lebensmitteltechnolog/innen arbeiten in der Lebensmittelindustrie, in Forschungseinrichtungen, bei Überwachungsbehörden und in der Qualitätssicherung.",
+  "aufgaben": [
+    "Entwicklung neuer Lebensmittelprodukte und Rezepturen",
+    "Optimierung von Produktionsverfahren und -abläufen",
+    "Durchführung von Qualitätskontrollen und sensorischen Prüfungen",
+    "Sicherstellung der Einhaltung lebensmittelrechtlicher Vorschriften",
+    "Planung und Durchführung von Haltbarkeitstests",
+    "Analyse von Inhaltsstoffen und Nährwerten",
+    "Zusammenarbeit mit Marketing bei Produktlaunches"
+  ],
+  "kompetenzen": [
+    "Fundierte Kenntnisse in Lebensmittelchemie und -mikrobiologie",
+    "Verständnis für Verfahrenstechnik und Produktionsprozesse",
+    "Kenntnisse des Lebensmittelrechts (LFGB, EU-Verordnungen)",
+    "Qualitätsmanagement-Kenntnisse (HACCP, IFS, BRC)",
+    "Sensorische Analysefähigkeiten und Geschmackssinn",
+    "Kreativität bei der Produktentwicklung",
+    "Projektmanagement und Teamarbeit",
+    "Hygienebewusstsein und Sorgfalt"
+  ],
+  "karrierePfade": [
+    "Leiter/in Produktentwicklung in der Lebensmittelindustrie",
+    "Qualitätsmanager/in oder Leiter/in Qualitätssicherung",
+    "Lebensmittelkontrolleur/in bei Behörden",
+    "Forschung und Lehre an Hochschulen",
+    "Selbstständigkeit als Berater/in für Lebensmittelsicherheit"
+  ],
+  "arbeitsmarkt": "Die Lebensmittelindustrie ist einer der größten Industriezweige Deutschlands und bietet Lebensmitteltechnolog/innen stabile Beschäftigungsaussichten. Trends wie Clean Labeling, pflanzliche Alternativen, funktionelle Lebensmittel und Nachhaltigkeit in der Produktion schaffen neue Stellen und Spezialisierungsmöglichkeiten. Die Nachfrage nach Fachkräften für Qualitätssicherung und Produktentwicklung ist konstant hoch. Auch im Ausland, besonders in der EU, ergeben sich attraktive Karrieremöglichkeiten.",
+  "typischerArbeitstag": "Der Tag beginnt häufig mit einem Rundgang durch die Produktion, um Abläufe zu kontrollieren und Hygienestandards zu prüfen. Vormittags wird im Labor an neuen Rezepturen experimentiert, Proben analysiert oder Haltbarkeitstests ausgewertet. Verkostungen gehören regelmäßig zum Arbeitsalltag. Nachmittags stehen Meetings mit Produktion, Marketing und Einkauf an, um Produktlaunches vorzubereiten oder Prozessoptimierungen zu besprechen. Die Dokumentation gemäß HACCP-Richtlinien und die Bearbeitung behördlicher Anfragen runden den Tag ab.",
+  "relatedSlugs": ["laborant", "chemiker", "biologe"]
+}

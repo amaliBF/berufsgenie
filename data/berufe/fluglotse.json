@@ -1,0 +1,38 @@
+{
+  "slug": "fluglotse",
+  "name": "Fluglotse/Fluglotsin",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "ausbildung": "Ausbildung DFS",
+  "gehaltsspanne": [4000, 8000],
+  "einstiegsgehalt": [3800, 5500],
+  "beschreibung": "Fluglotsen und Fluglotsinnen überwachen und steuern den Luftverkehr, um einen sicheren und geordneten Ablauf im Luftraum und auf dem Flughafen zu gewährleisten. Sie erteilen Start- und Landefreigaben, leiten Flugzeuge durch ihren Zuständigkeitsbereich und koordinieren den Verkehr auch bei schlechten Wetterbedingungen. Die Ausbildung bei der Deutschen Flugsicherung (DFS) dauert etwa drei Jahre und gehört zu den anspruchsvollsten Ausbildungen in Deutschland – mit einer hohen Durchfallquote im Auswahlverfahren. Der Beruf verlangt höchste Konzentration, schnelle Entscheidungsfähigkeit und ein ausgeprägtes räumliches Vorstellungsvermögen. Fluglotsen gehören zu den bestbezahlten Fachkräften im öffentlichen Dienst.",
+  "aufgaben": [
+    "Überwachung und Steuerung des Flugverkehrs per Radar",
+    "Erteilung von Start-, Lande- und Rollfreigaben",
+    "Koordination von Flugbewegungen im Zuständigkeitsbereich",
+    "Kommunikation mit Piloten in englischer Sprache",
+    "Gewährleistung der Staffelungsabstände zwischen Flugzeugen",
+    "Handhabung von Notsituationen und Sicherheitsmaßnahmen"
+  ],
+  "kompetenzen": [
+    "Ausgezeichnetes räumliches Vorstellungsvermögen",
+    "Höchste Konzentrationsfähigkeit über lange Zeiträume",
+    "Schnelle und sichere Entscheidungsfähigkeit unter Druck",
+    "Fließende Englischkenntnisse (ICAO Level 4+)",
+    "Stressresistenz und emotionale Stabilität",
+    "Teamfähigkeit und klare Kommunikation",
+    "Technisches Verständnis für Luftfahrtsysteme",
+    "Bereitschaft zum Schichtdienst"
+  ],
+  "karrierePfade": [
+    "Senior Fluglotse/Fluglotsin (höhere Komplexitätsstufen)",
+    "Ausbilder/in bei der DFS",
+    "Supervisor / Teamleiter/in im Tower oder Center",
+    "Managementpositionen bei der DFS",
+    "Internationale Positionen bei EUROCONTROL"
+  ],
+  "arbeitsmarkt": "Die Deutsche Flugsicherung bildet regelmäßig neue Fluglotsen aus, um den steigenden Luftverkehr zu bewältigen und altersbedingte Abgänge zu kompensieren. Die Auswahlkriterien sind extrem hoch – nur ein kleiner Prozentsatz der Bewerber/innen besteht das mehrstufige Auswahlverfahren. Wer die Ausbildung erfolgreich abschließt, hat eine Jobgarantie mit herausragender Vergütung. Die Automatisierung wird den Beruf verändern, aber menschliche Fluglotsen bleiben auf absehbare Zeit unverzichtbar.",
+  "typischerArbeitstag": "Der Schichtdienst beginnt mit dem Briefing über aktuelle Wetterbedingungen, Sperrgebiete und besondere Flugbewegungen. Am Radarbildschirm oder im Tower überwachen Fluglotsen ihren Sektor und erteilen Anweisungen an die Piloten. Die Konzentration muss dabei durchgehend auf höchstem Niveau sein. Nach maximal zwei Stunden am Arbeitsplatz folgt eine vorgeschriebene Pause, um die Aufmerksamkeit aufrechtzuerhalten. Schichten wechseln zwischen Früh-, Spät- und Nachtdienst, wobei die Arbeitszeit deutlich unter dem Durchschnitt anderer Berufe liegt.",
+  "relatedSlugs": ["pilot", "patentanwalt", "supply-chain-manager"]
+}

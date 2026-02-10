@@ -1,0 +1,37 @@
+{
+  "slug": "systemadministrator",
+  "name": "Systemadministrator/in",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Ausbildung / Studium",
+  "gehaltsspanne": [3000, 5000],
+  "einstiegsgehalt": [2800, 3600],
+  "beschreibung": "Systemadministrator/innen sind für den reibungslosen Betrieb der IT-Infrastruktur in Unternehmen verantwortlich. Sie installieren, konfigurieren und warten Server, Netzwerke und Betriebssysteme und sorgen dafür, dass alle Systeme sicher und verfügbar sind. Dabei überwachen sie die Performance, führen Updates durch und reagieren auf Störungen. Der Beruf erfordert ein breites technisches Wissen über verschiedene Betriebssysteme, Netzwerkprotokolle und Sicherheitstechnologien. Systemadministrator/innen bilden das Rückgrat der IT-Abteilung und sind in Unternehmen jeder Größe unverzichtbar.",
+  "aufgaben": [
+    "Installation und Konfiguration von Servern und Netzwerken",
+    "Überwachung der Systemverfügbarkeit und Performance",
+    "Durchführung von Backups und Disaster Recovery",
+    "Benutzerverwaltung und Rechtevergabe",
+    "IT-Sicherheit und Firewall-Management",
+    "Troubleshooting und Störungsbehebung"
+  ],
+  "kompetenzen": [
+    "Linux- und Windows-Serveradministration",
+    "Netzwerktechnik (TCP/IP, DNS, DHCP, VPN)",
+    "Virtualisierung (VMware, Hyper-V)",
+    "Scripting (Bash, PowerShell)",
+    "IT-Sicherheit und Verschlüsselung",
+    "Strukturierte Problemanalyse",
+    "Belastbarkeit und Bereitschaftsfähigkeit"
+  ],
+  "karrierePfade": [
+    "Senior Systemadministrator/in",
+    "Cloud-Architekt/in",
+    "IT-Sicherheitsbeauftragte/r",
+    "IT-Leiter/in",
+    "DevOps Engineer"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach Systemadministrator/innen ist stabil und hoch, da jede Organisation eine funktionierende IT-Infrastruktur benötigt. Mit der zunehmenden Verlagerung in die Cloud verändern sich die Anforderungen, wobei Cloud-Kenntnisse (AWS, Azure, GCP) immer wichtiger werden. Zertifizierungen wie LPIC, MCSA oder AWS-Zertifikate verbessern die Berufsaussichten. Der Beruf bietet eine solide Grundlage für verschiedene Spezialisierungen im IT-Bereich.",
+  "typischerArbeitstag": "Der Arbeitstag startet mit dem Monitoring-Check: Alle Systeme werden auf Verfügbarkeit und Auslastung geprüft. Anschließend werden anstehende Wartungsarbeiten durchgeführt, Software-Updates eingespielt oder neue Server provisioniert. Zwischendurch kommen Support-Anfragen von Mitarbeitenden, die bei IT-Problemen Hilfe benötigen. Bei kritischen Störungen ist schnelles Handeln gefragt, weshalb Rufbereitschaft zum Berufsbild gehören kann.",
+  "relatedSlugs": ["fachinformatiker", "devops-engineer", "it-security-analyst"]
+}

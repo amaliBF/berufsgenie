@@ -1,0 +1,39 @@
+{
+  "slug": "chemiker",
+  "name": "Chemiker/in",
+  "category": "Naturwissenschaften",
+  "categorySlug": "naturwissenschaften",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4000, 6500],
+  "einstiegsgehalt": [3500, 4500],
+  "beschreibung": "Chemiker/innen erforschen, analysieren und synthetisieren chemische Substanzen und Materialien. Sie arbeiten in der Grundlagenforschung, in der industriellen Produktentwicklung oder in der Qualitätskontrolle und tragen dazu bei, neue Medikamente, Werkstoffe, Kosmetika oder Lebensmittelzusätze zu entwickeln. Der Beruf erfordert ein tiefes Verständnis chemischer Zusammenhänge, analytisches Denken und sorgfältiges Arbeiten im Labor. Chemiker/innen finden Beschäftigung in der pharmazeutischen und chemischen Industrie, in Forschungseinrichtungen, bei Behörden und in der Umweltanalytik.",
+  "aufgaben": [
+    "Planung und Durchführung chemischer Experimente und Synthesen",
+    "Analyse von Substanzen mit modernen Messverfahren (GC, HPLC, NMR)",
+    "Entwicklung neuer Produkte und Verfahren",
+    "Qualitätskontrolle und Prüfung von Rohstoffen und Endprodukten",
+    "Dokumentation und wissenschaftliche Auswertung von Versuchsergebnissen",
+    "Erstellung von Sicherheitsdatenblättern und Gefährdungsbeurteilungen",
+    "Zusammenarbeit in interdisziplinären Forschungsteams"
+  ],
+  "kompetenzen": [
+    "Fundierte Kenntnisse in organischer, anorganischer und physikalischer Chemie",
+    "Sicherer Umgang mit Laborgeräten und Analysemethoden",
+    "Wissenschaftliches Arbeiten und analytisches Denkvermögen",
+    "Sorgfalt und Genauigkeit bei Experimenten",
+    "Kenntnisse in Chemie-Software und Datenauswertung",
+    "Gute Englischkenntnisse für Fachliteratur und Publikationen",
+    "Teamfähigkeit in interdisziplinären Forschungsgruppen",
+    "Kenntnis der Gefahrstoffverordnung und Arbeitssicherheit"
+  ],
+  "karrierePfade": [
+    "Teamleiter/in oder Laborleiter/in",
+    "Forschungsleiter/in in der Industrie",
+    "Professor/in an einer Hochschule (mit Promotion und Habilitation)",
+    "Patentanwalt/Patentanwältin mit Chemiefokus",
+    "Produktmanager/in in der chemischen Industrie"
+  ],
+  "arbeitsmarkt": "Chemiker/innen finden in Deutschland einen guten Arbeitsmarkt vor, da die chemische und pharmazeutische Industrie zu den wichtigsten Wirtschaftszweigen des Landes gehört. Besonders gefragt sind Fachkräfte in den Bereichen Batterietechnologie, nachhaltige Chemie und Pharmakologie. Eine Promotion verbessert die Karrierechancen in Forschung und Industrie erheblich. Das Einstiegsgehalt liegt für promovierte Chemiker/innen deutlich über dem Durchschnitt.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Vorbereitung von Experimenten – Chemikalien werden abgewogen, Apparaturen aufgebaut und Versuchsprotokolle angelegt. Vormittags wird im Labor synthetisiert, analysiert oder gemessen, wobei höchste Konzentration und Sorgfalt gefragt sind. Nachmittags werden Messdaten ausgewertet, Ergebnisse in Berichte oder Publikationen überführt und in Teammeetings diskutiert. Regelmäßig wird Fachliteratur studiert, um auf dem neuesten Stand der Forschung zu bleiben.",
+  "relatedSlugs": ["laborant", "biologe", "physiker"]
+}

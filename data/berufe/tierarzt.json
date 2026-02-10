@@ -1,0 +1,38 @@
+{
+  "slug": "tierarzt",
+  "name": "Tierarzt/Tierärztin",
+  "category": "Gesundheit & Medizin",
+  "categorySlug": "gesundheit-medizin",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3000, 5500],
+  "einstiegsgehalt": [2800, 3500],
+  "beschreibung": "Tierärzt/innen diagnostizieren und behandeln Krankheiten und Verletzungen bei Tieren aller Art – von Haustieren über Nutztiere bis hin zu exotischen Arten. Sie führen Operationen durch, impfen Tiere, beraten Tierhalter/innen und überwachen die Lebensmittelhygiene bei tierischen Produkten. Das Studium der Veterinärmedizin dauert mindestens fünf Jahre und wird an nur fünf Universitäten in Deutschland angeboten. Der Beruf erfordert ein breites medizinisches Wissen, handwerkliches Geschick bei chirurgischen Eingriffen und eine tiefe Verbundenheit mit Tieren. Tierärzt/innen arbeiten in eigenen Praxen, Tierkliniken, in der Forschung oder im öffentlichen Veterinärwesen.",
+  "aufgaben": [
+    "Untersuchung und Diagnose von Tierkrankheiten",
+    "Durchführung chirurgischer Eingriffe und Behandlungen",
+    "Impfungen und Vorsorgeuntersuchungen",
+    "Beratung von Tierhalter/innen zur artgerechten Haltung",
+    "Verschreibung und Verabreichung von Medikamenten",
+    "Überwachung der Lebensmittelhygiene (amtliche Tierärzte)",
+    "Notfallversorgung und Geburtshilfe"
+  ],
+  "kompetenzen": [
+    "Fundiertes veterinärmedizinisches Fachwissen",
+    "Chirurgisches Geschick und ruhige Hände",
+    "Empathie für Tiere und ihre Besitzer/innen",
+    "Diagnostisches Denkvermögen",
+    "Belastbarkeit und Stressresistenz",
+    "Naturwissenschaftliche Grundlagen (Biologie, Chemie)",
+    "Bereitschaft zu Notdiensten und unregelmäßigen Arbeitszeiten"
+  ],
+  "karrierePfade": [
+    "Fachtierarzt/-ärztin (z.B. Chirurgie, Innere Medizin)",
+    "Eigene Tierarztpraxis",
+    "Tierklinikleitung",
+    "Forschung und Lehre an der Universität",
+    "Amtstierarzt/-ärztin im öffentlichen Dienst"
+  ],
+  "arbeitsmarkt": "Der Arbeitsmarkt für Tierärzt/innen ist insgesamt stabil, mit regionalen Unterschieden. Im ländlichen Raum herrscht erheblicher Mangel an Nutztierpraxen, während in Städten der Wettbewerb unter Kleintierpraxen größer ist. Die steigende Bereitschaft von Tierhalter/innen, für medizinische Versorgung ihrer Haustiere zu zahlen, verbessert die wirtschaftliche Situation. Spezialisierungen in Bereichen wie Zahnmedizin, Onkologie oder Verhaltensmedizin bieten besonders gute Perspektiven.",
+  "typischerArbeitstag": "Der Praxistag beginnt mit der Durchsicht der Termine und der Nachversorgung stationärer Patienten. Vormittags finden Sprechstunden mit Routineuntersuchungen, Impfungen und Konsultationen statt. Operationen wie Kastrationen oder Tumorentfernungen sind meist für den späten Vormittag eingeplant. Am Nachmittag folgen weitere Sprechstunden und die Befundbesprechung mit Tierbesitzer/innen. Notdienste am Abend und am Wochenende gehören regelmäßig zum Berufsalltag.",
+  "relatedSlugs": ["krankenpfleger", "apotheker", "altenpfleger"]
+}

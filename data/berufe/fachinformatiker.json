@@ -1,0 +1,37 @@
+{
+  "slug": "fachinformatiker",
+  "name": "Fachinformatiker/in",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2800, 4500],
+  "einstiegsgehalt": [2500, 3200],
+  "beschreibung": "Fachinformatiker/innen sind vielseitige IT-Fachkräfte, die je nach Fachrichtung Software entwickeln oder IT-Systeme planen und betreuen. In der Fachrichtung Anwendungsentwicklung konzipieren und programmieren sie Softwarelösungen, während Systemintegratoren komplexe IT-Infrastrukturen aufbauen und administrieren. Die dreijährige duale Ausbildung vermittelt umfassende Kenntnisse in Programmierung, Netzwerktechnik und Projektmanagement. Fachinformatiker/innen arbeiten in IT-Abteilungen aller Branchen, bei Softwarehäusern oder IT-Dienstleistern. Der Beruf bietet einen praxisnahen Einstieg in die IT-Branche mit ausgezeichneten Weiterbildungsmöglichkeiten.",
+  "aufgaben": [
+    "Entwicklung und Anpassung von Softwareanwendungen",
+    "Installation und Konfiguration von IT-Systemen",
+    "Betreuung und Beratung von Anwendern",
+    "Planung und Durchführung von IT-Projekten",
+    "Fehleranalyse und Störungsbehebung",
+    "Erstellung von technischen Dokumentationen"
+  ],
+  "kompetenzen": [
+    "Grundlagen der Programmierung (Java, Python, C#)",
+    "Netzwerktechnik und Systemadministration",
+    "Datenbankkenntnisse",
+    "Kundenorientierung und Servicebereitschaft",
+    "Analytisches Denken",
+    "Teamfähigkeit",
+    "Eigenständige Problemlösung"
+  ],
+  "karrierePfade": [
+    "Softwareentwickler/in mit Berufserfahrung",
+    "IT-Berater/in",
+    "IT-Projektleiter/in",
+    "Studium Informatik (berufsbegleitend)",
+    "Selbstständigkeit im IT-Bereich"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach ausgebildeten Fachinformatiker/innen ist konstant hoch und übersteigt das Angebot an Bewerber/innen deutlich. Unternehmen aller Größen suchen qualifizierte IT-Fachkräfte, weshalb die Übernahmequoten nach der Ausbildung sehr gut sind. Besonders in der Fachrichtung Anwendungsentwicklung eröffnen sich zahlreiche Karrieremöglichkeiten. Mit Berufserfahrung und Weiterbildung können Fachinformatiker/innen Gehälter auf Niveau von Hochschulabsolventen erreichen.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt oft mit der Überprüfung eingehender Support-Tickets oder der Planung anstehender Aufgaben. Je nach Fachrichtung folgt das Programmieren neuer Funktionen oder die Einrichtung und Wartung von Servern und Netzwerken. Kundengespräche und Anforderungsanalysen wechseln sich mit konzentrierter Arbeit am Computer ab. Regelmäßige Team-Meetings sorgen für den Austausch über aktuelle Projekte und technische Herausforderungen.",
+  "relatedSlugs": ["softwareentwickler", "systemadministrator", "webentwickler"]
+}

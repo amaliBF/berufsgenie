@@ -1,0 +1,38 @@
+{
+  "slug": "friseur",
+  "name": "Friseur/in",
+  "category": "Handwerk & Bau",
+  "categorySlug": "handwerk-bau",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [1900, 2800],
+  "einstiegsgehalt": [1800, 2100],
+  "beschreibung": "Friseur/innen waschen, schneiden, färben und stylen Haare und beraten ihre Kunden zu Frisuren, Haarfarben und Pflegeprodukten. Sie beherrschen verschiedene Schnitt- und Färbetechniken und verfolgen aktuelle Trends der Branche. Der Beruf ist kreativ, kommunikativ und erfordert ein gutes Gespür für Ästhetik und die Wünsche der Kunden. Die dreijährige duale Ausbildung vermittelt neben dem Handwerk auch Kenntnisse in Hautpflege, Kosmetik und Betriebswirtschaft. Friseur/innen arbeiten in Friseursalons, bei Film- und Fernsehproduktionen oder machen sich mit einem eigenen Salon selbstständig.",
+  "aufgaben": [
+    "Waschen, Schneiden und Stylen von Haaren",
+    "Färben, Tönen und Strähnentechniken",
+    "Beratung zu Frisuren, Farben und Pflegeprodukten",
+    "Bart- und Augenbrauenpflege",
+    "Hautpflege und kosmetische Behandlungen",
+    "Verkauf von Haarpflegeprodukten",
+    "Terminplanung und Kassenführung"
+  ],
+  "kompetenzen": [
+    "Kreativität und Sinn für Ästhetik",
+    "Handwerkliches Geschick und Fingerfertigkeit",
+    "Kommunikationsfähigkeit und Kundenorientierung",
+    "Trendgespür und Stilsicherheit",
+    "Kenntnisse in Haarpflege und Kosmetik",
+    "Physische Ausdauer (langes Stehen)",
+    "Freundliches und gepflegtes Auftreten"
+  ],
+  "karrierePfade": [
+    "Friseurmeister/in",
+    "Salonleitung oder eigener Salon",
+    "Colorist/in oder Hairstylist/in bei Film und Fernsehen",
+    "Trainer/in für Friseurbedarf-Firmen",
+    "Maskenbildner/in"
+  ],
+  "arbeitsmarkt": "Der Friseurberuf bietet eine konstante Nachfrage, da Haarpflege ein grundlegendes menschliches Bedürfnis ist. Die Branche kämpft jedoch mit dem Image niedriger Gehälter, was zu einem Fachkräftemangel führt. Spezialisierungen auf Premium-Dienstleistungen wie Balayage, Haarverlängerungen oder Barbering können die Verdienstmöglichkeiten deutlich steigern. Die Selbstständigkeit mit eigenem Salon bleibt ein attraktiver Karriereweg mit guter Auftragslage.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Vorbereitung des Arbeitsplatzes und der Durchsicht der Termine. Im Tagesverlauf wechseln sich Beratungsgespräche, Haarschnitte, Colorationen und Stylings ab. Zwischen den Kunden werden die Arbeitsplätze gereinigt und Produkte nachbestellt. Am Nachmittag ist oft Hochbetrieb, da viele Kunden nach der Arbeit kommen. Kreative Friseur/innen bilden sich regelmäßig auf Seminaren und Messen weiter, um neue Techniken und Trends kennenzulernen.",
+  "relatedSlugs": ["konditor", "koch", "hotelfachmann"]
+}

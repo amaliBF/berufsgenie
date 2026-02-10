@@ -1,0 +1,38 @@
+{
+  "slug": "medizinischer-fachangestellter",
+  "name": "Medizinische/r Fachangestellte/r",
+  "category": "Gesundheit & Medizin",
+  "categorySlug": "gesundheit-medizin",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2200, 3200],
+  "einstiegsgehalt": [2000, 2500],
+  "beschreibung": "Medizinische Fachangestellte (MFA) sind die organisatorische und medizinische Stütze jeder Arztpraxis. Sie empfangen Patient/innen, führen Blutabnahmen und EKGs durch, assistieren bei Untersuchungen und übernehmen die Praxisverwaltung einschließlich Terminplanung und Abrechnung. Die dreijährige duale Ausbildung vermittelt sowohl medizinische Grundkenntnisse als auch kaufmännisches Know-how. MFA arbeiten in Arztpraxen aller Fachrichtungen, medizinischen Versorgungszentren, Kliniken und Gesundheitsämtern. Der Beruf bietet einen abwechslungsreichen Arbeitsalltag mit direktem Patientenkontakt und zahlreichen Weiterbildungsmöglichkeiten.",
+  "aufgaben": [
+    "Empfang und Betreuung von Patient/innen",
+    "Durchführung von Blutabnahmen, Injektionen und EKGs",
+    "Assistenz bei ärztlichen Untersuchungen und kleineren Eingriffen",
+    "Terminplanung und Sprechstundenorganisation",
+    "Abrechnung mit Krankenkassen (EBM/GOÄ)",
+    "Verwaltung von Patientenakten und Dokumentation",
+    "Labortätigkeiten und Probenversand"
+  ],
+  "kompetenzen": [
+    "Medizinisches Grundwissen und Behandlungspflege",
+    "Organisationstalent und Multitasking-Fähigkeit",
+    "Freundliches und einfühlsames Auftreten",
+    "Kenntnisse in Praxisverwaltung und Abrechnung",
+    "Sorgfalt und Hygienebewusstsein",
+    "Teamfähigkeit und Kommunikationsstärke",
+    "Diskretion und Datenschutzbewusstsein"
+  ],
+  "karrierePfade": [
+    "Fachwirt/in für ambulante medizinische Versorgung",
+    "Praxismanager/in",
+    "Betriebswirt/in im Gesundheitswesen",
+    "Spezialisierung (z. B. Onkologie, Wundmanagement)",
+    "Studium Gesundheitsmanagement"
+  ],
+  "arbeitsmarkt": "MFA gehören zu den am stärksten nachgefragten Fachkräften im Gesundheitswesen. In vielen Regionen bleiben Stellen über Monate unbesetzt, was die Verhandlungsposition von Bewerber/innen stärkt. Die Tarifgehälter sind in den letzten Jahren deutlich gestiegen, und viele Praxen bieten zusätzliche Benefits wie Fortbildungsbudgets und flexible Arbeitszeiten. Die Jobsicherheit in diesem Beruf ist außerordentlich hoch.",
+  "typischerArbeitstag": "Der Tag beginnt mit dem Hochfahren der Praxissysteme und der Vorbereitung der Behandlungsräume. Sobald die Sprechstunde startet, empfangen MFA Patient/innen, nehmen Blut ab, messen Blutdruck und bereiten Untersuchungen vor. Zwischen den Terminen werden Befunde eingetragen, Überweisungen ausgestellt und Rezepte vorbereitet. Am Empfang werden Telefonate geführt, Termine vergeben und Abrechnungen erstellt. Der Nachmittag bringt weitere Sprechstunden und die Nachbereitung des Tages.",
+  "relatedSlugs": ["zahnarzthelfer", "krankenpfleger", "rettungssanitaeter"]
+}

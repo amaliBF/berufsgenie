@@ -1,0 +1,38 @@
+{
+  "slug": "wirtschaftsingenieur",
+  "name": "Wirtschaftsingenieur/in",
+  "category": "Ingenieurwesen & Technik",
+  "categorySlug": "ingenieurwesen",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4200, 7000],
+  "einstiegsgehalt": [4000, 5000],
+  "beschreibung": "Wirtschaftsingenieur/innen vereinen technisches und betriebswirtschaftliches Wissen und arbeiten an der Schnittstelle zwischen Ingenieurwesen und Management. Sie analysieren technische Prozesse unter wirtschaftlichen Gesichtspunkten, optimieren Produktionsabläufe und treffen fundierte Entscheidungen, die sowohl technisch als auch ökonomisch sinnvoll sind. Das interdisziplinäre Studium kombiniert Module aus Maschinenbau oder Elektrotechnik mit BWL, Controlling und Projektmanagement. Wirtschaftsingenieur/innen sind in Industrie, Beratung, Logistik und im Vertrieb technischer Produkte tätig. Ihre Vielseitigkeit macht sie zu gefragten Generalisten mit hervorragenden Karrierechancen.",
+  "aufgaben": [
+    "Analyse und Optimierung von Geschäfts- und Produktionsprozessen",
+    "Kosten-Nutzen-Analysen für technische Investitionen",
+    "Projektmanagement bei Einführung neuer Technologien",
+    "Supply-Chain-Management und Logistikoptimierung",
+    "Technischer Vertrieb und Key Account Management",
+    "Erstellung von Business Cases und Machbarkeitsstudien",
+    "Schnittstellenmanagement zwischen Technik und Wirtschaft"
+  ],
+  "kompetenzen": [
+    "Technisches Verständnis (Maschinenbau/Elektrotechnik)",
+    "Betriebswirtschaftliche Grundlagen (BWL, Controlling)",
+    "Projektmanagement und Prozessoptimierung",
+    "Datenanalyse und ERP-Systeme (SAP)",
+    "Verhandlungsgeschick und Kommunikationsstärke",
+    "Analytisches und unternehmerisches Denken",
+    "Fremdsprachenkenntnisse (insbesondere Englisch)"
+  ],
+  "karrierePfade": [
+    "Projektleiter/in",
+    "Unternehmensberater/in",
+    "Operations Manager",
+    "Geschäftsführer/in / CEO",
+    "Supply Chain Manager/in"
+  ],
+  "arbeitsmarkt": "Wirtschaftsingenieur/innen gehören zu den Absolventen mit den besten Berufsaussichten in Deutschland. Die Kombination aus technischem und wirtschaftlichem Wissen ist in nahezu jeder Branche gefragt. Besonders in der Automobilindustrie, im Consulting, in der Logistik und im technischen Vertrieb finden sie attraktive Positionen. Die Einstiegsgehälter liegen über dem Durchschnitt, und die Aufstiegschancen in Managementpositionen sind ausgezeichnet.",
+  "typischerArbeitstag": "Der Tag beginnt häufig mit der Analyse von Kennzahlen und dem Überblick über laufende Projekte. Meetings mit verschiedenen Abteilungen – von der Produktion über den Einkauf bis zum Vertrieb – nehmen einen großen Teil des Tages ein. Zwischendurch werden Berechnungen erstellt, Prozesse dokumentiert oder Präsentationen für das Management vorbereitet. Die Arbeit ist abwechslungsreich und erfordert die Fähigkeit, schnell zwischen technischen Details und betriebswirtschaftlichen Fragestellungen zu wechseln.",
+  "relatedSlugs": ["maschinenbauingenieur", "qualitaetsmanager", "produktionsleiter"]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "arzt",
+  "name": "Arzt/Ärztin",
+  "category": "Gesundheit & Medizin",
+  "categorySlug": "gesundheit-medizin",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [5000, 12000],
+  "einstiegsgehalt": [4500, 5500],
+  "beschreibung": "Ärzt/innen diagnostizieren Krankheiten, behandeln Patient/innen und beraten sie zu Gesundheitsfragen und Prävention. Das Medizinstudium umfasst mindestens sechs Jahre und schließt mit dem Staatsexamen ab, gefolgt von der Approbation und meist einer mehrjährigen Facharztweiterbildung. Ärzt/innen tragen eine hohe Verantwortung für das Wohl ihrer Patient/innen und müssen sich kontinuierlich fortbilden, um auf dem neuesten Stand der Medizin zu bleiben. Der Beruf bietet zahlreiche Spezialisierungsmöglichkeiten – von der Allgemeinmedizin über die Chirurgie bis zur Psychiatrie. Trotz der langen Ausbildungszeit gehört der Arztberuf zu den angesehensten und bestbezahlten Berufen in Deutschland.",
+  "aufgaben": [
+    "Untersuchung und Diagnose von Erkrankungen",
+    "Erstellung von Behandlungsplänen und Therapieverordnungen",
+    "Durchführung medizinischer Eingriffe und Operationen",
+    "Verschreibung von Medikamenten und Überwachung der Therapie",
+    "Beratung von Patient/innen zu Prävention und Gesundheitsförderung",
+    "Dokumentation und Erstellung von Arztbriefen",
+    "Interdisziplinäre Zusammenarbeit mit Fachkolleg/innen"
+  ],
+  "kompetenzen": [
+    "Umfassendes medizinisches Fachwissen",
+    "Analytisches Denkvermögen und Entscheidungsfähigkeit",
+    "Empathie und Kommunikationsstärke",
+    "Belastbarkeit und Stressresistenz",
+    "Verantwortungsbewusstsein und Sorgfalt",
+    "Teamfähigkeit in interdisziplinären Teams",
+    "Bereitschaft zu Bereitschafts- und Nachtdiensten",
+    "Lebenslanges Lernen und Fortbildungsbereitschaft"
+  ],
+  "karrierePfade": [
+    "Facharztweiterbildung in über 30 Fachrichtungen",
+    "Oberarzt/Oberärztin und Chefarzt/Chefärztin",
+    "Niederlassung mit eigener Praxis",
+    "Medizinische Forschung und Lehre (Universität)",
+    "Leitende Funktion im Gesundheitsmanagement"
+  ],
+  "arbeitsmarkt": "Der Ärztemangel in Deutschland ist ein seit Jahren bekanntes Problem, insbesondere im ländlichen Raum und in bestimmten Fachrichtungen wie Allgemeinmedizin, Psychiatrie und Kinder- und Jugendmedizin. Die Jobaussichten sind daher hervorragend, und viele Kliniken bieten attraktive Einstiegsbedingungen. Im niedergelassenen Bereich gibt es ebenfalls gute Perspektiven, da zahlreiche Praxen Nachfolger/innen suchen. Die Vergütung ist im Vergleich zu anderen akademischen Berufen überdurchschnittlich hoch.",
+  "typischerArbeitstag": "Der Tag in einer Klinik beginnt früh mit der Frühbesprechung und der anschließenden Visite auf Station, bei der Patient/innen untersucht und Behandlungspläne besprochen werden. Vormittags folgen Sprechstunden, diagnostische Maßnahmen oder Operationen, je nach Fachrichtung. Nachmittags stehen administrative Aufgaben wie Arztbriefe, Befundbesprechungen und Fallkonferenzen an. In einer Praxis ist der Tag stärker durch Sprechstunden und Patientengespräche geprägt. Bereitschaftsdienste und Nachtdienste gehören insbesondere im Krankenhaus zum Berufsalltag.",
+  "relatedSlugs": ["pharmazeut", "krankenpfleger", "psychologe"]
+}

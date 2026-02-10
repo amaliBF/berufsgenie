@@ -1,0 +1,39 @@
+{
+  "slug": "vertriebsmanager",
+  "name": "Vertriebsmanager/in",
+  "category": "Logistik & Handel",
+  "categorySlug": "logistik-handel",
+  "ausbildung": "Studium / Ausbildung",
+  "gehaltsspanne": [3500, 7000],
+  "einstiegsgehalt": [3000, 4200],
+  "beschreibung": "Vertriebsmanager/innen sind verantwortlich für die Umsatzgenerierung eines Unternehmens – sie entwickeln Vertriebsstrategien, führen Verkaufsteams und pflegen Kundenbeziehungen. Sie analysieren Märkte, identifizieren Geschäftsmöglichkeiten und stellen sicher, dass Umsatzziele erreicht werden. Der Beruf verbindet strategisches Denken mit kommunikativem Talent und unternehmerischem Gespür. Vertriebsmanager/innen sind in praktisch jeder Branche unverzichtbar und können durch leistungsabhängige Vergütungsmodelle überdurchschnittlich verdienen.",
+  "aufgaben": [
+    "Entwicklung und Umsetzung von Vertriebsstrategien",
+    "Führung und Motivation des Vertriebsteams",
+    "Akquise von Neukunden und Pflege von Bestandskunden",
+    "Verhandlung von Verträgen und Konditionen",
+    "Markt- und Wettbewerbsanalysen",
+    "Umsatzplanung, Forecasting und Reporting",
+    "Enge Zusammenarbeit mit Marketing, Produktion und Geschäftsführung"
+  ],
+  "kompetenzen": [
+    "Ausgeprägte Kommunikations- und Überzeugungsfähigkeit",
+    "Führungskompetenz und Teammanagement",
+    "Strategisches und unternehmerisches Denken",
+    "Verhandlungsgeschick und Abschlussstärke",
+    "Kenntnisse in CRM-Systemen (Salesforce, HubSpot)",
+    "Analytische Fähigkeiten für Markt- und Umsatzanalysen",
+    "Belastbarkeit und Ergebnisorientierung",
+    "Fremdsprachenkenntnisse für internationale Märkte"
+  ],
+  "karrierePfade": [
+    "Vertriebsleiter/in oder Sales Director",
+    "Key Account Manager/in für Großkunden",
+    "Geschäftsführer/in oder Vorstand Vertrieb",
+    "Selbstständige/r Handelsvertreter/in",
+    "Unternehmensberater/in für Vertrieb und Marketing"
+  ],
+  "arbeitsmarkt": "Vertriebsmanager/innen sind branchenübergreifend gefragt, da jedes Unternehmen auf Umsatz angewiesen ist. Die Digitalisierung des Vertriebs mit CRM-Systemen, Social Selling und datengetriebenem Sales schafft neue Anforderungen und Chancen. Besonders im B2B-Bereich, in der Technologiebranche und im E-Commerce sind die Perspektiven hervorragend. Erfolgreiche Vertriebsmanager/innen mit nachgewiesener Track Record gehören zu den bestbezahlten Führungskräften.",
+  "typischerArbeitstag": "Morgens werden Umsatzzahlen geprüft und die Pipeline im CRM-System analysiert. Im Team-Meeting werden aktuelle Deals besprochen und Strategien für schwierige Verhandlungen erarbeitet. Vormittags stehen oft Kundentermine an – persönlich oder per Videokonferenz – bei denen Angebote präsentiert und Abschlüsse verhandelt werden. Nachmittags werden Vertriebsberichte erstellt, neue Leads qualifiziert und die Vertriebsstrategie mit dem Marketing abgestimmt. Networking-Events und Messen ergänzen den vielfältigen Arbeitsalltag.",
+  "relatedSlugs": ["projektmanager", "e-commerce-manager", "einzelhandelskaufmann"]
+}

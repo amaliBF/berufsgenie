@@ -1,0 +1,38 @@
+{
+  "slug": "altenpfleger",
+  "name": "Altenpfleger/in",
+  "category": "Gesundheit & Medizin",
+  "categorySlug": "gesundheit-medizin",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2600, 3500],
+  "einstiegsgehalt": [2500, 2900],
+  "beschreibung": "Altenpfleger/innen betreuen und pflegen ältere Menschen, die aufgrund von Krankheit, Behinderung oder altersbedingten Einschränkungen Unterstützung benötigen. Sie helfen bei der Körperpflege, verabreichen Medikamente, planen die Pflege und sind wichtige Bezugspersonen für die Bewohner/innen und deren Angehörige. Der Beruf erfordert hohes Einfühlungsvermögen, körperliche Belastbarkeit und die Fähigkeit, auch in schwierigen Situationen professionell zu handeln. Seit 2020 gibt es die generalisierte Pflegeausbildung, die zur Pflegefachkraft qualifiziert. Altenpfleger/innen arbeiten in Pflegeheimen, bei ambulanten Pflegediensten oder in geriatrischen Kliniken.",
+  "aufgaben": [
+    "Grund- und Behandlungspflege älterer Menschen",
+    "Verabreichung von Medikamenten und medizinische Versorgung",
+    "Erstellung und Umsetzung individueller Pflegepläne",
+    "Dokumentation des Pflegeverlaufs",
+    "Beratung und Begleitung von Angehörigen",
+    "Aktivierende Pflege und Freizeitgestaltung",
+    "Zusammenarbeit mit Ärzten, Therapeuten und Sozialdiensten"
+  ],
+  "kompetenzen": [
+    "Empathie und Einfühlungsvermögen",
+    "Körperliche und psychische Belastbarkeit",
+    "Medizinisches und pflegerisches Fachwissen",
+    "Geduld und Zuverlässigkeit",
+    "Kommunikationsfähigkeit",
+    "Organisationstalent",
+    "Bereitschaft zu Schicht- und Wochenendarbeit"
+  ],
+  "karrierePfade": [
+    "Pflegefachkraft mit Spezialisierung (z.B. Gerontopsychiatrie)",
+    "Wohnbereichsleitung",
+    "Pflegedienstleitung (PDL)",
+    "Studium Pflegemanagement oder Pflegewissenschaft",
+    "Praxisanleiter/in"
+  ],
+  "arbeitsmarkt": "Der Fachkräftemangel in der Altenpflege gehört zu den größten Herausforderungen des deutschen Gesundheitswesens. Zehntausende Stellen sind bundesweit unbesetzt, was exzellente Jobchancen für qualifizierte Kräfte bedeutet. Die Bundesregierung hat mit der konzertierten Aktion Pflege Maßnahmen zur Verbesserung der Arbeitsbedingungen und Gehälter eingeleitet. Die demografische Entwicklung wird die Nachfrage nach Pflegekräften in den kommenden Jahrzehnten weiter deutlich steigern.",
+  "typischerArbeitstag": "Der Frühdienst beginnt um 6 Uhr mit der Dienstübergabe und der Durchsicht der Pflegedokumentation. Danach folgt die Grundpflege: Waschen, Anziehen und Frühstücksbegleitung der Bewohner/innen. Vormittags werden Medikamente verabreicht, Vitalzeichen kontrolliert und Arztvisiten begleitet. Nachmittags stehen aktivierende Maßnahmen wie Spaziergänge oder Gruppenaktivitäten an. Die Pflegedokumentation wird laufend aktualisiert. Im Spätdienst oder Nachtdienst verschieben sich die Aufgaben entsprechend.",
+  "relatedSlugs": ["krankenpfleger", "tierarzt", "apotheker"]
+}

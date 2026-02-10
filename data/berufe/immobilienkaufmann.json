@@ -1,0 +1,38 @@
+{
+  "slug": "immobilienkaufmann",
+  "name": "Immobilienkaufmann/-frau",
+  "category": "Wirtschaft & Finanzen",
+  "categorySlug": "wirtschaft-finanzen",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2800, 5000],
+  "einstiegsgehalt": [2400, 3200],
+  "beschreibung": "Immobilienkaufleute sind Experten für den Kauf, Verkauf, die Vermietung und Verwaltung von Immobilien. Sie begleiten Kunden bei einer der wichtigsten finanziellen Entscheidungen ihres Lebens und sorgen für einen reibungslosen Ablauf von Immobilientransaktionen. Der Beruf umfasst sowohl kaufmännische als auch rechtliche Aspekte und erfordert ein gutes Gespür für den Immobilienmarkt. Die Branche bietet vielfältige Tätigkeitsfelder von der Wohnungsverwaltung bis zum Projektmanagement.",
+  "aufgaben": [
+    "Vermietung und Verkauf von Wohn- und Gewerbeimmobilien",
+    "Objektbesichtigungen durchführen und begleiten",
+    "Miet- und Kaufverträge erstellen und prüfen",
+    "Verwaltung von Immobilienbeständen",
+    "Betriebskostenabrechnungen erstellen",
+    "Instandhaltungsmaßnahmen koordinieren",
+    "Marktanalysen und Wertermittlungen durchführen"
+  ],
+  "kompetenzen": [
+    "Kenntnisse im Miet- und Immobilienrecht",
+    "Verkaufs- und Verhandlungsgeschick",
+    "Kundenorientierung und Kommunikationsstärke",
+    "Kaufmännisches Verständnis",
+    "Organisationstalent",
+    "Kenntnisse in Immobilienverwaltungssoftware",
+    "Marktkenntnis und Standortbewertung"
+  ],
+  "karrierePfade": [
+    "Immobilienfachwirt/in",
+    "Leiter/in Immobilienverwaltung",
+    "Projektentwickler/in",
+    "Selbstständige/r Immobilienmakler/in",
+    "Gutachter/in für Immobilienbewertung"
+  ],
+  "arbeitsmarkt": "Die Immobilienbranche bietet trotz Marktschwankungen langfristig stabile Beschäftigungsperspektiven, da Wohnraum und Gewerbeimmobilien immer benötigt werden. Besonders in Ballungsgebieten ist die Nachfrage nach qualifizierten Immobilienfachkräften hoch. Die Themen Energieeffizienz, nachhaltiges Bauen und Smart-Home-Technologien schaffen neue Kompetenzanforderungen. Wer sich in Nischen wie Gewerbeimmobilien oder Projektentwicklung spezialisiert, kann besonders attraktive Verdienstmöglichkeiten erschließen.",
+  "typischerArbeitstag": "Der Morgen beginnt mit der Prüfung eingehender Anfragen von Miet- und Kaufinteressenten. Über den Tag verteilt finden Objektbesichtigungen statt, bei denen Interessenten durch Wohnungen oder Geschäftsräume geführt werden. Dazwischen werden Mietverträge vorbereitet, Betriebskostenabrechnungen erstellt und Handwerkertermine für Instandhaltungsarbeiten koordiniert. Nachmittags stehen oft Eigentümerversammlungen oder Abstimmungen mit Bauträgern und Investoren auf dem Programm.",
+  "relatedSlugs": ["bankkaufmann", "finanzberater", "versicherungskaufmann"]
+}

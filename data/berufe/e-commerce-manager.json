@@ -1,0 +1,38 @@
+{
+  "slug": "e-commerce-manager",
+  "name": "E-Commerce Manager/in",
+  "category": "Logistik & Handel",
+  "categorySlug": "logistik-handel",
+  "ausbildung": "Studium / Ausbildung",
+  "gehaltsspanne": [3000, 5500],
+  "einstiegsgehalt": [2600, 3500],
+  "beschreibung": "E-Commerce Manager/innen verantworten den Online-Vertrieb eines Unternehmens und steuern alle Aktivitäten rund um den digitalen Verkauf. Sie optimieren Onlineshops, entwickeln digitale Vertriebsstrategien, analysieren Kundendaten und steigern Umsatz und Conversion Rates. Der Beruf liegt an der Schnittstelle von Handel, Marketing und Technologie und erfordert ein breites Kompetenzprofil. Mit dem anhaltenden Wachstum des Online-Handels ist die Nachfrage nach qualifizierten E-Commerce-Fachkräften in den letzten Jahren kontinuierlich gestiegen.",
+  "aufgaben": [
+    "Steuerung und Optimierung des Onlineshops",
+    "Entwicklung von E-Commerce-Strategien und Kampagnen",
+    "Analyse von Verkaufskennzahlen, Conversion Rates und Kundenverhalten",
+    "Koordination von Online-Marketing-Maßnahmen (SEA, SEO, Social Media)",
+    "Sortimentsmanagement und Preisgestaltung im Onlinehandel",
+    "Zusammenarbeit mit IT, Design und Logistik",
+    "Betreuung von Marktplätzen wie Amazon, eBay oder Zalando"
+  ],
+  "kompetenzen": [
+    "Verständnis für E-Commerce-Plattformen und Shop-Systeme",
+    "Kenntnisse im Online-Marketing und SEO/SEA",
+    "Analytische Fähigkeiten und Datenaffinität",
+    "Grundlegende technische Kenntnisse (HTML, CMS, APIs)",
+    "Kreativität bei der Entwicklung digitaler Vertriebskonzepte",
+    "Projektmanagement und Koordinationsstärke",
+    "Kundenorientierung und Trendgespür"
+  ],
+  "karrierePfade": [
+    "Head of E-Commerce oder Digital Commerce Director",
+    "Online-Marketing-Leiter/in",
+    "Produktmanager/in Digital",
+    "Selbstständigkeit mit eigenem Onlineshop",
+    "Unternehmensberater/in für Digitalisierung im Handel"
+  ],
+  "arbeitsmarkt": "Der E-Commerce-Markt wächst ungebrochen, und damit auch die Nachfrage nach qualifizierten E-Commerce Manager/innen. Sowohl reine Online-Händler als auch traditionelle Handelsunternehmen mit Omnichannel-Strategie suchen Fachkräfte für ihre digitalen Vertriebskanäle. Die seit 2020 eingeführte Ausbildung zum/zur Kaufmann/-frau im E-Commerce zeigt die wachsende Bedeutung des Berufsfelds. Gute Aufstiegschancen und attraktive Gehälter machen den Bereich besonders interessant.",
+  "typischerArbeitstag": "Der Tag startet mit der Analyse der Verkaufszahlen und KPIs vom Vortag im Analytics-Dashboard. In Abstimmungsmeetings werden aktuelle Kampagnen besprochen und neue Aktionen geplant. Vormittags werden Produktbeschreibungen optimiert, A/B-Tests ausgewertet oder Preisstrategien angepasst. Nachmittags liegt der Fokus auf der Koordination mit Agenturen, dem Logistikteam oder der IT für technische Shopoptimierungen. Die laufende Beobachtung von Markttrends und Wettbewerbsaktivitäten gehört ebenfalls zum täglichen Geschäft.",
+  "relatedSlugs": ["vertriebsmanager", "einzelhandelskaufmann", "logistikmanager"]
+}

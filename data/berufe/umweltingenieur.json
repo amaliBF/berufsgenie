@@ -1,0 +1,39 @@
+{
+  "slug": "umweltingenieur",
+  "name": "Umweltingenieur/in",
+  "category": "Naturwissenschaften",
+  "categorySlug": "naturwissenschaften",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3500, 5500],
+  "einstiegsgehalt": [3000, 4000],
+  "beschreibung": "Umweltingenieure und Umweltingenieurinnen entwickeln technische Lösungen zum Schutz der Umwelt und zur nachhaltigen Nutzung natürlicher Ressourcen. Sie planen Anlagen zur Wasser- und Abfallbehandlung, optimieren industrielle Prozesse unter ökologischen Gesichtspunkten und erstellen Umweltverträglichkeitsprüfungen. Der Beruf liegt an der Schnittstelle von Ingenieurwesen und Naturwissenschaften und gewinnt durch den Klimawandel und strengere Umweltgesetzgebung kontinuierlich an Bedeutung. Umweltingenieur/innen arbeiten bei Ingenieurbüros, Behörden, in der Industrie und in der Energiebranche.",
+  "aufgaben": [
+    "Planung und Umsetzung von Umweltschutzmaßnahmen",
+    "Erstellung von Umweltverträglichkeitsprüfungen und Gutachten",
+    "Entwicklung von Konzepten zur Abfall-, Abwasser- und Luftreinhaltung",
+    "Beratung von Unternehmen in Fragen des Umweltmanagements",
+    "Überwachung der Einhaltung von Umweltgesetzen und -normen",
+    "Durchführung von Messungen und Probenahmen im Feld",
+    "Projektleitung bei Sanierungs- und Renaturierungsprojekten"
+  ],
+  "kompetenzen": [
+    "Fundiertes Wissen in Umwelttechnik und Verfahrenstechnik",
+    "Kenntnisse im Umweltrecht (BImSchG, WHG, KrWG)",
+    "Analytische Fähigkeiten und naturwissenschaftliches Verständnis",
+    "Projektmanagement und Organisationstalent",
+    "Sicherer Umgang mit Geoinformationssystemen (GIS)",
+    "Kommunikationsstärke für Behörden- und Kundenkontakt",
+    "Interdisziplinäres Denken und Problemlösungskompetenz",
+    "Bereitschaft zu Außendienst und Baustellenbesuchen"
+  ],
+  "karrierePfade": [
+    "Projektleiter/in für Umweltprojekte",
+    "Umweltbeauftragte/r in der Industrie",
+    "Gutachter/in und Sachverständige/r",
+    "Referent/in bei Umweltbehörden oder Ministerien",
+    "Spezialisierung auf erneuerbare Energien oder Kreislaufwirtschaft"
+  ],
+  "arbeitsmarkt": "Der Arbeitsmarkt für Umweltingenieur/innen entwickelt sich sehr positiv. Klimaschutzgesetzgebung, die Transformation zur Kreislaufwirtschaft und der Ausbau erneuerbarer Energien treiben die Nachfrage. Ingenieurbüros, kommunale Betriebe, die Energiewirtschaft und die Industrie suchen regelmäßig qualifizierte Fachkräfte. Auch international ergeben sich attraktive Karrieremöglichkeiten, da Umwelttechnik ein deutsches Exportschlager ist.",
+  "typischerArbeitstag": "Der Tag kann sowohl im Büro als auch im Außendienst stattfinden. Im Büro werden Gutachten erstellt, Messdaten ausgewertet oder Genehmigungsanträge vorbereitet. Bei Außeneinsätzen werden Boden-, Wasser- oder Luftproben genommen, Altlasten untersucht oder Baumaßnahmen überwacht. Meetings mit Behörden, Auftraggebern oder interdisziplinären Teams strukturieren den Tag. Die Kombination aus technischer Arbeit, rechtlichen Fragestellungen und ökologischer Verantwortung macht den Alltag besonders abwechslungsreich.",
+  "relatedSlugs": ["biologe", "chemiker", "architektur"]
+}

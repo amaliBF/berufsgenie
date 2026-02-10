@@ -1,0 +1,38 @@
+{
+  "slug": "verwaltungsfachangestellter",
+  "name": "Verwaltungsfachangestellte/r",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2500, 3800],
+  "einstiegsgehalt": [2300, 2800],
+  "beschreibung": "Verwaltungsfachangestellte sind das Rückgrat des öffentlichen Dienstes und sorgen dafür, dass Bürger/innen ihre Anliegen bei Behörden und Ämtern effizient bearbeitet bekommen. Sie bearbeiten Anträge, erstellen Bescheide, beraten Bürger/innen und wenden Rechtsvorschriften an – von Bauanträgen über Sozialleistungen bis hin zu Gewerbeanmeldungen. Die dreijährige duale Ausbildung umfasst Verwaltungsrecht, Haushalts- und Finanzwesen sowie Personalmanagement. Verwaltungsfachangestellte arbeiten in Kommunalverwaltungen, Landes- und Bundesbehörden, Universitäten und anderen öffentlichen Einrichtungen. Der Beruf bietet einen sicheren Arbeitsplatz mit geregelten Arbeitszeiten und attraktiven Sozialleistungen des öffentlichen Dienstes.",
+  "aufgaben": [
+    "Bearbeitung von Anträgen und Erstellung von Bescheiden",
+    "Beratung von Bürger/innen zu Verwaltungsangelegenheiten",
+    "Anwendung von Gesetzen, Verordnungen und Verwaltungsvorschriften",
+    "Haushalts- und Rechnungswesen der öffentlichen Verwaltung",
+    "Personalverwaltung und -betreuung",
+    "Aktenführung und Dokumentenmanagement",
+    "Mitarbeit bei der Erstellung von Satzungen und Verordnungen"
+  ],
+  "kompetenzen": [
+    "Kenntnisse im Verwaltungsrecht und öffentlichen Recht",
+    "Sorgfalt und Genauigkeit bei der Sachbearbeitung",
+    "Bürgerfreundliches und serviceorientiertes Auftreten",
+    "Organisationstalent und strukturiertes Arbeiten",
+    "Gute Ausdrucksfähigkeit in Wort und Schrift",
+    "EDV-Kenntnisse und sicherer Umgang mit Fachsoftware",
+    "Teamfähigkeit und Kooperationsbereitschaft"
+  ],
+  "karrierePfade": [
+    "Verwaltungsfachwirt/in (Angestelltenlehrgang II)",
+    "Sachgebietsleitung oder Amtsleitung",
+    "Studium Public Management oder Verwaltungswissenschaften",
+    "Beamtenlaufbahn im gehobenen Dienst",
+    "Spezialisierung (z. B. Baurecht, Sozialrecht, Personalwesen)"
+  ],
+  "arbeitsmarkt": "Der öffentliche Dienst sucht bundesweit Nachwuchskräfte, da in den kommenden Jahren viele erfahrene Verwaltungsfachkräfte in den Ruhestand gehen. Die Ausbildungsstellen werden gut vergütet, und die Übernahmequote nach der Ausbildung ist überdurchschnittlich hoch. Die Jobsicherheit im öffentlichen Dienst ist ein besonderer Vorteil, ebenso wie die tariflich geregelte Vergütung nach TVöD mit regelmäßigen Stufenaufstiegen. Besonders Kommunalverwaltungen im ländlichen Raum werben aktiv um Auszubildende.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt um 8 Uhr mit dem Sichten der eingegangenen Anträge und E-Mails. Vormittags werden Bürgeranliegen bearbeitet – persönlich am Schalter, telefonisch oder per E-Mail. Bescheide werden erstellt, Akten geprüft und Rechtsvorschriften angewandt. Nachmittags finden Besprechungen mit Kolleg/innen statt, und es wird an Projektarbeiten oder Sonderthemen gearbeitet. Geregelte Arbeitszeiten mit Gleitzeitmodellen ermöglichen eine gute Work-Life-Balance.",
+  "relatedSlugs": ["rechtsanwaltsfachangestellter", "polizist", "rechtsanwalt"]
+}

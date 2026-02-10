@@ -1,0 +1,38 @@
+{
+  "slug": "personalreferent",
+  "name": "Personalreferent/in",
+  "category": "Wirtschaft & Finanzen",
+  "categorySlug": "wirtschaft-finanzen",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3500, 5500],
+  "einstiegsgehalt": [3000, 3800],
+  "beschreibung": "Personalreferent/innen sind die zentralen Ansprechpartner/innen für alle personalwirtschaftlichen Themen eines Unternehmens. Sie begleiten den gesamten Employee Lifecycle von der Stellenausschreibung über das Onboarding bis zum Austritt. Dabei agieren sie als Schnittstelle zwischen Geschäftsleitung, Führungskräften und Mitarbeitenden. Der Beruf erfordert ein ausgeprägtes Gespür für Menschen, arbeitsrechtliches Wissen und organisatorisches Geschick.",
+  "aufgaben": [
+    "Recruiting und Bewerbermanagement",
+    "Erstellung von Arbeitsverträgen und Zeugnissen",
+    "Beratung von Führungskräften zu personalrechtlichen Fragen",
+    "Personalentwicklung und Weiterbildungsplanung",
+    "Gehaltsabrechnung und Personaladministration",
+    "Mitarbeitergespräche begleiten und moderieren",
+    "Employer Branding und Personalmarketing"
+  ],
+  "kompetenzen": [
+    "Kenntnisse im Arbeits- und Sozialversicherungsrecht",
+    "Empathie und Kommunikationsstärke",
+    "Organisationstalent",
+    "Diskretion und Vertrauenswürdigkeit",
+    "Kenntnisse in HR-Software (z. B. SAP HCM, Personio)",
+    "Verhandlungsgeschick",
+    "Konfliktlösungskompetenz"
+  ],
+  "karrierePfade": [
+    "Senior HR Business Partner",
+    "Leiter/in Personalwesen",
+    "HR Director / VP People",
+    "Spezialist/in für Personalentwicklung oder Vergütung",
+    "Selbstständige/r HR-Berater/in"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach HR-Fachkräften ist durch den allgemeinen Fachkräftemangel und die wachsende Bedeutung von Employer Branding stark gestiegen. Unternehmen investieren zunehmend in professionelle Personalarbeit, um Talente zu gewinnen und zu halten. Digitalisierung und New-Work-Trends schaffen neue Aufgabenfelder im HR-Bereich. Absolventen mit Schwerpunkt Personalmanagement finden in Konzernen, dem Mittelstand und bei Personaldienstleistern gute Einstiegsmöglichkeiten.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Durchsicht eingegangener Bewerbungen und der Terminierung von Vorstellungsgesprächen. Im Laufe des Vormittags folgen Beratungsgespräche mit Führungskräften zu Themen wie Vertragsgestaltung, Gehaltsanpassungen oder Konflikten im Team. Nachmittags werden Arbeitsverträge erstellt, Onboarding-Prozesse koordiniert oder Weiterbildungsmaßnahmen geplant. Regelmäßig stehen auch strategische Projekte wie die Einführung neuer HR-Tools oder die Überarbeitung von Stellenprofilen an.",
+  "relatedSlugs": ["unternehmensberater", "einkaufsmanager", "marketing-manager"]
+}

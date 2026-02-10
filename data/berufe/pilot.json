@@ -1,0 +1,39 @@
+{
+  "slug": "pilot",
+  "name": "Pilot/in",
+  "category": "Logistik & Handel",
+  "categorySlug": "logistik-handel",
+  "ausbildung": "Ausbildung / Studium",
+  "gehaltsspanne": [5000, 12000],
+  "einstiegsgehalt": [4000, 6000],
+  "beschreibung": "Pilot/innen steuern Flugzeuge und sind für die sichere Beförderung von Passagieren und Fracht verantwortlich. Sie planen Flugrouten, überwachen die Flugsysteme, kommunizieren mit der Flugsicherung und treffen in Notsituationen lebensrettende Entscheidungen. Die Ausbildung zum Verkehrspiloten dauert etwa zwei Jahre und kostet zwischen 60.000 und 150.000 Euro, wobei einige Airlines die Kosten übernehmen. Der Beruf erfordert technisches Verständnis, absolute Zuverlässigkeit und die Fähigkeit, unter extremem Druck ruhig zu bleiben. Pilot/innen arbeiten bei Linien- und Charterfluggesellschaften, in der Frachtfliegerei oder als Business-Jet-Piloten.",
+  "aufgaben": [
+    "Flugvorbereitung: Wetter, Route, Treibstoff und technischer Zustand",
+    "Steuerung des Flugzeugs bei Start, Reiseflug und Landung",
+    "Überwachung aller Flugsysteme und Instrumente",
+    "Kommunikation mit der Flugsicherung und der Kabine",
+    "Durchführung von Notfallverfahren bei technischen Problemen",
+    "Erstellung von Flugberichten und technischen Logbüchern",
+    "Regelmäßige Simulator-Checks und Fortbildungen"
+  ],
+  "kompetenzen": [
+    "Verkehrspilotenlizenz (ATPL) oder CPL mit Instrumentenflugberechtigung",
+    "Hervorragendes räumliches Vorstellungsvermögen",
+    "Technisches Verständnis für Flugzeugsysteme",
+    "Absolute Stressresistenz und Entscheidungsfähigkeit",
+    "Fließende Englischkenntnisse",
+    "Teamfähigkeit und Crew Resource Management (CRM)",
+    "Medizinische Flugtauglichkeit (Class 1 Medical)",
+    "Disziplin und Verantwortungsbewusstsein"
+  ],
+  "karrierePfade": [
+    "Erste/r Offizier/in (Copilot)",
+    "Kapitän/in (Flugkapitän)",
+    "Trainingskapitän/in und Ausbilder/in",
+    "Flugbetriebsleiter/in",
+    "Managementpositionen bei Airlines"
+  ],
+  "arbeitsmarkt": "Nach einem pandemiebedingten Einbruch hat sich der Luftfahrtmarkt deutlich erholt und die Nachfrage nach Pilot/innen steigt weltweit stark an. Viele Airlines haben umfangreiche Rekrutierungsprogramme aufgelegt, um den prognostizierten Pilotenmangel zu begegnen. Besonders in Asien und dem Nahen Osten werden europäische Pilot/innen aktiv gesucht. Die hohen Ausbildungskosten stellen für viele eine Hürde dar, doch langfristig gehört der Pilotenberuf zu den bestbezahlten Karrieren.",
+  "typischerArbeitstag": "Ein typischer Flugtag beginnt etwa 90 Minuten vor dem Abflug mit dem Briefing: Wetteranalyse, Routenplanung und Absprache mit der Crew. Im Cockpit werden alle Systeme geprüft und der Flugplan in den Bordcomputer eingegeben. Während des Fluges überwachen Pilot/innen die Instrumente, navigieren und kommunizieren mit der Flugsicherung. Nach der Landung folgen Debriefing und technische Dokumentation. Mehrtägige Einsätze mit Übernachtungen an verschiedenen Standorten sind in der Langstreckenfliegerei üblich.",
+  "relatedSlugs": ["fluglotse", "supply-chain-manager", "hotelfachmann"]
+}

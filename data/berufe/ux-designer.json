@@ -1,0 +1,37 @@
+{
+  "slug": "ux-designer",
+  "name": "UX-Designer/in",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3500, 6000],
+  "einstiegsgehalt": [3200, 4200],
+  "beschreibung": "UX-Designer/innen gestalten digitale Produkte so, dass sie für Nutzer/innen intuitiv, effizient und angenehm zu bedienen sind. Sie erforschen das Verhalten und die Bedürfnisse der Zielgruppe, erstellen Wireframes und Prototypen und testen ihre Entwürfe mit echten Anwender/innen. Dabei verbinden sie kreatives Design mit psychologischem Verständnis und technischem Know-how. UX-Design ist ein relativ junges, aber rasant wachsendes Berufsfeld, das in der Produktentwicklung eine zentrale Rolle einnimmt. Gute User Experience ist heute ein entscheidender Wettbewerbsfaktor für digitale Produkte und Services.",
+  "aufgaben": [
+    "Durchführung von User Research und Interviews",
+    "Erstellung von Personas, User Flows und Journey Maps",
+    "Design von Wireframes und interaktiven Prototypen",
+    "Durchführung von Usability-Tests",
+    "Zusammenarbeit mit Entwickler/innen und Product Managern",
+    "Erstellung und Pflege von Design-Systemen"
+  ],
+  "kompetenzen": [
+    "Design-Tools (Figma, Sketch, Adobe XD)",
+    "User Research und Usability-Testing-Methoden",
+    "Grundkenntnisse in HTML, CSS und JavaScript",
+    "Prototyping und Wireframing",
+    "Empathie und nutzerzentriertes Denken",
+    "Kommunikationsfähigkeit und Präsentationsstärke",
+    "Verständnis für Barrierefreiheit (Accessibility)"
+  ],
+  "karrierePfade": [
+    "Senior UX-Designer/in",
+    "UX Lead / Head of Design",
+    "Product Designer/in",
+    "UX-Researcher/in",
+    "Design Director / VP of Design"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach UX-Designern steigt kontinuierlich, da Unternehmen erkennen, dass gute Nutzererfahrung direkt zum Geschäftserfolg beiträgt. Start-ups, Konzerne und Agenturen suchen gleichermaßen nach qualifizierten UX-Fachkräften. Der Einstieg ist über verschiedene Wege möglich – von spezialisierten Studiengängen über Bootcamps bis hin zu Quereinstiegen aus verwandten Bereichen. Besonders gefragt sind Designer/innen, die neben dem visuellen Design auch Research-Kompetenz mitbringen.",
+  "typischerArbeitstag": "UX-Designer/innen beginnen den Tag oft mit der Auswertung von Nutzer-Feedback oder Analytics-Daten. Vormittags stehen häufig User-Interviews oder Usability-Tests auf dem Programm. Der Nachmittag wird für die Arbeit in Figma oder Sketch genutzt, wo Wireframes und Prototypen entstehen. Design-Reviews mit dem Team und Abstimmungen mit Entwickler/innen sorgen dafür, dass die Entwürfe technisch umsetzbar sind und den Nutzerbedürfnissen entsprechen.",
+  "relatedSlugs": ["webentwickler", "softwareentwickler", "mobile-entwickler"]
+}

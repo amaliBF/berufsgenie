@@ -1,0 +1,37 @@
+{
+  "slug": "datenbank-administrator",
+  "name": "Datenbankadministrator/in",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Studium / Ausbildung",
+  "gehaltsspanne": [3500, 6000],
+  "einstiegsgehalt": [3200, 4200],
+  "beschreibung": "Datenbankadministrator/innen sind für die Planung, Implementierung und Wartung von Datenbanksystemen zuständig. Sie sorgen dafür, dass Unternehmensdaten sicher gespeichert, effizient abrufbar und vor Verlust geschützt sind. Der Beruf umfasst die Administration relationaler Datenbanken wie MySQL, PostgreSQL und Oracle sowie moderner NoSQL-Systeme wie MongoDB oder Redis. Datenbankadministrator/innen optimieren die Performance von Abfragen, entwickeln Backup-Strategien und stellen die Hochverfügbarkeit kritischer Systeme sicher. In der datengetriebenen Wirtschaft sind sie eine unverzichtbare Stütze jeder IT-Abteilung.",
+  "aufgaben": [
+    "Installation, Konfiguration und Wartung von Datenbanksystemen",
+    "Performance-Tuning und Abfrageoptimierung",
+    "Entwicklung und Umsetzung von Backup- und Recovery-Strategien",
+    "Zugriffssteuerung und Datensicherheit",
+    "Migration und Upgrade von Datenbanken",
+    "Überwachung der Systemverfügbarkeit und -leistung"
+  ],
+  "kompetenzen": [
+    "SQL und relationale Datenbanken (MySQL, PostgreSQL, Oracle)",
+    "NoSQL-Datenbanken (MongoDB, Redis, Cassandra)",
+    "Datenbank-Performance-Tuning",
+    "Backup- und Recovery-Verfahren",
+    "Linux- und Windows-Serveradministration",
+    "Sorgfalt und Detailgenauigkeit",
+    "Analytisches Denkvermögen"
+  ],
+  "karrierePfade": [
+    "Senior Datenbankadministrator/in",
+    "Database Architect",
+    "Data Engineer",
+    "Cloud Database Specialist",
+    "IT-Leiter/in"
+  ],
+  "arbeitsmarkt": "Der Bedarf an Datenbankadministrator/innen bleibt stabil, da jedes Unternehmen auf zuverlässige Datenhaltung angewiesen ist. Mit dem Wachstum von Cloud-Datenbanken (Amazon RDS, Azure SQL, Google Cloud SQL) verschieben sich die Anforderungen zunehmend in Richtung Cloud-Expertise. Kenntnisse in Big-Data-Technologien und Data Engineering verbessern die Karrierechancen zusätzlich. Erfahrene Datenbankadministrator/innen mit Spezialwissen sind auf dem Markt sehr gefragt.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt mit der Überprüfung der Monitoring-Systeme auf Auffälligkeiten bei Datenbankperformance und Speicherauslastung. Danach werden geplante Wartungsarbeiten wie Updates, Indexoptimierungen oder Datenmigrationen durchgeführt. Anfragen von Entwicklungsteams bezüglich Datenbankschema-Änderungen oder Performance-Problemen werden im Laufe des Tages bearbeitet. Regelmäßig werden Backup-Tests durchgeführt, um die Wiederherstellbarkeit der Daten sicherzustellen.",
+  "relatedSlugs": ["data-scientist", "systemadministrator", "fachinformatiker"]
+}

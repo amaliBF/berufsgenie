@@ -1,0 +1,37 @@
+{
+  "slug": "zerspanungsmechaniker",
+  "name": "Zerspanungsmechaniker/in",
+  "category": "Ingenieurwesen & Technik",
+  "categorySlug": "ingenieurwesen",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2600, 4000],
+  "einstiegsgehalt": [2400, 2900],
+  "beschreibung": "Zerspanungsmechaniker/innen fertigen Präzisionsbauteile aus Metall, Kunststoff und anderen Werkstoffen durch spanende Verfahren wie Drehen, Fräsen, Bohren und Schleifen. Sie programmieren und bedienen computergesteuerte Werkzeugmaschinen (CNC) und stellen sicher, dass die Werkstücke höchsten Qualitätsansprüchen genügen. Der Beruf erfordert höchste Genauigkeit – Toleranzen im Hundertstel-Millimeter-Bereich sind keine Seltenheit. Zerspanungsmechaniker/innen arbeiten in der Metall- und Elektroindustrie, im Fahrzeugbau und in der Medizintechnik. Die dreieinhalbjährige Ausbildung bildet eine solide Grundlage für vielfältige Karrierewege.",
+  "aufgaben": [
+    "Programmierung und Einrichtung von CNC-Dreh- und Fräsmaschinen",
+    "Fertigung von Präzisionsbauteilen nach technischen Zeichnungen",
+    "Auswahl geeigneter Werkzeuge und Schnittparameter",
+    "Qualitätskontrolle mit Messmitteln und Koordinatenmessgeräten",
+    "Wartung und Pflege der Werkzeugmaschinen",
+    "Optimierung von Fertigungsprozessen"
+  ],
+  "kompetenzen": [
+    "Sehr gute mathematische Kenntnisse und räumliches Vorstellungsvermögen",
+    "Erfahrung in CNC-Programmierung (G-Code, CAM-Software)",
+    "Kenntnisse in Werkstoffkunde und Zerspanungstechnik",
+    "Präzision und Sorgfalt bei der Arbeit",
+    "Lesen technischer Zeichnungen und Stücklisten",
+    "Handwerkliches Geschick",
+    "Qualitätsbewusstsein"
+  ],
+  "karrierePfade": [
+    "CNC-Programmierer/in",
+    "Industriemeister/in Metall",
+    "Techniker/in Maschinentechnik",
+    "CAD/CAM-Spezialist/in",
+    "Fertigungsleiter/in"
+  ],
+  "arbeitsmarkt": "Zerspanungsmechaniker/innen sind auf dem Arbeitsmarkt sehr gefragt, da die deutsche Industrie in hohem Maße auf Präzisionsfertigung angewiesen ist. Besonders der Maschinenbau, die Automobilbranche und die Medizintechnik suchen qualifizierte Fachkräfte. Die zunehmende Automatisierung erfordert immer bessere CNC-Kenntnisse, was gut ausgebildeten Fachkräften exzellente Perspektiven bietet. Überdurchschnittliche Vergütungen sind in tarifgebundenen Unternehmen üblich.",
+  "typischerArbeitstag": "Zu Schichtbeginn werden die Aufträge gesichtet und die CNC-Maschine eingerichtet – Werkzeuge eingespannt, Programme geladen und Probestücke gefertigt. Die Hauptzeit verbringt man mit der Überwachung des Fertigungsprozesses und der laufenden Qualitätsmessung. Bei Abweichungen werden Korrekturen an den CNC-Programmen vorgenommen. Zwischendurch erfolgen Werkzeugwechsel und Maschinenwartungen. Die Arbeit findet überwiegend im Schichtbetrieb in klimatisierten Fertigungshallen statt.",
+  "relatedSlugs": ["industriemechaniker", "mechatroniker", "elektroniker"]
+}

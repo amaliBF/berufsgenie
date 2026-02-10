@@ -1,0 +1,37 @@
+{
+  "slug": "bankkaufmann",
+  "name": "Bankkaufmann/-frau",
+  "category": "Wirtschaft & Finanzen",
+  "categorySlug": "wirtschaft-finanzen",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2800, 4500],
+  "einstiegsgehalt": [2400, 3000],
+  "beschreibung": "Bankkaufleute sind die zentralen Ansprechpartner/innen in Kreditinstituten und beraten Kunden zu allen Finanzthemen von Kontoführung über Kredite bis hin zu Geldanlagen. Sie verbinden Finanzwissen mit Serviceorientierung und begleiten Privat- wie Geschäftskunden bei wichtigen finanziellen Entscheidungen. Die duale Ausbildung dauert in der Regel drei Jahre und bietet eine solide Grundlage für vielfältige Karrierewege im Bankensektor. Der Beruf wandelt sich durch die Digitalisierung stark, bleibt aber ein gefragter Einstieg in die Finanzbranche.",
+  "aufgaben": [
+    "Beratung von Privat- und Geschäftskunden zu Finanzprodukten",
+    "Kontoführung und Abwicklung des Zahlungsverkehrs",
+    "Kreditanträge bearbeiten und Bonitätsprüfungen durchführen",
+    "Anlageberatung und Vermögensaufbau",
+    "Bearbeitung von Versicherungs- und Bausparverträgen",
+    "Kundengewinnung und Bestandskundenpflege"
+  ],
+  "kompetenzen": [
+    "Kundenorientierung und Kommunikationsstärke",
+    "Verständnis für Finanzprodukte und Märkte",
+    "Sorgfalt und Verantwortungsbewusstsein",
+    "Verkaufstalent und Überzeugungskraft",
+    "Mathematisches Grundverständnis",
+    "Diskretion und Vertrauenswürdigkeit",
+    "IT-Affinität für digitale Bankprozesse"
+  ],
+  "karrierePfade": [
+    "Firmenkundenberater/in",
+    "Vermögensberater/in / Private Banking",
+    "Filialleiter/in",
+    "Spezialist/in für Baufinanzierung oder Wertpapiere",
+    "Weiterbildung zum/zur Bankfachwirt/in oder Bankbetriebswirt/in"
+  ],
+  "arbeitsmarkt": "Der Bankensektor befindet sich im Umbruch durch Digitalisierung und Filialschließungen, bietet aber weiterhin solide Beschäftigungsmöglichkeiten. Besonders gefragt sind Fachkräfte, die digitale Kompetenz mit persönlicher Beratungsstärke verbinden. Online-Banking und Fintechs verändern das Berufsbild, schaffen aber auch neue Rollen in der digitalen Kundenbetreuung. Wer sich stetig weiterbildet, findet in Banken, Sparkassen und Genossenschaftsbanken gute Karrierechancen.",
+  "typischerArbeitstag": "Der Arbeitstag startet mit der Vorbereitung anstehender Kundentermine und dem Blick auf aktuelle Marktentwicklungen. Im Laufe des Tages folgen Beratungsgespräche zu Konten, Krediten oder Geldanlagen, sowohl am Schalter als auch in separaten Beratungsräumen. Zwischen den Terminen werden Kreditanträge bearbeitet, Verträge vorbereitet und interne Abstimmungen getroffen. Der Tag endet mit der Dokumentation der Beratungen und der Nachbereitung offener Anfragen.",
+  "relatedSlugs": ["finanzberater", "versicherungskaufmann", "steuerfachangestellter"]
+}

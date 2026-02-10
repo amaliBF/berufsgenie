@@ -1,0 +1,38 @@
+{
+  "slug": "logopaedin",
+  "name": "Logopäde/Logopädin",
+  "category": "Bildung & Soziales",
+  "categorySlug": "bildung-soziales",
+  "ausbildung": "Ausbildung / Studium",
+  "gehaltsspanne": [2400, 3500],
+  "einstiegsgehalt": [2200, 2700],
+  "beschreibung": "Logopäd/innen diagnostizieren und behandeln Sprach-, Sprech-, Stimm- und Schluckstörungen bei Menschen aller Altersgruppen – vom Kleinkind mit Sprachentwicklungsverzögerung bis zum Schlaganfallpatienten mit Aphasie. Die Ausbildung dauert drei Jahre an einer Berufsfachschule oder kann als Bachelorstudium absolviert werden. Logopäd/innen arbeiten in eigenen Praxen, Kliniken, Rehazentren, Frühförderstellen und Schulen. Der Beruf verbindet medizinisches, linguistisches und pädagogisches Wissen und erfordert viel Geduld und Kreativität bei der Therapiegestaltung. Die zunehmende Akademisierung des Berufs eröffnet zusätzliche Perspektiven in Forschung und Lehre.",
+  "aufgaben": [
+    "Diagnostik von Sprach-, Sprech-, Stimm- und Schluckstörungen",
+    "Erstellung individueller Therapiepläne",
+    "Durchführung logopädischer Therapien (Einzel und Gruppe)",
+    "Übungen zur Artikulation, Wortschatz und Grammatik",
+    "Stimmtherapie und Atemtechniktraining",
+    "Beratung von Patient/innen, Eltern und Angehörigen",
+    "Dokumentation des Therapieverlaufs und Berichterstattung"
+  ],
+  "kompetenzen": [
+    "Kenntnisse in Linguistik, Phonetik und Medizin",
+    "Empathie und Geduld im therapeutischen Kontakt",
+    "Kreativität bei der Therapiegestaltung",
+    "Gutes Gehör und Gespür für Sprache",
+    "Kommunikationsfähigkeit und motivierendes Auftreten",
+    "Beobachtungsfähigkeit und analytisches Denken",
+    "Selbstständiges und eigenverantwortliches Arbeiten"
+  ],
+  "karrierePfade": [
+    "Eigene logopädische Praxis eröffnen",
+    "Spezialisierung (z. B. Stimmtherapie, Kindersprache, Neurologie)",
+    "Studium Logopädie (Bachelor/Master)",
+    "Lehrtätigkeit an Berufsfachschulen oder Hochschulen",
+    "Leitende Funktion in Rehakliniken oder Frühförderzentren"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach Logopäd/innen ist hoch und wächst stetig, da Sprach- und Kommunikationsstörungen zunehmend erkannt und behandelt werden. Besonders in der Kindertherapie und in der neurologischen Rehabilitation werden dringend Fachkräfte gesucht. Die Vergütung hat sich durch Heilmittelpreiserhöhungen und Tarifsteigerungen verbessert, bleibt aber hinter vergleichbaren Gesundheitsberufen zurück. Die Selbstständigkeit mit eigener Praxis bietet gute wirtschaftliche Perspektiven und flexible Arbeitszeitgestaltung.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Vorbereitung der Therapiematerialien und einem Blick auf den Therapieplan. In 30- bis 60-minütigen Einzelsitzungen arbeiten Logopäd/innen mit Patient/innen an deren individuellen Sprachzielen – mit Übungen, Spielen und gezielten Techniken. Zwischen den Terminen werden Therapieberichte geschrieben, Elterngespräche geführt und Fortschritte dokumentiert. In Kliniken kommen interdisziplinäre Besprechungen und die Behandlung von Schluckstörungen auf Station hinzu.",
+  "relatedSlugs": ["ergotherapeut", "heilpaedagoge", "physiotherapeut"]
+}

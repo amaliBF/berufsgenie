@@ -1,0 +1,38 @@
+{
+  "slug": "eventmanager",
+  "name": "Eventmanager/in",
+  "category": "Marketing & Medien",
+  "categorySlug": "marketing-medien",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [2800, 5000],
+  "einstiegsgehalt": [2400, 3200],
+  "beschreibung": "Eventmanager/innen planen, organisieren und realisieren Veranstaltungen jeder Art, von Firmenevents und Konferenzen über Messen bis hin zu Konzerten und Galas. Sie koordinieren alle Beteiligten, vom Caterer über Technikdienstleister bis zum Sicherheitspersonal, und sorgen für einen reibungslosen Ablauf. Der Beruf erfordert Organisationstalent, Stressresistenz und Kreativität, denn jedes Event ist ein einzigartiges Projekt mit eigenem Budget, Zeitplan und Anforderungen. Die Arbeit ist abwechslungsreich und bietet die Möglichkeit, unvergessliche Erlebnisse zu schaffen.",
+  "aufgaben": [
+    "Konzeption und Planung von Veranstaltungen",
+    "Budgetplanung und Kostenkontrolle",
+    "Auswahl und Koordination von Dienstleistern und Locations",
+    "Erstellung von Ablaufplänen und Regieanweisungen",
+    "Teilnehmermanagement und Einladungsmanagement",
+    "Vor-Ort-Betreuung und Problemlösung während des Events",
+    "Nachbereitung, Evaluation und Dokumentation"
+  ],
+  "kompetenzen": [
+    "Hervorragendes Organisationstalent",
+    "Stressresistenz und Flexibilität",
+    "Verhandlungsgeschick und Budgetbewusstsein",
+    "Kreativität und Ideenreichtum",
+    "Kommunikationsstärke und Teamfähigkeit",
+    "Technisches Verständnis für Veranstaltungstechnik",
+    "Multitasking und Problemlösungsfähigkeit"
+  ],
+  "karrierePfade": [
+    "Senior Eventmanager/in",
+    "Head of Events",
+    "Selbstständige/r Eventplaner/in",
+    "Veranstaltungsleiter/in bei Messe- oder Kongressgesellschaften",
+    "Marketing Director mit Event-Schwerpunkt"
+  ],
+  "arbeitsmarkt": "Nach dem pandemiebedingten Einbruch hat sich die Eventbranche stark erholt und erlebt eine Renaissance, da persönliche Begegnungen und Live-Erlebnisse wieder an Bedeutung gewinnen. Hybride Veranstaltungsformate, die Präsenz und Digital kombinieren, schaffen zusätzliche Kompetenzanforderungen. Besonders gefragt sind Fachkräfte mit Erfahrung in der Umsetzung nachhaltiger Events und digitaler Eventplattformen. Die Arbeitgeber reichen von Eventagenturen über Messegesellschaften bis zu Unternehmen mit eigenen Eventabteilungen.",
+  "typischerArbeitstag": "In der Planungsphase werden morgens E-Mails von Dienstleistern bearbeitet, Angebote verglichen und der Projektplan aktualisiert. Über den Tag verteilt finden Location-Besichtigungen, Abstimmungstermine mit Kunden und Briefings für Technikteams statt. Am Veranstaltungstag selbst beginnt die Arbeit sehr früh mit dem Aufbau und endet oft spät nach dem Abbau. Die Tage zwischen den Events werden für Konzeptentwicklung, Budgetplanung und die Vorbereitung des nächsten Projekts genutzt.",
+  "relatedSlugs": ["pr-berater", "marketing-manager", "videograf"]
+}

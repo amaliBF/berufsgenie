@@ -1,0 +1,39 @@
+{
+  "slug": "wirtschaftspruefer",
+  "name": "Wirtschaftsprüfer/in",
+  "category": "Wirtschaft & Finanzen",
+  "categorySlug": "wirtschaft-finanzen",
+  "ausbildung": "Studium + Examen",
+  "gehaltsspanne": [5000, 10000],
+  "einstiegsgehalt": [4000, 5500],
+  "beschreibung": "Wirtschaftsprüfer/innen gehören zu den angesehensten Berufen in der Finanzwelt. Sie prüfen Jahres- und Konzernabschlüsse, beraten Unternehmen in komplexen betriebswirtschaftlichen Fragen und bestätigen die Ordnungsmäßigkeit der Rechnungslegung. Der Weg zum Wirtschaftsprüfer-Examen ist anspruchsvoll und umfasst mehrere Jahre Berufserfahrung nach dem Studium. Dafür gehört die Vergütung zu den höchsten unter den kaufmännischen Berufen in Deutschland.",
+  "aufgaben": [
+    "Prüfung von Jahres- und Konzernabschlüssen",
+    "Beurteilung interner Kontrollsysteme",
+    "Steuerberatung und betriebswirtschaftliche Beratung",
+    "Erstellung von Gutachten und Stellungnahmen",
+    "Due-Diligence-Prüfungen bei Unternehmenstransaktionen",
+    "Beratung bei Unternehmensbewertungen",
+    "Compliance-Prüfungen und Sonderprüfungen"
+  ],
+  "kompetenzen": [
+    "Tiefgehendes Wissen in Rechnungslegung (HGB, IFRS)",
+    "Steuerrechtliche Expertise",
+    "Analytisches und kritisches Denken",
+    "Integrität und Unabhängigkeit",
+    "Kommunikations- und Präsentationsfähigkeiten",
+    "Projektmanagement-Kompetenz",
+    "Sehr gute Englischkenntnisse",
+    "Belastbarkeit in der Prüfungssaison"
+  ],
+  "karrierePfade": [
+    "Senior Manager / Director in einer WP-Gesellschaft",
+    "Partner/in bei Big Four (Deloitte, EY, KPMG, PwC)",
+    "CFO / Finanzvorstand",
+    "Gründung einer eigenen Kanzlei",
+    "Aufsichtsratsmitglied"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach Wirtschaftsprüfern übersteigt das Angebot deutlich, insbesondere bei den großen Prüfungsgesellschaften. Verschärfte Regulierung und steigende Anforderungen an die Unternehmenstransparenz sorgen für kontinuierlich wachsenden Bedarf. Das Wirtschaftsprüfer-Examen hat eine hohe Durchfallquote, was die bestandenen Absolventen besonders begehrt macht. Die Digitalisierung verändert die Prüfungsmethoden, schafft aber keine Ersetzbarkeit des Berufsstands.",
+  "typischerArbeitstag": "In der Prüfungssaison (Januar bis April) verbringen Wirtschaftsprüfer/innen den Großteil des Tages beim Mandanten, wo sie Belege prüfen, Interviews mit der Geschäftsleitung führen und Arbeitspapiere erstellen. Außerhalb der Prüfungssaison stehen Beratungsprojekte, Schulungen und die Akquise neuer Mandate im Vordergrund. Die Arbeitstage sind oft lang, insbesondere vor Abschluss einer Prüfung. Team-Besprechungen zur Abstimmung von Prüfungsergebnissen finden regelmäßig statt.",
+  "relatedSlugs": ["controller", "steuerfachangestellter", "unternehmensberater"]
+}

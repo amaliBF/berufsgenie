@@ -1,0 +1,39 @@
+{
+  "slug": "physiker",
+  "name": "Physiker/in",
+  "category": "Naturwissenschaften",
+  "categorySlug": "naturwissenschaften",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4000, 6500],
+  "einstiegsgehalt": [3500, 4500],
+  "beschreibung": "Physiker/innen erforschen die grundlegenden Gesetze der Natur – von der Quantenmechanik über die Thermodynamik bis zur Astrophysik. Sie entwickeln mathematische Modelle, führen Experimente durch und wenden physikalische Erkenntnisse auf technische Fragestellungen an. Der Beruf zeichnet sich durch ein extrem breites Einsatzspektrum aus: Physiker/innen arbeiten nicht nur in der Forschung, sondern auch in der Industrie, bei Banken, in der Softwareentwicklung und in der Beratung. Ihre analytischen Fähigkeiten und ihr systematisches Denken machen sie zu gefragten Problemlösern in vielen Branchen.",
+  "aufgaben": [
+    "Planung und Durchführung physikalischer Experimente",
+    "Entwicklung und Validierung theoretischer Modelle",
+    "Simulation komplexer Systeme mit Computerprogrammen",
+    "Analyse und Interpretation großer Datensätze",
+    "Entwicklung neuer Technologien und Messverfahren",
+    "Verfassen wissenschaftlicher Publikationen und Präsentationen",
+    "Zusammenarbeit in interdisziplinären Forschungsteams"
+  ],
+  "kompetenzen": [
+    "Tiefes Verständnis physikalischer Grundprinzipien",
+    "Exzellente mathematische Fähigkeiten",
+    "Programmierkenntnisse (Python, C++, MATLAB)",
+    "Erfahrung mit wissenschaftlichen Simulations- und Analysemethoden",
+    "Abstraktes und analytisches Denkvermögen",
+    "Fähigkeit, komplexe Sachverhalte verständlich zu erklären",
+    "Durchhaltevermögen bei langfristigen Forschungsprojekten",
+    "Gute Englischkenntnisse für internationale Forschung"
+  ],
+  "karrierePfade": [
+    "Forschungsleiter/in in der Industrie oder an Forschungsinstituten",
+    "Professor/in an einer Universität",
+    "Data Scientist oder Quantitative Analyst in der Finanzbranche",
+    "Patentprüfer/in oder Patentanwalt/Patentanwältin",
+    "Technologieberater/in oder Unternehmensberater/in"
+  ],
+  "arbeitsmarkt": "Physiker/innen haben auf dem Arbeitsmarkt ausgezeichnete Chancen, obwohl viele von ihnen nicht in der klassischen Physik arbeiten. Ihre analytischen Fähigkeiten sind in der Halbleiterindustrie, der Quantentechnologie, bei Finanzdienstleistern und in der IT-Branche hoch geschätzt. Die Arbeitslosenquote unter Physiker/innen liegt deutlich unter dem Durchschnitt. Eine Promotion ist in der Forschung nahezu Pflicht, eröffnet aber auch in der Industrie deutlich bessere Einstiegsmöglichkeiten.",
+  "typischerArbeitstag": "In der experimentellen Physik beginnt der Tag mit dem Aufbau oder der Justierung von Versuchsanordnungen, gefolgt von stundenlangen Messreihen. Theoretische Physiker/innen arbeiten hingegen hauptsächlich am Computer mit mathematischen Modellen und Simulationen. Nachmittags werden Daten ausgewertet, Ergebnisse in Gruppenseminaren diskutiert und neue Hypothesen formuliert. Das Lesen und Schreiben wissenschaftlicher Paper sowie die Teilnahme an Konferenzen gehören ebenfalls zum Berufsalltag. In der Industrie kommen Meetings mit Ingenieuren und Projektleitern hinzu.",
+  "relatedSlugs": ["chemiker", "umweltingenieur", "laborant"]
+}

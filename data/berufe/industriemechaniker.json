@@ -1,0 +1,38 @@
+{
+  "slug": "industriemechaniker",
+  "name": "Industriemechaniker/in",
+  "category": "Ingenieurwesen & Technik",
+  "categorySlug": "ingenieurwesen",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2600, 4000],
+  "einstiegsgehalt": [2400, 2900],
+  "beschreibung": "Industriemechaniker/innen stellen Bauteile und Baugruppen für Maschinen und Produktionsanlagen her, montieren sie und halten sie instand. Sie arbeiten mit Metall und Kunststoff, nutzen CNC-gesteuerte Werkzeugmaschinen und sorgen dafür, dass die Produktion reibungslos läuft. Der Beruf verbindet handwerkliches Geschick mit technischem Verständnis und ist in der gesamten Fertigungsindustrie unverzichtbar. Industriemechaniker/innen spezialisieren sich häufig auf Feingerätebau, Maschinen- und Anlagenbau oder Produktionstechnik. Die duale Ausbildung dauert dreieinhalb Jahre und bietet exzellente Übernahmechancen.",
+  "aufgaben": [
+    "Fertigung von Bauteilen durch Drehen, Fräsen und Schleifen",
+    "Montage und Demontage von Maschinen und Anlagen",
+    "Wartung, Inspektion und Instandsetzung von Produktionsanlagen",
+    "Programmierung und Bedienung von CNC-Maschinen",
+    "Fehlerdiagnose und Störungsbehebung",
+    "Qualitätskontrolle mit Mess- und Prüfmitteln",
+    "Erstellung und Lesen technischer Zeichnungen"
+  ],
+  "kompetenzen": [
+    "Handwerkliches Geschick und Feinmotorik",
+    "Technisches Verständnis und räumliches Vorstellungsvermögen",
+    "Kenntnisse in Metallbearbeitung und CNC-Technik",
+    "Lesen und Erstellen technischer Zeichnungen",
+    "Grundkenntnisse in Pneumatik und Hydraulik",
+    "Sorgfalt und Genauigkeit",
+    "Teamfähigkeit und Belastbarkeit"
+  ],
+  "karrierePfade": [
+    "Industriemeister/in Metall",
+    "Techniker/in Maschinentechnik",
+    "Studium Maschinenbau (berufsbegleitend)",
+    "Spezialist/in für Instandhaltung",
+    "Produktionsleiter/in"
+  ],
+  "arbeitsmarkt": "Industriemechaniker/innen gehören zu den meistgesuchten Fachkräften im gewerblich-technischen Bereich. Die deutsche Industrie – insbesondere der Maschinen- und Anlagenbau – bietet hervorragende Beschäftigungsmöglichkeiten. Der demografische Wandel verschärft den Fachkräftemangel weiter, was gute Gehalts- und Aufstiegschancen mit sich bringt. Kenntnisse in Automatisierungstechnik und Industrie 4.0 werden zunehmend wichtiger.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt mit der Arbeitsbesprechung und dem Lesen der Auftragspapiere. Anschließend werden Bauteile an CNC-Maschinen gefertigt oder bestehende Anlagen gewartet. Bei Störungen muss schnell und systematisch die Fehlerursache gefunden und behoben werden. Am Nachmittag stehen oft Montagetätigkeiten und Qualitätskontrollen an. Die Arbeit erfolgt in der Regel im Schichtbetrieb in Produktionshallen.",
+  "relatedSlugs": ["zerspanungsmechaniker", "mechatroniker", "elektroniker"]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "maschinenbauingenieur",
+  "name": "Maschinenbauingenieur/in",
+  "category": "Ingenieurwesen & Technik",
+  "categorySlug": "ingenieurwesen",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4000, 6500],
+  "einstiegsgehalt": [3800, 4800],
+  "beschreibung": "Maschinenbauingenieur/innen entwickeln, konstruieren und optimieren Maschinen, Anlagen und technische Systeme. Sie arbeiten in einer der traditionsreichsten und vielseitigsten Ingenieursdisziplinen, die von der Automobilindustrie über den Anlagenbau bis zur Medizintechnik reicht. Mithilfe moderner CAD-Software und Simulationstools entwerfen sie Bauteile und Konstruktionen, führen Festigkeitsberechnungen durch und begleiten den gesamten Produktentwicklungsprozess. Deutschland ist als Exportweltmeister im Maschinenbau ein hervorragender Standort für diesen Beruf. Maschinenbauingenieur/innen verbinden physikalisches Verständnis mit Kreativität und praktischem Ingenieursdenken.",
+  "aufgaben": [
+    "Konstruktion und Entwicklung von Maschinen und Anlagen",
+    "3D-Modellierung und Simulation mit CAD/CAE-Software",
+    "Durchführung von Festigkeits- und Strömungsberechnungen",
+    "Erstellung technischer Zeichnungen und Dokumentationen",
+    "Begleitung der Fertigung und Qualitätskontrolle",
+    "Optimierung bestehender Produkte und Prozesse",
+    "Zusammenarbeit mit Fertigung, Einkauf und Vertrieb"
+  ],
+  "kompetenzen": [
+    "CAD-Software (SolidWorks, CATIA, Siemens NX)",
+    "Technische Mechanik und Werkstoffkunde",
+    "FEM-Simulation und numerische Methoden",
+    "Fertigungstechnik und Produktionstechnologie",
+    "Projektmanagement",
+    "Räumliches Vorstellungsvermögen",
+    "Teamfähigkeit und interdisziplinäres Arbeiten"
+  ],
+  "karrierePfade": [
+    "Senior Konstrukteur/in",
+    "Projektleiter/in Entwicklung",
+    "Technische/r Leiter/in",
+    "Produktmanager/in",
+    "Beratung im Maschinenbau"
+  ],
+  "arbeitsmarkt": "Der Maschinenbau ist eine Schlüsselbranche der deutschen Wirtschaft, und der Bedarf an Ingenieur/innen übersteigt das Angebot seit Jahren. Besonders gefragt sind Fachkräfte mit Kenntnissen in Automatisierung, Industrie 4.0 und nachhaltiger Produktion. Die Gehälter sind attraktiv, insbesondere in der Automobil- und Luftfahrtindustrie. Auch international bieten sich zahlreiche Karrieremöglichkeiten, da deutsche Maschinenbauingenieur/innen weltweit einen exzellenten Ruf genießen.",
+  "typischerArbeitstag": "Der Morgen beginnt häufig mit einer Teambesprechung zu laufenden Projekten und technischen Herausforderungen. Anschließend wird am CAD-Arbeitsplatz konstruiert, simuliert und berechnet. Regelmäßige Besuche in der Werkstatt oder Fertigung gehören dazu, um Prototypen zu begutachten oder Fertigungsprozesse zu optimieren. Am Nachmittag stehen oft Abstimmungen mit Zulieferern, dem Einkauf oder Kunden auf dem Programm.",
+  "relatedSlugs": ["elektroingenieur", "wirtschaftsingenieur", "mechatroniker"]
+}

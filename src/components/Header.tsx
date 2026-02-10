@@ -3,11 +3,16 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Compass, Menu, X } from 'lucide-react';
+import PortalSwitcher from './PortalSwitcher';
 
 const navLinks = [
+  { href: '/stellen', label: 'Stellen' },
+  { href: '/firmen', label: 'Firmen' },
   { href: '/jobs', label: 'Stellenangebote' },
   { href: '/branchen', label: 'Branchen' },
   { href: '/fuer-jobsuchende', label: 'Für Jobsuchende' },
+  { href: '/app', label: 'App' },
+  { href: '/berufsfinder', label: 'Berufsfinder' },
   { href: '/fuer-arbeitgeber', label: 'Für Arbeitgeber' },
   { href: '/ratgeber', label: 'Ratgeber' },
 ];
@@ -49,6 +54,7 @@ export default function Header() {
 
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-3">
+              <PortalSwitcher currentPortal="beruf" />
               <Link
                 href="https://dashboard.genieportal.de/login"
                 className="text-sm font-medium text-stone-600 hover:text-stone-900 px-3 py-2"
@@ -87,6 +93,23 @@ export default function Header() {
                 >
                   {link.label}
                 </Link>
+              ))}
+              <hr className="my-2 border-amber-100" />
+              <div className="px-3 py-1.5 text-xs font-semibold text-gray-400 uppercase tracking-wider">Portale</div>
+              {[
+                { name: 'Ausbildungsgenie', domain: 'ausbildungsgenie.de' },
+                { name: 'Praktikumsgenie', domain: 'praktikumsgenie.de' },
+                { name: 'Minijobgenie', domain: 'minijobgenie.de' },
+                { name: 'Werkstudentengenie', domain: 'werkstudentengenie.de' },
+              ].map((p) => (
+                <a
+                  key={p.domain}
+                  href={`https://${p.domain}`}
+                  onClick={() => setMobileOpen(false)}
+                  className="block text-sm text-stone-700 hover:text-amber-700 hover:bg-amber-50 px-3 py-2 rounded-lg transition-colors"
+                >
+                  {p.name}
+                </a>
               ))}
               <hr className="my-2 border-amber-100" />
               <Link

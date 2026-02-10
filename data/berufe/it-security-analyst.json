@@ -1,0 +1,39 @@
+{
+  "slug": "it-security-analyst",
+  "name": "IT-Security-Analyst/in",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4000, 7000],
+  "einstiegsgehalt": [3700, 4800],
+  "beschreibung": "IT-Security-Analyst/innen schützen Unternehmen vor Cyberangriffen, Datenverlust und Sicherheitslücken. Sie analysieren Bedrohungsszenarien, entwickeln Sicherheitskonzepte und implementieren Schutzmaßnahmen für IT-Systeme und Netzwerke. In einer Zeit zunehmender Cyberbedrohungen gehört IT-Sicherheit zu den kritischsten Unternehmensfunktionen. IT-Security-Analyst/innen führen Penetrationstests durch, überwachen Sicherheitsvorfälle und schulen Mitarbeitende im sicheren Umgang mit IT-Systemen. Der Beruf erfordert ständige Weiterbildung, da sich Angriffsmethoden kontinuierlich weiterentwickeln.",
+  "aufgaben": [
+    "Analyse und Bewertung von Sicherheitsbedrohungen",
+    "Durchführung von Penetrationstests und Vulnerability Scans",
+    "Entwicklung und Umsetzung von Sicherheitsrichtlinien",
+    "Überwachung von Security Information and Event Management (SIEM)",
+    "Incident Response bei Sicherheitsvorfällen",
+    "Schulung von Mitarbeitenden in IT-Sicherheit",
+    "Compliance-Prüfungen (DSGVO, ISO 27001)"
+  ],
+  "kompetenzen": [
+    "Netzwerksicherheit und Firewalls",
+    "Penetrationstesting und Ethical Hacking",
+    "Kryptographie und Verschlüsselungstechnologien",
+    "SIEM-Systeme und Log-Analyse",
+    "Kenntnisse in Scripting (Python, Bash)",
+    "Analytisches Denken und Detailgenauigkeit",
+    "Verständnis für regulatorische Anforderungen (DSGVO, BSI)",
+    "Stressresistenz und schnelle Entscheidungsfähigkeit"
+  ],
+  "karrierePfade": [
+    "Senior Security Analyst",
+    "Chief Information Security Officer (CISO)",
+    "Security Consultant",
+    "Penetration Tester / Ethical Hacker",
+    "IT-Forensiker/in"
+  ],
+  "arbeitsmarkt": "Der Bedarf an IT-Security-Fachkräften wächst rasant, da Cyberangriffe in Häufigkeit und Komplexität zunehmen. In Deutschland fehlen laut Schätzungen zehntausende IT-Sicherheitsexpert/innen. Unternehmen, Behörden und Beratungsfirmen bieten attraktive Positionen mit überdurchschnittlichen Gehältern. Zertifizierungen wie CISSP, CEH oder CompTIA Security+ sind in der Branche hoch angesehen und verbessern die Karrierechancen erheblich.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Analyse aktueller Sicherheitsalarme und dem Durchsehen von Log-Dateien im SIEM-System. Es folgen geplante Penetrationstests oder Schwachstellenanalysen für verschiedene Systeme. Meetings mit der IT-Abteilung und dem Management dienen der Kommunikation von Sicherheitsrisiken und empfohlenen Maßnahmen. Bei einem Sicherheitsvorfall wechselt der Tag schnell in den Incident-Response-Modus, der schnelles und koordiniertes Handeln erfordert.",
+  "relatedSlugs": ["systemadministrator", "devops-engineer", "cloud-architekt"]
+}

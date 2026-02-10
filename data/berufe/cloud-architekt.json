@@ -1,0 +1,39 @@
+{
+  "slug": "cloud-architekt",
+  "name": "Cloud-Architekt/in",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [5000, 9000],
+  "einstiegsgehalt": [4500, 6000],
+  "beschreibung": "Cloud-Architekt/innen entwerfen und implementieren Cloud-basierte IT-Infrastrukturen und -Lösungen für Unternehmen. Sie wählen die passenden Cloud-Dienste aus, designen skalierbare Architekturen und begleiten die Migration von On-Premise-Systemen in die Cloud. Der Beruf erfordert tiefes Wissen über die großen Cloud-Plattformen AWS, Microsoft Azure und Google Cloud Platform sowie über Themen wie Sicherheit, Kostenkontrolle und Compliance. Cloud-Architekt/innen nehmen eine strategische Rolle ein und beraten das Management bei technologischen Entscheidungen. Mit der fortschreitenden Cloud-Transformation der Wirtschaft gehört der Beruf zu den bestbezahlten in der IT-Branche.",
+  "aufgaben": [
+    "Entwurf von Cloud-Architekturen und Migrationsplänen",
+    "Auswahl geeigneter Cloud-Services und -Technologien",
+    "Sicherstellung von Skalierbarkeit, Verfügbarkeit und Sicherheit",
+    "Kostenoptimierung und Cloud-Governance",
+    "Beratung von Fachabteilungen und Management",
+    "Erstellung von Best Practices und Architektur-Standards",
+    "Evaluation neuer Cloud-Technologien und -Trends"
+  ],
+  "kompetenzen": [
+    "Tiefe Kenntnisse in AWS, Azure und/oder GCP",
+    "Infrastructure as Code (Terraform, CloudFormation, Pulumi)",
+    "Container und Kubernetes",
+    "Netzwerkarchitektur und Security in der Cloud",
+    "Microservices und Serverless-Architekturen",
+    "Kostenkalkulation und FinOps",
+    "Strategisches Denken und Überzeugungskraft",
+    "Cloud-Zertifizierungen (AWS Solutions Architect, Azure Architect)"
+  ],
+  "karrierePfade": [
+    "Principal Cloud Architect",
+    "VP of Cloud Engineering",
+    "Chief Technology Officer (CTO)",
+    "Cloud-Berater/in (Consulting)",
+    "Distinguished Engineer"
+  ],
+  "arbeitsmarkt": "Cloud-Architekt/innen zählen zu den meistgesuchten und bestbezahlten IT-Fachkräften. Die Cloud-Transformation ist für die meisten Unternehmen strategisch prioritär, was die Nachfrage stetig steigen lässt. Zertifizierungen der großen Cloud-Anbieter sind ein starker Karrierebeschleuniger. Sowohl Festanstellungen als auch freiberufliche Tätigkeiten mit Tagessätzen im vierstelligen Bereich sind üblich.",
+  "typischerArbeitstag": "Der Tag beginnt häufig mit Architektur-Reviews oder Beratungsgesprächen mit Projektteams, die Cloud-Lösungen implementieren möchten. Es folgt konzeptionelle Arbeit an Architektur-Diagrammen und technischen Dokumentationen. Proof-of-Concepts werden erstellt, um neue Ansätze zu validieren. Regelmäßige Abstimmungen mit Security-Teams, dem Management und Cloud-Anbietern gehören ebenso zum Alltag wie die Durchführung von Workshops und Schulungen für Entwicklungsteams.",
+  "relatedSlugs": ["devops-engineer", "systemadministrator", "it-security-analyst"]
+}

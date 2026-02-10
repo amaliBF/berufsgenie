@@ -1,0 +1,39 @@
+{
+  "slug": "mobile-entwickler",
+  "name": "Mobile-Entwickler/in",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3500, 6500],
+  "einstiegsgehalt": [3300, 4500],
+  "beschreibung": "Mobile-Entwickler/innen konzipieren und programmieren Anwendungen für Smartphones und Tablets. Sie entwickeln Apps für iOS (Swift, SwiftUI), Android (Kotlin, Jetpack Compose) oder plattformübergreifend mit Frameworks wie React Native und Flutter. Der Beruf erfordert nicht nur Programmierkenntnisse, sondern auch ein Verständnis für mobile Benutzerinterfaces, Performance-Optimierung auf begrenzten Ressourcen und die Einhaltung der Richtlinien der App-Stores. Mobile-Entwickler/innen arbeiten in App-Agenturen, Start-ups, Konzernen oder als Freiberufler. In einer zunehmend mobilen Welt ist der Beruf zukunftssicher und vielseitig.",
+  "aufgaben": [
+    "Entwicklung nativer oder plattformübergreifender Mobile Apps",
+    "UI-Implementierung nach Design-Vorgaben",
+    "Integration von REST-APIs und Backend-Services",
+    "Performance-Optimierung und Speichermanagement",
+    "Testing auf verschiedenen Geräten und Betriebssystemversionen",
+    "Veröffentlichung und Wartung in App Stores (Apple App Store, Google Play)",
+    "Implementierung von Push-Notifications und Offline-Funktionalität"
+  ],
+  "kompetenzen": [
+    "Swift/SwiftUI (iOS) oder Kotlin (Android)",
+    "Cross-Platform-Frameworks (React Native, Flutter)",
+    "RESTful APIs und GraphQL",
+    "UI/UX-Design-Grundlagen für mobile Geräte",
+    "Versionskontrolle mit Git",
+    "App-Store-Richtlinien und Deployment-Prozesse",
+    "Qualitätsbewusstsein und Liebe zum Detail",
+    "Eigenständiges Arbeiten und Lernbereitschaft"
+  ],
+  "karrierePfade": [
+    "Senior Mobile-Entwickler/in",
+    "Mobile Lead / Tech Lead",
+    "Full-Stack-Entwickler/in",
+    "Freiberufliche/r App-Entwickler/in",
+    "CTO in einem Start-up"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach Mobile-Entwickler/innen ist anhaltend hoch, da Smartphones das primäre digitale Endgerät für die meisten Menschen sind. Besonders gefragt sind Fachkräfte mit Erfahrung in Cross-Platform-Frameworks, die effiziente Entwicklung für beide Plattformen ermöglichen. Der Freelance-Markt ist ebenfalls attraktiv, mit hohen Tagessätzen für erfahrene Entwickler/innen. Unternehmen aller Branchen investieren in mobile Lösungen, was vielfältige Einsatzmöglichkeiten bietet.",
+  "typischerArbeitstag": "Der Tag startet mit dem Daily Stand-up und der Besprechung aktueller Aufgaben im Sprint. Anschließend wird an neuen Features gearbeitet, wobei die Implementierung von Benutzeroberflächen und die Anbindung an Backend-Services im Vordergrund stehen. Testing auf verschiedenen Geräten und Bildschirmgrößen ist ein regelmäßiger Bestandteil. Nachmittags stehen Code-Reviews, die Analyse von Crash-Reports und Abstimmungen mit dem Design-Team auf dem Programm.",
+  "relatedSlugs": ["softwareentwickler", "webentwickler", "ux-designer"]
+}

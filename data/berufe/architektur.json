@@ -1,0 +1,39 @@
+{
+  "slug": "architektur",
+  "name": "Architekt/in",
+  "category": "Handwerk & Bau",
+  "categorySlug": "handwerk-bau",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3500, 6000],
+  "einstiegsgehalt": [3000, 4000],
+  "beschreibung": "Architekt/innen entwerfen und planen Gebäude, begleiten deren Bau und sorgen für die gestalterische, technische und wirtschaftliche Qualität von Bauvorhaben. Sie verbinden künstlerische Kreativität mit ingenieurwissenschaftlichem Know-how und müssen dabei stets baurechtliche Vorschriften, Nachhaltigkeitsstandards und die Wünsche ihrer Auftraggeber berücksichtigen. Der Beruf bietet ein breites Tätigkeitsspektrum – vom Einfamilienhaus über öffentliche Gebäude bis hin zu Stadtplanungsprojekten. Mit der zunehmenden Bedeutung von nachhaltigem Bauen und BIM-Technologie (Building Information Modeling) wandelt sich das Berufsbild stetig.",
+  "aufgaben": [
+    "Entwurf und Planung von Gebäuden und Bauwerken",
+    "Erstellung von Bauanträgen und technischen Zeichnungen",
+    "Begleitung und Überwachung von Bauprojekten",
+    "Kostenschätzung und Budgetkontrolle",
+    "Abstimmung mit Bauherren, Behörden und Fachplanern",
+    "Integration von Nachhaltigkeitskonzepten in die Planung",
+    "Anwendung von CAD- und BIM-Software"
+  ],
+  "kompetenzen": [
+    "Ausgeprägtes gestalterisches und räumliches Vorstellungsvermögen",
+    "Sicherer Umgang mit CAD- und BIM-Software",
+    "Kenntnisse des Baurechts und der Baunormen",
+    "Projektmanagement und Organisationstalent",
+    "Kommunikations- und Präsentationsstärke",
+    "Technisches Verständnis für Konstruktion und Statik",
+    "Kreativität gepaart mit wirtschaftlichem Denken",
+    "Teamfähigkeit und Führungskompetenz"
+  ],
+  "karrierePfade": [
+    "Projektleiter/in in einem Architekturbüro",
+    "Selbstständige/r Architekt/in mit eigenem Büro",
+    "Stadtplaner/in",
+    "Bauherrenvertretung und Projektsteuerung",
+    "Spezialisierung auf nachhaltiges Bauen oder Denkmalpflege"
+  ],
+  "arbeitsmarkt": "Der Arbeitsmarkt für Architekt/innen ist in Deutschland gut, unterliegt jedoch konjunkturellen Schwankungen der Baubranche. Die Nachfrage nach nachhaltigem Bauen, energetischer Sanierung und urbanem Wohnungsbau sorgt für stabile Beschäftigungsmöglichkeiten. Große Architekturbüros und Bauunternehmen bieten attraktive Positionen, während die Selbstständigkeit eine klassische Karriereoption bleibt. Der Einstieg kann herausfordernd sein, erfahrene Architekt/innen sind jedoch sehr gefragt.",
+  "typischerArbeitstag": "Architekt/innen verbringen ihren Vormittag häufig am Computer mit Entwurfsarbeit in CAD- oder BIM-Programmen und der Erstellung von Bauzeichnungen. Meetings mit Bauherren, Fachplanern oder Behörden strukturieren den Tag. Regelmäßig stehen Baustellenbesuche an, bei denen der Baufortschritt kontrolliert und Qualitätsmängel identifiziert werden. Am Nachmittag werden Kostenberechnungen aktualisiert, Ausschreibungen vorbereitet oder Präsentationen für Kunden erstellt.",
+  "relatedSlugs": ["bauleiter", "tischler", "umweltingenieur"]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "richter",
+  "name": "Richter/in",
+  "category": "Recht & Verwaltung",
+  "categorySlug": "recht-verwaltung",
+  "ausbildung": "Studium + Examen",
+  "gehaltsspanne": [5000, 8000],
+  "einstiegsgehalt": [4200, 5000],
+  "beschreibung": "Richter/innen sprechen im Namen des Volkes Recht und treffen unabhängige Entscheidungen in Zivil-, Straf-, Verwaltungs-, Arbeits- und Sozialrechtssachen. Sie leiten Gerichtsverhandlungen, bewerten Beweismittel, hören Zeugen und Sachverständige und fällen Urteile auf Grundlage der geltenden Gesetze. Voraussetzung ist ein Jurastudium mit zwei Staatsexamina, wobei in der Regel überdurchschnittliche Ergebnisse erwartet werden. Richter/innen genießen eine besondere verfassungsrechtliche Unabhängigkeit und sind nur dem Gesetz unterworfen. Der Beruf bietet eine hohe gesellschaftliche Verantwortung, Jobsicherheit als Beamt/in auf Lebenszeit und eine respektable Besoldung nach dem Richterbesoldungsgesetz.",
+  "aufgaben": [
+    "Leitung und Durchführung von Gerichtsverhandlungen",
+    "Prüfung von Klageschriften und Beweismitteln",
+    "Anhörung von Parteien, Zeug/innen und Sachverständigen",
+    "Fällen von Urteilen und Beschlüssen",
+    "Erstellung schriftlicher Urteilsbegründungen",
+    "Durchführung von Güteverhandlungen und Vergleichen",
+    "Bearbeitung von Eilanträgen und einstweiligen Verfügungen"
+  ],
+  "kompetenzen": [
+    "Hervorragende juristische Kenntnisse und Gesetzesverständnis",
+    "Unparteilichkeit und Objektivität",
+    "Analytisches Denkvermögen und Urteilsfähigkeit",
+    "Menschenkenntnis und psychologisches Einfühlungsvermögen",
+    "Sorgfalt bei der Beweisaufnahme und Urteilsbegründung",
+    "Verhandlungsführung und Autorität",
+    "Belastbarkeit bei hoher Arbeitslast"
+  ],
+  "karrierePfade": [
+    "Aufstieg zum/zur Vorsitzenden Richter/in",
+    "Richter/in an einem Oberlandesgericht oder Bundesgericht",
+    "Wechsel in die Staatsanwaltschaft",
+    "Tätigkeit am Bundesverfassungsgericht",
+    "Dozent/in an Universitäten oder Richterakademien"
+  ],
+  "arbeitsmarkt": "Der Zugang zum Richteramt ist sehr wettbewerbsintensiv und setzt in der Regel Prädikatsexamina voraus. Die Bundesländer stellen je nach Haushaltslage und Pensionierungswelle regelmäßig neue Richter/innen ein, wobei die Bewerberzahlen die verfügbaren Stellen oft deutlich übersteigen. Einmal eingestellt, genießen Richter/innen als Beamt/innen auf Lebenszeit maximale Jobsicherheit. Die Besoldung richtet sich nach der R-Besoldung und steigt mit Erfahrung und Beförderung kontinuierlich an.",
+  "typischerArbeitstag": "Der Vormittag ist häufig Verhandlungstagen gewidmet, an denen mehrere Fälle nacheinander verhandelt werden. Zwischen den Sitzungen werden Akten studiert, Beweisanträge geprüft und Verhandlungen vorbereitet. Nachmittags schreiben Richter/innen Urteile und Beschlüsse, lesen Berufungsschriften und bereiten kommende Termine vor. Gütetermine bieten die Möglichkeit, Streitigkeiten einvernehmlich beizulegen. Der Arbeitsalltag erfordert intensive Lektüre und präzises juristisches Formulieren.",
+  "relatedSlugs": ["rechtsanwalt", "notar", "polizist"]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "versicherungskaufmann",
+  "name": "Versicherungskaufmann/-frau",
+  "category": "Wirtschaft & Finanzen",
+  "categorySlug": "wirtschaft-finanzen",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2600, 4200],
+  "einstiegsgehalt": [2300, 2900],
+  "beschreibung": "Versicherungskaufleute beraten Privat- und Geschäftskunden zu Versicherungsprodukten und sorgen für die passende Absicherung gegen Lebensrisiken. Sie analysieren den individuellen Bedarf, erstellen maßgeschneiderte Angebote und betreuen Kunden im Schadensfall. Der Beruf bietet eine solide Ausbildung mit guten Aufstiegschancen in einer krisensicheren Branche. Kommunikationsstärke und Vertrauenswürdigkeit sind zentrale Erfolgsfaktoren in diesem Beruf.",
+  "aufgaben": [
+    "Bedarfsanalyse und Beratung zu Versicherungsprodukten",
+    "Erstellung individueller Versicherungsangebote",
+    "Bearbeitung von Versicherungsanträgen und Vertragsänderungen",
+    "Schadensregulierung und Kundenbetreuung im Schadensfall",
+    "Neukundengewinnung und Bestandskundenpflege",
+    "Dokumentation und Verwaltung von Versicherungsverträgen"
+  ],
+  "kompetenzen": [
+    "Fundiertes Wissen über Versicherungsprodukte",
+    "Beratungs- und Verkaufskompetenz",
+    "Kundenorientierung und Empathie",
+    "Mathematisches Verständnis für Beitragsberechnungen",
+    "Kenntnisse im Versicherungsvertragsrecht",
+    "Organisationsfähigkeit",
+    "Umgang mit Branchensoftware"
+  ],
+  "karrierePfade": [
+    "Versicherungsfachwirt/in",
+    "Spezialist/in für Gewerbe- oder Lebensversicherungen",
+    "Agenturleiter/in oder Bezirksdirektor/in",
+    "Schadenregulierer/in",
+    "Selbstständige/r Versicherungsmakler/in"
+  ],
+  "arbeitsmarkt": "Die Versicherungsbranche bietet stabile Beschäftigungsmöglichkeiten, da Versicherungsschutz in allen Lebensbereichen benötigt wird. Der demografische Wandel und neue Risiken (Cyber, Klima) schaffen zusätzliche Nachfrage nach qualifizierter Beratung. Die Digitalisierung verändert Vertriebswege, wobei die persönliche Beratung bei komplexen Produkten weiterhin geschätzt wird. Auszubildende werden von Versicherungsgesellschaften, Maklerbüros und Banken mit Allfinanzangebot gesucht.",
+  "typischerArbeitstag": "Der Tag startet mit der Bearbeitung eingehender Kundenanfragen und Schadensmeldungen. Anschließend finden Beratungstermine statt, bei denen der individuelle Versicherungsbedarf ermittelt und passende Lösungen vorgestellt werden. Zwischendurch werden Vertragsunterlagen erstellt, Anträge bei der Versicherungsgesellschaft eingereicht und Bestandskunden zu Vertragsanpassungen kontaktiert. Im Außendienst kommen Hausbesuche und Akquisetermine hinzu, im Innendienst steht die administrative Vertragsbearbeitung im Fokus.",
+  "relatedSlugs": ["bankkaufmann", "finanzberater", "immobilienkaufmann"]
+}

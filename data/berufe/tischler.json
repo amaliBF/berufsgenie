@@ -1,0 +1,38 @@
+{
+  "slug": "tischler",
+  "name": "Tischler/in",
+  "category": "Handwerk & Bau",
+  "categorySlug": "handwerk-bau",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2300, 3500],
+  "einstiegsgehalt": [2000, 2600],
+  "beschreibung": "Tischler/innen fertigen Möbel, Türen, Fenster, Treppen und Innenausbauten aus Holz und Holzwerkstoffen. Sie verbinden traditionelles Handwerk mit moderner CNC-Technik und entwerfen sowohl Einzelstücke nach Kundenwunsch als auch Serienprodukte. Der Beruf erfordert Kreativität, räumliches Vorstellungsvermögen und handwerkliche Präzision. Tischler/innen arbeiten in Werkstätten, auf Baustellen oder in der Möbelindustrie und tragen mit ihrer Arbeit maßgeblich zur Gestaltung von Wohn- und Arbeitsräumen bei.",
+  "aufgaben": [
+    "Planung und Entwurf von Möbeln und Einrichtungsgegenständen",
+    "Anfertigung von Werkstücken nach technischen Zeichnungen",
+    "Bearbeitung von Holz mit Hand- und Maschinenwerkzeugen",
+    "Bedienung von CNC-Fräsen und computergesteuerten Maschinen",
+    "Montage von Möbeln und Einbauten beim Kunden",
+    "Oberflächenbehandlung durch Schleifen, Beizen und Lackieren",
+    "Kundenberatung und Aufmaßerstellung vor Ort"
+  ],
+  "kompetenzen": [
+    "Handwerkliches Geschick und Präzision",
+    "Räumliches Vorstellungsvermögen und Gestaltungssinn",
+    "Kenntnisse verschiedener Holzarten und Werkstoffe",
+    "Sicherer Umgang mit Handwerkzeugen und Maschinen",
+    "Lesen und Erstellen technischer Zeichnungen",
+    "Mathematische Grundkenntnisse für Berechnungen",
+    "Kundenorientierung und Beratungskompetenz"
+  ],
+  "karrierePfade": [
+    "Tischlermeister/in",
+    "Techniker/in für Holztechnik",
+    "Innenarchitekt/in (mit Weiterbildung/Studium)",
+    "Selbstständigkeit mit eigener Werkstatt",
+    "Restaurator/in für historische Möbel"
+  ],
+  "arbeitsmarkt": "Tischler/innen finden in vielen Bereichen Beschäftigung – von der Bau- und Möbelbranche bis hin zur Denkmalpflege. Die Nachfrage nach individuellen Möbeln und hochwertigem Innenausbau ist stabil. Besonders im ökologischen Bauen und bei nachhaltigen Materialien eröffnen sich neue Marktchancen. Der Fachkräftemangel im Handwerk sorgt für gute Einstellungschancen, insbesondere für Gesellen mit CNC-Kenntnissen.",
+  "typischerArbeitstag": "Der Tag beginnt in der Werkstatt mit der Vorbereitung von Materialien und dem Einrichten der Maschinen für anstehende Projekte. Vormittags werden Werkstücke zugeschnitten, gehobelt, gefräst und zusammengebaut – mal mit traditionellen Handwerkzeugen, mal an der CNC-Fräse. Nachmittags stehen häufig Montagearbeiten beim Kunden an, etwa der Einbau einer Küche oder das Aufstellen eines Einbauschranks. Zwischendurch werden neue Aufträge besprochen, Aufmaße genommen oder Materialbestellungen aufgegeben.",
+  "relatedSlugs": ["maler", "dachdecker", "architektur"]
+}

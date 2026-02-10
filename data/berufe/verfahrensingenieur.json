@@ -1,0 +1,38 @@
+{
+  "slug": "verfahrensingenieur",
+  "name": "Verfahrensingenieur/in",
+  "category": "Ingenieurwesen & Technik",
+  "categorySlug": "ingenieurwesen",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4000, 6500],
+  "einstiegsgehalt": [3800, 4800],
+  "beschreibung": "Verfahrensingenieur/innen entwickeln und optimieren industrielle Produktionsprozesse, bei denen Stoffe chemisch, physikalisch oder biologisch umgewandelt werden. Sie arbeiten in der chemischen Industrie, der Lebensmittelherstellung, der Pharmazie, der Energietechnik oder der Umwelttechnik. Ihre Aufgabe ist es, Verfahren zu entwerfen, die effizient, sicher und umweltverträglich sind – vom Labormaßstab bis zur industriellen Großproduktion. Verfahrensingenieur/innen planen Anlagen, berechnen Stoffströme und Energiebilanzen und sorgen für die Einhaltung strenger Qualitäts- und Umweltstandards. Mit dem wachsenden Fokus auf Nachhaltigkeit und grüne Technologien gewinnt der Beruf zunehmend an Bedeutung.",
+  "aufgaben": [
+    "Entwicklung und Optimierung von Produktionsverfahren",
+    "Planung und Auslegung verfahrenstechnischer Anlagen",
+    "Berechnung von Stoff- und Energiebilanzen",
+    "Scale-up von Labor- auf Produktionsmaßstab",
+    "Überwachung von Produktionsprozessen und Qualitätskontrolle",
+    "Einhaltung von Umwelt- und Sicherheitsvorschriften",
+    "Zusammenarbeit mit Forschung, Produktion und Anlagenbau"
+  ],
+  "kompetenzen": [
+    "Thermodynamik und Strömungsmechanik",
+    "Chemie und Reaktionstechnik",
+    "Anlagenplanung und R&I-Fließschemata",
+    "Simulationssoftware (Aspen Plus, ChemCAD)",
+    "Qualitäts- und Umweltmanagement",
+    "Naturwissenschaftliches Denken und Experimentierfreude",
+    "Sorgfalt und Verantwortungsbewusstsein"
+  ],
+  "karrierePfade": [
+    "Senior Verfahrensingenieur/in",
+    "Projektleiter/in Anlagenbau",
+    "Produktionsleiter/in",
+    "Forschung und Entwicklung",
+    "Beratung in der Prozessindustrie"
+  ],
+  "arbeitsmarkt": "Verfahrensingenieur/innen profitieren von der breiten Einsetzbarkeit ihrer Kenntnisse in verschiedenen Industriezweigen. Die Nachfrage ist besonders in der Chemie-, Pharma- und Energiebranche hoch. Mit dem Trend zu nachhaltigeren Produktionsmethoden und der Energiewende entstehen neue Tätigkeitsfelder in der grünen Chemie und der Wasserstofftechnologie. Die Gehälter sind attraktiv und liegen auf dem Niveau anderer Ingenieurdisziplinen.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt häufig mit der Überprüfung der Produktionsdaten und der Besprechung aktueller Prozessparameter. Im Anschluss wird an Simulationen gearbeitet, um Verfahren zu optimieren oder neue Prozesse zu entwickeln. Begehungen der Produktionsanlagen gehören ebenso zum Alltag wie die Auswertung von Laborergebnissen. Nachmittags stehen Projektbesprechungen, die Abstimmung mit Zulieferern oder die Erstellung von Berichten und Dokumentationen an.",
+  "relatedSlugs": ["maschinenbauingenieur", "bauingenieur", "qualitaetsmanager"]
+}

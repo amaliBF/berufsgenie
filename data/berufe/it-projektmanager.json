@@ -1,0 +1,38 @@
+{
+  "slug": "it-projektmanager",
+  "name": "IT-Projektmanager/in",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4500, 8000],
+  "einstiegsgehalt": [4000, 5200],
+  "beschreibung": "IT-Projektmanager/innen planen, steuern und überwachen IT-Projekte von der ersten Idee bis zur erfolgreichen Umsetzung. Sie koordinieren Teams aus Entwickler/innen, Designer/innen und Fachexpert/innen und stellen sicher, dass Projekte im Zeit- und Budgetrahmen abgeschlossen werden. Dabei verbinden sie technisches Verständnis mit betriebswirtschaftlichem Know-how und ausgeprägten Führungsqualitäten. IT-Projektmanager/innen nutzen Methoden wie Scrum, Kanban oder klassisches Wasserfallmodell je nach Projektanforderung. Der Beruf bietet ein dynamisches Arbeitsumfeld mit hoher Verantwortung und exzellenten Gehaltsaussichten.",
+  "aufgaben": [
+    "Planung von IT-Projekten inklusive Budget, Zeitplan und Ressourcen",
+    "Koordination und Führung von Projektteams",
+    "Stakeholder-Management und Kundenkommmunikation",
+    "Risikomanagement und Qualitätssicherung",
+    "Einführung und Anwendung agiler Methoden",
+    "Erstellung von Statusberichten und Projektdokumentationen",
+    "Vermittlung zwischen Technik und Fachabteilungen"
+  ],
+  "kompetenzen": [
+    "Projektmanagement-Methoden (Scrum, PRINCE2, PMP)",
+    "Technisches Grundverständnis der Softwareentwicklung",
+    "Führungskompetenz und Teammanagement",
+    "Budget- und Ressourcenplanung",
+    "Kommunikations- und Präsentationsstärke",
+    "Konfliktmanagement und Verhandlungsgeschick",
+    "Strategisches und analytisches Denken"
+  ],
+  "karrierePfade": [
+    "Senior IT-Projektmanager/in",
+    "Programm-Manager/in",
+    "IT-Leiter/in / Head of IT",
+    "Chief Technology Officer (CTO)",
+    "Agile Coach / Scrum Master"
+  ],
+  "arbeitsmarkt": "IT-Projektmanager/innen sind auf dem Arbeitsmarkt stark gefragt, da die Anzahl und Komplexität von IT-Projekten stetig zunimmt. Unternehmen suchen besonders Kandidat/innen, die sowohl technisches Wissen als auch Führungserfahrung mitbringen. Zertifizierungen wie PMP, PRINCE2 oder Scrum Master verbessern die Karrierechancen erheblich. Die Gehälter sind überdurchschnittlich und steigen mit zunehmender Erfahrung und Projektverantwortung deutlich.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Durchsicht offener Tickets und dem Überblick über den Projektstatus. Es folgen Sprint-Meetings, Planungssessions oder Retrospektiven mit dem Entwicklungsteam. Zwischendurch finden Abstimmungsgespräche mit Kunden und Stakeholdern statt. IT-Projektmanager/innen verbringen einen wesentlichen Teil des Tages mit Kommunikation, Dokumentation und der Lösung von Hindernissen, die das Team blockieren.",
+  "relatedSlugs": ["softwareentwickler", "data-scientist", "qualitaetsmanager"]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "psychologe",
+  "name": "Psychologe/Psychologin",
+  "category": "Bildung & Soziales",
+  "categorySlug": "bildung-soziales",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3500, 6000],
+  "einstiegsgehalt": [3200, 4000],
+  "beschreibung": "Psycholog/innen erforschen menschliches Erleben und Verhalten und wenden wissenschaftliche Erkenntnisse in Diagnostik, Beratung und Therapie an. Das Psychologiestudium umfasst Bachelor und Master und behandelt Themen wie klinische Psychologie, Arbeits- und Organisationspsychologie, Entwicklungspsychologie und Diagnostik. Psycholog/innen arbeiten in Kliniken, Beratungsstellen, Unternehmen, Schulen, Forschungseinrichtungen und in eigener Praxis. Wer als Psychotherapeut/in tätig werden möchte, absolviert nach dem Studium eine mehrjährige Therapieausbildung mit Approbation. Der Beruf bietet vielfältige Spezialisierungsmöglichkeiten und die Chance, Menschen in unterschiedlichsten Lebensphasen professionell zu unterstützen.",
+  "aufgaben": [
+    "Diagnostik und psychologische Testverfahren",
+    "Beratung und Begleitung von Klient/innen",
+    "Durchführung von Psychotherapie (mit Approbation)",
+    "Erstellung von psychologischen Gutachten",
+    "Konzeption und Durchführung von Trainings und Workshops",
+    "Forschung und wissenschaftliche Publikation",
+    "Supervision und Intervision für Fachkolleg/innen"
+  ],
+  "kompetenzen": [
+    "Fundierte Kenntnisse in Psychologie und Diagnostik",
+    "Empathie und aktives Zuhören",
+    "Analytisches und wissenschaftliches Denken",
+    "Kommunikations- und Gesprächsführungskompetenz",
+    "Belastbarkeit und emotionale Stabilität",
+    "Verschwiegenheit und ethisches Handeln",
+    "Methodenkompetenz in Forschung und Statistik",
+    "Reflexionsfähigkeit und Selbsterfahrung"
+  ],
+  "karrierePfade": [
+    "Approbation als Psychologische/r Psychotherapeut/in",
+    "Eigene psychotherapeutische Praxis",
+    "Leitende Funktion in Kliniken oder Beratungsstellen",
+    "Spezialisierung (z. B. Neuropsychologie, Forensik)",
+    "Forschung und Lehre an Universitäten"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach Psycholog/innen und insbesondere Psychotherapeut/innen ist in den letzten Jahren stark gestiegen, da psychische Erkrankungen zunehmen und das gesellschaftliche Bewusstsein für mentale Gesundheit wächst. Die Wartezeiten auf Therapieplätze sind lang, was den Bedarf an approbierten Therapeut/innen unterstreicht. In der Wirtschaftspsychologie und im HR-Bereich sind Psycholog/innen ebenfalls gefragt. Die Selbstständigkeit mit eigener Praxis bietet bei Kassenzulassung eine wirtschaftlich attraktive Perspektive.",
+  "typischerArbeitstag": "In einer therapeutischen Praxis besteht der Tag aus 50-minütigen Therapiesitzungen, in denen Patient/innen bei psychischen Problemen begleitet werden. Zwischen den Sitzungen werden Therapiepläne erstellt, Berichte geschrieben und Fallakten geführt. In einer Klinik kommen Gruppentherapien, Teambesprechungen und interdisziplinäre Visiten hinzu. Psycholog/innen in Unternehmen führen Assessments durch, beraten Führungskräfte und entwickeln Maßnahmen zur Personalentwicklung. Supervision und eigene Fortbildung sind fester Bestandteil des Berufsalltags.",
+  "relatedSlugs": ["sozialarbeiter", "heilpaedagoge", "arzt"]
+}

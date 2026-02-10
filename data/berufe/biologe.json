@@ -1,0 +1,38 @@
+{
+  "slug": "biologe",
+  "name": "Biologe/Biologin",
+  "category": "Naturwissenschaften",
+  "categorySlug": "naturwissenschaften",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3500, 5500],
+  "einstiegsgehalt": [3000, 4000],
+  "beschreibung": "Biologen und Biologinnen erforschen die Vielfalt des Lebens – von der Molekularbiologie einzelner Zellen bis hin zu ganzen Ökosystemen. Sie untersuchen Lebewesen, ihre Strukturen, Funktionen, Entwicklung und Wechselwirkungen mit der Umwelt. Der Beruf bietet ein außergewöhnlich breites Spektrum an Spezialisierungsmöglichkeiten: Genetik, Mikrobiologie, Ökologie, Biotechnologie, Neurobiologie und viele mehr. Biologen/Biologinnen arbeiten in Forschungseinrichtungen, in der pharmazeutischen und biotechnologischen Industrie, im Umweltschutz sowie in Behörden und Museen.",
+  "aufgaben": [
+    "Planung und Durchführung biologischer Experimente und Feldstudien",
+    "Untersuchung von Organismen, Zellkulturen und DNA-Proben",
+    "Auswertung und statistische Analyse von Forschungsdaten",
+    "Verfassen wissenschaftlicher Publikationen und Berichte",
+    "Entwicklung biotechnologischer Verfahren und Produkte",
+    "Umweltverträglichkeitsprüfungen und Artenschutzgutachten",
+    "Beantragung und Verwaltung von Forschungsmitteln"
+  ],
+  "kompetenzen": [
+    "Breites Wissen in den biologischen Teildisziplinen",
+    "Beherrschung molekularbiologischer und mikroskopischer Methoden",
+    "Statistische Auswertungskompetenz (R, SPSS, Python)",
+    "Wissenschaftliches Schreiben und Präsentieren",
+    "Sorgfalt und Geduld bei Langzeitexperimenten",
+    "Gute Englischkenntnisse für internationale Zusammenarbeit",
+    "Kenntnis relevanter Gesetze (Gentechnikgesetz, Naturschutzrecht)"
+  ],
+  "karrierePfade": [
+    "Postdoc und Gruppenleiter/in in der Forschung",
+    "Professor/in an einer Hochschule",
+    "Produktentwickler/in in der Biotech- oder Pharmaindustrie",
+    "Umweltgutachter/in oder Naturschutzreferent/in",
+    "Wissenschaftsjournalist/in oder Museumskurator/in"
+  ],
+  "arbeitsmarkt": "Der Arbeitsmarkt für Biologen/Biologinnen ist vielfältig, aber auch kompetitiv. Besonders gute Chancen bestehen in der Biotechnologie, der Pharmaforschung und im Umweltsektor. Eine Promotion ist in vielen Bereichen nahezu Voraussetzung für eine Karriere in der Forschung. Die wachsende Bedeutung von Gentechnik, personalisierter Medizin und Biodiversitätsschutz schafft jedoch neue Beschäftigungsfelder mit steigender Nachfrage.",
+  "typischerArbeitstag": "Je nach Spezialisierung unterscheidet sich der Arbeitsalltag stark. Laborbiolog/innen starten mit der Vorbereitung von Zellkulturen, PCR-Ansätzen oder Mikroskopie-Proben und verbringen den Vormittag mit Experimenten. Feldbiologen/Feldbiologinnen sind draußen unterwegs, kartieren Tier- und Pflanzenarten oder nehmen Proben. Nachmittags werden Daten ausgewertet, Ergebnisse dokumentiert und in Teammeetings besprochen. Das Lesen aktueller Fachliteratur und die Planung neuer Versuchsreihen runden den Tag ab.",
+  "relatedSlugs": ["chemiker", "laborant", "umweltingenieur"]
+}

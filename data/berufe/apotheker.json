@@ -1,0 +1,39 @@
+{
+  "slug": "apotheker",
+  "name": "Apotheker/in",
+  "category": "Gesundheit & Medizin",
+  "categorySlug": "gesundheit-medizin",
+  "ausbildung": "Studium + Approbation",
+  "gehaltsspanne": [3800, 5500],
+  "einstiegsgehalt": [3500, 4000],
+  "beschreibung": "Apotheker/innen sind Expert/innen für Arzneimittel und verantworten deren sichere Abgabe, Beratung und Herstellung. Sie prüfen Rezepte, beraten Patient/innen zu Wirkungen und Nebenwirkungen von Medikamenten und stellen individuell angefertigte Arzneimittel her. Das Pharmaziestudium dauert vier Jahre, gefolgt von einem praktischen Jahr und dem dritten Staatsexamen zur Erlangung der Approbation. Der Beruf vereint naturwissenschaftliches Fachwissen mit einer beratenden, patientenorientierten Tätigkeit. Apotheker/innen arbeiten in öffentlichen Apotheken, Krankenhausapotheken, der pharmazeutischen Industrie oder Behörden.",
+  "aufgaben": [
+    "Beratung von Patient/innen zu Arzneimitteln und Gesundheitsfragen",
+    "Prüfung ärztlicher Rezepte auf Wechselwirkungen und Dosierung",
+    "Herstellung und Prüfung individueller Rezepturen",
+    "Abgabe von verschreibungspflichtigen und freiverkäuflichen Medikamenten",
+    "Qualitätssicherung und Lagerhaltung der Arzneimittel",
+    "Durchführung von Gesundheitsaktionen (z.B. Impfungen, Blutdruckmessung)",
+    "Betriebswirtschaftliche Führung der Apotheke"
+  ],
+  "kompetenzen": [
+    "Fundiertes pharmazeutisches und medizinisches Fachwissen",
+    "Approbation als Apotheker/in",
+    "Beratungskompetenz und Patientenorientierung",
+    "Sorgfalt und Verantwortungsbewusstsein",
+    "Kenntnisse in Pharmakokinetik und -dynamik",
+    "Betriebswirtschaftliches Verständnis",
+    "Analytisches Denkvermögen",
+    "Kommunikationsstärke"
+  ],
+  "karrierePfade": [
+    "Filialleitung einer Apotheke",
+    "Eigene Apotheke (Selbstständigkeit)",
+    "Krankenhausapotheker/in",
+    "Tätigkeit in der pharmazeutischen Industrie",
+    "Fachapotheker/in (z.B. Klinische Pharmazie)"
+  ],
+  "arbeitsmarkt": "Der Arbeitsmarkt für Apotheker/innen ist stabil mit einer leicht steigenden Nachfrage, insbesondere durch die Erweiterung der pharmazeutischen Dienstleistungen. In ländlichen Regionen besteht ein deutlicher Mangel an Apotheken und Apotheker/innen. Die pharmazeutische Industrie bietet attraktive Karrierealternativen mit überdurchschnittlicher Vergütung. Neue Aufgabenfelder wie die Impfberechtigung und erweiterte Beratungsleistungen stärken das Berufsbild.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Überprüfung eingehender Warenlieferungen und der Aktualisierung des Bestands. Im Tagesverlauf beraten Apotheker/innen zahlreiche Patient/innen am Handverkaufstisch, prüfen Rezepte und klären eventuelle Rückfragen mit Arztpraxen. Zwischendurch werden Rezepturen im Labor hergestellt und Qualitätskontrollen durchgeführt. Betriebswirtschaftliche Aufgaben wie Personalplanung und Abrechnungen mit Krankenkassen gehören ebenfalls zum Alltag. Notdienste in der Nacht und an Feiertagen fallen regelmäßig an.",
+  "relatedSlugs": ["tierarzt", "krankenpfleger", "altenpfleger"]
+}

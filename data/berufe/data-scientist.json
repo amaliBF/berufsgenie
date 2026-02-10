@@ -1,0 +1,39 @@
+{
+  "slug": "data-scientist",
+  "name": "Data Scientist",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4000, 7500],
+  "einstiegsgehalt": [3800, 5000],
+  "beschreibung": "Data Scientists analysieren große Datenmengen, um wertvolle Erkenntnisse für Unternehmensentscheidungen zu gewinnen. Sie entwickeln statistische Modelle und Machine-Learning-Algorithmen, die Muster in Daten erkennen und Vorhersagen ermöglichen. Der Beruf vereint Informatik, Mathematik und Fachwissen der jeweiligen Branche zu einer hochgefragten Disziplin. Data Scientists arbeiten mit Programmiersprachen wie Python und R sowie mit Frameworks wie TensorFlow und scikit-learn. In Zeiten der datengetriebenen Wirtschaft gehören sie zu den gefragtesten Fachkräften überhaupt.",
+  "aufgaben": [
+    "Sammlung, Bereinigung und Aufbereitung großer Datensätze",
+    "Entwicklung und Training von Machine-Learning-Modellen",
+    "Statistische Analysen und Hypothesentests",
+    "Erstellung von Datenvisualisierungen und Dashboards",
+    "Kommunikation von Ergebnissen an Stakeholder",
+    "Implementierung von Daten-Pipelines",
+    "Evaluation und Optimierung bestehender Modelle"
+  ],
+  "kompetenzen": [
+    "Python und/oder R Programmierung",
+    "Machine Learning und Deep Learning",
+    "Statistik und Mathematik",
+    "SQL und Datenbankkenntnisse",
+    "Datenvisualisierung (Tableau, Matplotlib, Power BI)",
+    "Kommunikation komplexer Sachverhalte",
+    "Kritisches Denken und wissenschaftliches Arbeiten",
+    "Big-Data-Technologien (Spark, Hadoop)"
+  ],
+  "karrierePfade": [
+    "Senior Data Scientist",
+    "Lead Data Scientist / Head of Data",
+    "Machine Learning Engineer",
+    "Chief Data Officer (CDO)",
+    "Forschung und Lehre"
+  ],
+  "arbeitsmarkt": "Data Science zählt weltweit zu den am stärksten wachsenden Berufsfeldern. In Deutschland übersteigt die Nachfrage das Angebot an qualifizierten Fachkräften bei Weitem, was zu überdurchschnittlichen Gehältern führt. Besonders Unternehmen in den Bereichen Finanzen, E-Commerce, Gesundheitswesen und Automobilindustrie suchen aktiv nach Data Scientists. Mit dem Vormarsch von KI und generativen Modellen entstehen kontinuierlich neue Spezialisierungsmöglichkeiten.",
+  "typischerArbeitstag": "Der Tag beginnt häufig mit der Sichtung neuer Datensätze und der Abstimmung mit Fachabteilungen über aktuelle Fragestellungen. Es folgt intensive Arbeit an Jupyter Notebooks, in denen Daten exploriert, Modelle trainiert und Ergebnisse visualisiert werden. Regelmäßige Präsentationen vor Entscheidungsträgern gehören ebenso zum Alltag wie der fachliche Austausch im Data-Team. Viele Data Scientists genießen flexible Arbeitsmodelle und können einen Großteil ihrer Arbeit remote erledigen.",
+  "relatedSlugs": ["softwareentwickler", "datenbank-administrator", "it-projektmanager"]
+}

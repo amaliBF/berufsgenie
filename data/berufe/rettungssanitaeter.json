@@ -1,0 +1,38 @@
+{
+  "slug": "rettungssanitaeter",
+  "name": "Rettungssanitäter/in",
+  "category": "Gesundheit & Medizin",
+  "categorySlug": "gesundheit-medizin",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2600, 3500],
+  "einstiegsgehalt": [2400, 2900],
+  "beschreibung": "Rettungssanitäter/innen sind oft die Ersten am Einsatzort und leisten lebensrettende Erstversorgung bei medizinischen Notfällen, Unfällen und akuten Erkrankungen. Sie fahren Rettungswagen und Krankentransporte, sichern Vitalfunktionen und betreuen Patient/innen bis zur Übergabe im Krankenhaus. Die Ausbildung umfasst mehrere Monate theoretischen Unterricht, Klinikpraktikum und Rettungswachenpraktikum. Rettungssanitäter/innen arbeiten bei Rettungsdiensten, Feuerwehren und Hilfsorganisationen wie dem DRK, der Johanniter-Unfall-Hilfe oder dem Malteser Hilfsdienst. Der Beruf erfordert schnelle Entscheidungsfähigkeit, körperliche Fitness und die Fähigkeit, auch unter extremem Druck professionell zu handeln.",
+  "aufgaben": [
+    "Einsatzfahrten zu Notfällen und Durchführung der Erstversorgung",
+    "Überwachung und Sicherung der Vitalfunktionen",
+    "Assistenz des Notarztes oder Notfallsanitäters bei Reanimationen",
+    "Qualifizierter Krankentransport und Patientenbetreuung",
+    "Dokumentation von Einsätzen und Patientendaten",
+    "Pflege und Überprüfung der medizinischen Ausstattung",
+    "Zusammenarbeit mit Feuerwehr, Polizei und Notärzten"
+  ],
+  "kompetenzen": [
+    "Medizinisches Notfallwissen und Erste-Hilfe-Kompetenz",
+    "Schnelle Entscheidungsfähigkeit unter Druck",
+    "Körperliche Fitness und Belastbarkeit",
+    "Psychische Stabilität und Stressresistenz",
+    "Teamfähigkeit und Kommunikationsstärke",
+    "Führerschein Klasse C1 (für Rettungswagen)",
+    "Empathie im Umgang mit Patient/innen und Angehörigen"
+  ],
+  "karrierePfade": [
+    "Weiterbildung zum/zur Notfallsanitäter/in",
+    "Lehrrettungsassistent/in und Ausbilder/in",
+    "Wachleiter/in im Rettungsdienst",
+    "Studium Rettungsingenieurwesen oder Notfallmedizin",
+    "Einsatz im Katastrophenschutz"
+  ],
+  "arbeitsmarkt": "Der Rettungsdienst sucht bundesweit dringend qualifizierte Fachkräfte, insbesondere seit der Einführung des Notfallsanitätergesetzes, das die Anforderungen an die Qualifikation erhöht hat. Die steigende Zahl an Einsätzen und der gesellschaftliche Anspruch an schnelle medizinische Hilfe sorgen für eine anhaltend hohe Nachfrage. Die Vergütung ist im öffentlichen Dienst tariflich geregelt und bietet Zulagen für Schicht-, Nacht- und Wochenenddienste. Die Aufstiegsmöglichkeiten zum Notfallsanitäter verbessern Gehalt und Karrierechancen erheblich.",
+  "typischerArbeitstag": "Der Dienst beginnt mit der Übernahme des Rettungswagens, der Funktionsprüfung aller Geräte und der Übergabe von der vorherigen Schicht. Zwischen den Einsätzen werden Protokolle geschrieben, Materialien aufgefüllt und Fortbildungen absolviert. Bei einem Notruf geht es schnell: Ausrücken, Erstversorgung am Einsatzort, Transport ins Krankenhaus und Übergabe an die Klinik. Schichtdienste von 12 oder 24 Stunden sind üblich, wobei ruhige Phasen und hochintensive Einsätze sich abwechseln.",
+  "relatedSlugs": ["krankenpfleger", "medizinischer-fachangestellter", "polizist"]
+}

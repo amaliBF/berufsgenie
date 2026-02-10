@@ -1,0 +1,37 @@
+{
+  "slug": "webentwickler",
+  "name": "Webentwickler/in",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Ausbildung / Studium",
+  "gehaltsspanne": [3000, 5500],
+  "einstiegsgehalt": [2800, 3800],
+  "beschreibung": "Webentwickler/innen erstellen und pflegen Websites, Webanwendungen und Online-Plattformen. Sie setzen Designs in funktionalen Code um und sorgen dafür, dass Webseiten auf allen Geräten optimal dargestellt werden. Dabei unterscheidet man zwischen Frontend-Entwicklung (HTML, CSS, JavaScript), Backend-Entwicklung (Node.js, PHP, Python) und Full-Stack-Entwicklung, die beides vereint. Webentwickler/innen arbeiten in Agenturen, Softwareunternehmen oder als Freelancer. Die ständige Weiterentwicklung von Web-Technologien macht den Beruf besonders abwechslungsreich und zukunftssicher.",
+  "aufgaben": [
+    "Entwicklung von responsiven Websites und Webanwendungen",
+    "Umsetzung von UI/UX-Designs in HTML, CSS und JavaScript",
+    "Backend-Programmierung und API-Entwicklung",
+    "Anbindung von Datenbanken und Content-Management-Systemen",
+    "Performance-Optimierung und Suchmaschinenoptimierung (SEO)",
+    "Testing und Qualitätssicherung von Webprojekten"
+  ],
+  "kompetenzen": [
+    "HTML, CSS und JavaScript",
+    "Moderne Frameworks (React, Vue.js, Angular)",
+    "Backend-Technologien (Node.js, PHP, Python)",
+    "Responsive Design und Cross-Browser-Kompatibilität",
+    "Versionskontrolle mit Git",
+    "Kreativität und Gespür für Benutzerfreundlichkeit",
+    "Selbstständiges Arbeiten und Zeitmanagement"
+  ],
+  "karrierePfade": [
+    "Senior Webentwickler/in",
+    "Full-Stack-Entwickler/in",
+    "Technical Lead",
+    "Freiberufliche/r Webentwickler/in",
+    "UX/UI-Spezialist/in"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach Webentwickler/innen bleibt hoch, da praktisch jedes Unternehmen eine professionelle Online-Präsenz benötigt. Besonders gefragt sind Full-Stack-Entwickler/innen, die sowohl Frontend als auch Backend beherrschen. Der Einstieg ist über verschiedene Wege möglich – vom Informatikstudium über eine Ausbildung bis hin zu Bootcamps und Selbststudium. Freelancer/innen profitieren von hohen Stundensätzen und der Möglichkeit, ortsunabhängig zu arbeiten.",
+  "typischerArbeitstag": "Webentwickler/innen starten den Tag häufig mit einem kurzen Team-Meeting, um aktuelle Projekte zu besprechen. Anschließend wird an neuen Features gearbeitet, wobei Code geschrieben, getestet und optimiert wird. Abstimmungen mit Designern und Projektmanagern gehören zum Tagesgeschäft. Am Nachmittag stehen oft Code-Reviews, Bug-Fixing oder die Implementierung von Kundenfeedback auf dem Programm.",
+  "relatedSlugs": ["softwareentwickler", "ux-designer", "mobile-entwickler"]
+}

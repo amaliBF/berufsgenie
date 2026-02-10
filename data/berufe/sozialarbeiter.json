@@ -1,0 +1,39 @@
+{
+  "slug": "sozialarbeiter",
+  "name": "Sozialarbeiter/in",
+  "category": "Bildung & Soziales",
+  "categorySlug": "bildung-soziales",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [2800, 4200],
+  "einstiegsgehalt": [2600, 3200],
+  "beschreibung": "Sozialarbeiter/innen unterstützen Menschen in schwierigen Lebenssituationen und helfen ihnen, eigene Lösungswege zu entwickeln. Sie arbeiten mit Familien, Jugendlichen, Suchtkranken, Wohnungslosen, Geflüchteten und anderen hilfebedürftigen Personengruppen. Das Studium der Sozialen Arbeit vermittelt pädagogische, psychologische, rechtliche und soziologische Grundlagen und schließt mit dem Bachelor of Arts ab. Sozialarbeiter/innen sind in Jugendämtern, Beratungsstellen, Kliniken, Schulen und bei freien Trägern der Wohlfahrtspflege tätig. Der Beruf ist geprägt von hoher gesellschaftlicher Relevanz und erfordert die Fähigkeit, auch in belastenden Situationen professionell und lösungsorientiert zu handeln.",
+  "aufgaben": [
+    "Beratung und Betreuung von Menschen in schwierigen Lebenslagen",
+    "Erstellung von Hilfeplänen und Fallmanagement",
+    "Krisenintervention und Notfallhilfe",
+    "Vermittlung zu Behörden, Einrichtungen und Hilfsangeboten",
+    "Gruppenarbeit und Durchführung sozialpädagogischer Projekte",
+    "Dokumentation und Berichterstattung",
+    "Netzwerkarbeit und Kooperation mit anderen Fachstellen"
+  ],
+  "kompetenzen": [
+    "Pädagogische und psychologische Fachkenntnisse",
+    "Empathie und wertschätzende Grundhaltung",
+    "Kommunikations- und Beratungskompetenz",
+    "Belastbarkeit und psychische Widerstandsfähigkeit",
+    "Kenntnisse im Sozialrecht (SGB II, VIII, XII)",
+    "Interkulturelle Kompetenz",
+    "Teamfähigkeit und Kooperationsbereitschaft",
+    "Reflexionsfähigkeit und Selbstfürsorge"
+  ],
+  "karrierePfade": [
+    "Teamleitung oder Abteilungsleitung in sozialen Einrichtungen",
+    "Spezialisierung (z. B. Suchtberatung, Schulsozialarbeit)",
+    "Masterstudium und Leitungsfunktionen",
+    "Therapeutische Zusatzausbildung (z. B. Systemische Beratung)",
+    "Selbstständige Beratungstätigkeit"
+  ],
+  "arbeitsmarkt": "Sozialarbeiter/innen werden in fast allen gesellschaftlichen Bereichen dringend gesucht – von der Kinder- und Jugendhilfe über die Suchthilfe bis zur Geflüchtetenarbeit. Der Fachkräftemangel im Sozialwesen ist erheblich und wird durch wachsende gesellschaftliche Herausforderungen verstärkt. Die Vergütung nach TVöD SuE bietet eine solide Grundlage, und viele Arbeitgeber werben mit zusätzlichen Leistungen wie Supervision, Fortbildungen und betrieblicher Altersvorsorge. Die Jobaussichten sind hervorragend und werden auf absehbare Zeit gut bleiben.",
+  "typischerArbeitstag": "Der Tag beginnt häufig mit der Bearbeitung dringender Anfragen und der Planung anstehender Beratungstermine. Vormittags finden Klient/innengespräche statt, in denen individuelle Problemlagen besprochen und gemeinsam Lösungsstrategien erarbeitet werden. Hausbesuche bei Familien oder der Besuch von Einrichtungen gehören ebenfalls zum Alltag. Nachmittags werden Hilfeplankonferenzen geführt, Dokumentationen erstellt und Netzwerktreffen besucht. Supervision und kollegiale Beratung helfen bei der Verarbeitung belastender Fälle.",
+  "relatedSlugs": ["erzieher", "psychologe", "heilpaedagoge"]
+}

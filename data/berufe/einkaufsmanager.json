@@ -1,0 +1,37 @@
+{
+  "slug": "einkaufsmanager",
+  "name": "Einkaufsmanager/in",
+  "category": "Wirtschaft & Finanzen",
+  "categorySlug": "wirtschaft-finanzen",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3800, 6500],
+  "einstiegsgehalt": [3200, 4200],
+  "beschreibung": "Einkaufsmanager/innen verantworten die strategische und operative Beschaffung von Waren, Rohstoffen und Dienstleistungen für ihr Unternehmen. Sie verhandeln mit Lieferanten, optimieren Einkaufskonditionen und stellen die Versorgungssicherheit sicher. In einer globalisierten Wirtschaft mit komplexen Lieferketten ist diese Rolle von großer strategischer Bedeutung. Der Beruf vereint analytische Fähigkeiten mit Verhandlungsgeschick und internationalem Denken.",
+  "aufgaben": [
+    "Strategische Lieferantenauswahl und -bewertung",
+    "Preis- und Vertragsverhandlungen führen",
+    "Bedarfsplanung und Bestellabwicklung",
+    "Supply-Chain-Management und Risikomanagement",
+    "Marktanalysen und Benchmarking",
+    "Optimierung von Beschaffungsprozessen",
+    "Zusammenarbeit mit Produktion, Logistik und Qualitätssicherung"
+  ],
+  "kompetenzen": [
+    "Verhandlungsgeschick und Durchsetzungsvermögen",
+    "Analytisches Denken und Kostenbewusstsein",
+    "Kenntnisse im Vertragsrecht",
+    "SAP MM oder andere ERP-Systeme",
+    "Interkulturelle Kompetenz",
+    "Sehr gute Englischkenntnisse",
+    "Projektmanagement-Fähigkeiten"
+  ],
+  "karrierePfade": [
+    "Senior Einkäufer/in oder Category Manager/in",
+    "Leiter/in Einkauf / Head of Procurement",
+    "Chief Procurement Officer (CPO)",
+    "Supply Chain Director"
+  ],
+  "arbeitsmarkt": "Der Einkauf hat sich vom operativen Bestellwesen zur strategischen Unternehmensfunktion entwickelt, was die Nachfrage nach qualifizierten Einkaufsmanagern deutlich erhöht hat. Lieferkettenprobleme und geopolitische Unsicherheiten haben die Bedeutung professioneller Beschaffung weiter verstärkt. Besonders gefragt sind Fachkräfte mit Erfahrung in nachhaltigem Einkauf und digitalen Beschaffungsplattformen. Die Gehaltsperspektiven in der Industrie und im Handel sind überdurchschnittlich.",
+  "typischerArbeitstag": "Morgens werden eingehende Bestellanforderungen geprüft und dringende Lieferengpässe mit dem Supply-Chain-Team besprochen. Anschließend folgen Verhandlungstermine mit bestehenden und potenziellen Lieferanten, oft auch per Videokonferenz mit internationalen Partnern. Nachmittags werden Vertragsunterlagen geprüft, Angebotsvergleiche erstellt und strategische Beschaffungsprojekte vorangetrieben. Regelmäßig finden Abstimmungen mit der Produktion statt, um kommende Bedarfe frühzeitig zu planen.",
+  "relatedSlugs": ["controller", "unternehmensberater", "personalreferent"]
+}

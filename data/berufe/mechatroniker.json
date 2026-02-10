@@ -1,0 +1,37 @@
+{
+  "slug": "mechatroniker",
+  "name": "Mechatroniker/in",
+  "category": "Ingenieurwesen & Technik",
+  "categorySlug": "ingenieurwesen",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2800, 4200],
+  "einstiegsgehalt": [2600, 3200],
+  "beschreibung": "Mechatroniker/innen arbeiten an der Schnittstelle von Mechanik, Elektronik und Informatik. Sie bauen komplexe mechatronische Systeme zusammen, installieren Steuerungssoftware und sorgen für die Inbetriebnahme und Wartung automatisierter Anlagen. Die dreieinhalbjährige Ausbildung vermittelt ein breites Spektrum an Fähigkeiten – vom Löten elektronischer Baugruppen über das Programmieren von Steuerungen bis zum Montieren mechanischer Komponenten. Mechatroniker/innen sind in der Industrie unverzichtbar und arbeiten in der Automobil-, Luft- und Raumfahrt-, Maschinen- oder Medizintechnikbranche. Der Beruf bietet eine hervorragende Grundlage für vielfältige Weiterbildungs- und Karrierewege.",
+  "aufgaben": [
+    "Montage und Installation mechatronischer Systeme",
+    "Verdrahten und Anschließen elektrischer Baugruppen",
+    "Programmierung und Konfiguration von Steuerungen",
+    "Inbetriebnahme und Funktionsprüfung von Anlagen",
+    "Wartung, Inspektion und Fehlerbehebung",
+    "Lesen und Erstellen technischer Unterlagen"
+  ],
+  "kompetenzen": [
+    "Mechanische Fertigungstechnik (Drehen, Fräsen, Montage)",
+    "Elektrotechnik und Elektronik",
+    "SPS-Grundlagen und Steuerungsprogrammierung",
+    "Pneumatik und Hydraulik",
+    "Handwerkliches Geschick und Feinmotorik",
+    "Logisches Denken und Fehleranalysefähigkeit",
+    "Sicherheitsbewusstsein"
+  ],
+  "karrierePfade": [
+    "Techniker/in (Staatlich geprüft)",
+    "Meister/in in Mechatronik oder Elektrotechnik",
+    "Studium Mechatronik oder Elektrotechnik",
+    "Inbetriebnahme-Ingenieur/in",
+    "Spezialisierung auf Robotik oder Automatisierung"
+  ],
+  "arbeitsmarkt": "Mechatroniker/innen sind auf dem Arbeitsmarkt sehr gefragt, da moderne Produktionsanlagen zunehmend mechatronische Systeme einsetzen. Die Übernahmequoten nach der Ausbildung sind in den meisten Betrieben hoch. Mit der fortschreitenden Automatisierung und dem Trend zu Industrie 4.0 eröffnen sich neue Tätigkeitsfelder, insbesondere in der Robotik und vernetzten Produktion. Weiterbildungen zum Techniker oder ein anschließendes Studium verbessern die Gehalts- und Aufstiegsmöglichkeiten deutlich.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Werkstatt- oder Schichtbesprechung, in der die anstehenden Aufgaben verteilt werden. Anschließend wird an Maschinen und Anlagen gearbeitet – sei es die Montage neuer Systeme, die Programmierung von Steuerungen oder die Fehlersuche an bestehenden Anlagen. Mechanische und elektrische Arbeiten wechseln sich ab und erfordern sowohl handwerkliches Geschick als auch technisches Verständnis. Dokumentationsarbeiten und Sicherheitsprüfungen runden den Arbeitstag ab.",
+  "relatedSlugs": ["elektroingenieur", "maschinenbauingenieur", "produktionsleiter"]
+}

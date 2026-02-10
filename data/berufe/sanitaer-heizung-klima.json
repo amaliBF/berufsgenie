@@ -1,0 +1,39 @@
+{
+  "slug": "sanitaer-heizung-klima",
+  "name": "Anlagenmechaniker/in SHK",
+  "category": "Handwerk & Bau",
+  "categorySlug": "handwerk-bau",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2500, 4000],
+  "einstiegsgehalt": [2200, 2900],
+  "beschreibung": "Anlagenmechaniker/innen für Sanitär-, Heizungs- und Klimatechnik (SHK) installieren und warten Wasser- und Heizungsanlagen, Badezimmerausstattungen sowie Klima- und Lüftungssysteme. Sie sind die Fachleute, wenn es um Wärme, Wasser und ein angenehmes Raumklima geht. Der Beruf hat durch die Energiewende enorm an Bedeutung gewonnen – der Einbau von Wärmepumpen, Solarthermieanlagen und energieeffizienten Heizsystemen gehört heute zum Kerngeschäft. SHK-Fachkräfte verbinden handwerkliches Können mit modernem Technikverständnis und sind am Arbeitsmarkt extrem gefragt.",
+  "aufgaben": [
+    "Installation von Heizungsanlagen, Wärmepumpen und Solarthermieanlagen",
+    "Montage von Sanitäranlagen und Badsanierungen",
+    "Verlegen von Wasser-, Abwasser- und Heizungsrohren",
+    "Einbau und Wartung von Klima- und Lüftungsanlagen",
+    "Inbetriebnahme und Einregulierung von Heizsystemen",
+    "Durchführung von Notdienst- und Reparatureinsätzen",
+    "Kundenberatung zu energieeffizienten Lösungen"
+  ],
+  "kompetenzen": [
+    "Technisches Verständnis für Heizungs- und Sanitärtechnik",
+    "Handwerkliches Geschick und körperliche Fitness",
+    "Kenntnisse in Rohrleitungsbau und Schweißtechniken",
+    "Verständnis für Thermodynamik und Hydraulik",
+    "Kundenorientierung und Beratungskompetenz",
+    "Sorgfalt beim Umgang mit Gas- und Wasserinstallationen",
+    "Bereitschaft für Bereitschafts- und Notdienst",
+    "Kenntnisse der aktuellen Energiesparverordnungen"
+  ],
+  "karrierePfade": [
+    "SHK-Meister/in",
+    "Techniker/in für Heizungs-, Lüftungs- und Klimatechnik",
+    "Energieberater/in",
+    "Selbstständigkeit mit eigenem SHK-Betrieb",
+    "Projektleiter/in für Gebäudetechnik"
+  ],
+  "arbeitsmarkt": "Anlagenmechaniker/innen SHK gehören aktuell zu den am meisten gesuchten Fachkräften in Deutschland. Die politisch gewollte Wärmewende mit dem Umstieg auf Wärmepumpen und erneuerbare Heizsysteme sorgt für eine Nachfrage, die das Angebot bei Weitem übersteigt. Wartezeiten von mehreren Monaten für Kunden sind keine Seltenheit. Die Verdienstmöglichkeiten sind für ein Handwerksberuf überdurchschnittlich und steigen weiter.",
+  "typischerArbeitstag": "Der Tag beginnt mit der Einsatzplanung und dem Beladen des Werkstattwagens. Vormittags wird auf der Baustelle gearbeitet – ob beim Neubau einer Heizungsanlage, der Sanierung eines Badezimmers oder dem Einbau einer Wärmepumpe. Die Arbeit erfordert Präzision beim Rohrverlegen und Löten sowie Koordination mit Elektriker/innen und anderen Gewerken. Nachmittags stehen oft Wartungsarbeiten bei Bestandskunden an. Dokumentation und Kundengespräche gehören ebenfalls zum Arbeitsalltag.",
+  "relatedSlugs": ["elektriker", "dachdecker", "bauleiter"]
+}

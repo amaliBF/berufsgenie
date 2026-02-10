@@ -1,0 +1,39 @@
+{
+  "slug": "devops-engineer",
+  "name": "DevOps Engineer",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4000, 7500],
+  "einstiegsgehalt": [3800, 5000],
+  "beschreibung": "DevOps Engineers verbinden Softwareentwicklung (Development) und IT-Betrieb (Operations) zu einem nahtlosen Prozess. Sie automatisieren Build-, Test- und Deployment-Pipelines und sorgen dafür, dass Software schnell, zuverlässig und in hoher Qualität ausgeliefert wird. Durch den Einsatz von Container-Technologien, Infrastructure as Code und Monitoring-Tools optimieren sie die gesamte Softwarelieferkette. DevOps Engineers arbeiten an der Schnittstelle zwischen Entwicklung und Infrastruktur und tragen maßgeblich zur Agilität und Effizienz von IT-Organisationen bei. Der Beruf erfordert ein breites technisches Wissen und die Bereitschaft, sich ständig mit neuen Technologien auseinanderzusetzen.",
+  "aufgaben": [
+    "Aufbau und Wartung von CI/CD-Pipelines",
+    "Container-Orchestrierung mit Docker und Kubernetes",
+    "Infrastructure as Code (Terraform, Ansible)",
+    "Monitoring und Logging von Produktionssystemen",
+    "Automatisierung von Deployment-Prozessen",
+    "Zusammenarbeit mit Entwicklungsteams zur Optimierung des Release-Prozesses",
+    "Incident Management und Fehleranalyse"
+  ],
+  "kompetenzen": [
+    "Container-Technologien (Docker, Kubernetes)",
+    "CI/CD-Tools (Jenkins, GitLab CI, GitHub Actions)",
+    "Cloud-Plattformen (AWS, Azure, GCP)",
+    "Scripting (Bash, Python, Go)",
+    "Infrastructure as Code (Terraform, CloudFormation)",
+    "Monitoring (Prometheus, Grafana, ELK Stack)",
+    "Kommunikationsfähigkeit und Teamarbeit",
+    "Problemlösungsorientierung unter Druck"
+  ],
+  "karrierePfade": [
+    "Senior DevOps Engineer",
+    "Cloud-Architekt/in",
+    "Site Reliability Engineer (SRE)",
+    "Platform Engineer",
+    "Head of Infrastructure / VP Engineering"
+  ],
+  "arbeitsmarkt": "DevOps Engineers gehören zu den am stärksten nachgefragten IT-Fachkräften weltweit. Die Transformation hin zu Cloud-nativen Architekturen und agilen Entwicklungsprozessen treibt die Nachfrage stetig nach oben. Unternehmen aller Größen investieren in DevOps-Kompetenz, um ihre Software schneller und zuverlässiger auszuliefern. Die Gehälter sind überdurchschnittlich und spiegeln den Fachkräftemangel in diesem Bereich wider.",
+  "typischerArbeitstag": "Der Tag beginnt mit dem Check der Monitoring-Dashboards und der Überprüfung nächtlicher Deployments. Anschließend wird an der Optimierung von CI/CD-Pipelines gearbeitet oder neue Infrastruktur per Code provisioniert. Pair-Programming-Sessions mit Entwickler/innen helfen bei der Integration neuer Services. Bei Produktionsproblemen greift das Incident-Response-Verfahren, bei dem DevOps Engineers eine Schlüsselrolle bei der schnellen Fehlerbehebung spielen.",
+  "relatedSlugs": ["cloud-architekt", "systemadministrator", "softwareentwickler"]
+}

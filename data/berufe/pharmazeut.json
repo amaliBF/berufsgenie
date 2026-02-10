@@ -1,0 +1,37 @@
+{
+  "slug": "pharmazeut",
+  "name": "Pharmazeut/in",
+  "category": "Gesundheit & Medizin",
+  "categorySlug": "gesundheit-medizin",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3800, 6000],
+  "einstiegsgehalt": [3400, 4200],
+  "beschreibung": "Pharmazeut/innen sind Expert/innen für Arzneimittel – von der Entwicklung über die Herstellung bis zur Beratung von Patient/innen in der Apotheke. Das Pharmaziestudium dauert vier Jahre und schließt mit dem Staatsexamen ab, gefolgt von einem praktischen Jahr. In der öffentlichen Apotheke beraten Pharmazeut/innen zu Medikamenten, Wechselwirkungen und Dosierungen und stellen individuelle Rezepturen her. In der pharmazeutischen Industrie sind sie an der Entwicklung, Zulassung und Qualitätssicherung von Arzneimitteln beteiligt. Der Beruf verbindet naturwissenschaftliches Wissen mit patientennaher Beratung und bietet vielfältige Karrierewege.",
+  "aufgaben": [
+    "Beratung von Patient/innen zu Arzneimitteln und Wechselwirkungen",
+    "Herstellung und Prüfung individueller Rezepturen",
+    "Abgabe von verschreibungspflichtigen Medikamenten",
+    "Qualitätssicherung und Überwachung von Arzneimitteln",
+    "Mitwirkung bei der Arzneimittelentwicklung und -zulassung",
+    "Bestandsmanagement und Einkauf von Medikamenten"
+  ],
+  "kompetenzen": [
+    "Fundierte Kenntnisse in Chemie, Biologie und Pharmakologie",
+    "Sorgfalt und Genauigkeit bei der Arzneimittelherstellung",
+    "Beratungskompetenz und Kommunikationsstärke",
+    "Verantwortungsbewusstsein im Umgang mit Medikamenten",
+    "Betriebswirtschaftliche Grundkenntnisse",
+    "Analytisches Denkvermögen",
+    "Bereitschaft zu Notdiensten (in der Apotheke)"
+  ],
+  "karrierePfade": [
+    "Leitung einer öffentlichen Apotheke",
+    "Eigene Apotheke gründen oder übernehmen",
+    "Tätigkeit in der pharmazeutischen Industrie",
+    "Forschung und Lehre an Hochschulen",
+    "Krankenhausapotheker/in"
+  ],
+  "arbeitsmarkt": "Die Berufsperspektiven für Pharmazeut/innen sind sehr gut, da sowohl in öffentlichen Apotheken als auch in der Industrie qualifizierte Fachkräfte gesucht werden. Der Mangel an Apotheker/innen, besonders im ländlichen Raum, sorgt für eine hohe Nachfrage und steigende Einstiegsgehälter. Die pharmazeutische Industrie bietet zusätzlich attraktive Positionen in Forschung, Entwicklung und Zulassung. Die Selbstständigkeit mit einer eigenen Apotheke bleibt eine bewährte und wirtschaftlich solide Karriereoption.",
+  "typischerArbeitstag": "In der öffentlichen Apotheke beginnt der Tag mit der Annahme und Prüfung von Warenlieferungen. Den Großteil des Tages verbringen Pharmazeut/innen mit der Beratung von Kund/innen, der Abgabe verschreibungspflichtiger Medikamente und der Herstellung individueller Rezepturen. Zwischendurch werden Bestellungen aufgegeben, Qualitätskontrollen durchgeführt und das Team angeleitet. Notdienste an Wochenenden und Feiertagen gehören zum Berufsalltag in der Apotheke.",
+  "relatedSlugs": ["arzt", "medizinischer-fachangestellter", "zahnarzthelfer"]
+}

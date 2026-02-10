@@ -1,0 +1,39 @@
+{
+  "slug": "softwareentwickler",
+  "name": "Softwareentwickler/in",
+  "category": "IT & Software",
+  "categorySlug": "it-software",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3500, 7000],
+  "einstiegsgehalt": [3200, 4500],
+  "beschreibung": "Softwareentwickler/innen entwerfen, programmieren und warten Softwarelösungen für unterschiedlichste Anwendungsbereiche. Sie analysieren Anforderungen von Kunden oder internen Abteilungen und setzen diese in funktionale Programme um. Dabei arbeiten sie mit modernen Programmiersprachen wie Java, Python, C# oder JavaScript und nutzen agile Entwicklungsmethoden wie Scrum oder Kanban. Der Beruf bietet ein breites Spektrum an Spezialisierungsmöglichkeiten – von Backend- über Frontend- bis hin zur Full-Stack-Entwicklung. Softwareentwickler/innen sind in nahezu jeder Branche gefragt und gehören zu den am meisten gesuchten Fachkräften auf dem deutschen Arbeitsmarkt.",
+  "aufgaben": [
+    "Konzeption und Entwicklung von Softwareanwendungen",
+    "Analyse von Kundenanforderungen und Erstellung technischer Spezifikationen",
+    "Programmierung in verschiedenen Sprachen und Frameworks",
+    "Durchführung von Code-Reviews und Qualitätssicherung",
+    "Fehlerbehebung und Wartung bestehender Systeme",
+    "Erstellung technischer Dokumentationen",
+    "Zusammenarbeit im agilen Team mit Product Ownern und Designern"
+  ],
+  "kompetenzen": [
+    "Beherrschung mehrerer Programmiersprachen",
+    "Kenntnisse in Datenbanken und SQL",
+    "Verständnis von Software-Architektur und Design Patterns",
+    "Erfahrung mit Versionskontrolle (Git)",
+    "Analytisches und logisches Denkvermögen",
+    "Teamfähigkeit und Kommunikationsstärke",
+    "Problemlösungskompetenz",
+    "Bereitschaft zur kontinuierlichen Weiterbildung"
+  ],
+  "karrierePfade": [
+    "Senior Softwareentwickler/in",
+    "Software-Architekt/in",
+    "Technische/r Leiter/in (CTO)",
+    "IT-Projektmanager/in",
+    "Freiberufliche/r Entwickler/in"
+  ],
+  "arbeitsmarkt": "Der Arbeitsmarkt für Softwareentwickler/innen ist hervorragend und wird es auf absehbare Zeit bleiben. Die Digitalisierung aller Branchen sorgt für eine stetig steigende Nachfrage nach qualifizierten Entwicklern. Laut Branchenverband Bitkom sind in Deutschland zehntausende IT-Stellen unbesetzt. Besonders gefragt sind Fachkräfte mit Kenntnissen in Cloud-Technologien, künstlicher Intelligenz und modernen Web-Frameworks.",
+  "typischerArbeitstag": "Der Tag beginnt häufig mit einem kurzen Stand-up-Meeting, in dem das Team den aktuellen Fortschritt bespricht. Danach widmen sich Softwareentwickler/innen der Programmierung neuer Features oder der Behebung von Bugs. Code-Reviews und Pair-Programming-Sessions mit Kolleg/innen sind fester Bestandteil des Alltags. Zwischendurch finden Abstimmungen mit Product Ownern oder Designern statt, um Anforderungen zu klären. Viele Unternehmen bieten flexible Arbeitszeiten und Homeoffice-Möglichkeiten.",
+  "relatedSlugs": ["webentwickler", "mobile-entwickler", "devops-engineer"]
+}

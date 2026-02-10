@@ -1,0 +1,38 @@
+{
+  "slug": "laborant",
+  "name": "Laborant/in",
+  "category": "Naturwissenschaften",
+  "categorySlug": "naturwissenschaften",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2500, 3800],
+  "einstiegsgehalt": [2200, 2800],
+  "beschreibung": "Laboranten und Laborantinnen führen chemische, physikalische oder biologische Untersuchungen und Versuche durch. Sie bereiten Proben vor, bedienen hochspezialisierte Analysegeräte, dokumentieren Messergebnisse und unterstützen Wissenschaftler/innen bei Forschungs- und Entwicklungsprojekten. Der Beruf erfordert äußerste Sorgfalt, naturwissenschaftliches Verständnis und geschickte Hände. Laborant/innen arbeiten in Forschungslaboren, in der Qualitätskontrolle der Industrie, in klinischen Laboren oder bei Umweltbehörden.",
+  "aufgaben": [
+    "Vorbereitung und Durchführung von chemischen und physikalischen Analysen",
+    "Bedienung und Kalibrierung von Laborgeräten und Messapparaturen",
+    "Herstellung von Lösungen, Nährmedien und Prüfsubstanzen",
+    "Dokumentation von Versuchsabläufen und Messergebnissen",
+    "Qualitätskontrolle von Rohstoffen und Fertigprodukten",
+    "Wartung und Pflege der Laborausstattung",
+    "Einhaltung von Hygienevorschriften und Arbeitssicherheitsstandards"
+  ],
+  "kompetenzen": [
+    "Naturwissenschaftliches Grundverständnis in Chemie, Biologie oder Physik",
+    "Äußerste Sorgfalt und Genauigkeit bei der Laborarbeit",
+    "Geschickter Umgang mit empfindlichen Geräten und Chemikalien",
+    "Kenntnisse in Labordokumentation und GLP-Standards",
+    "Beobachtungsgabe und analytisches Denken",
+    "Verantwortungsbewusstsein beim Umgang mit Gefahrstoffen",
+    "Teamfähigkeit und Kommunikation mit Wissenschaftler/innen"
+  ],
+  "karrierePfade": [
+    "Technische/r Assistent/in in der Forschung",
+    "Laborleiter/in oder Teamleiter/in im Labor",
+    "Techniker/in für Chemie- oder Biotechnik",
+    "Qualitätsmanager/in in der Industrie",
+    "Studium der Chemie, Biologie oder Pharmazie (berufsbegleitend)"
+  ],
+  "arbeitsmarkt": "Laboranten und Laborantinnen sind in vielen Branchen gefragt – von der chemischen und pharmazeutischen Industrie über die Lebensmittelbranche bis hin zu Umweltlaboren und klinischen Einrichtungen. Die Nachfrage ist stabil und bietet gute Beschäftigungsaussichten. Besonders in der Pharmaindustrie und Biotechnologie werden laufend qualifizierte Fachkräfte gesucht. Mit Weiterbildungen zum/zur Techniker/in oder einem berufsbegleitenden Studium lassen sich die Karrierechancen deutlich verbessern.",
+  "typischerArbeitstag": "Der Tag beginnt mit dem Ansetzen von Lösungen und der Vorbereitung der Analysegeräte. Vormittags werden Proben analysiert – ob per Titration, Chromatographie oder Spektroskopie, je nach Fachbereich. Jeder Arbeitsschritt wird sorgfältig im Laborjournal dokumentiert. Nachmittags werden Ergebnisse ausgewertet, Geräte gewartet und neue Versuchsansätze vorbereitet. Die Einhaltung strenger Sicherheits- und Hygienevorschriften ist den ganzen Tag über oberstes Gebot.",
+  "relatedSlugs": ["chemiker", "biologe", "lebensmitteltechnologe"]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "einzelhandelskaufmann",
+  "name": "Einzelhandelskaufmann/-frau",
+  "category": "Logistik & Handel",
+  "categorySlug": "logistik-handel",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2200, 3200],
+  "einstiegsgehalt": [1900, 2400],
+  "beschreibung": "Einzelhandelskaufleute verkaufen Waren aller Art und beraten Kunden fachkundig zu Produkten und Dienstleistungen. Sie sind verantwortlich für die Warenpräsentation, die Lagerbestandsführung, Bestellwesen und die Kassenabrechnung. Der Beruf ist vielseitig und bietet Einsatzmöglichkeiten in unterschiedlichsten Branchen – vom Lebensmittelhandel über Mode und Elektronik bis hin zum Baumarkt. Kommunikationsfreude, Serviceorientierung und kaufmännisches Verständnis sind die Grundpfeiler dieses beliebten Ausbildungsberufs.",
+  "aufgaben": [
+    "Fachkundige Beratung und Bedienung von Kunden",
+    "Warenpräsentation und Gestaltung der Verkaufsfläche",
+    "Bestellung, Annahme und Kontrolle von Warenlieferungen",
+    "Kassieren und Abrechnung der Tageseinnahmen",
+    "Lagerbestandsführung und Inventur",
+    "Reklamationsbearbeitung und Umtauschmanagement",
+    "Mitwirkung bei Marketingaktionen und Sonderverkäufen"
+  ],
+  "kompetenzen": [
+    "Kommunikationsfreude und Serviceorientierung",
+    "Kaufmännisches Grundverständnis",
+    "Produktkenntnisse im jeweiligen Sortiment",
+    "Freundliches und gepflegtes Auftreten",
+    "Teamfähigkeit und Zuverlässigkeit",
+    "Sicherer Umgang mit Kassensystemen und Warenwirtschaft",
+    "Belastbarkeit, auch bei hohem Kundenaufkommen"
+  ],
+  "karrierePfade": [
+    "Filialleiter/in oder Marktleiter/in",
+    "Abteilungsleiter/in im Einzelhandel",
+    "Einkäufer/in für Handelsketten",
+    "Visual Merchandiser/in",
+    "Selbstständigkeit mit eigenem Geschäft"
+  ],
+  "arbeitsmarkt": "Der Einzelhandel ist einer der größten Arbeitgeber in Deutschland mit einer konstant hohen Zahl an Ausbildungsstellen. Während der stationäre Handel durch den E-Commerce unter Druck steht, setzen viele Unternehmen auf Omnichannel-Strategien, bei denen gut ausgebildete Verkäufer/innen eine zentrale Rolle spielen. Besonders Fachgeschäfte und Premiumanbieter schätzen kompetente Beratung. Die Aufstiegschancen sind mit Weiterbildungen zum/zur Handelsfachwirt/in oder Betriebswirt/in sehr gut.",
+  "typischerArbeitstag": "Der Tag beginnt oft vor Ladenöffnung mit dem Auffüllen der Regale, der Warenpräsentation und dem Kassenscheck. Während der Geschäftszeiten steht die Kundenberatung im Mittelpunkt – ob bei der Auswahl des passenden Produkts, bei Reklamationen oder beim Kassieren. Zwischendurch werden Warenlieferungen entgegengenommen und eingeräumt. Am Nachmittag fallen Bestellungen, Inventurarbeiten oder die Vorbereitung von Sonderaktionen an. Der Arbeitsrhythmus richtet sich nach den Ladenöffnungszeiten, Samstagsarbeit ist üblich.",
+  "relatedSlugs": ["e-commerce-manager", "vertriebsmanager", "speditionskaufmann"]
+}

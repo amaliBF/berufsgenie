@@ -1,0 +1,39 @@
+{
+  "slug": "videograf",
+  "name": "Videograf/in",
+  "category": "Marketing & Medien",
+  "categorySlug": "marketing-medien",
+  "ausbildung": "Ausbildung / Studium",
+  "gehaltsspanne": [2500, 4500],
+  "einstiegsgehalt": [2200, 3000],
+  "beschreibung": "Videograf/innen produzieren professionelle Videoinhalte für Unternehmen, Social Media, Werbung oder Dokumentationen. Sie beherrschen den gesamten Produktionsprozess von der Konzeption über den Dreh bis zum Schnitt und der Postproduktion. In einer Medienlandschaft, die zunehmend von Bewegtbild dominiert wird, sind Videograf/innen gefragter denn je. Der Beruf vereint technische Expertise mit kreativem Storytelling und erfordert sowohl Kamerakompetenz als auch Schnittkenntnisse.",
+  "aufgaben": [
+    "Konzeption und Planung von Videoproduktionen",
+    "Dreh mit professionellem Kameraequipment",
+    "Beleuchtung und Tonaufnahme einrichten",
+    "Videoschnitt und Postproduktion (Farbkorrektur, Grading)",
+    "Motion Graphics und einfache Animationen erstellen",
+    "Erstellung von Social-Media-Videos und Reels",
+    "Kundenbriefings und Abnahmen koordinieren"
+  ],
+  "kompetenzen": [
+    "Professionelle Kameraführung und Bildgestaltung",
+    "Beherrschung von Schnittsoftware (Premiere Pro, DaVinci Resolve, Final Cut)",
+    "Verständnis für Storytelling und Dramaturgie",
+    "Licht- und Tontechnik",
+    "Grundlagen in Motion Design (After Effects)",
+    "Kenntnisse in Farbkorrektur und Color Grading",
+    "Flexibilität und selbstständiges Arbeiten",
+    "Gespür für Trends in Social-Media-Video"
+  ],
+  "karrierePfade": [
+    "Senior Videograf/in oder Kameramann/-frau",
+    "Creative Producer/in",
+    "Head of Video Production",
+    "Regisseur/in",
+    "Selbstständige/r Videoproduktions-Unternehmer/in"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach professionellen Videoinhalten explodiert förmlich, getrieben durch Social Media, YouTube, TikTok und die wachsende Bedeutung von Video-Content im Marketing. Unternehmen aller Branchen investieren in Imagefilme, Produktvideos, Social-Media-Clips und Employer-Branding-Videos. Videograf/innen mit Kompetenz in Kurzvideoformaten und vertikalen Videos für Social Media sind besonders gefragt. Der Beruf bietet sowohl in Agenturen und Produktionsfirmen als auch in der Selbstständigkeit vielfältige Möglichkeiten.",
+  "typischerArbeitstag": "An Drehtagen beginnt der Morgen mit dem Aufbau von Equipment, der Einrichtung von Licht und der Abstimmung mit dem Kunden vor Ort. Die Dreharbeiten selbst können mehrere Stunden dauern und erfordern volle Konzentration. An Schnitt-Tagen wird am Computer gearbeitet: Rohmaterial sichten, schneiden, Musik unterlegen, Farbkorrektur durchführen und finale Versionen exportieren. Zwischendurch finden Kundenmeetings zur Besprechung von Konzepten oder zur Abnahme fertiger Videos statt.",
+  "relatedSlugs": ["fotograf", "social-media-manager", "mediengestalter"]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "projektmanager",
+  "name": "Projektmanager/in",
+  "category": "Logistik & Handel",
+  "categorySlug": "logistik-handel",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4000, 7000],
+  "einstiegsgehalt": [3500, 4500],
+  "beschreibung": "Projektmanager/innen planen, steuern und überwachen Projekte unterschiedlichster Art – von IT-Einführungen über Produktentwicklungen bis hin zu Organisationsveränderungen. Sie definieren Ziele, Meilensteine und Budgets, koordinieren interdisziplinäre Teams und stellen sicher, dass Projekte termingerecht und im Rahmen des Budgets abgeschlossen werden. Der Beruf erfordert ein hohes Maß an Organisationstalent, Kommunikationsfähigkeit und Stressresistenz. Projektmanager/innen sind in nahezu jeder Branche gefragt und können sich durch Zertifizierungen wie PMP, PRINCE2 oder agile Methoden weiter qualifizieren.",
+  "aufgaben": [
+    "Definition von Projektzielen, Umfang und Zeitplänen",
+    "Erstellung und Überwachung von Budgetplänen",
+    "Koordination und Führung von Projektteams",
+    "Risikomanagement und Problemlösung bei Projektabweichungen",
+    "Regelmäßiges Reporting an Stakeholder und Geschäftsführung",
+    "Steuerung externer Dienstleister und Zulieferer",
+    "Qualitätssicherung und Projektabschluss mit Lessons Learned"
+  ],
+  "kompetenzen": [
+    "Methodenkompetenz in klassischem und agilem Projektmanagement",
+    "Führungs- und Motivationsfähigkeit",
+    "Ausgeprägte Kommunikations- und Moderationsfähigkeiten",
+    "Analytisches Denkvermögen und Problemlösungskompetenz",
+    "Sicherer Umgang mit Projektmanagement-Tools (MS Project, Jira, Asana)",
+    "Belastbarkeit und Stressresistenz",
+    "Verhandlungsgeschick und Konfliktlösungskompetenz",
+    "Betriebswirtschaftliches Verständnis"
+  ],
+  "karrierePfade": [
+    "Senior Projektmanager/in",
+    "Programmmanager/in (Leitung mehrerer Projekte)",
+    "Head of Project Management Office (PMO)",
+    "Unternehmensberater/in für Projektmanagement",
+    "Geschäftsführer/in oder Bereichsleiter/in"
+  ],
+  "arbeitsmarkt": "Projektmanager/innen werden branchenübergreifend stark nachgefragt, da Unternehmen zunehmend in Projektstrukturen arbeiten. Besonders in der IT, im Bau, in der Beratung und in der Industrie sind die Perspektiven ausgezeichnet. Zertifizierungen wie PMP oder Scrum Master erhöhen die Marktfähigkeit erheblich. Das Gehaltsniveau ist attraktiv und steigt mit zunehmender Erfahrung und Projektgröße deutlich.",
+  "typischerArbeitstag": "Der Morgen beginnt mit dem Überprüfen des Projekt-Dashboards und dem Beantworten dringender E-Mails. Im täglichen Stand-up-Meeting wird der aktuelle Fortschritt mit dem Projektteam besprochen. Vormittags stehen oft Abstimmungstermine mit Stakeholdern, Fachbereichen oder externen Partnern an. Nachmittags wird an Projektplänen gearbeitet, Risiken bewertet und Statusberichte erstellt. Die Arbeit erfordert ständiges Umschalten zwischen strategischer Planung und operativer Detailarbeit.",
+  "relatedSlugs": ["logistikmanager", "vertriebsmanager", "bauleiter"]
+}

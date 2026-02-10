@@ -1,0 +1,38 @@
+{
+  "slug": "dolmetscher",
+  "name": "Dolmetscher/in",
+  "category": "Bildung & Soziales",
+  "categorySlug": "bildung-soziales",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [3000, 5000],
+  "einstiegsgehalt": [2500, 3200],
+  "beschreibung": "Dolmetscher/innen übertragen gesprochene Sprache mündlich von einer Sprache in eine andere – simultan, konsekutiv oder als Flüsterdolmetschen. Sie ermöglichen die Kommunikation zwischen Menschen unterschiedlicher Muttersprachen in Konferenzen, Verhandlungen, Gerichtsverfahren und diplomatischen Treffen. Der Beruf erfordert nicht nur perfekte Sprachbeherrschung in mindestens zwei Sprachen, sondern auch breites Allgemeinwissen und die Fähigkeit, unter enormem Zeitdruck präzise zu arbeiten. Das Studium der Translationswissenschaft oder vergleichbare Studiengänge bilden die Grundlage. Dolmetscher/innen arbeiten häufig freiberuflich für internationale Organisationen, Unternehmen, Gerichte und Behörden.",
+  "aufgaben": [
+    "Simultandolmetschen bei internationalen Konferenzen und Tagungen",
+    "Konsekutivdolmetschen bei Geschäftsverhandlungen und Diplomatie",
+    "Gerichtsdolmetschen bei Strafverfahren und Anhörungen",
+    "Vorbereitung auf Dolmetscheinsätze (Fachterminologie, Themenrecherche)",
+    "Flüsterdolmetschen bei kleineren Gesprächsrunden",
+    "Verhandlungsdolmetschen im wirtschaftlichen Kontext"
+  ],
+  "kompetenzen": [
+    "Perfekte Beherrschung von mindestens zwei Sprachen",
+    "Exzellentes Hörverständnis und Ausdrucksvermögen",
+    "Breites Allgemeinwissen und schnelle Auffassungsgabe",
+    "Höchste Konzentrationsfähigkeit unter Zeitdruck",
+    "Kulturelle Sensibilität und interkulturelle Kompetenz",
+    "Diskretion und Vertraulichkeit",
+    "Stressresistenz und Nervenstärke",
+    "Selbstorganisation (bei Freiberuflichkeit)"
+  ],
+  "karrierePfade": [
+    "Konferenzdolmetscher/in bei EU-Institutionen oder UN",
+    "Gerichtlich vereidigte/r Dolmetscher/in",
+    "Führungskraft in Sprachdienstleistungsunternehmen",
+    "Dozent/in für Dolmetschwissenschaft",
+    "Spezialisierung auf Medizin-, Technik- oder Rechtsdolmetschen"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach qualifizierten Dolmetscher/innen ist in der globalisierten Wirtschaft und internationalen Politik stabil. Besonders gefragt sind seltene Sprachkombinationen und Spezialisierungen im Rechts- oder Medizinbereich. Die EU und internationale Organisationen bieten attraktive, aber hart umkämpfte Stellen. Freiberufliche Dolmetscher/innen können hohe Tageshonorare erzielen, müssen aber Auftragschwankungen und Reiseaufwand einkalkulieren.",
+  "typischerArbeitstag": "Ein typischer Einsatztag beginnt mit der Vorbereitung: Durchsicht der Konferenzunterlagen, Recherche zur Fachterminologie und Erstellung von Glossaren. Bei Simultandolmetschen arbeiten Dolmetscher/innen in der schalldichten Kabine und wechseln sich alle 20 bis 30 Minuten mit einem Partner ab, da die Konzentration extrem gefordert ist. Konsekutiveinsätze bei Geschäftstreffen erfordern präzises Mitschreiben und anschließende Wiedergabe. Nach dem Einsatz werden neue Fachbegriffe dokumentiert. Viele Dolmetscher/innen sind international unterwegs und arbeiten an wechselnden Einsatzorten.",
+  "relatedSlugs": ["wissenschaftlicher-mitarbeiter", "patentanwalt", "product-manager"]
+}

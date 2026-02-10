@@ -1,0 +1,38 @@
+{
+  "slug": "mediengestalter",
+  "name": "Mediengestalter/in",
+  "category": "Marketing & Medien",
+  "categorySlug": "marketing-medien",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2400, 3800],
+  "einstiegsgehalt": [2100, 2700],
+  "beschreibung": "Mediengestalter/innen Digital und Print konzipieren und produzieren Medienprodukte für verschiedene Ausgabekanäle. Sie gestalten Websites, Apps, Druckerzeugnisse und multimediale Inhalte und verbinden dabei technisches Know-how mit kreativem Gestaltungstalent. Die dreijährige Ausbildung vermittelt ein breites Spektrum an Fähigkeiten von Typografie und Layout über Bildbearbeitung bis hin zu Webdesign. Der Beruf bietet eine praxisnahe Alternative zum Designstudium und vielfältige Einsatzmöglichkeiten.",
+  "aufgaben": [
+    "Gestaltung von Print- und Digitalmedien",
+    "Webdesign und Erstellung von Online-Medien",
+    "Bildbearbeitung und Composing",
+    "Druckvorstufe und Reinzeichnung",
+    "Erstellung von Animationen und Bewegtbild",
+    "Datenaufbereitung für verschiedene Ausgabemedien",
+    "Konzeption und Umsetzung von Layouts"
+  ],
+  "kompetenzen": [
+    "Sicherer Umgang mit Adobe Creative Suite",
+    "HTML- und CSS-Grundkenntnisse",
+    "Typografie- und Layoutkenntnisse",
+    "Farbmanagement und Drucktechnik",
+    "Kreativität und gestalterisches Auge",
+    "Teamfähigkeit und Kundenorientierung",
+    "Technisches Verständnis für Medienproduktion"
+  ],
+  "karrierePfade": [
+    "Medienfachwirt/in",
+    "Art Director/in",
+    "Webdesigner/in oder UI-Designer/in",
+    "Produktionsleiter/in Medien",
+    "Selbstständige/r Mediengestalter/in"
+  ],
+  "arbeitsmarkt": "Mediengestalter/innen finden Beschäftigung in Werbeagenturen, Verlagen, Druckereien und den Marketingabteilungen von Unternehmen. Die Verschiebung von Print zu Digital eröffnet neue Tätigkeitsfelder, erfordert aber ständige Weiterbildung in aktuellen Technologien. Wer neben klassischen Gestaltungsfähigkeiten auch Motion Design oder UX-Kompetenz mitbringt, hat deutlich bessere Chancen. Die Ausbildung ist bei Jugendlichen beliebt, was den Wettbewerb um Stellen in attraktiven Agenturen erhöht.",
+  "typischerArbeitstag": "Der Tag startet mit der Prüfung eingehender Aufträge und Briefings. Der Großteil der Arbeitszeit wird an Design-Projekten verbracht: Layouts gestalten, Bilder bearbeiten, Druckdaten aufbereiten oder Websites programmieren. Regelmäßig finden Abstimmungen mit Kunden oder dem Kreativteam statt, um Entwürfe zu besprechen und Korrekturen umzusetzen. Vor Druckterminen oder Website-Launches steigt die Arbeitsintensität, da finale Freigaben eingeholt und letzte Anpassungen vorgenommen werden müssen.",
+  "relatedSlugs": ["grafikdesigner", "fotograf", "videograf"]
+}

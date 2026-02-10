@@ -1,0 +1,38 @@
+{
+  "slug": "krankenpfleger",
+  "name": "Krankenpfleger/in",
+  "category": "Gesundheit & Medizin",
+  "categorySlug": "gesundheit-medizin",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2800, 3800],
+  "einstiegsgehalt": [2500, 3000],
+  "beschreibung": "Krankenpfleger/innen betreuen und versorgen Patient/innen in Krankenhäusern, Pflegeeinrichtungen und ambulanten Diensten. Sie übernehmen medizinische Aufgaben wie Wundversorgung, Medikamentengabe und Vitalzeichenkontrolle in enger Zusammenarbeit mit Ärzt/innen. Die dreijährige generalistische Pflegeausbildung qualifiziert für vielfältige Einsatzbereiche – von der Intensivstation über die Chirurgie bis zur Geriatrie. Der Beruf erfordert hohe Belastbarkeit, Empathie und die Fähigkeit, auch in stressigen Situationen ruhig und professionell zu handeln. Krankenpfleger/innen leisten einen unverzichtbaren Beitrag zur Gesundheitsversorgung und genießen hohe gesellschaftliche Anerkennung.",
+  "aufgaben": [
+    "Pflege und Betreuung von Patient/innen im stationären und ambulanten Bereich",
+    "Durchführung ärztlich verordneter Maßnahmen wie Injektionen und Infusionen",
+    "Überwachung von Vitalzeichen und Dokumentation des Gesundheitszustands",
+    "Wundversorgung und Verbandswechsel",
+    "Unterstützung bei der Grundpflege und Mobilisation",
+    "Beratung und Anleitung von Patient/innen und Angehörigen",
+    "Assistenz bei ärztlichen Untersuchungen und Eingriffen"
+  ],
+  "kompetenzen": [
+    "Medizinisches Fachwissen und Pflegekompetenz",
+    "Empathie und Einfühlungsvermögen",
+    "Körperliche Belastbarkeit und Ausdauer",
+    "Teamfähigkeit und Kommunikationsstärke",
+    "Sorgfalt und Verantwortungsbewusstsein",
+    "Stressresistenz und Entscheidungsfähigkeit",
+    "Bereitschaft zu Schicht- und Wochenenddiensten"
+  ],
+  "karrierePfade": [
+    "Fachkrankenpfleger/in (z. B. Intensivpflege, Onkologie)",
+    "Stationsleitung / Pflegedienstleitung",
+    "Studium Pflegewissenschaft oder Pflegemanagement",
+    "Praxisanleiter/in in der Pflegeausbildung",
+    "Freiberufliche Pflegefachkraft"
+  ],
+  "arbeitsmarkt": "Der Arbeitsmarkt für Krankenpfleger/innen ist hervorragend – der Fachkräftemangel in der Pflege zählt zu den größten Herausforderungen des deutschen Gesundheitssystems. Bundesweit sind zehntausende Stellen unbesetzt, und die Nachfrage steigt durch den demografischen Wandel weiter. Arbeitgeber werben aktiv mit verbesserten Gehältern, Zulagen und flexiblen Arbeitszeitmodellen. Die Jobsicherheit in diesem Beruf ist außergewöhnlich hoch.",
+  "typischerArbeitstag": "Der Arbeitstag beginnt mit der Übergabe von der vorherigen Schicht, bei der wichtige Informationen über den Zustand der Patient/innen ausgetauscht werden. Anschließend folgen Pflegemaßnahmen wie Grundpflege, Medikamentengabe und Vitalzeichenkontrolle. Zwischendurch assistieren Krankenpfleger/innen bei ärztlichen Visiten und dokumentieren alle Maßnahmen sorgfältig. Der Nachmittag bringt weitere Behandlungspflege, Beratungsgespräche mit Angehörigen und die Vorbereitung der Übergabe an die nächste Schicht.",
+  "relatedSlugs": ["medizinischer-fachangestellter", "ergotherapeut", "rettungssanitaeter"]
+}

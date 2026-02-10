@@ -1,0 +1,38 @@
+{
+  "slug": "hotelfachmann",
+  "name": "Hotelfachmann/-frau",
+  "category": "Logistik & Handel",
+  "categorySlug": "logistik-handel",
+  "ausbildung": "Ausbildung",
+  "gehaltsspanne": [2200, 3200],
+  "einstiegsgehalt": [2000, 2400],
+  "beschreibung": "Hotelfachleute sind die Gastgeber der Hospitality-Branche. Sie kümmern sich um das Wohlbefinden der Gäste in allen Bereichen eines Hotels – vom Empfang über den Zimmerservice bis zur Organisation von Veranstaltungen. Der Beruf ist vielseitig und international, denn Hotelfachleute können in der ganzen Welt arbeiten. Die dreijährige Ausbildung vermittelt Kenntnisse in Rezeption, Housekeeping, Gastronomie, Veranstaltungsmanagement und Verwaltung. Hotelfachleute arbeiten in Hotels aller Kategorien, auf Kreuzfahrtschiffen und in der Eventbranche. Wer gerne mit Menschen arbeitet und Gastfreundschaft lebt, findet hier einen erfüllenden Beruf.",
+  "aufgaben": [
+    "Empfang und Check-in/Check-out der Gäste",
+    "Betreuung und Beratung der Gäste während des Aufenthalts",
+    "Reservierungsmanagement und Zimmerplanung",
+    "Organisation von Veranstaltungen und Tagungen",
+    "Housekeeping-Koordination und Qualitätskontrolle",
+    "Service im Restaurant- und Barbereich",
+    "Bearbeitung von Beschwerden und Sonderwünschen"
+  ],
+  "kompetenzen": [
+    "Ausgeprägte Serviceorientierung und Gastfreundschaft",
+    "Kommunikationsfähigkeit in mehreren Sprachen",
+    "Organisationstalent und Multitasking-Fähigkeit",
+    "Flexibilität und Belastbarkeit",
+    "Freundliches und gepflegtes Auftreten",
+    "Kenntnisse in Hotelmanagementsoftware (z.B. Opera, Protel)",
+    "Teamfähigkeit und Konfliktlösungskompetenz"
+  ],
+  "karrierePfade": [
+    "Empfangschef/in (Front Office Manager)",
+    "Hotelmanager/in",
+    "Eventmanager/in",
+    "Revenue Manager/in",
+    "Studium Hotelmanagement und eigenes Hotel"
+  ],
+  "arbeitsmarkt": "Die Hotellerie erholt sich nach den pandemiebedingten Einbrüchen zunehmend und sucht dringend qualifizierte Fachkräfte. Der Fachkräftemangel in der Branche ist erheblich, was gute Einstiegschancen und Aufstiegsmöglichkeiten bietet. Internationale Hotelketten bieten attraktive Karriereprogramme mit Auslandseinsätzen. Digitale Kompetenzen und Erfahrung im Revenue Management werden zunehmend wichtiger und erhöhen die Karrierechancen.",
+  "typischerArbeitstag": "Der Tag an der Rezeption beginnt mit der Schichtübergabe und dem Überblick über die Belegung und besondere Gästewünsche. Im Tagesverlauf werden Gäste eingecheckt und beraten, Reservierungen bearbeitet und Beschwerden gelöst. Die Koordination mit Housekeeping, Küche und Technik sorgt dafür, dass alles reibungslos läuft. Am Abend kommen die meisten Gäste an, was für Hochbetrieb am Empfang sorgt. Schichtarbeit einschließlich Wochenenden und Feiertagen gehört zum Berufsalltag.",
+  "relatedSlugs": ["koch", "automobilkaufmann", "pilot"]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "controller",
+  "name": "Controller/in",
+  "category": "Wirtschaft & Finanzen",
+  "categorySlug": "wirtschaft-finanzen",
+  "ausbildung": "Studium",
+  "gehaltsspanne": [4000, 7000],
+  "einstiegsgehalt": [3500, 4500],
+  "beschreibung": "Controller/innen sind die strategischen Zahlenexperten eines Unternehmens. Sie analysieren betriebswirtschaftliche Kennzahlen, erstellen Budgetplanungen und liefern der Geschäftsführung entscheidungsrelevante Informationen. Dabei verbinden sie fundiertes kaufmännisches Wissen mit analytischem Denkvermögen und einem tiefen Verständnis für Geschäftsprozesse. Die Rolle ist unverzichtbar für die finanzielle Steuerung und langfristige Planung jedes größeren Unternehmens.",
+  "aufgaben": [
+    "Erstellung von Monats-, Quartals- und Jahresberichten",
+    "Budgetplanung und Forecast-Erstellung",
+    "Soll-Ist-Vergleiche und Abweichungsanalysen durchführen",
+    "Kennzahlensysteme entwickeln und pflegen",
+    "Kostenstellenrechnung und Kostenträgerrechnung",
+    "Beratung der Geschäftsführung bei Investitionsentscheidungen",
+    "Optimierung interner Prozesse und Berichtssysteme"
+  ],
+  "kompetenzen": [
+    "Analytisches Denkvermögen",
+    "Sehr gute Excel- und ERP-Kenntnisse (z. B. SAP)",
+    "Betriebswirtschaftliches Fachwissen",
+    "Zahlenaffinität und Genauigkeit",
+    "Kommunikationsfähigkeit",
+    "Strategisches Denken",
+    "Kenntnisse in Business Intelligence Tools"
+  ],
+  "karrierePfade": [
+    "Senior Controller/in",
+    "Leiter/in Controlling",
+    "CFO / Finanzvorstand",
+    "Unternehmensberater/in im Bereich Finance"
+  ],
+  "arbeitsmarkt": "Die Nachfrage nach qualifizierten Controller/innen ist konstant hoch, da nahezu jedes mittelständische und große Unternehmen auf professionelles Controlling angewiesen ist. Besonders gefragt sind Fachkräfte mit Erfahrung in digitalen Controlling-Tools und Datenanalyse. Die Digitalisierung eröffnet neue Aufgabenfelder im Bereich Predictive Analytics und automatisiertem Reporting. Insgesamt bietet der Beruf sehr gute Zukunftsperspektiven mit überdurchschnittlicher Vergütung.",
+  "typischerArbeitstag": "Der Tag beginnt häufig mit der Prüfung aktueller Kennzahlen und dem Abgleich von Soll- und Ist-Werten. Im Laufe des Vormittags folgen Abstimmungsgespräche mit Fachabteilungen, um Abweichungen zu klären und Maßnahmen abzuleiten. Nachmittags werden Berichte für das Management erstellt, Forecasts aktualisiert oder an Sonderprojekten wie der Einführung neuer Reporting-Tools gearbeitet. Zum Monats- und Quartalsende steigt die Arbeitsbelastung durch Abschlussarbeiten deutlich an.",
+  "relatedSlugs": ["wirtschaftspruefer", "unternehmensberater", "finanzberater"]
+}

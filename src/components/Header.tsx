@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Compass, Menu, X } from 'lucide-react';
 import PortalSwitcher from './PortalSwitcher';
+import { LoginButton, UserMenu, useAuth } from '@/lib/genie-auth';
 
 const navLinks = [
   { href: '/stellen', label: 'Stellen' },
@@ -19,6 +20,7 @@ const navLinks = [
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { isLoggedIn, isLoading } = useAuth();
 
   return (
     <>
@@ -55,12 +57,7 @@ export default function Header() {
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-3">
               <PortalSwitcher currentPortal="beruf" />
-              <Link
-                href="https://dashboard.genieportal.de/login"
-                className="text-sm font-medium text-stone-600 hover:text-stone-900 px-3 py-2"
-              >
-                Login
-              </Link>
+              {!isLoading && (isLoggedIn ? <UserMenu /> : <LoginButton />)}
               <Link
                 href="https://dashboard.genieportal.de/register"
                 className="rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-5 py-2 text-sm font-semibold text-white hover:from-amber-400 hover:to-orange-500 transition-all shadow-sm hover:shadow-md"
@@ -112,13 +109,9 @@ export default function Header() {
                 </a>
               ))}
               <hr className="my-2 border-amber-100" />
-              <Link
-                href="https://dashboard.genieportal.de/login"
-                onClick={() => setMobileOpen(false)}
-                className="block text-sm text-stone-600 px-3 py-2.5 font-medium"
-              >
-                Login
-              </Link>
+              <div className="px-3 py-2">
+                {!isLoading && (isLoggedIn ? <UserMenu /> : <LoginButton />)}
+              </div>
               <Link
                 href="https://dashboard.genieportal.de/register"
                 onClick={() => setMobileOpen(false)}

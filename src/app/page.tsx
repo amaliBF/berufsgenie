@@ -149,12 +149,21 @@ export default function LandingPage() {
                   <p className="text-2xl font-bold text-stone-900">0 €</p>
                   <p className="text-sm text-stone-500 mt-0.5">Kostenlos für Bewerber</p>
                 </div>
+                {/* Fake stat removed – will be re-enabled once real data is available
                 <div className="warm-card bg-white rounded-2xl p-6">
                   <div className="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center mb-3">
                     <Briefcase className="h-5 w-5 text-blue-600" />
                   </div>
                   <p className="text-2xl font-bold text-stone-900">1 Mio+</p>
                   <p className="text-sm text-stone-500 mt-0.5">Jobs deutschlandweit</p>
+                </div>
+                */}
+                <div className="warm-card bg-white rounded-2xl p-6">
+                  <div className="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center mb-3">
+                    <Briefcase className="h-5 w-5 text-blue-600" />
+                  </div>
+                  <p className="text-2xl font-bold text-stone-900">KI</p>
+                  <p className="text-sm text-stone-500 mt-0.5">Jobfinder inklusive</p>
                 </div>
               </div>
             </div>
@@ -230,7 +239,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Editorial Quote */}
+      {/* Editorial Quote / Testimonial – commented out until real testimonials are available
       <section className="py-16 bg-[#FFFBF5]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="editorial-quote">
@@ -251,6 +260,7 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+      */}
 
       {/* How it Works – Magazine Steps */}
       <section id="so-funktionierts" className="py-20 bg-white">

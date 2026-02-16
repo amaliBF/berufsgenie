@@ -524,7 +524,7 @@ export default function VorteilePage() {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Testimonials – commented out until real testimonials are available
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -569,6 +569,7 @@ export default function VorteilePage() {
           </div>
         </div>
       </section>
+      */}
 
       {/* Zusammenfassung der Top-Vorteile */}
       <section className="py-20 bg-[#FFFBF5]">

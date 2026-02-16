@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import { Building2, MapPin, Star, Briefcase, ChevronRight, Search, ArrowRight, CheckCircle2, Users } from 'lucide-react';
 import { fetchApi, CompanyListResponse, CompanyStatsResponse } from '@/lib/api';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Arbeitgeber entdecken | Berufsgenie',
@@ -48,7 +50,9 @@ export default async function FirmenPage({ searchParams }: Props) {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-amber-50/50 to-white">
+    <>
+      <Header />
+      <main className="min-h-screen bg-gradient-to-b from-amber-50/50 to-white">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {/* Hero */}
       <section className="relative pt-24 pb-12 overflow-hidden">
@@ -311,5 +315,7 @@ export default async function FirmenPage({ searchParams }: Props) {
         </div>
       </section>
     </main>
+      <Footer />
+    </>
   );
 }

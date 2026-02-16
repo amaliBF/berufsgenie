@@ -44,16 +44,14 @@ export default function ApplicationForm({ jobId, jobTitle, companyName }: { jobI
       <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl p-6 text-white">
         <h3 className="font-bold text-lg">In der App bewerben</h3>
         <p className="text-white/80 text-sm mt-2">
-          Lade die Genie-App und zeig dein Interesse mit einem Swipe!
+          Die Genie-App kommt bald! Bald kannst du dein Interesse mit einem Swipe zeigen.
         </p>
-        <div className="flex flex-col gap-2 mt-4">
-          <a href="#" className="inline-flex items-center justify-center gap-2 bg-white text-amber-700 font-medium px-4 py-2.5 rounded-xl text-sm hover:bg-amber-50 transition-colors">
-            App Store
-          </a>
-          <a href="#" className="inline-flex items-center justify-center gap-2 bg-white/20 text-white font-medium px-4 py-2.5 rounded-xl text-sm hover:bg-white/30 transition-colors">
-            Google Play
-          </a>
-        </div>
+        <a
+          href="/app"
+          className="inline-flex items-center justify-center gap-2 bg-white text-amber-700 font-medium px-4 py-2.5 rounded-xl text-sm hover:bg-amber-50 transition-colors mt-4 w-full"
+        >
+          App – Bald verfügbar
+        </a>
       </div>
     );
   }

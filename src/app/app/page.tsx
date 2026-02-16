@@ -4,6 +4,9 @@ import {
   Smartphone, Play, MessageCircle, Sparkles, Bell, Heart, ArrowRight,
   ChevronRight, Star, Shield, Zap, Users, Video, Search,
 } from 'lucide-react';
+import AppNotifyForm from '@/components/AppNotifyForm';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Die Genie App – Deinen Job per Swipe finden | Berufsgenie',
@@ -104,7 +107,9 @@ export default function AppPage() {
   };
 
   return (
-    <main className="min-h-screen">
+    <>
+      <Header />
+      <main className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {/* Hero */}
       <section className="relative pt-24 pb-16 overflow-hidden">
@@ -127,20 +132,13 @@ export default function AppPage() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-                <a
-                  href="#"
+                <Link
+                  href="/app"
                   className="inline-flex items-center justify-center gap-2 bg-white text-amber-600 font-semibold px-6 py-3.5 rounded-xl hover:bg-amber-50 transition-colors shadow-lg"
                 >
-                  <svg className="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
-                  App Store
-                </a>
-                <a
-                  href="#"
-                  className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm text-white font-semibold px-6 py-3.5 rounded-xl hover:bg-white/20 transition-colors border border-white/20"
-                >
-                  <svg className="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.635-8.635z"/></svg>
-                  Google Play
-                </a>
+                  <Smartphone className="h-5 w-5" />
+                  App – Bald verfügbar
+                </Link>
               </div>
             </div>
 
@@ -239,29 +237,14 @@ export default function AppPage() {
         </div>
       </section>
 
-      {/* Social proof */}
+      {/* Notify Section – replaces testimonials */}
       <section className="py-16 bg-[#FFFBF5]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Was Nutzer sagen</h2>
-          </div>
-          <div className="grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {[
-              { name: 'Julia, 28', text: 'Endlich eine App, wo man echte Videos von den Arbeitgebern sieht. Viel besser als nur Stellenanzeigen lesen.' },
-              { name: 'Marco, 32', text: 'Der KI-Berufsfinder hat mir geholfen, eine Stelle zu finden, an die ich gar nicht gedacht hätte.' },
-              { name: 'HR-Team, Tech GmbH', text: 'Wir erreichen jetzt Bewerber, die wir über klassische Jobbörsen nie erreicht hätten.' },
-            ].map((t, i) => (
-              <div key={i} className="p-5 rounded-xl bg-white border border-amber-200/60">
-                <div className="flex gap-0.5 mb-3">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} className="h-4 w-4 text-amber-400 fill-amber-400" />
-                  ))}
-                </div>
-                <p className="text-sm text-gray-600 mb-3 italic">&quot;{t.text}&quot;</p>
-                <p className="text-xs font-semibold text-gray-900">{t.name}</p>
-              </div>
-            ))}
-          </div>
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AppNotifyForm
+            variant="section"
+            title="Erfahre als Erstes, wenn die App da ist"
+            description="Wir arbeiten mit Hochdruck an der Genie-App. Trag dich ein und wir benachrichtigen dich zum Launch."
+          />
         </div>
       </section>
 
@@ -287,28 +270,18 @@ export default function AppPage() {
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="py-16 bg-gradient-to-r from-amber-500 via-orange-600 to-amber-700">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <Smartphone className="h-12 w-12 text-white/80 mx-auto mb-4" />
-          <h2 className="text-3xl font-extrabold text-white mb-4">
-            Bereit für deinen Traumjob?
-          </h2>
-          <p className="text-lg text-white/80 mb-8">
-            Lade die Genie App herunter und entdecke Stellenangebote in deiner Nähe.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="#" className="inline-flex items-center justify-center gap-2 bg-white text-amber-600 font-semibold px-8 py-3.5 rounded-xl hover:bg-amber-50 transition-colors shadow-lg">
-              <svg className="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
-              App Store
-            </a>
-            <a href="#" className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-white/20 transition-colors border border-white/20">
-              <svg className="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.635-8.635z"/></svg>
-              Google Play
-            </a>
-          </div>
+      {/* Final CTA – App Notify Banner */}
+      <section className="py-16 bg-[#FFFBF5]">
+        <div className="max-w-4xl mx-auto px-4">
+          <AppNotifyForm
+            variant="banner"
+            title="Bereit für deinen Traumjob?"
+            description="Die Genie-App kommt bald. Trag dich ein und wir benachrichtigen dich, sobald du loslegen kannst."
+          />
         </div>
       </section>
     </main>
+      <Footer />
+    </>
   );
 }

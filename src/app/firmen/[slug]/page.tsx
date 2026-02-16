@@ -7,6 +7,8 @@ import {
   Clock, ArrowRight,
 } from 'lucide-react';
 import { fetchApi, CompanyDetailResponse, CompanyReviewsResponse } from '@/lib/api';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 interface Props {
   params: { slug: string };
@@ -83,7 +85,9 @@ export default async function FirmenDetailPage({ params }: Props) {
   };
 
   return (
-    <main className="min-h-screen bg-gray-50">
+    <>
+      <Header />
+      <main className="min-h-screen bg-gray-50">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
@@ -448,5 +452,7 @@ export default async function FirmenDetailPage({ params }: Props) {
         </div>
       </div>
     </main>
+      <Footer />
+    </>
   );
 }

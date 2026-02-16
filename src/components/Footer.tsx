@@ -52,6 +52,19 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Branchen */}
+          <div>
+            <h4 className="font-semibold text-white mb-3 text-sm">Branchen</h4>
+            <ul className="space-y-1.5 text-sm">
+              <li><Link href="/branchen/it-software" className="hover:text-white transition-colors">IT & Software</Link></li>
+              <li><Link href="/branchen/marketing" className="hover:text-white transition-colors">Marketing</Link></li>
+              <li><Link href="/branchen/finanzen" className="hover:text-white transition-colors">Finanzen</Link></li>
+              <li><Link href="/branchen/gesundheit" className="hover:text-white transition-colors">Gesundheit</Link></li>
+              <li><Link href="/branchen/handwerk" className="hover:text-white transition-colors">Handwerk</Link></li>
+              <li><Link href="/branchen" className="text-amber-400 hover:text-amber-300 font-medium transition-colors">Alle Branchen →</Link></li>
+            </ul>
+          </div>
+
           {/* Ratgeber */}
           <div>
             <h4 className="font-semibold text-white mb-3 text-sm">Ratgeber & Tipps</h4>

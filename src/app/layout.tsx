@@ -48,10 +48,10 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/icon.svg',
-        width: 512,
-        height: 512,
-        alt: 'Berufsgenie Logo',
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'Berufsgenie – Finde deinen Traumjob per Swipe',
       },
     ],
   },
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     title: 'Berufsgenie – Finde deinen Traumjob per Swipe | Jobs & Stellenangebote',
     description:
       'Die innovative Jobbörse für Festanstellungen. Echte Videos von Arbeitgebern, Swipe-Matching und Direkt-Chat.',
-    images: ['/icon.svg'],
+    images: ['/opengraph-image'],
   },
   robots: {
     index: true,

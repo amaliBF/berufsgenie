@@ -11,6 +11,7 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Die Genie App – Deinen Job per Swipe finden | Berufsgenie',
   description: 'Finde deinen Traumjob mit der Genie App. Swipe durch Video-Stellenanzeigen, chatte direkt mit Arbeitgebern und nutze den KI-Berufsfinder. Kostenlos für iOS & Android.',
+  alternates: { canonical: '/app' },
   openGraph: {
     title: 'Die Genie App – Deinen Job per Swipe finden',
     description: 'Swipe durch Video-Stellenanzeigen, chatte direkt mit Arbeitgebern und nutze den KI-Berufsfinder.',

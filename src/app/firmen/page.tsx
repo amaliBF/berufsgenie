@@ -8,6 +8,7 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Arbeitgeber entdecken | Berufsgenie',
   description: 'Finde deinen Arbeitgeber: Firmenprofile, Bewertungen, offene Stellenangebote und Videos. Entdecke Top-Arbeitgeber in deiner Region.',
+  alternates: { canonical: '/firmen' },
   openGraph: {
     title: 'Arbeitgeber entdecken | Berufsgenie',
     description: 'Finde deinen Arbeitgeber: Firmenprofile, Bewertungen, offene Stellenangebote und Videos.',

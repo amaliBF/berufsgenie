@@ -92,6 +92,61 @@ export default function GehaltPage() {
     },
   };
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Was ist ein typisches Einstiegsgehalt in Deutschland?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Das typische Einstiegsgehalt in Deutschland liegt je nach Beruf zwischen 2.200 und 4.500 Euro brutto pro Monat. In der IT und im Ingenieurwesen starten Berufseinsteiger oft bei 3.500 bis 4.500 Euro, während Berufe im sozialen Bereich oder in der Kreativbranche häufig bei 2.200 bis 3.000 Euro liegen.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Wie kann ich mein Einstiegsgehalt verhandeln?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Recherchiere vorab das branchenübliche Gehalt für deine Position und Region. Argumentiere mit deinen Qualifikationen, Praktika und besonderen Fähigkeiten. Nenne eine konkrete Gehaltsvorstellung am oberen Ende der realistischen Spanne. Zusatzleistungen wie Homeoffice, Weiterbildungen oder ein Jobticket können ebenfalls verhandelt werden.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Gibt es regionale Gehaltsunterschiede in Deutschland?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Ja, die regionalen Unterschiede sind erheblich. In Süddeutschland (Bayern, Baden-Württemberg) und Großstädten wie München, Frankfurt oder Hamburg sind die Gehälter am höchsten. In Ostdeutschland und ländlichen Regionen liegen die Gehälter oft 10 bis 20 Prozent niedriger, allerdings sind dort auch die Lebenshaltungskosten geringer.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Wie entwickelt sich das Gehalt mit Berufserfahrung?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Mit 3 bis 5 Jahren Berufserfahrung steigt das Gehalt typischerweise um 20 bis 40 Prozent gegenüber dem Einstiegsgehalt. Als Senior oder Spezialist sind Gehälter von 4.500 bis 7.000 Euro monatlich realistisch. In Führungspositionen können Gehälter von 6.000 bis über 10.000 Euro erreicht werden.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Welche Berufe haben die besten Einstiegsgehälter?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Die besten Einstiegsgehälter bieten Berufe in der IT (Softwareentwickler: 3.500–4.500 Euro), im Ingenieurwesen (Maschinenbau: 3.800–4.500 Euro) und im Marketing-Management (2.800–3.800 Euro). Auch Finanzberufe und der Vertrieb bieten überdurchschnittliche Einstiegsgehälter.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Verdient man in großen Unternehmen mehr als in kleinen?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'In der Regel ja. Konzerne und große Mittelständler zahlen Berufseinsteigern oft 10 bis 30 Prozent mehr als kleine Unternehmen oder Startups. Tarifgebundene Betriebe bieten zudem geregelte Gehaltsstufen mit automatischen Erhöhungen. Kleinere Firmen können dafür oft flexiblere Arbeitsbedingungen und schnellere Aufstiegsmöglichkeiten bieten.',
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <Header />
@@ -103,6 +158,10 @@ export default function GehaltPage() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
 
         {/* Hero Section */}
@@ -439,6 +498,39 @@ export default function GehaltPage() {
                 . Alle Angaben sind Richtwerte und können je nach Region, Unternehmen und
                 Qualifikation abweichen. Stand: 2026.
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Topics */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">Verwandte Themen</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              <Link href="/ratgeber" className="group p-5 rounded-xl border border-gray-200 hover:border-amber-300 hover:shadow-md transition-all bg-white">
+                <h3 className="font-semibold text-gray-900 group-hover:text-amber-700 mb-1">Ratgeber</h3>
+                <p className="text-sm text-gray-500">Tipps zu Bewerbung, Karriere & mehr</p>
+              </Link>
+              <Link href="/branchen" className="group p-5 rounded-xl border border-gray-200 hover:border-amber-300 hover:shadow-md transition-all bg-white">
+                <h3 className="font-semibold text-gray-900 group-hover:text-amber-700 mb-1">Branchen</h3>
+                <p className="text-sm text-gray-500">Jobs & Berufe nach Branche</p>
+              </Link>
+              <Link href="/berufsfinder" className="group p-5 rounded-xl border border-gray-200 hover:border-amber-300 hover:shadow-md transition-all bg-white">
+                <h3 className="font-semibold text-gray-900 group-hover:text-amber-700 mb-1">KI-Berufsfinder</h3>
+                <p className="text-sm text-gray-500">Finde den passenden Beruf mit KI</p>
+              </Link>
+              <Link href="/stellen" className="group p-5 rounded-xl border border-gray-200 hover:border-amber-300 hover:shadow-md transition-all bg-white">
+                <h3 className="font-semibold text-gray-900 group-hover:text-amber-700 mb-1">Aktuelle Stellen</h3>
+                <p className="text-sm text-gray-500">Offene Stellenangebote finden</p>
+              </Link>
+              <Link href="/berufe" className="group p-5 rounded-xl border border-gray-200 hover:border-amber-300 hover:shadow-md transition-all bg-white">
+                <h3 className="font-semibold text-gray-900 group-hover:text-amber-700 mb-1">Berufe</h3>
+                <p className="text-sm text-gray-500">Alle Berufe im Überblick</p>
+              </Link>
+              <Link href="/so-funktionierts" className="group p-5 rounded-xl border border-gray-200 hover:border-amber-300 hover:shadow-md transition-all bg-white">
+                <h3 className="font-semibold text-gray-900 group-hover:text-amber-700 mb-1">So funktioniert&apos;s</h3>
+                <p className="text-sm text-gray-500">Berufsgenie Schritt für Schritt</p>
+              </Link>
             </div>
           </div>
         </section>

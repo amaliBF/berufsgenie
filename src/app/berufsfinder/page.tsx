@@ -284,6 +284,27 @@ export default function BerufsinderPage() {
         </div>
       </section>
 
+      {/* Related Topics */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-stone-900 mb-8 text-center">Verwandte Themen</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link href="/gehalt" className="group p-5 rounded-xl border border-gray-200 hover:border-amber-300 hover:shadow-md transition-all bg-[#FFFBF5]">
+              <h3 className="font-semibold text-stone-900 group-hover:text-amber-700 mb-1">Gehaltsübersicht</h3>
+              <p className="text-sm text-stone-500">Was verdient man in welchem Beruf?</p>
+            </Link>
+            <Link href="/stellen" className="group p-5 rounded-xl border border-gray-200 hover:border-amber-300 hover:shadow-md transition-all bg-[#FFFBF5]">
+              <h3 className="font-semibold text-stone-900 group-hover:text-amber-700 mb-1">Aktuelle Stellen</h3>
+              <p className="text-sm text-stone-500">Jobangebote entdecken</p>
+            </Link>
+            <Link href="/branchen" className="group p-5 rounded-xl border border-gray-200 hover:border-amber-300 hover:shadow-md transition-all bg-[#FFFBF5]">
+              <h3 className="font-semibold text-stone-900 group-hover:text-amber-700 mb-1">Branchen</h3>
+              <p className="text-sm text-stone-500">Karrierewege nach Branche finden</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-amber-500 via-orange-500 to-orange-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

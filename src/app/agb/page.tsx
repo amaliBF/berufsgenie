@@ -117,7 +117,7 @@ export default function AgbPage() {
             </p>
             <p>
               Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (Butterflies IT UG, Hagenower Str. 73,
-              19061 Schwerin, E-Mail: kontakt@berufsgenie.de) mittels einer eindeutigen Erklärung
+              19061 Schwerin, E-Mail: beruf@genieportal.de) mittels einer eindeutigen Erklärung
               über Ihren Entschluss informieren.
             </p>
             <p>

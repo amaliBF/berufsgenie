@@ -46,12 +46,21 @@ export const metadata: Metadata = {
     siteName: 'Berufsgenie',
     locale: 'de_DE',
     type: 'website',
+    images: [
+      {
+        url: '/icon.svg',
+        width: 512,
+        height: 512,
+        alt: 'Berufsgenie Logo',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Berufsgenie – Finde deinen Traumjob per Swipe | Jobs & Stellenangebote',
     description:
       'Die innovative Jobbörse für Festanstellungen. Echte Videos von Arbeitgebern, Swipe-Matching und Direkt-Chat.',
+    images: ['/icon.svg'],
   },
   robots: {
     index: true,
@@ -98,6 +107,23 @@ const jsonLdOrg = {
   ],
 };
 
+const jsonLdWebApp = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'Berufsgenie',
+  url: 'https://berufsgenie.de',
+  description:
+    'Die innovative Jobbörse mit Kurzvideos, Swipe-Matching und Direkt-Chat für Festanstellungen.',
+  applicationCategory: 'BusinessApplication',
+  operatingSystem: 'Web, iOS, Android',
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'EUR',
+    description: 'Kostenlos für Jobsuchende',
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -109,6 +135,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdOrg) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebApp) }}
         />
       </head>
       <body className={`${geistSans.variable} font-sans antialiased`}>

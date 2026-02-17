@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import BerufsinderChat from '@/components/BerufsinderChat';
 
 export const metadata: Metadata = {
   title: 'KI-Berufsfinder – Finde den perfekten Job | Berufsgenie',
@@ -142,16 +143,42 @@ export default function BerufsinderPage() {
               20 Fragen. Dein Persönlichkeitstyp. Dein Traumjob.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link
-                href="/app"
+              <a
+                href="#berufsfinder-chat"
                 className="inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 text-base font-medium text-amber-600 hover:bg-amber-50 transition-colors shadow-lg"
               >
                 <Sparkles className="h-4 w-4" />
-                Bald in der Genie App verfügbar
+                Jetzt KI-Berufsfinder starten
                 <ChevronRight className="h-4 w-4" />
-              </Link>
+              </a>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* KI-Berufsfinder Chat */}
+      <section id="berufsfinder-chat" className="py-20 bg-[#FFFBF5] scroll-mt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 rounded-full bg-amber-100 px-4 py-1.5 text-sm text-amber-700 mb-4">
+              <Sparkles className="h-4 w-4" />
+              KI-gestützte Beratung
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 mb-4">
+              Finde jetzt deinen Traumberuf
+            </h2>
+            <p className="text-lg text-stone-600 max-w-2xl mx-auto">
+              Beantworte ein paar Fragen und unsere KI empfiehlt dir passende
+              Berufe – kostenlos und sofort.
+            </p>
+          </div>
+          <BerufsinderChat
+            accentColor="text-amber-600"
+            accentBg="bg-amber-600"
+            accentHover="hover:bg-amber-700"
+            gradientFrom="from-amber-500"
+            gradientTo="to-orange-600"
+          />
         </div>
       </section>
 
@@ -262,22 +289,22 @@ export default function BerufsinderPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur-sm px-4 py-1.5 text-sm text-white mb-6 border border-white/20">
             <Sparkles className="h-4 w-4" />
-            Bald verfügbar
+            Kostenlos & sofort
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             Bereit, deinen Traumjob zu finden?
           </h2>
           <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
-            Der KI-Berufsfinder ist bald in der Genie App verfügbar. 20 Fragen,
-            5 Minuten, deine persönlichen Top 3 Berufe.
+            Starte jetzt den KI-Berufsfinder – ein paar Fragen,
+            deine persönlichen Top-Berufsempfehlungen.
           </p>
-          <Link
-            href="/app"
+          <a
+            href="#berufsfinder-chat"
             className="inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 text-base font-medium text-amber-600 hover:bg-amber-50 transition-colors shadow-lg"
           >
-            Bald in der Genie App verfügbar
+            Jetzt KI-Berufsfinder starten
             <ArrowRight className="h-4 w-4" />
-          </Link>
+          </a>
           <div className="mt-12 grid grid-cols-3 gap-6 max-w-md mx-auto">
             <div>
               <p className="text-3xl font-bold text-white">20</p>

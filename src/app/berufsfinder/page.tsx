@@ -173,6 +173,7 @@ export default function BerufsinderPage() {
             </p>
           </div>
           <BerufsinderChat
+            portal="berufsgenie"
             accentColor="text-amber-600"
             accentBg="bg-amber-600"
             accentHover="hover:bg-amber-700"

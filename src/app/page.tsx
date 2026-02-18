@@ -8,7 +8,6 @@ import {
   ArrowRight,
   Check,
   Star,
-  Zap,
   Shield,
   ChevronRight,
   Briefcase,
@@ -26,11 +25,12 @@ import {
   Compass,
   Target,
   Award,
-  Sparkles,
 } from 'lucide-react';
 import Link from 'next/link';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import AppNotifyForm from '../components/AppNotifyForm';
+import RegistrationBenefits from '../components/RegistrationBenefits';
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -107,20 +107,20 @@ export default function LandingPage() {
                 und KI-Jobfinder. Lerne Arbeitgeber authentisch kennen, bevor du dich bewirbst.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-3">
-                <a
-                  href="#so-funktionierts"
+                <Link
+                  href="/stellen"
                   className="inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-amber-500 to-orange-600 px-7 py-3.5 text-base font-semibold text-white hover:from-amber-400 hover:to-orange-500 transition-all shadow-lg shadow-amber-500/20"
                 >
-                  App kommt bald
+                  Jetzt Stellen entdecken
                   <ArrowRight className="h-4 w-4" />
-                </a>
-                <Link
-                  href="https://dashboard.genieportal.de/register"
+                </Link>
+                <a
+                  href="#so-funktionierts"
                   className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-stone-200 px-7 py-3.5 text-base font-semibold text-stone-700 hover:border-amber-300 hover:bg-amber-50 transition-all"
                 >
-                  <Building2 className="h-4 w-4" />
-                  Als Arbeitgeber starten
-                </Link>
+                  App – Bald verfügbar
+                  <ArrowRight className="h-4 w-4" />
+                </a>
               </div>
             </div>
 
@@ -183,8 +183,7 @@ export default function LandingPage() {
               Jobsuche, die <span className="marker-highlight">begeistert</span>
             </h2>
             <p className="mt-4 text-lg text-stone-600 max-w-2xl mx-auto">
-              Keine endlosen Stellenanzeigen mehr. Erlebe Unternehmen live in kurzen Videos
-              und finde per Swipe deinen perfekten Arbeitgeber.
+              Neben herkömmlichen Stellenanzeigen bieten wir: Echte Einblicke in echte Unternehmen – in Sekunden.
             </p>
           </div>
 
@@ -462,32 +461,27 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-amber-500 via-orange-500 to-orange-600">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Sparkles className="h-10 w-10 text-white/60 mx-auto mb-4" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-white">
-            Bereit für deinen Traumjob?
-          </h2>
-          <p className="mt-4 text-xl text-white/80">
-            Die App kommt bald. Arbeitgeber können sich jetzt schon registrieren
-            und ihr Unternehmensprofil mit Videos anlegen.
+      <RegistrationBenefits />
+
+      {/* CTA - App kommt bald + Newsletter */}
+      <section className="py-20 bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-center text-gray-600 mb-6">
+            Durchsuche jetzt tausende Stellen im Browser — oder warte auf die App mit Swipe-Matching.
           </p>
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <AppNotifyForm
+            variant="banner"
+            title="Die App kommt bald!"
+            description="Wir arbeiten mit Hochdruck an der Genie-App. Trag dich ein und erfahre als Erstes, wenn sie verfügbar ist."
+          />
+          <div className="text-center mt-6">
             <Link
               href="https://dashboard.genieportal.de/register"
-              className="rounded-lg bg-white px-8 py-3.5 text-base font-semibold text-amber-700 hover:bg-stone-50 transition-colors flex items-center gap-2 shadow-lg"
+              className="inline-flex items-center gap-2 text-amber-600 font-semibold hover:text-amber-700 transition-colors"
             >
               <Building2 className="h-4 w-4" />
               Als Arbeitgeber registrieren
             </Link>
-            <a
-              href="#features"
-              className="rounded-lg border-2 border-white/30 px-8 py-3.5 text-base font-semibold text-white hover:border-white/60 transition-colors flex items-center gap-2"
-            >
-              Mehr erfahren
-              <ArrowRight className="h-4 w-4" />
-            </a>
           </div>
         </div>
       </section>

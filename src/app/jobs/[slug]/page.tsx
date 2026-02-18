@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { MapPin, ChevronRight, Building2, Train, Wallet, Star, Compass, Briefcase, GraduationCap, TrendingUp, CheckCircle2 } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import PassendeStellen from '@/components/stellen/PassendeStellen';
 import { staedte, getStadtBySlug, getNachbarstaedte, getAllStaedteSlugs } from '@/lib/staedte-data';
 import { branchen } from '@/lib/branchen-data';
 import { getBerufBySlug, berufe } from '@/lib/berufe-data';
@@ -220,6 +221,14 @@ function StadtPage({ stadtSlug }: { stadtSlug: string }) {
           </div>
         </div>
       </section>
+
+      {/* Passende Stellenanzeigen */}
+      <PassendeStellen
+        stadt={stadt.name}
+        titel={`Aktuelle Stellen in ${stadt.name}`}
+        linkHref={`/stellen?stadt=${encodeURIComponent(stadt.name)}`}
+        linkText="Alle Stellen anzeigen"
+      />
 
       {/* Besonderheiten */}
       {stadt.besonderheiten.length > 0 && (
@@ -528,6 +537,17 @@ function KombiPage({ berufSlug, stadtSlug, slug }: { berufSlug: string; stadtSlu
             </div>
           </aside>
         </div>
+      </div>
+
+      {/* Passende Stellenanzeigen */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <PassendeStellen
+          query={beruf.name}
+          stadt={stadt.name}
+          titel={`Stellen als ${beruf.name} in ${stadt.name}`}
+          linkHref={`/stellen?q=${encodeURIComponent(beruf.name)}&stadt=${encodeURIComponent(stadt.name)}`}
+          linkText="Alle Stellen anzeigen"
+        />
       </div>
 
       <Footer />

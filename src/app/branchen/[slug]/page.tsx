@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ChevronRight, ArrowRight, Building2, Briefcase, Wallet, Users, Compass, TrendingUp } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import PassendeStellen from '@/components/stellen/PassendeStellen';
 import { branchen, getBrancheBySlug, getAllBranchenSlugs } from '@/lib/branchen-data';
 
 export function generateStaticParams() {
@@ -156,6 +157,14 @@ export default function BrancheDetailPage({ params }: { params: { slug: string }
           </div>
         </div>
       </section>
+
+      {/* Passende Stellenanzeigen */}
+      <PassendeStellen
+        query={branche.name}
+        titel={`Aktuelle Stellen in ${branche.name}`}
+        linkHref={`/stellen?q=${encodeURIComponent(branche.name)}`}
+        linkText="Alle Stellen anzeigen"
+      />
 
       {/* Weitere Branchen */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">

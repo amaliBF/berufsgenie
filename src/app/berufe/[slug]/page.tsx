@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ChevronRight, Briefcase, Wallet, GraduationCap, TrendingUp, Clock, CheckCircle2, Target, Compass, Users } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import PassendeStellen from '@/components/stellen/PassendeStellen';
 import {
   getBerufBySlug,
   getAllBerufeSlugs,
@@ -273,6 +274,16 @@ export default function BerufDetailPage({ params }: Props) {
             </div>
           </aside>
         </div>
+      </div>
+
+      {/* Passende Stellenanzeigen */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <PassendeStellen
+          query={beruf.name}
+          titel={`Aktuelle Stellen als ${beruf.name}`}
+          linkHref={`/stellen?q=${encodeURIComponent(beruf.name)}`}
+          linkText="Alle Stellen anzeigen"
+        />
       </div>
 
       <Footer />

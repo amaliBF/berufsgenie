@@ -4,6 +4,7 @@ import { ChevronRight, Briefcase, ArrowRight, Building2, Compass, TrendingUp } f
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { branchen } from '@/lib/branchen-data';
+import { BrancheIcon } from '@/lib/branchen-icons';
 
 export const metadata: Metadata = {
   title: 'Branchen-Übersicht – Jobs und Gehälter in 10 Branchen',
@@ -85,7 +86,7 @@ export default function BranchenPage() {
                 href={`/branchen/${branche.slug}`}
                 className="group warm-card rounded-2xl p-8 bg-white"
               >
-                <span className="text-4xl block">{branche.icon}</span>
+                <BrancheIcon name={branche.icon} className="h-10 w-10 text-amber-600" />
                 <h2 className="text-xl font-bold text-stone-900 mt-4 group-hover:text-amber-600 transition-colors">
                   {branche.name}
                 </h2>

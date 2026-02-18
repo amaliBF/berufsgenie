@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ChevronRight, Briefcase, Wallet, GraduationCap, TrendingUp, Clock, CheckCircle2, Target, Compass, Users } from 'lucide-react';
+import { ChevronRight, Briefcase, Wallet, GraduationCap, TrendingUp, Clock, CheckCircle2, Target, Compass, Users, MapPin } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PassendeStellen from '@/components/stellen/PassendeStellen';
@@ -192,7 +192,7 @@ export default function BerufDetailPage({ params }: Props) {
                     href={`/jobs/${beruf.slug}-in-${stadt.slug}`}
                     className="flex items-center gap-2 p-3 rounded-lg hover:bg-amber-50 transition-colors text-sm group"
                   >
-                    <span className="text-amber-500">📍</span>
+                    <MapPin className="h-4 w-4 text-amber-500" />
                     <span className="text-stone-700 group-hover:text-amber-700">{beruf.name} in {stadt.name}</span>
                   </Link>
                 ))}

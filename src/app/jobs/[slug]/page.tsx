@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 import PassendeStellen from '@/components/stellen/PassendeStellen';
 import { staedte, getStadtBySlug, getNachbarstaedte, getAllStaedteSlugs } from '@/lib/staedte-data';
 import { branchen } from '@/lib/branchen-data';
+import { BrancheIcon } from '@/lib/branchen-icons';
 import { getBerufBySlug, berufe } from '@/lib/berufe-data';
 
 // Top 30 Berufe für Kombiseiten (30 × 84 Städte = 2.520 Seiten)
@@ -212,7 +213,7 @@ function StadtPage({ stadtSlug }: { stadtSlug: string }) {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {branchen.map((branche) => (
               <Link key={branche.slug} href={`/branchen/${branche.slug}`} className="group warm-card rounded-2xl p-6 bg-[#FFFBF5]">
-                <span className="text-3xl">{branche.icon}</span>
+                <BrancheIcon name={branche.icon} className="h-8 w-8 text-amber-600" />
                 <h3 className="text-lg font-semibold text-stone-900 mt-3 group-hover:text-amber-600 transition-colors">{branche.name}</h3>
                 <p className="text-sm text-stone-600 mt-2 line-clamp-2">{branche.beschreibung}</p>
                 <p className="text-sm font-medium gradient-text-warm mt-3">{branche.gehaltsspanne}</p>
@@ -446,7 +447,7 @@ function KombiPage({ berufSlug, stadtSlug, slug }: { berufSlug: string; stadtSlu
                       href={`/jobs/${beruf.slug}-in-${ns.slug}`}
                       className="flex items-center gap-2 p-3 rounded-lg hover:bg-amber-50 transition-colors text-sm group"
                     >
-                      <span className="text-amber-500">📍</span>
+                      <MapPin className="h-4 w-4 text-amber-500" />
                       <span className="text-stone-700 group-hover:text-amber-700">{beruf.name} in {ns.name}</span>
                     </Link>
                   ))}

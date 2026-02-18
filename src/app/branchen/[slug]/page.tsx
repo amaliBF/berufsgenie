@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PassendeStellen from '@/components/stellen/PassendeStellen';
 import { branchen, getBrancheBySlug, getAllBranchenSlugs } from '@/lib/branchen-data';
+import { BrancheIcon } from '@/lib/branchen-icons';
 
 export function generateStaticParams() {
   return getAllBranchenSlugs().map((slug) => ({ slug }));
@@ -69,7 +70,7 @@ export default function BrancheDetailPage({ params }: { params: { slug: string }
           </nav>
 
           <div className="max-w-3xl">
-            <span className="text-5xl mb-4 block">{branche.icon}</span>
+            <BrancheIcon name={branche.icon} className="h-12 w-12 text-amber-300 mb-4" />
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
               {branche.name}
             </h1>
@@ -182,7 +183,7 @@ export default function BrancheDetailPage({ params }: { params: { slug: string }
                 href={`/branchen/${b.slug}`}
                 className="group flex items-center gap-4 p-4 rounded-xl warm-card bg-white"
               >
-                <span className="text-2xl">{b.icon}</span>
+                <BrancheIcon name={b.icon} className="h-6 w-6 text-amber-600" />
                 <div className="flex-grow">
                   <h3 className="font-semibold text-stone-900 group-hover:text-amber-600 transition-colors">
                     {b.name}

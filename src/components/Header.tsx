@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Compass, Menu, X, CircleUser, Building2, ArrowRight } from 'lucide-react';
 import { UserMenu, useAuth } from '@/lib/genie-auth';
 import { useAuthContext } from '@/lib/genie-auth/GenieAuthProvider';
+import ThemeToggle from './ThemeToggle';
 
 const navLinks = [
   { href: '/stellen', label: 'Stellen' },
@@ -38,7 +39,7 @@ export default function Header() {
       {/* Magazine accent bar */}
       <div className="magazine-bar fixed top-0 w-full z-[60]" />
 
-      <nav className="fixed top-1 w-full bg-[#FFFBF5]/95 backdrop-blur-md z-50 border-b border-amber-100 shadow-sm">
+      <nav aria-label="Hauptnavigation" className="fixed top-1 w-full bg-[#FFFBF5]/95 dark:bg-gray-950/95 backdrop-blur-md z-50 border-b border-amber-100 dark:border-gray-800 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-14">
             {/* Logo */}
@@ -47,7 +48,7 @@ export default function Header() {
                 <Compass className="h-5 w-5 text-white" />
               </div>
               <span className="font-extrabold text-lg tracking-tight">
-                <span className="text-stone-900">Berufs</span>
+                <span className="text-stone-900 dark:text-white">Berufs</span>
                 <span className="gradient-text-warm">genie</span>
               </span>
             </Link>
@@ -58,7 +59,7 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm text-stone-600 hover:text-amber-700 hover:bg-amber-50 px-3 py-2 rounded-lg transition-colors font-medium"
+                  className="text-sm text-stone-600 dark:text-gray-300 hover:text-amber-700 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-950 px-3 py-2 rounded-lg transition-colors font-medium"
                 >
                   {link.label}
                 </Link>
@@ -67,6 +68,7 @@ export default function Header() {
 
             {/* Desktop: User/Company area */}
             <div className="hidden lg:flex items-center gap-3">
+              <ThemeToggle />
               {!isLoading && isLoggedIn ? (
                 <UserMenu />
               ) : (
@@ -80,12 +82,12 @@ export default function Header() {
                   </button>
 
                   {userMenuOpen && (
-                    <div className="absolute right-0 top-12 z-50 w-72 rounded-xl border border-gray-200 bg-white shadow-xl overflow-hidden">
+                    <div className="absolute right-0 top-12 z-50 w-72 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 shadow-xl overflow-hidden">
                       {/* User section */}
                       <div className="p-4">
                         <div className="flex items-center gap-2 mb-3">
                           <CircleUser className="h-5 w-5 text-amber-600" />
-                          <span className="text-sm font-semibold text-gray-900">Für Jobsuchende</span>
+                          <span className="text-sm font-semibold text-gray-900 dark:text-white">Für Jobsuchende</span>
                         </div>
                         <p className="text-xs text-gray-500 mb-3">Melde dich an, um passende Stellenangebote zu finden.</p>
                         <div className="flex gap-2">
@@ -133,8 +135,9 @@ export default function Header() {
             {/* Mobile menu button */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="lg:hidden p-2 text-stone-600 hover:text-stone-900"
+              className="lg:hidden p-2 text-stone-600 dark:text-gray-300 hover:text-stone-900 dark:hover:text-white"
               aria-label="Menü öffnen"
+              aria-expanded={mobileOpen}
             >
               {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -143,14 +146,14 @@ export default function Header() {
 
         {/* Mobile menu */}
         {mobileOpen && (
-          <div className="lg:hidden bg-[#FFFBF5] border-t border-amber-100 shadow-lg">
+          <div className="lg:hidden bg-[#FFFBF5] dark:bg-gray-950 border-t border-amber-100 dark:border-gray-800 shadow-lg">
             <div className="px-4 py-3 space-y-1">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="block text-sm text-stone-700 hover:text-amber-700 hover:bg-amber-50 px-3 py-2.5 rounded-lg transition-colors font-medium"
+                  className="block text-sm text-stone-700 dark:text-gray-300 hover:text-amber-700 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-950 px-3 py-2.5 rounded-lg transition-colors font-medium"
                 >
                   {link.label}
                 </Link>

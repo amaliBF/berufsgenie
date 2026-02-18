@@ -86,6 +86,7 @@ export default function LandingPage() {
 
       <Header />
 
+      <main id="main-content">
       {/* Hero Section – Editorial Style */}
       <section className="pt-28 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         <div className="absolute inset-0 warm-dots opacity-30" />
@@ -490,6 +491,8 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+
+      </main>
 
       <Footer />
     </div>
